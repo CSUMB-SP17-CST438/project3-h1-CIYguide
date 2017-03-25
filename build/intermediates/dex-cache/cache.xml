@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8a466fcb104ba0d0e547ec33a28769ce9f23a1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\ee0ddce0ab26ee508b1b8cfc1f517665a4194b86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebd44900cba80c1882dd1a56fb46000436a7f4b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\05c2f47d3439d6fe07e0fd3338c28f552f3160e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_355af901e109188dbc37077159b10ad742159e23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e5e8a5c3e94f30997b9ddb3aa8a71a868c45d49a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\75333584b6a2d6dade3dfeab81001f2ddc17d46d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e237c7ca86d8fbc52d60f78fc9039da88a1f23dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\e76f572a96f977ed3e0aea37da41f3558fa33ef9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ee0fa9b13f06408028b60dd55e45374d00325d60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\2afae653ea5e577027e6e6bf995dbbf2b6622906\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d4293f746bdd9bfe02f8c67a3b794f8032ce85f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="87fda934dbcb7315398ec250e33918f4cbc44925">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1c88eee83fc42c194b1d15eb1d651b6eafae27a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\fe6402988002b27f0359f7fbcd830e1ec546aa86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_026cdc38222097dbe13c0a5d90398dd414e619c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\2afae653ea5e577027e6e6bf995dbbf2b6622906\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_0ac4add6c60f3583a8d6ee196dc5edc6a93f6162\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\171b4174a245f60bddbc688b8056c85cc9667a91\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_aa03c1072562cb6a0a82a1db2e9f290e60c42ab9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\062a1f9d6a312f91169c503087fa7b613f5e0d1f\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_337a75c485bea2bba4a1a6e5be4d5f4a70746ddd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_1f5e32422712b13b3ce666e591beed72fe018258\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\171b4174a245f60bddbc688b8056c85cc9667a91\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ded62ade0379a1ad35800bc6f64e842bc2c7eafe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\062a1f9d6a312f91169c503087fa7b613f5e0d1f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc8a4be119cf07c4835ea35e233381b822213679\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\05c2f47d3439d6fe07e0fd3338c28f552f3160e8\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_804d9375dd150fdd36924165880da36fb33b44f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_9dd55ca01c36342dd1e5ceeb6019584d35da0624\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\75333584b6a2d6dade3dfeab81001f2ddc17d46d\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_bbac11fdfb801c1993a0b123fefe86472c2f5f9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\4ef19d279bb1c816071e4c98b35ae3a0fa86e107\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16044216648487f510fd03b2f1e302ef055da2e2\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CIYGuide</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="search_recipes">Search Recipes</string>
+    <string name="user_profile">User Profile</string>
+    <string name="previous_searches">Previous Searches</string>
+    <string name="surprise_me">Surprise Me!</string>
+
+    <string name="enter_ingredients">Enter Ingredients</string>
+    <string name="insert_ingredient">Insert Ingredient</string>
+    <string name="add_content">Add</string>
+    <string name="ingredients_list">Ingredients</string>
+    <string name="find_recipes">Find Recipes</string>
+</resources>
