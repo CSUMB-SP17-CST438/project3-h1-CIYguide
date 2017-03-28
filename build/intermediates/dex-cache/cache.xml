@@ -3,21 +3,246 @@
 
     <item
         is-multidex="true"
-        jar="C:\project3-h1-CIYguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/home/macintosh/.android/build-cache/12b721d477eb3745200630ac7ea91baa0f82d019/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_31c3a9afa65c1d9192500e858fa875be0b1c5845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4225a3ec8691925bf25dbe439cc75d65bc0344bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/47f107f17bd2efa138f59d9a9017d4864114eac2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da1c7e37a16e848cfb5a7e38e4158142d16bf40f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_557c526b6b5e55e76be7da9494e309ceb6054f23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/41ddd202a03f6b40cf6f170f4ec3c3a92352a1c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc59a48641badf241dd271be35322479ae5e345d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_62ce20842eb41dfeaa0e407e94ebb8af62105996/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/07dd6fcdc1e364b887ea503bbdbba81d435c0763/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_f10a00157a106e6604d0eb0d5d5e7bd1fa376725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d356a732199da06bbc4abe0fb0f99ab6401d018">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7f82353f78733d4380862c75dc75f68935c7f885/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/351c6fe233d78bba44bc1ac7f148f1a53b7526b2/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_f51ec78ef3be1a3830afcce4c3e4913c4d7dd6be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/d289a9b4b9e31b6662bdfe70d2acecfdc210cba2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5dbb644514af2d7d65795873689e2960fbccaed0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/47f107f17bd2efa138f59d9a9017d4864114eac2/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_98990116b53c30e84b22e15dd1f7fb5c9777c680/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/51f4e2a5f3dc54f75017ae0e96df00b8fd01dcce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82d1dc0393378943a15d1b9f33e0bfeb3d7c0030/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/d3d0aee4d0b31770151ade516824391a803a8787/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_468409afa39c7b355098eaf8f2014f3929669ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb2ef781533c3f11c4e80341cbaebad275c66586">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f31601d83821d2ca8142abbec3397191b062f96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66dfbd7a3562444efccf14f6d8d095463bcb699c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/41ddd202a03f6b40cf6f170f4ec3c3a92352a1c5/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c54d1194c520251456c8e9bfb2ceeb7eeb023d79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/51f4e2a5f3dc54f75017ae0e96df00b8fd01dcce/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_383f8d3779ea3d7955629e0cc66cd8520d9ed559/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/3cf9017e36573f968a41c1d4ddf636cd1ad98de0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4f6ebe6a82bde9c90e713fb353747bc95ba19120/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/4ea7415a83c3f24ed9d48a9ade84ae560ddc2901/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6580e3710e88cc5c1e338be91bbc7e09fefbb233/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/a5a93aec7541389b4dec7f4a374d8b5760715dc9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_63b2be47f01a80c70732f8d2ac6735ee89a62c2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_4795f35b6eafb1b549df4c937e7070f024be2956/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/d374ec209122b5bb05a97c32350436876936b0ee/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56956bbefcb1744466eca84881ec13847cb77c0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7632d6f65cde6b819e6205d0befaffb2956c8f31\classes.dex" />
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1ffe5e21a5f46f3fd165464890c08cb8e957c6b1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\project3-h1-CIYguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/home/macintosh/.android/build-cache/07dd6fcdc1e364b887ea503bbdbba81d435c0763/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e9c4e2e6a7ec631bc843fade34c6f12333cba7c0">
-        <dex dex="C:\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c4541b13d169203d5c7fbef6c58ec3e01ae0c084\classes.dex" />
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9995a2f930f2c6b76b25a82a5a6d6db66513f521/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/319d484db7019332a99612f23291ab2e4558ec2b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b759199fe615f21464e5722b5ff14a63a54fb117/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/.android/build-cache/351c6fe233d78bba44bc1ac7f148f1a53b7526b2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_37cff05417f3a33d8a5ebc00ec2e22d05bf1adcf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/macintosh/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_2b697864a743878f13d83919033e5a63b34beaf1/classes.dex" />
     </item>
 
 </items>

@@ -1,173 +1,173 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-51:12
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-51:12
 	package
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:5:22-64
 provider#com.facebook.FacebookContentProvider
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:5-10:35
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:7:5-10:35
 	android:authorities
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:9:9-87
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:9:9-87
 	android:exported
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:10:9-32
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:10:9-32
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:9-60
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:8:9-60
 application
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:12:5-49:19
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Lorenzo\.android\build-cache\1a5e10465ded0b6051994b23ce91ff5966804804\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Lorenzo\.android\build-cache\04b5ceab2d46ab35f5451cba4a3720e036f352bd\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Lorenzo\.android\build-cache\da56a761b77e572318291f57de771c351561126c\output\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Lorenzo\.android\build-cache\c72ee3a50803a6d22138719b670e13ee765979b9\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Lorenzo\.android\build-cache\8f66f25031158d14ee5156ce784feac86c8b9fd8\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Lorenzo\.android\build-cache\a0128878a5e277e0740b6d5f3684cdf7559bb322\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\Lorenzo\.android\build-cache\75ee3dcf87838b4dfd1ea65e90ebabfedd9ac0f7\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Lorenzo\.android\build-cache\815d65dea7f60b9f010fa921c007520b9e0b41b6\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Lorenzo\.android\build-cache\7074311f5759ad1655ad047544b1223695631f78\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Lorenzo\.android\build-cache\3367f4f0b0578b27b438ed5fcbffd6c435301285\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Lorenzo\.android\build-cache\30f2894a00f636f7d3c281c59be47cadb7ee03a0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Lorenzo\.android\build-cache\540a04c674e10c484e266a9d6da4440835db274f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Lorenzo\.android\build-cache\f9d46dc15d1c5dbc6a5e1cb05c45594861cafd39\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Lorenzo\.android\build-cache\33f0c0145547f7efb6cda54125c8ed82685463f2\output\AndroidManifest.xml:25:5-20
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:12:5-49:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/macintosh/.android/build-cache/319d484db7019332a99612f23291ab2e4558ec2b/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/macintosh/.android/build-cache/12b721d477eb3745200630ac7ea91baa0f82d019/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/macintosh/.android/build-cache/a5a93aec7541389b4dec7f4a374d8b5760715dc9/output/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/macintosh/.android/build-cache/d289a9b4b9e31b6662bdfe70d2acecfdc210cba2/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/macintosh/.android/build-cache/d3d0aee4d0b31770151ade516824391a803a8787/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:cardview-v7:25.0.0] /home/macintosh/.android/build-cache/d374ec209122b5bb05a97c32350436876936b0ee/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:25.0.0] /home/macintosh/.android/build-cache/3cf9017e36573f968a41c1d4ddf636cd1ad98de0/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.0] /home/macintosh/.android/build-cache/4ea7415a83c3f24ed9d48a9ade84ae560ddc2901/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] /home/macintosh/.android/build-cache/51f4e2a5f3dc54f75017ae0e96df00b8fd01dcce/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/macintosh/.android/build-cache/41ddd202a03f6b40cf6f170f4ec3c3a92352a1c5/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/macintosh/.android/build-cache/07dd6fcdc1e364b887ea503bbdbba81d435c0763/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/macintosh/.android/build-cache/47f107f17bd2efa138f59d9a9017d4864114eac2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] /home/macintosh/.android/build-cache/351c6fe233d78bba44bc1ac7f148f1a53b7526b2/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:15:9-41
 	android:supportsRtl
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:9-35
 	android:allowBackup
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:14:9-43
 	android:theme
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:17:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:18:9-20:55
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:18:9-20:55
 	android:value
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:20:13-52
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:20:13-52
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:19:13-58
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:19:13-58
 activity#com.example.ciyguide.ciyguide.MainScreen
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:19-45
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:21:19-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:27-74
 activity#com.facebook.FacebookActivity
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:28:9-31:48
-MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:29:9-32:66
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:28:9-31:48
+MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:31:13-45
 	android:configChanges
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:30:13-96
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:30:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:13-57
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:29:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:32:9-43:20
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:32:9-43:20
 	android:exported
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:34:13-36
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:33:13-58
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:33:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:35:13-42:29
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:35:13-42:29
 action#android.intent.action.VIEW
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:36:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:38:17-76
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:38:27-73
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:38:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:39:17-78
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:39:17-78
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:39:27-75
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:39:27-75
 data
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:41:17-75
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:41:17-75
 	android:scheme
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:41:23-72
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:41:23-72
 activity#com.example.ciyguide.ciyguide.SearchRecipeScreen
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:44:9-56
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:44:9-56
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:44:19-53
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:44:19-53
 activity#com.example.ciyguide.ciyguide.Settings
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:9-46
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:9-46
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:19-43
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:19-43
 activity#com.example.ciyguide.ciyguide.UserProfileActivity
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:46:9-57
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:46:9-57
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:46:19-54
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:46:19-54
 activity#com.example.ciyguide.ciyguide.Placeholder
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:47:9-49
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:47:9-49
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:47:19-46
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:47:19-46
 activity#com.example.ciyguide.ciyguide.MainActivity
-ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:9-59
+ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-59
 	android:name
-		ADDED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:19-47
+		ADDED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:19-47
 uses-sdk
-INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Lorenzo\.android\build-cache\1a5e10465ded0b6051994b23ce91ff5966804804\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Lorenzo\.android\build-cache\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Lorenzo\.android\build-cache\04b5ceab2d46ab35f5451cba4a3720e036f352bd\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Lorenzo\.android\build-cache\da56a761b77e572318291f57de771c351561126c\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Lorenzo\.android\build-cache\c72ee3a50803a6d22138719b670e13ee765979b9\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Lorenzo\.android\build-cache\8f66f25031158d14ee5156ce784feac86c8b9fd8\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Lorenzo\.android\build-cache\a0128878a5e277e0740b6d5f3684cdf7559bb322\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\Lorenzo\.android\build-cache\75ee3dcf87838b4dfd1ea65e90ebabfedd9ac0f7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Lorenzo\.android\build-cache\815d65dea7f60b9f010fa921c007520b9e0b41b6\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Lorenzo\.android\build-cache\7074311f5759ad1655ad047544b1223695631f78\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Lorenzo\.android\build-cache\3367f4f0b0578b27b438ed5fcbffd6c435301285\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Lorenzo\.android\build-cache\30f2894a00f636f7d3c281c59be47cadb7ee03a0\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Lorenzo\.android\build-cache\540a04c674e10c484e266a9d6da4440835db274f\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Lorenzo\.android\build-cache\f9d46dc15d1c5dbc6a5e1cb05c45594861cafd39\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Lorenzo\.android\build-cache\33f0c0145547f7efb6cda54125c8ed82685463f2\output\AndroidManifest.xml:21:5-23:58
+INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /home/macintosh/.android/build-cache/319d484db7019332a99612f23291ab2e4558ec2b/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /home/macintosh/.android/build-cache/12b721d477eb3745200630ac7ea91baa0f82d019/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/macintosh/.android/build-cache/a5a93aec7541389b4dec7f4a374d8b5760715dc9/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] /home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] /home/macintosh/.android/build-cache/d289a9b4b9e31b6662bdfe70d2acecfdc210cba2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] /home/macintosh/.android/build-cache/d3d0aee4d0b31770151ade516824391a803a8787/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:cardview-v7:25.0.0] /home/macintosh/.android/build-cache/d374ec209122b5bb05a97c32350436876936b0ee/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.0.0] /home/macintosh/.android/build-cache/3cf9017e36573f968a41c1d4ddf636cd1ad98de0/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.0] /home/macintosh/.android/build-cache/4ea7415a83c3f24ed9d48a9ade84ae560ddc2901/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] /home/macintosh/.android/build-cache/51f4e2a5f3dc54f75017ae0e96df00b8fd01dcce/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] /home/macintosh/.android/build-cache/41ddd202a03f6b40cf6f170f4ec3c3a92352a1c5/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] /home/macintosh/.android/build-cache/07dd6fcdc1e364b887ea503bbdbba81d435c0763/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] /home/macintosh/.android/build-cache/47f107f17bd2efa138f59d9a9017d4864114eac2/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.0] /home/macintosh/.android/build-cache/351c6fe233d78bba44bc1ac7f148f1a53b7526b2/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Lorenzo\.android\build-cache\c72ee3a50803a6d22138719b670e13ee765979b9\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.0.0] /home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
+		INJECTED from /home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Lorenzo\.android\build-cache\04b5ceab2d46ab35f5451cba4a3720e036f352bd\output\AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] /home/macintosh/.android/build-cache/12b721d477eb3745200630ac7ea91baa0f82d019/output/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Lorenzo\.android\build-cache\04b5ceab2d46ab35f5451cba4a3720e036f352bd\output\AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /home/macintosh/.android/build-cache/12b721d477eb3745200630ac7ea91baa0f82d019/output/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Lorenzo\.android\build-cache\04b5ceab2d46ab35f5451cba4a3720e036f352bd\output\AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /home/macintosh/.android/build-cache/12b721d477eb3745200630ac7ea91baa0f82d019/output/AndroidManifest.xml:22:13-58
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:33:19-68
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:44:9-47:40
+ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:44:9-47:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:46:13-72
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:46:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:47:13-37
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Lorenzo\.android\build-cache\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\output\AndroidManifest.xml:45:13-70
+		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/AndroidManifest.xml:45:13-70

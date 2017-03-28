@@ -1,170 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
     build-mode="FULL"
-    density="560dpi"
+    density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490677603526"
+    timestamp="1490683403678"
     token="250559141942835881"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="243" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="62" />
+        duration="0" />
     <task
         name="verifier"
-        duration="9" />
+        duration="0" />
 
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="C:\project3-h1-CIYguide\app\build\outputs\apk\app-debug.apk"
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490677603526"
+        timestamp="1490683403678"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\project3-h1-CIYguide\app\build\outputs\apk\app-debug.apk"
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/macintosh/Desktop/project3-h1-CIYguide/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 
