@@ -2,7 +2,7 @@
 ### What does your app do?
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
 ### Who worked on it?
-1. Honorio worked on
+1. Honorio worked on find appropriate api's for price searching. 
 2. Marilyn worked on 
 3. Lorenzo worked on - Facebook Login
 4. Jason Sagisi worked on 

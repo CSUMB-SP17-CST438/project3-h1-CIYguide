@@ -1,7 +1,7 @@
-#Mon Mar 27 21:56:16 PDT 2017
-base.0=C\:\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c4541b13d169203d5c7fbef6c58ec3e01ae0c084
+#Mon Mar 27 23:41:48 PDT 2017
+base.0=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7f82353f78733d4380862c75dc75f68935c7f885
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7632d6f65cde6b819e6205d0befaffb2956c8f31\\classes.dex
-base.1=C\:\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7632d6f65cde6b819e6205d0befaffb2956c8f31
-file.0=C\:\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_c4541b13d169203d5c7fbef6c58ec3e01ae0c084\\classes.dex
+file.1=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1ffe5e21a5f46f3fd165464890c08cb8e957c6b1/classes.dex
+base.1=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1ffe5e21a5f46f3fd165464890c08cb8e957c6b1
+file.0=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7f82353f78733d4380862c75dc75f68935c7f885/classes.dex

@@ -1,14 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]
