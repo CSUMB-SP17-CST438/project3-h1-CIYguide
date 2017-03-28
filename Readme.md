@@ -4,7 +4,7 @@ Our app allows users to search for recipes using their current ingredients.
 ### Who worked on it?
 1. Honorio worked on
 2. Marilyn worked on 
-3. Lorenzo worked on 
+3. Lorenzo worked on - Facebook Login
 4. Jason Sagisi worked on 
 5. Jason Ferrer worked on 
 
