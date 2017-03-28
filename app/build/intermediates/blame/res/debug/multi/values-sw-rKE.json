@@ -1,0 +1,1017 @@
+[
+    {
+        "outputFile": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw-rKE\\values-sw-rKE.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 238,
+                    "endColumn": 19,
+                    "endOffset": 9072
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 238,
+                        "endColumn": 19,
+                        "endOffset": 9072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 9077,
+                    "endColumn": 83,
+                    "endOffset": 9156
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 9077,
+                        "endColumn": 83,
+                        "endOffset": 9156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 9161,
+                    "endColumn": 60,
+                    "endOffset": 9217
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 9161,
+                        "endColumn": 60,
+                        "endOffset": 9217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 9222,
+                    "endColumn": 64,
+                    "endOffset": 9282
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 9222,
+                        "endColumn": 64,
+                        "endOffset": 9282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 9287,
+                    "endColumn": 68,
+                    "endOffset": 9351
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 9287,
+                        "endColumn": 68,
+                        "endOffset": 9351
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 9356,
+                    "endColumn": 66,
+                    "endOffset": 9418
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 9356,
+                        "endColumn": 66,
+                        "endOffset": 9418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 9423,
+                    "endColumn": 61,
+                    "endOffset": 9480
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 9423,
+                        "endColumn": 61,
+                        "endOffset": 9480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 9485,
+                    "endColumn": 62,
+                    "endOffset": 9543
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 9485,
+                        "endColumn": 62,
+                        "endOffset": 9543
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 9548,
+                    "endColumn": 65,
+                    "endOffset": 9609
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 9548,
+                        "endColumn": 65,
+                        "endOffset": 9609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 9614,
+                    "endColumn": 57,
+                    "endOffset": 9667
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 9614,
+                        "endColumn": 57,
+                        "endOffset": 9667
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 9672,
+                    "endColumn": 93,
+                    "endOffset": 9761
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 9672,
+                        "endColumn": 93,
+                        "endOffset": 9761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 9766,
+                    "endColumn": 77,
+                    "endOffset": 9839
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 9766,
+                        "endColumn": 77,
+                        "endOffset": 9839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 9844,
+                    "endColumn": 59,
+                    "endOffset": 9899
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 9844,
+                        "endColumn": 59,
+                        "endOffset": 9899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 9904,
+                    "endColumn": 93,
+                    "endOffset": 9993
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 9904,
+                        "endColumn": 93,
+                        "endOffset": 9993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 9998,
+                    "endColumn": 166,
+                    "endOffset": 10160
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 9998,
+                        "endColumn": 166,
+                        "endOffset": 10160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 10165,
+                    "endColumn": 61,
+                    "endOffset": 10222
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 10165,
+                        "endColumn": 61,
+                        "endOffset": 10222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 10227,
+                    "endColumn": 72,
+                    "endOffset": 10295
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 10227,
+                        "endColumn": 72,
+                        "endOffset": 10295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 10300,
+                    "endColumn": 66,
+                    "endOffset": 10362
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 10300,
+                        "endColumn": 66,
+                        "endOffset": 10362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 10367,
+                    "endColumn": 77,
+                    "endOffset": 10440
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 10367,
+                        "endColumn": 77,
+                        "endOffset": 10440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 10445,
+                    "endColumn": 96,
+                    "endOffset": 10537
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 10445,
+                        "endColumn": 96,
+                        "endOffset": 10537
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 10542,
+                    "endLine": 262,
+                    "endColumn": 13,
+                    "endOffset": 10806
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 10542,
+                        "endLine": 262,
+                        "endColumn": 13,
+                        "endOffset": 10806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 10811,
+                    "endLine": 268,
+                    "endColumn": 13,
+                    "endOffset": 11155
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 10811,
+                        "endLine": 268,
+                        "endColumn": 13,
+                        "endOffset": 11155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 11160,
+                    "endLine": 275,
+                    "endColumn": 13,
+                    "endOffset": 11573
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 11160,
+                        "endLine": 275,
+                        "endColumn": 13,
+                        "endOffset": 11573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 11578,
+                    "endLine": 283,
+                    "endColumn": 13,
+                    "endOffset": 12105
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 11578,
+                        "endLine": 283,
+                        "endColumn": 13,
+                        "endOffset": 12105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 12110,
+                    "endLine": 290,
+                    "endColumn": 13,
+                    "endOffset": 12568
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 12110,
+                        "endLine": 290,
+                        "endColumn": 13,
+                        "endOffset": 12568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 12573,
+                    "endLine": 296,
+                    "endColumn": 13,
+                    "endOffset": 12951
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 12573,
+                        "endLine": 296,
+                        "endColumn": 13,
+                        "endOffset": 12951
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 12956,
+                    "endColumn": 81,
+                    "endOffset": 13033
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 12956,
+                        "endColumn": 81,
+                        "endOffset": 13033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 13038,
+                    "endColumn": 85,
+                    "endOffset": 13119
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 13038,
+                        "endColumn": 85,
+                        "endOffset": 13119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 13124,
+                    "endLine": 301,
+                    "endColumn": 13,
+                    "endOffset": 13240
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 13124,
+                        "endLine": 301,
+                        "endColumn": 13,
+                        "endOffset": 13240
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 13245,
+                    "endColumn": 84,
+                    "endOffset": 13325
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 13245,
+                        "endColumn": 84,
+                        "endOffset": 13325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 13330,
+                    "endColumn": 93,
+                    "endOffset": 13419
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 13330,
+                        "endColumn": 93,
+                        "endOffset": 13419
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 13424,
+                    "endLine": 306,
+                    "endColumn": 13,
+                    "endOffset": 13735
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 13424,
+                        "endLine": 306,
+                        "endColumn": 13,
+                        "endOffset": 13735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 13740,
+                    "endColumn": 93,
+                    "endOffset": 13829
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 13740,
+                        "endColumn": 93,
+                        "endOffset": 13829
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 13834,
+                    "endColumn": 82,
+                    "endOffset": 13912
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 13834,
+                        "endColumn": 82,
+                        "endOffset": 13912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 13917,
+                    "endColumn": 120,
+                    "endOffset": 14033
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 13917,
+                        "endColumn": 120,
+                        "endOffset": 14033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 14038,
+                    "endColumn": 94,
+                    "endOffset": 14128
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 14038,
+                        "endColumn": 94,
+                        "endOffset": 14128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 14133,
+                    "endColumn": 102,
+                    "endOffset": 14231
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 14133,
+                        "endColumn": 102,
+                        "endOffset": 14231
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 14236,
+                    "endColumn": 110,
+                    "endOffset": 14342
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 14236,
+                        "endColumn": 110,
+                        "endOffset": 14342
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 14347,
+                    "endColumn": 65,
+                    "endOffset": 14408
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 14347,
+                        "endColumn": 65,
+                        "endOffset": 14408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 14413,
+                    "endColumn": 112,
+                    "endOffset": 14521
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 14413,
+                        "endColumn": 112,
+                        "endOffset": 14521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 14526,
+                    "endColumn": 92,
+                    "endOffset": 14614
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 14526,
+                        "endColumn": 92,
+                        "endOffset": 14614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 14619,
+                    "endColumn": 109,
+                    "endOffset": 14724
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 14619,
+                        "endColumn": 109,
+                        "endOffset": 14724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 14729,
+                    "endLine": 319,
+                    "endColumn": 13,
+                    "endOffset": 15128
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 14729,
+                        "endLine": 319,
+                        "endColumn": 13,
+                        "endOffset": 15128
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 15133,
+                    "endColumn": 99,
+                    "endOffset": 15228
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 15133,
+                        "endColumn": 99,
+                        "endOffset": 15228
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 15233,
+                    "endColumn": 110,
+                    "endOffset": 15339
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 15233,
+                        "endColumn": 110,
+                        "endOffset": 15339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 15344,
+                    "endColumn": 81,
+                    "endOffset": 15421
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 15344,
+                        "endColumn": 81,
+                        "endOffset": 15421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 15426,
+                    "endColumn": 99,
+                    "endOffset": 15521
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 15426,
+                        "endColumn": 99,
+                        "endOffset": 15521
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 15526,
+                    "endColumn": 63,
+                    "endOffset": 15585
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 15526,
+                        "endColumn": 63,
+                        "endOffset": 15585
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 15590,
+                    "endColumn": 72,
+                    "endOffset": 15658
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 15590,
+                        "endColumn": 72,
+                        "endOffset": 15658
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 15663,
+                    "endColumn": 74,
+                    "endOffset": 15733
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 15663,
+                        "endColumn": 74,
+                        "endOffset": 15733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 15738,
+                    "endLine": 329,
+                    "endColumn": 13,
+                    "endOffset": 15876
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 15738,
+                        "endLine": 329,
+                        "endColumn": 13,
+                        "endOffset": 15876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 15881,
+                    "endColumn": 84,
+                    "endOffset": 15961
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-sw-rKE\\values-sw-rKE.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 15881,
+                        "endColumn": 84,
+                        "endOffset": 15961
+                    }
+                }
+            }
+        ]
+    }
+]

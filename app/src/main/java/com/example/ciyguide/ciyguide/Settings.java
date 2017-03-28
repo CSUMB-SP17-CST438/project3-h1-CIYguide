@@ -36,7 +36,7 @@ public class Settings extends AppCompatActivity {
 
 
     public void LogOut(View view) {
-        startActivity(new Intent(Settings.this, MainActivity.class));
+        startActivity(new Intent(Settings.this, MainScreen.class));
     }
 
 }

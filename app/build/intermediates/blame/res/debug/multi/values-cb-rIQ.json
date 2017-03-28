@@ -1,0 +1,1017 @@
+[
+    {
+        "outputFile": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-cb-rIQ\\values-cb-rIQ.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 238,
+                    "endColumn": 19,
+                    "endOffset": 9012
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 238,
+                        "endColumn": 19,
+                        "endOffset": 9012
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 9017,
+                    "endColumn": 82,
+                    "endOffset": 9095
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 239,
+                        "startColumn": 4,
+                        "startOffset": 9017,
+                        "endColumn": 82,
+                        "endOffset": 9095
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 9100,
+                    "endColumn": 66,
+                    "endOffset": 9162
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 240,
+                        "startColumn": 4,
+                        "startOffset": 9100,
+                        "endColumn": 66,
+                        "endOffset": 9162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 9167,
+                    "endColumn": 69,
+                    "endOffset": 9232
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 241,
+                        "startColumn": 4,
+                        "startOffset": 9167,
+                        "endColumn": 69,
+                        "endOffset": 9232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 9237,
+                    "endColumn": 67,
+                    "endOffset": 9300
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 242,
+                        "startColumn": 4,
+                        "startOffset": 9237,
+                        "endColumn": 67,
+                        "endOffset": 9300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 9305,
+                    "endColumn": 71,
+                    "endOffset": 9372
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 243,
+                        "startColumn": 4,
+                        "startOffset": 9305,
+                        "endColumn": 71,
+                        "endOffset": 9372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 244,
+                    "startColumn": 4,
+                    "startOffset": 9377,
+                    "endColumn": 67,
+                    "endOffset": 9440
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 244,
+                        "startColumn": 4,
+                        "startOffset": 9377,
+                        "endColumn": 67,
+                        "endOffset": 9440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 245,
+                    "startColumn": 4,
+                    "startOffset": 9445,
+                    "endColumn": 68,
+                    "endOffset": 9509
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 245,
+                        "startColumn": 4,
+                        "startOffset": 9445,
+                        "endColumn": 68,
+                        "endOffset": 9509
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 246,
+                    "startColumn": 4,
+                    "startOffset": 9514,
+                    "endColumn": 60,
+                    "endOffset": 9570
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 246,
+                        "startColumn": 4,
+                        "startOffset": 9514,
+                        "endColumn": 60,
+                        "endOffset": 9570
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 9575,
+                    "endColumn": 57,
+                    "endOffset": 9628
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 247,
+                        "startColumn": 4,
+                        "startOffset": 9575,
+                        "endColumn": 57,
+                        "endOffset": 9628
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 9633,
+                    "endColumn": 90,
+                    "endOffset": 9719
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 248,
+                        "startColumn": 4,
+                        "startOffset": 9633,
+                        "endColumn": 90,
+                        "endOffset": 9719
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 9724,
+                    "endColumn": 78,
+                    "endOffset": 9798
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 249,
+                        "startColumn": 4,
+                        "startOffset": 9724,
+                        "endColumn": 78,
+                        "endOffset": 9798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 9803,
+                    "endColumn": 60,
+                    "endOffset": 9859
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 250,
+                        "startColumn": 4,
+                        "startOffset": 9803,
+                        "endColumn": 60,
+                        "endOffset": 9859
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 9864,
+                    "endColumn": 93,
+                    "endOffset": 9953
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 251,
+                        "startColumn": 4,
+                        "startOffset": 9864,
+                        "endColumn": 93,
+                        "endOffset": 9953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 252,
+                    "startColumn": 4,
+                    "startOffset": 9958,
+                    "endColumn": 173,
+                    "endOffset": 10127
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 252,
+                        "startColumn": 4,
+                        "startOffset": 9958,
+                        "endColumn": 173,
+                        "endOffset": 10127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 253,
+                    "startColumn": 4,
+                    "startOffset": 10132,
+                    "endColumn": 67,
+                    "endOffset": 10195
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 253,
+                        "startColumn": 4,
+                        "startOffset": 10132,
+                        "endColumn": 67,
+                        "endOffset": 10195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 254,
+                    "startColumn": 4,
+                    "startOffset": 10200,
+                    "endColumn": 77,
+                    "endOffset": 10273
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 254,
+                        "startColumn": 4,
+                        "startOffset": 10200,
+                        "endColumn": 77,
+                        "endOffset": 10273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 10278,
+                    "endColumn": 65,
+                    "endOffset": 10339
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 255,
+                        "startColumn": 4,
+                        "startOffset": 10278,
+                        "endColumn": 65,
+                        "endOffset": 10339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 10344,
+                    "endColumn": 71,
+                    "endOffset": 10411
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 256,
+                        "startColumn": 4,
+                        "startOffset": 10344,
+                        "endColumn": 71,
+                        "endOffset": 10411
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 10416,
+                    "endColumn": 93,
+                    "endOffset": 10505
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 257,
+                        "startColumn": 4,
+                        "startOffset": 10416,
+                        "endColumn": 93,
+                        "endOffset": 10505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 10510,
+                    "endLine": 262,
+                    "endColumn": 13,
+                    "endOffset": 10778
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 258,
+                        "startColumn": 4,
+                        "startOffset": 10510,
+                        "endLine": 262,
+                        "endColumn": 13,
+                        "endOffset": 10778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 10783,
+                    "endLine": 268,
+                    "endColumn": 13,
+                    "endOffset": 11138
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 10783,
+                        "endLine": 268,
+                        "endColumn": 13,
+                        "endOffset": 11138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 269,
+                    "startColumn": 4,
+                    "startOffset": 11143,
+                    "endLine": 275,
+                    "endColumn": 13,
+                    "endOffset": 11564
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 11143,
+                        "endLine": 275,
+                        "endColumn": 13,
+                        "endOffset": 11564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 11569,
+                    "endLine": 283,
+                    "endColumn": 13,
+                    "endOffset": 12110
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 276,
+                        "startColumn": 4,
+                        "startOffset": 11569,
+                        "endLine": 283,
+                        "endColumn": 13,
+                        "endOffset": 12110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 284,
+                    "startColumn": 4,
+                    "startOffset": 12115,
+                    "endLine": 290,
+                    "endColumn": 13,
+                    "endOffset": 12590
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 284,
+                        "startColumn": 4,
+                        "startOffset": 12115,
+                        "endLine": 290,
+                        "endColumn": 13,
+                        "endOffset": 12590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 291,
+                    "startColumn": 4,
+                    "startOffset": 12595,
+                    "endLine": 296,
+                    "endColumn": 13,
+                    "endOffset": 12983
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 12595,
+                        "endLine": 296,
+                        "endColumn": 13,
+                        "endOffset": 12983
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 12988,
+                    "endColumn": 88,
+                    "endOffset": 13072
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 297,
+                        "startColumn": 4,
+                        "startOffset": 12988,
+                        "endColumn": 88,
+                        "endOffset": 13072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 298,
+                    "startColumn": 4,
+                    "startOffset": 13077,
+                    "endColumn": 83,
+                    "endOffset": 13156
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 298,
+                        "startColumn": 4,
+                        "startOffset": 13077,
+                        "endColumn": 83,
+                        "endOffset": 13156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 299,
+                    "startColumn": 4,
+                    "startOffset": 13161,
+                    "endLine": 301,
+                    "endColumn": 13,
+                    "endOffset": 13273
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 299,
+                        "startColumn": 4,
+                        "startOffset": 13161,
+                        "endLine": 301,
+                        "endColumn": 13,
+                        "endOffset": 13273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 302,
+                    "startColumn": 4,
+                    "startOffset": 13278,
+                    "endColumn": 88,
+                    "endOffset": 13362
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 13278,
+                        "endColumn": 88,
+                        "endOffset": 13362
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 303,
+                    "startColumn": 4,
+                    "startOffset": 13367,
+                    "endColumn": 104,
+                    "endOffset": 13467
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 303,
+                        "startColumn": 4,
+                        "startOffset": 13367,
+                        "endColumn": 104,
+                        "endOffset": 13467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 304,
+                    "startColumn": 4,
+                    "startOffset": 13472,
+                    "endLine": 306,
+                    "endColumn": 13,
+                    "endOffset": 13789
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 13472,
+                        "endLine": 306,
+                        "endColumn": 13,
+                        "endOffset": 13789
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 307,
+                    "startColumn": 4,
+                    "startOffset": 13794,
+                    "endColumn": 90,
+                    "endOffset": 13880
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 307,
+                        "startColumn": 4,
+                        "startOffset": 13794,
+                        "endColumn": 90,
+                        "endOffset": 13880
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 308,
+                    "startColumn": 4,
+                    "startOffset": 13885,
+                    "endColumn": 82,
+                    "endOffset": 13963
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 13885,
+                        "endColumn": 82,
+                        "endOffset": 13963
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 309,
+                    "startColumn": 4,
+                    "startOffset": 13968,
+                    "endColumn": 110,
+                    "endOffset": 14074
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 309,
+                        "startColumn": 4,
+                        "startOffset": 13968,
+                        "endColumn": 110,
+                        "endOffset": 14074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 310,
+                    "startColumn": 4,
+                    "startOffset": 14079,
+                    "endColumn": 91,
+                    "endOffset": 14166
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 310,
+                        "startColumn": 4,
+                        "startOffset": 14079,
+                        "endColumn": 91,
+                        "endOffset": 14166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 311,
+                    "startColumn": 4,
+                    "startOffset": 14171,
+                    "endColumn": 111,
+                    "endOffset": 14278
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 311,
+                        "startColumn": 4,
+                        "startOffset": 14171,
+                        "endColumn": 111,
+                        "endOffset": 14278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 312,
+                    "startColumn": 4,
+                    "startOffset": 14283,
+                    "endColumn": 99,
+                    "endOffset": 14378
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 312,
+                        "startColumn": 4,
+                        "startOffset": 14283,
+                        "endColumn": 99,
+                        "endOffset": 14378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 313,
+                    "startColumn": 4,
+                    "startOffset": 14383,
+                    "endColumn": 77,
+                    "endOffset": 14456
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 14383,
+                        "endColumn": 77,
+                        "endOffset": 14456
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 314,
+                    "startColumn": 4,
+                    "startOffset": 14461,
+                    "endColumn": 98,
+                    "endOffset": 14555
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 314,
+                        "startColumn": 4,
+                        "startOffset": 14461,
+                        "endColumn": 98,
+                        "endOffset": 14555
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 315,
+                    "startColumn": 4,
+                    "startOffset": 14560,
+                    "endColumn": 100,
+                    "endOffset": 14656
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 14560,
+                        "endColumn": 100,
+                        "endOffset": 14656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 316,
+                    "startColumn": 4,
+                    "startOffset": 14661,
+                    "endColumn": 100,
+                    "endOffset": 14757
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 316,
+                        "startColumn": 4,
+                        "startOffset": 14661,
+                        "endColumn": 100,
+                        "endOffset": 14757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 317,
+                    "startColumn": 4,
+                    "startOffset": 14762,
+                    "endLine": 319,
+                    "endColumn": 13,
+                    "endOffset": 15147
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 14762,
+                        "endLine": 319,
+                        "endColumn": 13,
+                        "endOffset": 15147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 320,
+                    "startColumn": 4,
+                    "startOffset": 15152,
+                    "endColumn": 86,
+                    "endOffset": 15234
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 320,
+                        "startColumn": 4,
+                        "startOffset": 15152,
+                        "endColumn": 86,
+                        "endOffset": 15234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 321,
+                    "startColumn": 4,
+                    "startOffset": 15239,
+                    "endColumn": 119,
+                    "endOffset": 15354
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 321,
+                        "startColumn": 4,
+                        "startOffset": 15239,
+                        "endColumn": 119,
+                        "endOffset": 15354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 322,
+                    "startColumn": 4,
+                    "startOffset": 15359,
+                    "endColumn": 78,
+                    "endOffset": 15433
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 322,
+                        "startColumn": 4,
+                        "startOffset": 15359,
+                        "endColumn": 78,
+                        "endOffset": 15433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 323,
+                    "startColumn": 4,
+                    "startOffset": 15438,
+                    "endColumn": 115,
+                    "endOffset": 15549
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 323,
+                        "startColumn": 4,
+                        "startOffset": 15438,
+                        "endColumn": 115,
+                        "endOffset": 15549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 324,
+                    "startColumn": 4,
+                    "startOffset": 15554,
+                    "endColumn": 61,
+                    "endOffset": 15611
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 324,
+                        "startColumn": 4,
+                        "startOffset": 15554,
+                        "endColumn": 61,
+                        "endOffset": 15611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 325,
+                    "startColumn": 4,
+                    "startOffset": 15616,
+                    "endColumn": 66,
+                    "endOffset": 15678
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 15616,
+                        "endColumn": 66,
+                        "endOffset": 15678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 326,
+                    "startColumn": 4,
+                    "startOffset": 15683,
+                    "endColumn": 73,
+                    "endOffset": 15752
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 326,
+                        "startColumn": 4,
+                        "startOffset": 15683,
+                        "endColumn": 73,
+                        "endOffset": 15752
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 327,
+                    "startColumn": 4,
+                    "startOffset": 15757,
+                    "endLine": 329,
+                    "endColumn": 13,
+                    "endOffset": 15900
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 15757,
+                        "endLine": 329,
+                        "endColumn": 13,
+                        "endOffset": 15900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 330,
+                    "startColumn": 4,
+                    "startOffset": 15905,
+                    "endColumn": 92,
+                    "endOffset": 15993
+                },
+                "from": {
+                    "file": "C:\\Users\\Lorenzo\\.android\\build-cache\\f55dc7329acfc1134b38c86e498c90046ed2b9fe\\output\\res\\values-cb-rIQ\\values-cb-rIQ.xml",
+                    "position": {
+                        "startLine": 330,
+                        "startColumn": 4,
+                        "startOffset": 15905,
+                        "endColumn": 92,
+                        "endOffset": 15993
+                    }
+                }
+            }
+        ]
+    }
+]
