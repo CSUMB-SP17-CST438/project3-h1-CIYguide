@@ -586,7 +586,10 @@
     <string name="ingredients_list">Ingredients</string>
     <string name="insert_ingredient">Insert Ingredient</string>
     <string name="main_menu">Main Menu</string>
+<<<<<<< HEAD
     <string name="messenger_send_button_text">Send</string>
+=======
+>>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
     <string name="myFridge">My Fridge</string>
     <string name="myRecipes">My Recipes</string>
     <string name="previous_searches">Previous Searches</string>

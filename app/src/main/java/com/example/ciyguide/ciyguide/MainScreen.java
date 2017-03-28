@@ -39,12 +39,14 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
 
         else if(v.getId() == R.id.user_profile_button)
         {
-
+            Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
+            startActivity(i);
         }
 
         else if(v.getId() == R.id.previous_searches_button)
         {
-
+            Intent i = new Intent(MainScreen.this, RecipeList.class);
+            startActivity(i);
         }
 
         else if(v.getId() == R.id.surprise_me_button)

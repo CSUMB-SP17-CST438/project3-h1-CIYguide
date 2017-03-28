@@ -53,6 +53,7 @@
         <activity android:name="com.example.ciyguide.ciyguide.Settings" />
         <activity android:name="com.example.ciyguide.ciyguide.UserProfileActivity" />
         <activity android:name="com.example.ciyguide.ciyguide.Placeholder" />
+<<<<<<< HEAD
         <activity android:name="com.example.ciyguide.ciyguide.MainActivity" />
 
         <meta-data
@@ -73,6 +74,8 @@
             android:name="com.facebook.internal.FacebookInitProvider"
             android:authorities="com.example.ciyguide.ciyguide.FacebookInitProvider"
             android:exported="false" />
+=======
+>>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
     </application>
 
 </manifest>

@@ -56,15 +56,15 @@ public class UserProfileActivity extends AppCompatActivity {
     }
 
     public void myFridge(View view) {
-        startActivity(new Intent(UserProfileActivity.this, Placeholder.class));
+        startActivity(new Intent(UserProfileActivity.this, IngredientsList.class));
     }
 
     public void myRecipes(View view) {
-        startActivity(new Intent(UserProfileActivity.this, Placeholder.class));
+        startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
     }
 
     public void savedRecipes(View view) {
-        startActivity(new Intent(UserProfileActivity.this, Placeholder.class));
+        startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
     }
 
     public void settingScreen(View view) {
