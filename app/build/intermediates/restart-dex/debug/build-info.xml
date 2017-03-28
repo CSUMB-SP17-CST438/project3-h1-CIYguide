@@ -6,23 +6,26 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490677066244"
+    timestamp="1490677603526"
     token="250559141942835881"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="243" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="62" />
     <task
         name="verifier"
-        duration="0" />
+        duration="9" />
 
+    <artifact
+        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
     <artifact
         location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
@@ -49,9 +52,6 @@
         type="SPLIT" />
     <artifact
         location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -95,8 +95,11 @@
 
     <build
         build-mode="FULL"
-        timestamp="1490677066244"
+        timestamp="1490677603526"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
         <artifact
             location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
@@ -123,9 +126,6 @@
             type="SPLIT" />
         <artifact
             location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
