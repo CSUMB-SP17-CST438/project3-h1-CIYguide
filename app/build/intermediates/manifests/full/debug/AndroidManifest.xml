@@ -22,6 +22,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.ciyguide.ciyguide.SearchRecipeScreen" />
+        <activity android:name="com.example.ciyguide.ciyguide.Settings" />
+        <activity android:name="com.example.ciyguide.ciyguide.UserProfileActivity" />
+        <activity android:name="com.example.ciyguide.ciyguide.Placeholder" />
     </application>
 
 </manifest>

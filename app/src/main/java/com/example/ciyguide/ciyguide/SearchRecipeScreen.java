@@ -1,5 +1,6 @@
 package com.example.ciyguide.ciyguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -51,7 +52,8 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
         else if(v.getId() == R.id.resulting_recipes_button)
         {
-
+            Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
+            startActivity(i);
         }
     }
 }

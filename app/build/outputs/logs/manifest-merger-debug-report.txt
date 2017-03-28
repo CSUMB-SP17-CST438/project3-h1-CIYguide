@@ -1,75 +1,87 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:5:5-21:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jason\.android\build-cache\fe6402988002b27f0359f7fbcd830e1ec546aa86\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\jason\.android\build-cache\ee0ddce0ab26ee508b1b8cfc1f517665a4194b86\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\jason\.android\build-cache\062a1f9d6a312f91169c503087fa7b613f5e0d1f\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\jason\.android\build-cache\2afae653ea5e577027e6e6bf995dbbf2b6622906\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\jason\.android\build-cache\75333584b6a2d6dade3dfeab81001f2ddc17d46d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\jason\.android\build-cache\171b4174a245f60bddbc688b8056c85cc9667a91\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jason\.android\build-cache\4ef19d279bb1c816071e4c98b35ae3a0fa86e107\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\jason\.android\build-cache\e76f572a96f977ed3e0aea37da41f3558fa33ef9\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\jason\.android\build-cache\05c2f47d3439d6fe07e0fd3338c28f552f3160e8\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jsagi\.android\build-cache\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\jsagi\.android\build-cache\07c0efce00e21ea96a0c3ef397f9a1ee8ae6be55\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\jsagi\.android\build-cache\766c6e44937671f4d5143e26a5287a736cae320d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\jsagi\.android\build-cache\b3886f8c60cd3be2b6b88bd547e029036e0deabe\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\jsagi\.android\build-cache\f54c069ce41c0404ef4fb63105884f1cf46cacef\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\jsagi\.android\build-cache\204c4893ff861f7062c394a96a3244f62d372933\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jsagi\.android\build-cache\0362ebd4294075bdc592b299b00f3943047b5f42\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\jsagi\.android\build-cache\62a28eba335994e94b7a69780d2079cf4e09a106\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\jsagi\.android\build-cache\1291e5e632eb67fa450441a7d8b444d7e46feeb0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jsagi\.android\build-cache\7d17fd0c36f515fb2494735ac9be12a74d851262\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:9:9-35
 	android:allowBackup
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.ciyguide.ciyguide.MainScreen
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:11:19-45
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:19-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:13:17-69
 	android:name
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:13:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:15:27-74
 activity#com.example.ciyguide.ciyguide.SearchRecipeScreen
-ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:19:9-65
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:19:9-65
 	android:name
-		ADDED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml:19:19-53
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:19:19-53
+activity#com.example.ciyguide.ciyguide.Settings
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:20:9-55
+	android:name
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:20:19-43
+activity#com.example.ciyguide.ciyguide.UserProfileActivity
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:9-57
+	android:name
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:19-54
+activity#com.example.ciyguide.ciyguide.Placeholder
+ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:22:9-49
+	android:name
+		ADDED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:22:19-46
 uses-sdk
-INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jason\.android\build-cache\fe6402988002b27f0359f7fbcd830e1ec546aa86\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] C:\Users\jason\.android\build-cache\ee0ddce0ab26ee508b1b8cfc1f517665a4194b86\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\jason\.android\build-cache\062a1f9d6a312f91169c503087fa7b613f5e0d1f\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\jason\.android\build-cache\2afae653ea5e577027e6e6bf995dbbf2b6622906\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\jason\.android\build-cache\75333584b6a2d6dade3dfeab81001f2ddc17d46d\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\jason\.android\build-cache\171b4174a245f60bddbc688b8056c85cc9667a91\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jason\.android\build-cache\4ef19d279bb1c816071e4c98b35ae3a0fa86e107\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\jason\.android\build-cache\e76f572a96f977ed3e0aea37da41f3558fa33ef9\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-compat:24.2.1] C:\Users\jason\.android\build-cache\05c2f47d3439d6fe07e0fd3338c28f552f3160e8\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jsagi\.android\build-cache\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] C:\Users\jsagi\.android\build-cache\07c0efce00e21ea96a0c3ef397f9a1ee8ae6be55\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] C:\Users\jsagi\.android\build-cache\766c6e44937671f4d5143e26a5287a736cae320d\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] C:\Users\jsagi\.android\build-cache\b3886f8c60cd3be2b6b88bd547e029036e0deabe\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] C:\Users\jsagi\.android\build-cache\f54c069ce41c0404ef4fb63105884f1cf46cacef\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] C:\Users\jsagi\.android\build-cache\204c4893ff861f7062c394a96a3244f62d372933\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] C:\Users\jsagi\.android\build-cache\0362ebd4294075bdc592b299b00f3943047b5f42\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] C:\Users\jsagi\.android\build-cache\62a28eba335994e94b7a69780d2079cf4e09a106\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] C:\Users\jsagi\.android\build-cache\1291e5e632eb67fa450441a7d8b444d7e46feeb0\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jsagi\.android\build-cache\7d17fd0c36f515fb2494735ac9be12a74d851262\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jason\.android\build-cache\fe6402988002b27f0359f7fbcd830e1ec546aa86\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] C:\Users\jsagi\.android\build-cache\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\Downloads\SQLite-App\CIYGuide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\src\main\AndroidManifest.xml

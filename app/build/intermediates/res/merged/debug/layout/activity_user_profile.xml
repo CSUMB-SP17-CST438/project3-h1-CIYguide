@@ -1,0 +1,119 @@
+<!--Created by Marilyn Florek for the User Profile java file-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.heroku.mflorek_ciyguide.ciyguide.UserProfileActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <!--THIS IS WHERE WE GET THE CIRCLE CROP FOR THE PROFILE PICTURE-->
+        <FrameLayout
+            android:id="@+id/profilePicFrame"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/profile_pic"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+
+            <!--<ImageView-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:src="@drawable/circle_crop"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitCenter" />-->
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <ViewSwitcher
+                android:id="@+id/editableUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="USER NAME"
+                    android:textSize="30dp"
+                    android:id="@+id/userTextView"/>
+                <EditText
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:maxLength="16"
+                    android:inputType="text"
+                    android:hint="@string/userPlaceholder"
+                    android:id="@+id/userEditText"/>
+
+            </ViewSwitcher>
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/pencil"
+                android:clickable="true"
+                android:onClick="editableUserName"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/myFridge"
+            android:id="@+id/myFridge"
+            android:onClick="myFridge"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/myRecipes"
+            android:layout_below="@+id/profilePicFrame"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/myRecipes"
+            android:id="@+id/myRecipes"
+            android:onClick="myRecipes"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/savedRecipes"
+            android:layout_below="@+id/myFridge"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/savedRecipes"
+            android:id="@+id/savedRecipes"
+            android:onClick="savedRecipes"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/settings"
+            android:layout_below="@+id/myRecipes"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:id="@+id/settings"
+            android:onClick="settingScreen"
+            android:layout_gravity="center_horizontal"
+            android:layout_above="@+id/savedRecipes"
+            android:layout_below="@+id/myFridge"/>
+    </LinearLayout>
+</ScrollView>
