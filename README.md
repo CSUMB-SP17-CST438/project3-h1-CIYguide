@@ -1,6 +1,5 @@
 # CIYGuide
 ### What does your app do?
-<<<<<<< HEAD
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
 ### Who worked on it?
 1. Honorio worked on
@@ -13,7 +12,6 @@ Our app allows users to search for recipes using their current ingredients. It w
 ### What were you able to complete for this handin?
 We were able to accomplish the following:
   -We have most of the screens created in order to make the app.
-=======
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping. It will additionally have the option of giving the user locations with the best prices for the ingredients they need.
 ### Who worked on it?
 1. Honorio worked on finding appropriate api's for price searching. 
@@ -27,7 +25,6 @@ We were able to accomplish the following:
   -We have managed to create most of the screens we need for the project, bar the screen for the camera option of the search screen.
   -The Facebook login has been integrated into the project.
   -We have started researching the different API's we will need for the next handin.
->>>>>>> 3e2a7ea92502be5fd621f4f6263417b2ebad8336
 ### What are known problems, if any, with your project?
 Known problems are:
   -It needs work until all the screens are connected to one another.
