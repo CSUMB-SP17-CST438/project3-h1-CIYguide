@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--Created by Marilyn Florek for the User Profile java file-->
@@ -13,28 +12,13 @@
     <!--android:paddingTop="@dimen/activity_vertical_margin">-->
     <!--tools:context="com.heroku.mflorek_ciyguide.ciyguide.UserProfileActivity"-->
     <!--&gt;-->
-=======
-<!--Created by Marilyn Florek for the User Profile java file-->
-
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.heroku.mflorek_ciyguide.ciyguide.UserProfileActivity"
-    >
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <!--THIS IS WHERE WE GET THE CIRCLE CROP FOR THE PROFILE PICTURE-->
+        <!--THIS IS WHERE WE GET THE CIRCLE CROP FOR THE PROFILE PICTURE-->
         <FrameLayout
             android:id="@+id/profilePicFrame"
             android:layout_width="100dp"
@@ -49,11 +33,11 @@
                 android:scaleType="fitCenter"/>
 
             <!--<ImageView-->
-                <!--android:layout_width="100dp"-->
-                <!--android:layout_height="100dp"-->
-                <!--android:src="@drawable/circle_crop"-->
-                <!--android:adjustViewBounds="true"-->
-                <!--android:scaleType="fitCenter" />-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:src="@drawable/circle_crop"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitCenter" />-->
         </FrameLayout>
 
         <LinearLayout

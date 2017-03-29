@@ -25,7 +25,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.example.ciyguide.ciyguide.MainScreen" >
+        <activity android:name="com.example.ciyguide.ciyguide.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -53,8 +53,9 @@
         <activity android:name="com.example.ciyguide.ciyguide.Settings" />
         <activity android:name="com.example.ciyguide.ciyguide.UserProfileActivity" />
         <activity android:name="com.example.ciyguide.ciyguide.Placeholder" />
-<<<<<<< HEAD
-        <activity android:name="com.example.ciyguide.ciyguide.MainActivity" />
+        <activity android:name="com.example.ciyguide.ciyguide.MainScreen" />
+        <activity android:name="com.example.ciyguide.ciyguide.RecipeList" />
+        <activity android:name="com.example.ciyguide.ciyguide.IngredientsList" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -74,8 +75,6 @@
             android:name="com.facebook.internal.FacebookInitProvider"
             android:authorities="com.example.ciyguide.ciyguide.FacebookInitProvider"
             android:exported="false" />
-=======
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
     </application>
 
 </manifest>

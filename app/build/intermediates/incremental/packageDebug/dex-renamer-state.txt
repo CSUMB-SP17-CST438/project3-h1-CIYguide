@@ -1,7 +1,4 @@
-#Mon Mar 27 20:19:26 PDT 2017
-base.0=C\:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e50d35c0cf6a178adcc6c6074ffb9f745f3450c9
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6f1e34da2dcd7912538b60b913c4f23b522f1cf4\\classes.dex
-base.1=C\:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6f1e34da2dcd7912538b60b913c4f23b522f1cf4
-file.0=C\:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e50d35c0cf6a178adcc6c6074ffb9f745f3450c9\\classes.dex
+#Tue Mar 28 19:44:09 PDT 2017
+base.0=/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

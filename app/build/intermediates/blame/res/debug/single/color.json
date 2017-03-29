@@ -1,228 +1,102 @@
 [
     {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-=======
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_spinner.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/color/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\switch_thumb_material_dark.xml"
-=======
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_default.xml"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_send_button_text_color.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\color\\com_facebook_send_button_text_color.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-=======
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
+        "source": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/color/com_facebook_button_text_color.xml"
     },
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\color\\com_facebook_button_text_color.xml"
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/com_facebook_send_button_text_color.xml",
+        "source": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/color/com_facebook_send_button_text_color.xml"
     },
     {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\765d240c68dc85b2797a55df7674a6c9c0ffc3b0\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_btn_checkable.xml"
-=======
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_switch_thumb.xml"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-=======
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_spinner.xml"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\765d240c68dc85b2797a55df7674a6c9c0ffc3b0\\output\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_switch_track.xml"
-=======
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_material_light.xml"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/color/common_plus_signin_btn_text_dark.xml"
     }
 ]

@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <!--THIS IS WHERE WE GET THE CIRCLE CROP FOR THE PROFILE PICTURE-->
+        <!--THIS IS WHERE WE GET THE CIRCLE CROP FOR THE PROFILE PICTURE-->
         <FrameLayout
             android:id="@+id/profilePicFrame"
             android:layout_width="100dp"
@@ -33,11 +33,11 @@
                 android:scaleType="fitCenter"/>
 
             <!--<ImageView-->
-                <!--android:layout_width="100dp"-->
-                <!--android:layout_height="100dp"-->
-                <!--android:src="@drawable/circle_crop"-->
-                <!--android:adjustViewBounds="true"-->
-                <!--android:scaleType="fitCenter" />-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:src="@drawable/circle_crop"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:scaleType="fitCenter" />-->
         </FrameLayout>
 
         <LinearLayout

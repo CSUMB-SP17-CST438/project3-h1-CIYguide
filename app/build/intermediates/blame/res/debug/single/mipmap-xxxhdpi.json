@@ -1,15 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\Lorenzo\\Desktop\\Testing\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-=======
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
->>>>>>> a59aafb5e0ba4ca06934226ed9824a912ec91886
+        "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

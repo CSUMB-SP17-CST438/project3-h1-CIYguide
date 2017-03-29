@@ -67,7 +67,7 @@ public class MainActivity extends FragmentActivity {
             }
         });
         if(isLoggedIn()){
-            Intent i = new Intent(MainActivity.this, UserProfileActivity.class);
+            Intent i = new Intent(MainActivity.this, MainScreen.class);
             startActivity(i);
         }
     }
@@ -83,7 +83,7 @@ public class MainActivity extends FragmentActivity {
         Toast.makeText(getApplicationContext(), email, Toast.LENGTH_LONG);
 
         if(isLoggedIn()){
-            Intent i = new Intent(MainActivity.this, UserProfileActivity.class);
+            Intent i = new Intent(MainActivity.this, MainScreen.class);
             startActivity(i);
         }
     }
