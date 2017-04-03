@@ -1,4 +1,4 @@
-#Mon Mar 27 23:41:47 PDT 2017
+#Tue Mar 28 18:23:46 PDT 2017
 file.9=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_f10a00157a106e6604d0eb0d5d5e7bd1fa376725/classes.dex
 base.10=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_98990116b53c30e84b22e15dd1f7fb5c9777c680
 file.8=/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da1c7e37a16e848cfb5a7e38e4158142d16bf40f/classes.dex

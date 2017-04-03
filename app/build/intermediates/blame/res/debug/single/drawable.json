@@ -1,63 +1,47 @@
 [
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_favicon_blue.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_favicon_blue.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
@@ -68,88 +52,76 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_background.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
         "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_send_background.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_login_background.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_blue_bg_selector.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/circle_crop.png",
         "source": "/home/macintosh/Desktop/project3-h1-CIYguide/app/src/main/res/drawable/circle_crop.png"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_login_logo.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
@@ -168,60 +140,24 @@
         "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_like_background.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
@@ -236,12 +172,8 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
@@ -252,60 +184,44 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_edit_text_material.xml"
     },
     {
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
         "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_login_background.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_white_bg_selector.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
@@ -316,22 +232,6 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
@@ -340,420 +240,8 @@
         "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_icon.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
         "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_icon.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/notification_bg_low.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_login_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_login_logo.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_crop.png",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable\\circle_crop.png"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/com_facebook_button_login_silver_background.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_white_bg_selector.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_crop.png",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable\\circle_crop.png"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/drawable/messenger_button_white_bg_round.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",

@@ -1,71 +1,51 @@
 [
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/com_facebook_send_button_text_color.xml",
+        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/color/com_facebook_send_button_text_color.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/color/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
         "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/color/com_facebook_button_text_color.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
@@ -84,24 +64,8 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/color/common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
@@ -112,44 +76,12 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
@@ -160,179 +92,11 @@
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
         "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_send_button_text_color.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\color\\com_facebook_send_button_text_color.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/com_facebook_send_button_text_color.xml",
-        "source": "/home/macintosh/.android/build-cache/d7e366a97ebb809df451e1d2d28f36ec4fc2f0eb/output/res/color/com_facebook_send_button_text_color.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/color/common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\com_facebook_button_text_color.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\306c40b47fbb48a2f580c9b557eb7ae9ec0e324b\\output\\res\\color\\com_facebook_button_text_color.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/home/macintosh/.android/build-cache/419f68e376e2dbf1b8d26a9ed32c6842237484e2/output/res/color/abc_search_url_text.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
-        "source": "/home/macintosh/.android/build-cache/994c3e7c41e30de5eab2b6333f5d7fbfa79957df/output/res/color/common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\c72ee3a50803a6d22138719b670e13ee765979b9\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jsagi\\.android\\build-cache\\d6ca87e22cdd19635eaa8b501ffaa8868dafb927\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\fe6402988002b27f0359f7fbcd830e1ec546aa86\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\25c6b5ba902b3ee75d01e7fed5cbc897424ac17d\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     }
 ]

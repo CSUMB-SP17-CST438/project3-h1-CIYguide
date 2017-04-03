@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\Lorenzo\\.android\\build-cache\\eca5e92e2ef35cc398142594f950f3219bb4d4a3\\output\\res\\values\\values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/home/macintosh/Desktop/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
@@ -36,30 +12,6 @@
                 },
                 "from": {
                     "file": "/home/macintosh/.android/build-cache/f18ea2bae6046c3bfd0f64cedc4a0ee6b942cc07/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\CIYGuide\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/home/macintosh/Desktop/project3-h1-CIYguide/C:\\Users\\jason\\.android\\build-cache\\59e94cc48f258d8afefe21533864204f29ac4aae\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

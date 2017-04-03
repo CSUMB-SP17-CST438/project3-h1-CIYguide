@@ -1,4 +1,10 @@
+https://www.programmableweb.com/category/grocery/api
+
 Walmart api for price search
+https://developer.walmartlabs.com/docs
+
 Nob Hill
+
 Target
+
 Albertsons
