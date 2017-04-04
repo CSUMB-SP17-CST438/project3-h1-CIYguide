@@ -33,11 +33,15 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         adapter = new ArrayAdapter<String>(SearchRecipeScreen.this, android.R.layout.simple_list_item_1,
                 searchphrases);
         searchlist.setAdapter(adapter);
+
         View addingredientButton = findViewById(R.id.add_button);
         addingredientButton.setOnClickListener(this);
 
         View resultingrecipesButton = findViewById(R.id.resulting_recipes_button);
         resultingrecipesButton.setOnClickListener(this);
+
+        View cameraButton = findViewById(R.id.camera_button);
+        cameraButton.setOnClickListener(this);
 
     }
 
@@ -54,6 +58,11 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         {
             Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
             startActivity(i);
+        }
+
+        else if(v.getId() == R.id.camera_button)
+        {
+
         }
     }
 }
