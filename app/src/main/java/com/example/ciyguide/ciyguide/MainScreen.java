@@ -6,15 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import static android.support.v7.appcompat.R.styleable.View;
-
 
 public class MainScreen extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_in_screen);
+        setContentView(R.layout.activity_main_screen);
 
         View searchrecipeButton = findViewById(R.id.search_recipes_button);
         searchrecipeButton.setOnClickListener(this);
