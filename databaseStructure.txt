@@ -1,0 +1,11 @@
+Table 1
+	uniqueID
+	name
+	username
+
+Table 2 
+	uniqueID - Foregin Key 
+	recipeName
+	ingredients # comma separated value
+
+
