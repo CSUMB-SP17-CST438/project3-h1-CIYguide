@@ -60,7 +60,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
         else if(v.getId() == R.id.resulting_recipes_button)
         {
-            Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
+            Intent i = new Intent(SearchRecipeScreen.this, SpoonacularAPI.class);
             startActivity(i);
         }
 
