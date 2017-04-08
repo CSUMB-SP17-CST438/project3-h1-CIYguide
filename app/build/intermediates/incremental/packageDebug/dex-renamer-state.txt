@@ -1,4 +1,7 @@
-#Tue Apr 04 14:44:04 PDT 2017
-base.0=C\:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sat Apr 08 16:11:33 PDT 2017
+base.0=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c9828e61da6079b1e04019f340aba61958fc6a8
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_39c727629fe97c6689679c6bcc6af3e602d1ea47\\classes.dex
+base.1=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_39c727629fe97c6689679c6bcc6af3e602d1ea47
+file.0=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c9828e61da6079b1e04019f340aba61958fc6a8\\classes.dex
