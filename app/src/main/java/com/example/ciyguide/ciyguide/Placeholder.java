@@ -7,6 +7,8 @@ import android.net.Uri;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.content.ContextCompat;
+import android.telephony.PhoneNumberFormattingTextWatcher;
+import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
 import android.os.Bundle;
 import android.view.Menu;
@@ -32,7 +34,7 @@ public class Placeholder extends AppCompatActivity {
     Uri.Builder builder = new Uri.Builder();
     String walmartAPIuri;
     String item;
-    private static final int MY_PERMISSIONS_REQUEST_SEND_SMS =0 ;
+    private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 111 ;
     Button sendBtn;
     EditText txtphoneNo;
     EditText txtMessage;
@@ -46,6 +48,7 @@ public class Placeholder extends AppCompatActivity {
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtphoneNo = (EditText) findViewById(R.id.editText);
+        txtphoneNo.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
         txtMessage = (EditText) findViewById(R.id.editText2);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
@@ -114,12 +117,16 @@ public class Placeholder extends AppCompatActivity {
                 != PackageManager.PERMISSION_GRANTED) {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.SEND_SMS)) {
+
             } else {
                 ActivityCompat.requestPermissions(this,
                         new String[]{Manifest.permission.SEND_SMS},
                         MY_PERMISSIONS_REQUEST_SEND_SMS);
             }
         }
+
+        txtMessage.setText("");
+        txtphoneNo.setText("");
     }
 
     @Override

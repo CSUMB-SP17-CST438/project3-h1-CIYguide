@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-54:12
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
@@ -21,16 +21,20 @@ uses-permission#android.permission.SEND_SMS
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:6:22-64
-provider#com.facebook.FacebookContentProvider
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:8:5-11:35
-	android:authorities
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:10:9-87
-	android:exported
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:11:9-32
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:7:5-74
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:9:9-60
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:7:22-72
+provider#com.facebook.FacebookContentProvider
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:9:5-12:35
+	android:authorities
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:11:9-87
+	android:exported
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:12:9-32
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:10:9-60
 application
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:13:5-52:19
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:14:5-53:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/MFlorek/.android/build-cache/3fc532e54ace8e1d372273662b3c163c353fdc0c/output/AndroidManifest.xml:9:5-20
@@ -47,98 +51,94 @@ MERGED from [com.android.support:animated-vector-drawable:25.0.0] /Users/MFlorek
 MERGED from [com.android.support:support-vector-drawable:25.0.0] /Users/MFlorek/.android/build-cache/105a55eca70ca9f04bafbf1901daf872fbfca5af/output/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:25.0.0] /Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:17:9-41
 	android:supportsRtl
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:17:9-35
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:18:9-35
 	android:allowBackup
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:9-43
 	android:theme
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:18:9-40
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:19:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:19:9-21:55
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:20:9-22:55
 	android:value
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:21:13-52
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:22:13-52
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:20:13-58
-activity#com.example.ciyguide.ciyguide.MainActivity
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:22:9-28:20
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:21:13-58
+activity#com.example.ciyguide.ciyguide.MainScreen
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:22:19-47
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:19-45
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:13-27:29
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:26:17-77
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:26:27-74
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.facebook.FacebookActivity
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:29:9-32:32
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:30:9-33:32
 MERGED from [com.facebook.android:facebook-android-sdk:4.21.1] /Users/MFlorek/.android/build-cache/9eedacfbda5286993ea59cb4e8e590edd27473a7/output/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:32:13-29
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:33:13-29
 	android:configChanges
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:31:13-96
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:32:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] /Users/MFlorek/.android/build-cache/9eedacfbda5286993ea59cb4e8e590edd27473a7/output/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:30:13-57
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:31:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:33:9-44:20
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:34:9-45:20
 	android:exported
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:35:13-36
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:36:13-36
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:34:13-58
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:35:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:36:13-43:29
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:37:13-44:29
 action#android.intent.action.VIEW
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:37:17-69
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:37:25-66
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:39:17-76
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:39:27-73
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:40:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:40:17-78
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:41:17-78
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:40:27-75
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:41:27-75
 data
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:42:17-75
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:43:17-75
 	android:scheme
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:42:23-72
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:43:23-72
 activity#com.example.ciyguide.ciyguide.SearchRecipeScreen
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:9-56
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:46:9-56
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:19-53
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:46:19-53
 activity#com.example.ciyguide.ciyguide.Settings
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:46:9-46
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:47:9-46
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:46:19-43
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:47:19-43
 activity#com.example.ciyguide.ciyguide.UserProfileActivity
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:47:9-57
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-57
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:47:19-54
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:19-54
 activity#com.example.ciyguide.ciyguide.Placeholder
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-49
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:9-49
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:19-46
-activity#com.example.ciyguide.ciyguide.MainScreen
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:9-57
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:19-45
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:19-46
 activity#com.example.ciyguide.ciyguide.RecipeList
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:50:9-48
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:51:9-48
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:50:19-45
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:51:19-45
 activity#com.example.ciyguide.ciyguide.IngredientsList
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:51:9-53
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:52:9-53
 	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:51:19-50
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:52:19-50
 uses-sdk
 INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:18:5-42

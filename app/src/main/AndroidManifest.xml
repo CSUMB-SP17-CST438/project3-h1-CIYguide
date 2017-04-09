@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
 
     <provider
         android:name="com.facebook.FacebookContentProvider"
@@ -19,7 +20,7 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,7 +47,7 @@
         <activity android:name=".Settings" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".Placeholder" />
-        <activity android:name=".MainScreen"></activity>
+        <!--<activity android:name=".MainScreen"></activity>-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
     </application>

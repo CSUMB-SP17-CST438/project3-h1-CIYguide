@@ -90,7 +90,6 @@ public class MainActivity extends FragmentActivity {
         if(isLoggedIn()){
             Intent i = new Intent(MainActivity.this, MainScreen.class);
             startActivity(i);
-            finish();
         }
     }
 

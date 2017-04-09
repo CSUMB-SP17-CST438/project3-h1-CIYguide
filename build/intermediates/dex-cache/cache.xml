@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5890c651eb783981254b5c900986a8355a3732df">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d80645317e023385ba2e3111fcfdd0439d41eef7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/64a618bb4f42f1b3f41b0ea48e35d09cc19cbadf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66323388c1603d183ebe0c98a46f10dd82be79f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/3fc532e54ace8e1d372273662b3c163c353fdc0c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7ee9d5b96c2a7eee725228ed9fb0ffcad9ddc74a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/b00999907b6e31d796927981769487ed8c5d0221/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_2eeb7f79680f50d8ed7e1bda0db321e8920f5144/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_ac36213a1efb6fdc2659caf040858edd5ef73701/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8cd050cc53588cffd3127737cb28dc7e63488d36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/2ec5e46c692df26c7d6bac9bac0961883477513f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c9d5868a7ae8891bbb2521aa457b215f323ea883/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/9eedacfbda5286993ea59cb4e8e590edd27473a7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a70160a70685ce25bda1c6e094c73676a399039">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c17275fca0870996ef5bbc03e948cc33baf9173e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/a625e3596ebdf8a64b3c01f506351c8c1bbc29a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2263dc9ac33bb9c0dde038ae78a7039773908c6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4986d713b6b729447934d0c455020be5ba333fca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_e7481786672058f75be683b1e3d45b4d1cde9402/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/5946594a1f66321212940ff6bfe8f6a9beca11c1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d056feab7bcb971c978da3716d23a6be664970ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_4a7d035ad61c871b561b920dac3525911fa46451/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c1a2c30b3e79aff18e1eeb57a7ad1614054db26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/3bc062a90109ba885637cb3d1e09266714cd37a5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ab29b6bce4a8833f925e90b3446e9bfef8dc2f85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf1e73fce829c06c31d828f9000c7addfcfaa008/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/57f8e2ffd334216c7f4eea3d2c6f7021c0564e7b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ab97a2c63488dd1fa8d7313009a83ddabfe4e074/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/77dd11f5b9f6e23589347cbf611e931d4bc7ba08/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73759018dee6cd718bc4b8b96cb86b88382fa741/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_948721eea233890d3cc7c3db8c129f3b30e3775c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5e5108b847fd17b06ef8c4fe963cec9fa6521deb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/105a55eca70ca9f04bafbf1901daf872fbfca5af/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac167c7babd6b017a5af5c2df65e8706fdc71ad6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4946dfe84a9bdb9c8c0274a83008e8a51eb81512/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_979157769b5cdf3f04911d7bed10e81ada883dce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/a625e3596ebdf8a64b3c01f506351c8c1bbc29a1/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_ff31fdd4e29f9ea0a8f204cd16a5af1583030aab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/64a618bb4f42f1b3f41b0ea48e35d09cc19cbadf/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_aababd9506bbab7c09fd49c3c87708e6b90a46de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/b00999907b6e31d796927981769487ed8c5d0221/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b29265977e6d890adfacadbae565dd6e5464d2c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/.android/build-cache/3bc062a90109ba885637cb3d1e09266714cd37a5/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_fb670d8b1664cc90877c8dc6c2f2855ff4972192/classes.dex" />
+    </item>
+
+</items>
