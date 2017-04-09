@@ -18,7 +18,7 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log_in_screen);
+        setContentView(R.layout.activity_main_screen);
 
         View searchrecipeButton = findViewById(R.id.search_recipes_button);
         searchrecipeButton.setOnClickListener(this);

@@ -2,6 +2,7 @@ package com.example.ciyguide.ciyguide;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -10,6 +11,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -24,6 +26,8 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ArrayList<String> searchphrases;
     ArrayAdapter<String> adapter;
 
+    private static final int ACTIVITY_START_CAMERA_APP = 23;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,11 +40,15 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         adapter = new ArrayAdapter<String>(SearchRecipeScreen.this, android.R.layout.simple_list_item_1,
                 searchphrases);
         searchlist.setAdapter(adapter);
+
         View addingredientButton = findViewById(R.id.add_button);
         addingredientButton.setOnClickListener(this);
 
         View resultingrecipesButton = findViewById(R.id.resulting_recipes_button);
         resultingrecipesButton.setOnClickListener(this);
+
+        View cameraButton = findViewById(R.id.camera_button);
+        cameraButton.setOnClickListener(this);
 
     }
 
@@ -57,6 +65,21 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         {
             Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
             startActivity(i);
+        }
+
+        else if(v.getId() == R.id.camera_button)
+        {
+            Intent i = new Intent();
+            i.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(i,ACTIVITY_START_CAMERA_APP);
+        }
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        if(requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK)
+        {
+            Toast.makeText(this, "Picture taken successfully", Toast.LENGTH_SHORT).show();
         }
     }
 
