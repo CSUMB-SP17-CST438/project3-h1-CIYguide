@@ -46,35 +46,40 @@
             android:orientation="horizontal"
             android:gravity="center_horizontal">
 
-            <ViewSwitcher
-                android:id="@+id/editableUserName"
+            <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:hint="USER NAME"
-                    android:textSize="30dp"
-                    android:id="@+id/userTextView"/>
-                <EditText
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:textSize="30dp"
-                    android:maxLength="16"
-                    android:inputType="text"
-                    android:hint="@string/userPlaceholder"
-                    android:id="@+id/userEditText"/>
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/userTextView"/>
+            <!-- REMOVED FOR NOW. KEPT FOR REFERENCE -->
+            <!--<ViewSwitcher-->
+                <!--android:id="@+id/editableUserName"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="30dp"-->
+                    <!--android:id="@+id/userTextView"/>-->
+                <!--<EditText-->
+                    <!--android:layout_width="180dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textSize="30dp"-->
+                    <!--android:hint="User name"-->
+                    <!--android:maxLength="16"-->
+                    <!--android:inputType="text"-->
+                    <!--android:id="@+id/userEditText"/>-->
 
-            </ViewSwitcher>
+            <!--</ViewSwitcher>-->
 
-            <Button
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:background="@drawable/pencil"
-                android:clickable="true"
-                android:onClick="editableUserName"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"/>
+            <!--<Button-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:clickable="false"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitCenter"/>-->
+            <!--android:background="@drawable/pencil"-->
+            <!--android:onClick="editableUserName"/>-->
         </LinearLayout>
 
         <Button
@@ -110,9 +115,9 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="@string/settings"
-            android:id="@+id/settings"
-            android:onClick="settingScreen"
+            android:text="@string/Logout"
+            android:id="@+id/logout"
+            android:onClick="LogOut"
             android:layout_gravity="center_horizontal"
             android:layout_above="@+id/savedRecipes"
             android:layout_below="@+id/myFridge"/>

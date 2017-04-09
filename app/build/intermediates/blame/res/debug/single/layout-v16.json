@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v16/notification_template_custom_big.xml"
     }

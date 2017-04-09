@@ -32,12 +32,13 @@
         android:layout_width="match_parent"
         android:layout_height="12dp" />
 
-    <Button
-        android:id="@+id/user_profile_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/user_profile" />
+    <!--Removed due to Redundancy-->
+    <!--<Button-->
+        <!--android:id="@+id/user_profile_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/user_profile" />-->
 
     <Space
         android:layout_width="match_parent"

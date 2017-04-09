@@ -3,6 +3,9 @@ package com.example.ciyguide.ciyguide;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -54,6 +57,32 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         {
             Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
             startActivity(i);
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.Account:
+                Intent i = new Intent(SearchRecipeScreen.this, UserProfileActivity.class);
+                startActivity(i);
+                return true;
+
+            case R.id.LogOutSub:
+                MainActivity.LoggingOut();
+                startActivity(new Intent(SearchRecipeScreen.this, MainActivity.class));
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+
         }
     }
 }

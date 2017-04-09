@@ -18,6 +18,7 @@ import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+import org.w3c.dom.Text;
 
 /**
  * Created by Marilyn Florek, 3/23/2017
@@ -26,6 +27,8 @@ import com.google.android.gms.common.api.GoogleApiClient;
 public class UserProfileActivity extends AppCompatActivity {
 
     private GoogleApiClient client;
+    TextView myText;
+    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,21 +41,24 @@ public class UserProfileActivity extends AppCompatActivity {
         Button settingsButton = (Button) findViewById(R.id.settings);
 
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-
+        MainActivity name = new MainActivity();
+        myText = (TextView) findViewById(R.id.userTextView);
+        myText.setText(name.name);
     }
 
     @Override
     public void onResume() {
         super.onResume();
+
     }
 
-    public void editableUserName(View view) {
-        ViewSwitcher switcher = (ViewSwitcher) findViewById(R.id.editableUserName);
-        switcher.showNext();
-        TextView myText = (TextView) switcher.findViewById(R.id.userTextView);
-        EditText myNewText = (EditText) switcher.findViewById(R.id.userEditText);
-        myText.setText(myNewText.getText());
-    }
+//    public void editableUserName(View view) {
+//        ViewSwitcher switcher = (ViewSwitcher) findViewById(R.id.editableUserName);
+//        switcher.showNext();
+//        myText = (TextView) switcher.findViewById(R.id.userTextView);
+//        EditText myNewText = (EditText) switcher.findViewById(R.id.userEditText);
+//        myText.setText(myNewText.getText());
+//    }
 
     public void myFridge(View view) {
         startActivity(new Intent(UserProfileActivity.this, IngredientsList.class));
@@ -66,8 +72,9 @@ public class UserProfileActivity extends AppCompatActivity {
         startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
     }
 
-    public void settingScreen(View view) {
-        startActivity(new Intent(UserProfileActivity.this, Settings.class));
+    public void LogOut(View view) {
+        MainActivity.LoggingOut();
+        startActivity(new Intent(UserProfileActivity.this, MainActivity.class));
     }
 
     @Override
