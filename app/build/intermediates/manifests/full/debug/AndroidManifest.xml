@@ -11,12 +11,14 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <provider
         android:name="com.facebook.FacebookContentProvider"
         android:authorities="com.facebook.app.FacebookContentProvider1865569750367993"
         android:exported="true" />
 
+    <!-- Logo design created by Marilyn Florek -->
     <application
         android:allowBackup="true"
         android:icon="@drawable/ciyguidelogo"
@@ -27,7 +29,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.example.ciyguide.ciyguide.MainActivity" >
+        <activity android:name="com.example.ciyguide.ciyguide.MainScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -55,7 +57,7 @@
         <activity android:name="com.example.ciyguide.ciyguide.Settings" />
         <activity android:name="com.example.ciyguide.ciyguide.UserProfileActivity" />
         <activity android:name="com.example.ciyguide.ciyguide.Placeholder" />
-        <activity android:name="com.example.ciyguide.ciyguide.MainScreen" />
+        <!-- <activity android:name=".MainScreen"/> -->
         <activity android:name="com.example.ciyguide.ciyguide.RecipeList" />
         <activity android:name="com.example.ciyguide.ciyguide.IngredientsList" />
 

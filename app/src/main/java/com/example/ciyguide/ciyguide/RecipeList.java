@@ -10,11 +10,15 @@ import android.view.View;
 import android.widget.Button;
 import android.view.View.OnClickListener;
 
+import java.util.ArrayList;
+
 /**
  * Created by jsagi on 3/27/2017.
  */
 
 public class RecipeList extends AppCompatActivity implements View.OnClickListener{
+
+    ArrayList<String> searchphrases; //Added by MFlorek
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +26,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
         View recipeSelector = findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
+        Intent i = getIntent();
+        searchphrases = i.getStringArrayListExtra("searchphrases"); //Added by MFlorek
 
     }
     public void onResume(){
@@ -33,6 +39,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         if(v.getId() == R.id.recipe_list_button)
         {
             Intent i = new Intent(RecipeList.this, Placeholder.class);
+            i.putStringArrayListExtra("searchphrases", searchphrases);
             startActivity(i);
         }
         else

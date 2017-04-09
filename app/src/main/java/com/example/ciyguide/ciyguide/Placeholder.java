@@ -17,6 +17,8 @@ import android.view.MenuItem;
 import android.view.View;
 import org.json.JSONObject;
 import java.lang.String;
+import java.util.ArrayList;
+
 import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,7 +27,7 @@ import android.Manifest;
 
 /*
     created by Marilyn Florek, 3/22/2017
-    This is just a placeholder screen, and should be deleted when everything gets connected
+    This is just a placeholder screen for the Single Recipe
 */
 
 public class Placeholder extends AppCompatActivity {
@@ -40,6 +42,8 @@ public class Placeholder extends AppCompatActivity {
     EditText txtMessage;
     String phoneNo;
     String message;
+    ArrayList<String> searchphrases;
+    String messageTest = "Grocery List: ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +54,23 @@ public class Placeholder extends AppCompatActivity {
         txtphoneNo = (EditText) findViewById(R.id.editText);
         txtphoneNo.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
         txtMessage = (EditText) findViewById(R.id.editText2);
+
+        Intent i = getIntent();
+        searchphrases = i.getStringArrayListExtra("searchphrases");
+        int num =1;
+
+        //This is where it will take the data from the items the user input and will place it
+        //into a string to send via SMS
+        for(String s : searchphrases) {
+            if(num++ == searchphrases.size())
+            {
+                messageTest += s + ". ";
+            }
+            else {
+                messageTest += s + ", ";
+            }
+        }
+        txtMessage.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

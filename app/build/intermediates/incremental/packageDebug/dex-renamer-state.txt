@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-#Sun Apr 09 01:43:32 PDT 2017
-base.0=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sun Apr 09 12:29:01 PDT 2017
+base.0=/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5343c658a85b3394dd8d0c0e9b68167fa8b2eee3
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
-=======
-#Tue Apr 04 14:44:04 PDT 2017
-base.0=C\:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
->>>>>>> e5e186e9c41e71ffd3c2619bf45ef0a5ef17ac00
+file.1=/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2ae18610ed8e5ff43d7cb67c5f8242ef3b449ec3/classes.dex
+base.1=/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2ae18610ed8e5ff43d7cb67c5f8242ef3b449ec3
+file.0=/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5343c658a85b3394dd8d0c0e9b68167fa8b2eee3/classes.dex
