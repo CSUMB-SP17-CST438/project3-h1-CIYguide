@@ -344,6 +344,14 @@
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/ciyguide.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable/ciyguide.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/ciyguidelogo.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable/ciyguidelogo.png"
+    },
+    {
         "merged": "/Users/MFlorek/Desktop/CST_438/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/drawable/abc_ic_search_api_material.xml"
     },
