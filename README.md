@@ -2,11 +2,11 @@
 ### What does your app do?
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
 ### Who worked on it?
-1. Honorio worked on
-2. Marilyn worked on 
-3. Lorenzo worked on 
-4. Jason Sagisi worked on 
-5. Jason Ferrer worked on the Main Screen as well as the Main Search Screen of the application.
+1. Honorio worked on setting up the basis of the database we will use for the app as well as the landing page of the project presentation.
+2. Marilyn worked on the integration of the SMS API and modified the different screens to be more aesthetically pleasing.
+3. Lorenzo worked on the Facebook functions such as the login and logout as well as integrating the data from Facebook into the app.
+4. Jason Sagisi worked on integrating the Recipe API in order to choose the recipes for the app.
+5. Jason Ferrer worked on the the camera capture API as well as just getting the camera to connect to the application.
 
 
 ### What were you able to complete for this handin?

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\profile_pic.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\profile_pic.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
@@ -8,8 +12,20 @@
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_normal.9.png",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
@@ -20,24 +36,16 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\pencil.png",
@@ -48,16 +56,8 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_black_24dp.png",
         "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\profile_pic.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\profile_pic.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png",
@@ -68,6 +68,10 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home.png",
         "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
     },
@@ -76,24 +80,16 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
@@ -104,36 +100,36 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_black_24dp.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle_black_24dp.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
@@ -144,48 +140,60 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_black_24dp.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_black_24dp.png"
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\camera_image.png",
+        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\camera_image.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_full_open_on_phone.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_black_24dp.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\pencil.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\pencil.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\profile_pic.png",
@@ -194,14 +202,6 @@
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png",
@@ -220,28 +220,40 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_bookmark_border_black_24dp.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bookmark_border_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\pencil.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\pencil.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
@@ -252,8 +264,16 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\home.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_black_24dp.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_account_circle_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_light_focused.9.png",
@@ -264,28 +284,20 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_bookmark_border_black_24dp.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_bookmark_border_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
@@ -296,6 +308,10 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_black_24dp.png",
         "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxhdpi\\ic_settings_black_24dp.png"
     },
@@ -304,19 +320,7 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\56164a300178da741cd1c68951c29ec959a92f82\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     }
 ]
