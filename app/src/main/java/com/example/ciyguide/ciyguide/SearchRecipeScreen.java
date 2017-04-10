@@ -50,6 +50,9 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         View resultingrecipesButton = findViewById(R.id.resulting_recipes_button);
         resultingrecipesButton.setOnClickListener(this);
 
+        View cameraButton = findViewById(R.id.camera_button);
+        cameraButton.setOnClickListener(this);
+
         searchterm.setOnKeyListener(this);
     }
 
@@ -72,6 +75,11 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             i.putStringArrayListExtra("searchphrases", searchphrases);
 //            Intent i = new Intent(SearchRecipeScreen.this, SpoonacularAPI.class);
             startActivity(i);
+        }
+
+        else if(v.getId() == R.id.camera_button)
+        {
+
         }
     }
 
