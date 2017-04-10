@@ -46,6 +46,7 @@
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".Placeholder" />
         <activity android:name=".MainScreen"></activity>
+        <activity android:name=".SpoonacularAPI" />
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
     </application>
