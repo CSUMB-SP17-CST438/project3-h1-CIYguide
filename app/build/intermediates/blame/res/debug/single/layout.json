@@ -60,12 +60,12 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\16f21118b894905f1fcad5ee8f708b66899d392c\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\16f21118b894905f1fcad5ee8f708b66899d392c\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\16f21118b894905f1fcad5ee8f708b66899d392c\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\16f21118b894905f1fcad5ee8f708b66899d392c\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
@@ -101,7 +101,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\com_facebook_activity_layout.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -112,20 +112,20 @@
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\com_facebook_login_fragment.xml"
+        "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -136,12 +136,12 @@
         "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_user_profile.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\16f21118b894905f1fcad5ee8f708b66899d392c\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\02d6c0a0af5354910dcd4c9f502a4b84319870b7\\output\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\16f21118b894905f1fcad5ee8f708b66899d392c\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
@@ -149,7 +149,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\messenger_button_send_white_large.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
@@ -169,7 +169,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -233,7 +233,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
@@ -269,7 +269,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ingredients_list.xml",
@@ -313,7 +313,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
@@ -333,7 +333,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
@@ -361,7 +361,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recipe_list.xml",
@@ -405,7 +405,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\messenger_button_send_white_small.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -477,7 +477,7 @@
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\179fa962bb4c1382a852fd529d72af08e8b1fb11\\output\\res\\layout\\messenger_button_send_white_round.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\\output\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\Desktop\\CST_438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
