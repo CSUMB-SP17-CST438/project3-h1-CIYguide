@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 public class RecipeList extends AppCompatActivity implements View.OnClickListener{
 
-    ArrayList<String> searchphrases; //Added by MFlorek
+    ArrayList<String> searchphrases=null; //Added by MFlorek
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +27,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         View recipeSelector = findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
         Intent i = getIntent();
+    try{
         searchphrases = i.getStringArrayListExtra("searchphrases"); //Added by MFlorek
+    } catch(Exception e){}
 
     }
     public void onResume(){
@@ -39,7 +41,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         if(v.getId() == R.id.recipe_list_button)
         {
             Intent i = new Intent(RecipeList.this, Placeholder.class);
-            i.putStringArrayListExtra("searchphrases", searchphrases);
+            try {
+                i.putStringArrayListExtra("searchphrases", searchphrases);
+            } catch(Exception e){}
             startActivity(i);
         }
         else

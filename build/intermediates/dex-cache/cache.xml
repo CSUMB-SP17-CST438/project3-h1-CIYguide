@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/MFlorek/.android/build-cache/96ebf9e429b5784af6fd2db3daa481ef417d27cf/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="44400b4a5da63bd9493d274dd2671d6f660f281a">
-        <dex dex="/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2ae18610ed8e5ff43d7cb67c5f8242ef3b449ec3/classes.dex" />
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_85ccdfd4fce6c0488572da1facf0d60b6ae9d3b4/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="472f1717c100b32991b4be8e01f46b66ca172936">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d80645317e023385ba2e3111fcfdd0439d41eef7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/MFlorek/Desktop/project3/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5343c658a85b3394dd8d0c0e9b68167fa8b2eee3/classes.dex" />
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_979157769b5cdf3f04911d7bed10e81ada883dce/classes.dex" />
     </item>
 
 </items>

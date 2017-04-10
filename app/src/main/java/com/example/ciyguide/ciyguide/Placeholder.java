@@ -2,13 +2,15 @@ package com.example.ciyguide.ciyguide;
 
 //source: https://www.tutorialspoint.com/android/android_json_parser.htm
 
+import android.app.Activity;
 import android.content.pm.PackageManager;
+import android.database.Cursor;
 import android.net.Uri;
+import android.provider.ContactsContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.content.ContextCompat;
 import android.telephony.PhoneNumberFormattingTextWatcher;
-import android.telephony.PhoneNumberUtils;
 import android.telephony.SmsManager;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,7 +26,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.Manifest;
-
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
@@ -44,6 +45,8 @@ public class Placeholder extends AppCompatActivity {
     String message;
     ArrayList<String> searchphrases;
     String messageTest = "Grocery List: ";
+    final int PICK_CONTACT=1;
+    Cursor cursor1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +59,9 @@ public class Placeholder extends AppCompatActivity {
         txtMessage = (EditText) findViewById(R.id.editText2);
 
         Intent i = getIntent();
-        searchphrases = i.getStringArrayListExtra("searchphrases");
+        try {
+            searchphrases = i.getStringArrayListExtra("searchphrases");
+        } catch(Exception e){}
         int num =1;
 
         //This is where it will take the data from the items the user input and will place it
@@ -74,10 +79,42 @@ public class Placeholder extends AppCompatActivity {
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+                Toast.makeText(Placeholder.this, "Picking a contact", Toast.LENGTH_SHORT).show();
+                startActivityForResult(intent, PICK_CONTACT);
+
                 sendSMSMessage();
             }
         });
     }
+
+    @Override
+    public void onActivityResult(int reqCode, int resultCode, Intent data) {
+        super.onActivityResult(reqCode, resultCode, data);
+        String number = "none";
+        Toast.makeText(this, "0", Toast.LENGTH_SHORT).show();
+
+        switch (reqCode) {
+            case (PICK_CONTACT) :
+                if (resultCode == Activity.RESULT_OK) {
+                    Uri contactData = data.getData();
+                    Cursor c =  getContentResolver().query(contactData, null, null, null, null);
+                    String id = c.getString(
+                            c.getColumnIndex(ContactsContract.Contacts._ID));
+                    Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
+                    if (c.moveToFirst()) {
+                        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
+
+                        String name=c.getString(c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+
+                        Toast.makeText(this, number +" - "+ name, Toast.LENGTH_SHORT).show();
+                    }
+                }
+                break;
+        }
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
