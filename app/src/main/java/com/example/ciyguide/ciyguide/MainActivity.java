@@ -2,6 +2,7 @@ package com.example.ciyguide.ciyguide;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -27,7 +28,10 @@ import java.util.Arrays;
 
 public class MainActivity extends FragmentActivity {
 
+    public static final String prefs = "MyPrefs";
+    public static final String userID = "userId";
     CallbackManager cbManager;
+    SharedPreferences pref;
     String email;
 
     @Override
@@ -66,10 +70,10 @@ public class MainActivity extends FragmentActivity {
 
             }
         });
-        if(isLoggedIn()){
-            Intent i = new Intent(MainActivity.this, MainScreen.class);
-            startActivity(i);
-        }
+//        if(isLoggedIn()){
+//            Intent i = new Intent(MainActivity.this, MainScreen.class);
+//            startActivity(i);
+//        }
     }
 
     @Override
@@ -82,10 +86,10 @@ public class MainActivity extends FragmentActivity {
         super.onResume();
         Toast.makeText(getApplicationContext(), email, Toast.LENGTH_LONG);
 
-        if(isLoggedIn()){
-            Intent i = new Intent(MainActivity.this, MainScreen.class);
-            startActivity(i);
-        }
+//        if(isLoggedIn()){
+//            Intent i = new Intent(MainActivity.this, MainScreen.class);
+//            startActivity(i);
+//        }
     }
 
     public boolean isLoggedIn(){

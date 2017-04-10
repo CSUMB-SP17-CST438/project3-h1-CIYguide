@@ -1,4 +1,4 @@
-#Sat Apr 08 16:11:31 PDT 2017
+#Sun Apr 09 15:33:46 PDT 2017
 file.9=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\bolts-applinks-1.4.0_f18767866f34938a6e3866e266eff463eecf4d59\\classes.dex
 base.10=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a58569d29c988e3f0d324c35e942aa8d4707b202
 file.8=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_cae859e43d72ea32e91ee96da8f4bc5c2ecbe938\\classes.dex
