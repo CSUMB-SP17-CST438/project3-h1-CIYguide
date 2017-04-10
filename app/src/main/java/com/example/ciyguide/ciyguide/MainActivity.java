@@ -64,8 +64,6 @@ public class MainActivity extends FragmentActivity {
                         }
                 );
 
-
-
                 Bundle parameters = new Bundle();
                 parameters.putString("fields", "id,name,email,gender,birthday");
                 request.setParameters(parameters);
@@ -111,7 +109,7 @@ public class MainActivity extends FragmentActivity {
         }
     }
 
-    public static boolean isLoggedIn() {
+    public boolean isLoggedIn() {
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
         return accessToken != null;
     }

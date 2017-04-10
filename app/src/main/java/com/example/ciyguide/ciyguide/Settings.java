@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
+import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -30,78 +31,37 @@ import org.json.JSONObject;
 
 import java.util.Arrays;
 
-import com.example.ciyguide.ciyguide.MainActivity;
 
 /**
  * Created by Marilyn Florek, 3/23/2017
  */
  
-public class Settings extends AppCompatActivity {
-
-    CallbackManager cbManager;
+public class Settings extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        cbManager = CallbackManager.Factory.create();
-        LoginButton login = (LoginButton) findViewById(R.id.login_button);
-        login.setReadPermissions(Arrays.asList("public_profile", "email", "user_birthday"));
-        LoginManager.getInstance().registerCallback(cbManager, new FacebookCallback<LoginResult>() {
-            @Override
-            public void onSuccess(LoginResult loginResult) {
-                GraphRequest request = GraphRequest.newMeRequest(
-                        loginResult.getAccessToken(),
-                        new GraphRequest.GraphJSONObjectCallback(){
-                            @Override
-                            public void onCompleted(JSONObject object, GraphResponse response){
-                                Log.d("SHOW ME THE MONEY", response.toString());
-                                try{
-                                    Log.d("value", response.getJSONObject().get("id").toString());
-                                }catch(Exception e)
-                                {
-                                    Log.d("Json object err", "can't access it this way");
-                                    Log.d("What you have", response.getJSONObject().toString());
-                                }
-                            }
-                        }
-                );
+        setContentView(R.layout.activity_settings);
 
+        View LogOut = findViewById(R.id.logOut);
+        LogOut.setOnClickListener(this);
+    }
 
-
-                Bundle parameters = new Bundle();
-                parameters.putString("fields", "id,name,email,gender,birthday");
-                request.setParameters(parameters);
-                request.executeAsync();
-            }
-
-            @Override
-            public void onCancel() {
-
-            }
-
-            @Override
-            public void onError(FacebookException error) {
-
-            }
-        });
-        if(!MainActivity.isLoggedIn()){
+    @Override
+    public void onClick(View v){
+        if(v.getId() == R.id.logOut)
+        {
             LogOut();
-            SharedPreferences pref = getSharedPreferences(MainActivity.prefs, Context.MODE_PRIVATE);
-            Log.d("Is it gone", pref.getString("userId", ""));
+            LoginManager.getInstance().logOut();
+            Intent i = new Intent(Settings.this, MainActivity.class);
+            startActivity(i);
         }
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        if(!MainActivity.isLoggedIn()){
-            LogOut();
-            SharedPreferences pref = getSharedPreferences(MainActivity.prefs, Context.MODE_PRIVATE);
-            Log.d("Is it gone", pref.getString("userId", ""));
-        }
     }
-
 
     public void LogOut(){
         SharedPreferences pref = getSharedPreferences(MainActivity.prefs, Context.MODE_PRIVATE);
