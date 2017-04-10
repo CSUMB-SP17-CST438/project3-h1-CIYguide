@@ -6,22 +6,22 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1491793249165"
+    timestamp="1491801779287"
     token="-7100994311714587707"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="236" />
+        duration="283" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="26" />
+        duration="35" />
     <task
         name="verifier"
-        duration="3" />
+        duration="6" />
 
     <artifact
         location="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491792553947"
+        timestamp="1491798465201"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
@@ -78,13 +78,18 @@
         <artifact
             location="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491801677211"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491793249165"
+        timestamp="1491801779287"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\split-apk\debug\slices\slice_5.apk"

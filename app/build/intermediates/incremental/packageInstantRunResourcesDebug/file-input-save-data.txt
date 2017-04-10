@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Apr 09 19:49:22 PDT 2017
+#Sun Apr 09 22:21:18 PDT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\activity_settings.xml
 14.set=ANDROID_RESOURCE
