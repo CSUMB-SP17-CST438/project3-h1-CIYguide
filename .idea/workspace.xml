@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7354c23-5b12-48d7-a612-2dcb3180e948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/camera_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/camera_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/camera_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/camera_image.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_recipe_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search_recipe_screen.xml" />
     </list>
     <ignored path="project3-h1-CIYguide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,10 +85,10 @@
       <file leaf-file-name="activity_search_recipe_screen.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_recipe_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="436">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
-                <element signature="e#950#977#0" expanded="true" />
+                <element signature="e#979#1006#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2890,10 +2887,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search_recipe_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="436">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
-            <element signature="e#950#977#0" expanded="true" />
+            <element signature="e#979#1006#0" expanded="true" />
           </folding>
         </state>
       </provider>
