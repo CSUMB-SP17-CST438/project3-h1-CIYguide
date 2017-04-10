@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+=======
+        "outputFile": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+>>>>>>> 30ecb7a02ad3544329745feeeabf45eebb699cd5
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 99
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-v18/values-v18.xml",
+=======
+                    "file": "C:\\Users\\jsagi\\.android\\build-cache\\65604acfcb93394c443d6318cf2e6fd715dd562e\\output\\res\\values-v18\\values-v18.xml",
+>>>>>>> 30ecb7a02ad3544329745feeeabf45eebb699cd5
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -610,9 +610,15 @@
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<<<<<<< HEAD
         <item name="android:actionBarStyle">@style/CustomActionBar</item>
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorAccent</item>
+=======
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+>>>>>>> 30ecb7a02ad3544329745feeeabf45eebb699cd5
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="android:textColorPrimaryInverse">@color/black</item>
