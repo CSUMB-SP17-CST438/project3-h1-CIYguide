@@ -1,4 +1,4 @@
-#Sun Apr 09 21:27:49 PDT 2017
+#Sun Apr 09 22:27:05 PDT 2017
 base.0=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
 renamed.0=classes.dex
 file.0=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

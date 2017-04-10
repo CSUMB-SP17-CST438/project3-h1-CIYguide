@@ -45,9 +45,6 @@ import java.net.URL;
 public class UserProfileActivity extends AppCompatActivity {
 
     private GoogleApiClient client;
-    Bitmap bitmap;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,26 +53,14 @@ public class UserProfileActivity extends AppCompatActivity {
 
         Profile pro = Profile.getCurrentProfile();
 
-//        try {
-//            URL picLocation = new URL(pro.getProfilePictureUri(100, 100).toString());
-//            HttpURLConnection picConn = (HttpURLConnection)picLocation.openConnection();
-//            picConn.setDoInput(true);
-//            picConn.connect();
-//            InputStream in = picConn.getInputStream();
-//            InputStream in = (InputStream) new URL(pro.getProfilePictureUri(100, 100).toString()).getContent();
-//            bitmap = BitmapFactory.decodeStream(in);
-//        }catch (IOException e){
-//            Log.d("Error URI", "URI could not be decoded.  Bitmap not found" + e.getMessage());
-//        }
-
         Button fridge = (Button) findViewById(R.id.myFridge);
         Button mine = (Button) findViewById(R.id.myRecipes);
         Button saved = (Button) findViewById(R.id.savedRecipes);
         Button settingsButton = (Button) findViewById(R.id.settings);
+        TextView userName = (TextView) findViewById(R.id.userTextView);
         ProfilePictureView proPic = (ProfilePictureView)findViewById(R.id.profilePicture);
         proPic.setProfileId(pro.getId());
-
-
+        userName.setText(pro.getFirstName() + " " + pro.getLastName());
 
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 
@@ -86,13 +71,6 @@ public class UserProfileActivity extends AppCompatActivity {
         super.onResume();
     }
 
-    public void editableUserName(View view) {
-        ViewSwitcher switcher = (ViewSwitcher) findViewById(R.id.editableUserName);
-        switcher.showNext();
-        TextView myText = (TextView) switcher.findViewById(R.id.userTextView);
-        EditText myNewText = (EditText) switcher.findViewById(R.id.userEditText);
-        myText.setText(myNewText.getText());
-    }
 
     public void myFridge(View view) {
         startActivity(new Intent(UserProfileActivity.this, IngredientsList.class));
