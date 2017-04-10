@@ -1,9 +1,15 @@
 package com.example.ciyguide.ciyguide;
 
 
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 
 
@@ -12,22 +18,45 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_screen);
+        setContentView(R.layout.activity_log_in_screen);
 
         View searchrecipeButton = findViewById(R.id.search_recipes_button);
         searchrecipeButton.setOnClickListener(this);
 
-        View userprofileButton = findViewById(R.id.user_profile_button);
-        userprofileButton.setOnClickListener(this);
+//        View userprofileButton = findViewById(R.id.user_profile_button);
+//        userprofileButton.setOnClickListener(this);
 
         View previoussearchesButton = findViewById(R.id.previous_searches_button);
         previoussearchesButton.setOnClickListener(this);
 
         View surprisemeButton = findViewById(R.id.surprise_me_button);
         surprisemeButton.setOnClickListener(this);
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, menu);
+        return true;
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.Account:
+                Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
+                startActivity(i);
+                return true;
 
+            case R.id.LogOutSub:
+                MainActivity.LoggingOut();
+                startActivity(new Intent(MainScreen.this, MainActivity.class));
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
     }
 
     public void onClick(View v) {
@@ -37,11 +66,11 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
             startActivity(i);
         }
 
-        else if(v.getId() == R.id.user_profile_button)
-        {
-            Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
-            startActivity(i);
-        }
+//        else if(v.getId() == R.id.user_profile_button)
+//        {
+//            Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
+//            startActivity(i);
+//        }
 
         else if(v.getId() == R.id.previous_searches_button)
         {
@@ -54,6 +83,9 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
 
         }
     }
+
+    @Override
+    public void onResume(){super.onResume();}
 }
 
 

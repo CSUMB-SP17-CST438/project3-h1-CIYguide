@@ -11,12 +11,11 @@
     <string name="add_content">Add</string>
     <string name="ingredients_list">Ingredients</string>
     <string name="find_recipes">Find Recipes</string>
-    <string name="camera">Camera</string>
 
     <string name="myFridge">My Fridge</string>
     <string name="myRecipes">My Recipes</string>
     <string name="savedRecipes">Saved Recipes</string>
-    <string name="settings">Settings</string>
+    <string name="Logout">Logout</string>
     <string name="userPlaceholder">Username</string>
 
     <!-- Facebook strings -->

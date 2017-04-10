@@ -3,15 +3,19 @@
     package="com.example.ciyguide.ciyguide">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <provider
         android:name="com.facebook.FacebookContentProvider"
         android:authorities="com.facebook.app.FacebookContentProvider1865569750367993"
         android:exported="true" />
 
+    <!--Logo design created by Marilyn Florek-->
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ciyguidelogo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -28,7 +32,7 @@
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:label="@string/app_name" />
+            android:label="" />
         <activity
             android:name="com.facebook.CustomTabActivity"
             android:exported="true">
@@ -45,8 +49,8 @@
         <activity android:name=".Settings" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".Placeholder" />
-        <activity android:name=".MainScreen"></activity>
-        <activity android:name=".SpoonacularAPI" />
+        <activity android:name=".MainScreen"/>
+        <!--<activity android:name=".SpoonacularAPI" />-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
     </application>

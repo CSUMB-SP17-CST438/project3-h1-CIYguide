@@ -28,6 +28,11 @@
         android:id="@+id/search_text_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textCursorDrawable="@null"
+        android:inputType="text"
         android:hint="@string/insert_ingredient"/>
 
     <Button
@@ -38,22 +43,11 @@
         android:text="@string/add_content"
         />
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="12dp" />
-
-    <Button
-        android:id="@+id/camera_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/camera" />
-
     <TextView
         android:textSize="24sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="12dp"
+        android:paddingTop="24dp"
         android:gravity="start"
         android:text="@string/ingredients_list"
         />
