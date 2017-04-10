@@ -12,12 +12,13 @@ Our app allows users to search for recipes using their current ingredients. It w
 
 ### What were you able to complete for this handin?
 We were able to accomplish the following:
-  -We have most of the screens created in order to make the app.
 Our app is now fully connected and can run through some of the stories we created in the project proposal. You can now log in to Facebook and see that the user profile reflects the identity of the user. You can now enter by text, a list of ingredients in order to search for recipes using the Spoonacular API. You can now also send said recipe as well as missing ingredients needed to a potential grocer using the SMS API. We have also set the foundations for the camera recognition API that is scheduled to be completed by the 3rd handin as well as designed the tables we will be using for our database.
+
 ### What are known problems, if any, with your project?
 Known problems are:
-  -It needs work until all the screens are connected to one another.
-  -The camera screen still needs to be programmed.
-  -We still need to get a better handle on using github as we haven't utilized much branching.
+  -We still need to create the database and use the information in them to fill in the screens that use them such as the My fridge and My Recipes screens.
+  -It still needs to be styled more with customized aesthetics instead of using the default android style.
+  -The camera recognition still needs to be done though it is scheduled to be completed in the 3rd handin.
+
 ### How would you improve it if you had more time?
-If we had more time we would have definitely integrated the screens better to each other. We would have also experimented with branching our project and merging our codes with one another. Additionally we would have programmed the camera screen as well. And maybe even styled the screens better than they currently are.
+If we had more time we would have definitely created the database and filled out the screens that uses them as earlier explained. We would also have added more uniqueness to the style of the overall application, though the logo we have now is definitely a nice touch. And if we could have, we would have liked to have worked ahead and finish the camera recognition feature of the app.
