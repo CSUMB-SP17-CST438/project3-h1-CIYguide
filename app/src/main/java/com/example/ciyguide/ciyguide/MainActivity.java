@@ -29,9 +29,8 @@ import java.util.Arrays;
 public class MainActivity extends FragmentActivity {
 
     public static final String prefs = "MyPrefs";
-    public static final String userID = "userId";
     CallbackManager cbManager;
-    SharedPreferences pref;
+    public SharedPreferences pref;
     String email;
 
     @Override
@@ -50,9 +49,22 @@ public class MainActivity extends FragmentActivity {
                             @Override
                             public void onCompleted(JSONObject object, GraphResponse response){
                                 Log.d("SHOW ME THE MONEY", response.toString());
+                                try{
+                                    pref = getSharedPreferences(prefs, Context.MODE_PRIVATE);
+                                    SharedPreferences.Editor edit = pref.edit();
+                                    Log.d("value", response.getJSONObject().get("id").toString());
+                                    edit.putString("userId", response.getJSONObject().get("id").toString());
+                                    edit.commit();
+                                }catch(Exception e)
+                                {
+                                    Log.d("Json object err", "can't access it this way");
+                                    Log.d("What you have", response.getJSONObject().toString());
+                                }
                             }
                         }
                 );
+
+
 
                 Bundle parameters = new Bundle();
                 parameters.putString("fields", "id,name,email,gender,birthday");
@@ -70,10 +82,13 @@ public class MainActivity extends FragmentActivity {
 
             }
         });
-//        if(isLoggedIn()){
-//            Intent i = new Intent(MainActivity.this, MainScreen.class);
-//            startActivity(i);
-//        }
+        if(isLoggedIn()){
+            Intent i = new Intent(MainActivity.this, MainScreen.class);
+            startActivity(i);
+        }
+        else {
+            LogOut();
+        }
     }
 
     @Override
@@ -84,16 +99,27 @@ public class MainActivity extends FragmentActivity {
 
     public void onResume(){
         super.onResume();
-        Toast.makeText(getApplicationContext(), email, Toast.LENGTH_LONG);
-
-//        if(isLoggedIn()){
-//            Intent i = new Intent(MainActivity.this, MainScreen.class);
-//            startActivity(i);
-//        }
+        pref = getSharedPreferences(prefs, Context.MODE_PRIVATE);
+        String uID = pref.getString("userId","");
+        Toast.makeText(getApplicationContext(), "User ID: " + uID, Toast.LENGTH_LONG).show();
+        if(isLoggedIn()){
+            Intent i = new Intent(MainActivity.this, MainScreen.class);
+            startActivity(i);
+        }
+        else{
+            LogOut();
+        }
     }
 
-    public boolean isLoggedIn(){
+    public static boolean isLoggedIn() {
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
         return accessToken != null;
+    }
+
+    public void LogOut(){
+        pref = getSharedPreferences(prefs, Context.MODE_PRIVATE);
+        SharedPreferences.Editor edit = pref.edit();
+        edit.putString("userId", "");
+        edit.commit();
     }
 }
