@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/main.xml"
+=======
+        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\menu\\main.xml"
+>>>>>>> 7d256f0fba96ab2373752767309cc5866caf9a4c
     }
 ]

@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_arrow_back_black_24dp.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_arrow_back_black_24dp.png"
     },
@@ -14,5 +15,21 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_account_circle_black_24dp.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_account_circle_black_24dp.png"
+=======
+        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_account_circle_black_24dp.png",
+        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_bookmark_border_black_24dp.png",
+        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_bookmark_border_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_settings_black_24dp.png",
+        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_settings_black_24dp.png"
+>>>>>>> 7d256f0fba96ab2373752767309cc5866caf9a4c
     }
 ]
