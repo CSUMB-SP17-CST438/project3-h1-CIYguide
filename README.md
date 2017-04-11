@@ -8,16 +8,8 @@ Our app allows users to search for recipes using their current ingredients. It w
 3. Lorenzo worked on the Facebook functions such as the login and logout as well as integrating the data from Facebook into the app.
 4. Jason Sagisi worked on integrating the Recipe API in order to choose the recipes for the app.
 5. Jason Ferrer worked on the the camera capture API as well as just getting the camera to connect to the application.
-
 ### What were you able to complete for this handin?
 We were able to accomplish the following:
-  -We have managed to create most of the screens we need for the project, bar the screen for the camera option of the search screen.
-  -The Facebook login has been integrated into the project.
-  -We have started researching the different API's we will need for the next handin.
-### What are known problems, if any, with your project?
-Known problems are:
-  -It needs work until all the screens are connected to one another.
-  -The camera screen still needs to be programmed.
-  -We still need to get a better handle on using github as we haven't utilized much branching.
+Our app is now fully connected and can run through some of the stories we created in the project proposal. You can now log in to Facebook and see that the user profile reflects the identity of the user. You can now enter by text, a list of ingredients in order to search for recipes using the Spoonacular API. You can now also send said recipe as well as missing ingredients needed to a potential grocer using the SMS API. We have also set the foundations for the camera recognition API that is scheduled to be completed by the 3rd handin as well as designed the tables we will be using for our database.
 ### How would you improve it if you had more time?
 If we had more time we would have definitely integrated the screens better to each other. We would have also experimented with branching our project and merging our codes with one another. Additionally we would have programmed the camera screen as well. And maybe even styled the screens better than they currently are.
