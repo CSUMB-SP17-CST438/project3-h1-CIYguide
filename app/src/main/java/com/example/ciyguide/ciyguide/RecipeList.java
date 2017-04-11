@@ -7,8 +7,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.view.View.OnClickListener;
 
 import java.util.ArrayList;
 
@@ -28,6 +26,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         recipeSelector.setOnClickListener(this);
         Intent i = getIntent();
         searchphrases = i.getStringArrayListExtra("searchphrases"); //Added by MFlorek
+//        HttpResponse<JsonNode> response = Unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=apples%2Cflour%2Csugar&limitLicense=false&number=5&ranking=1")
+//                .header("X-Mashape-Key", "1XokUiq5Brmshk5I599juByZoaUtp1L2zstjsnbNwMQ9v1F3FE")
+//                .header("Accept", "application/json").asJson();
     }
 
     public void onResume(){

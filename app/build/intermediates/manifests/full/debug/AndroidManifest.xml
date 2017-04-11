@@ -29,7 +29,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.example.ciyguide.ciyguide.MainScreen" >
+        <activity android:name="com.example.ciyguide.ciyguide.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -57,7 +57,7 @@
         <activity android:name="com.example.ciyguide.ciyguide.Settings" />
         <activity android:name="com.example.ciyguide.ciyguide.UserProfileActivity" />
         <activity android:name="com.example.ciyguide.ciyguide.Placeholder" />
-        <!-- <activity android:name=".MainScreen"/> -->
+        <activity android:name="com.example.ciyguide.ciyguide.MainScreen" />
         <!-- <activity android:name=".SpoonacularAPI" /> -->
         <activity android:name="com.example.ciyguide.ciyguide.RecipeList" />
         <activity android:name="com.example.ciyguide.ciyguide.IngredientsList" />

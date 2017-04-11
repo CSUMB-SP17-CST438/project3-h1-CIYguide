@@ -26,6 +26,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.Manifest;
+
+import static android.R.attr.id;
+import static com.example.ciyguide.ciyguide.MainActivity.name;
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
@@ -99,15 +102,27 @@ public class Placeholder extends AppCompatActivity {
                 if (resultCode == Activity.RESULT_OK) {
                     Uri contactData = data.getData();
                     Cursor c =  getContentResolver().query(contactData, null, null, null, null);
-                    String id = c.getString(
-                            c.getColumnIndex(ContactsContract.Contacts._ID));
                     Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
+                    String id = c.getString(c.getColumnIndex(ContactsContract.Contacts._ID));
                     if (c.moveToFirst()) {
-                        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
-
-                        String name=c.getString(c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
-
-                        Toast.makeText(this, number +" - "+ name, Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
+//
+//                        Cursor cur = this.getContentResolver().
+//                                query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
+//                                        null,
+//                                        ContactsContract.CommonDataKinds.Phone.CONTACT_ID +" = ?",
+//                                        new String[]{}, null);
+//                        while(cur.moveToNext())
+//                        {
+////                            number = cur.getString(
+////                                    cur.getColumnIndex(
+////                                            ContactsContract.CommonDataKinds.Phone.NUMBER));
+//                            int type = cur.getInt(
+//                                    cur.getColumnIndex(
+//                                            ContactsContract.CommonDataKinds.Phone.TYPE));
+//                            Toast.makeText(this, number +" - "+ type, Toast.LENGTH_SHORT).show();
+//
+//                        }
                     }
                 }
                 break;
