@@ -1,24 +1,13 @@
 # CIYGuide
 ### What does your app do?
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
-### Who worked on it?
-1. Honorio worked on
-2. Marilyn worked on 
-3. Lorenzo worked on 
-4. Jason Sagisi worked on 
-5. Jason Ferrer worked on the Main Screen as well as the Main Search Screen of the application.
 
-
-### What were you able to complete for this handin?
-We were able to accomplish the following:
-  -We have most of the screens created in order to make the app.
-Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping. It will additionally have the option of giving the user locations with the best prices for the ingredients they need.
 ### Who worked on it?
-1. Honorio worked on finding appropriate api's for price searching. 
-2. Marilyn worked on the User Profile as well as the Settings Screen.
-3. Lorenzo worked on - Facebook Login.
-4. Jason Sagisi worked on the My Ingredients and the Recipe List Screens.
-5. Jason Ferrer worked on the Main Screen as well as the Main Search Screen of the application.
+1. Honorio worked on setting up the basis of the database we will use for the app as well as the landing page of the project presentation.
+2. Marilyn worked on the integration of the SMS API and modified the different screens to be more aesthetically pleasing.
+3. Lorenzo worked on the Facebook functions such as the login and logout as well as integrating the data from Facebook into the app.
+4. Jason Sagisi worked on integrating the Recipe API in order to choose the recipes for the app.
+5. Jason Ferrer worked on the the camera capture API as well as just getting the camera to connect to the application.
 
 ### What were you able to complete for this handin?
 We were able to accomplish the following:
