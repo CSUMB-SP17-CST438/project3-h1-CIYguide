@@ -2,10 +2,16 @@ package com.example.ciyguide.ciyguide;
 
 
 import android.app.ActionBar;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -14,11 +20,23 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import android.widget.ViewSwitcher;
 
+import com.facebook.AccessToken;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
+import com.facebook.HttpMethod;
+import com.facebook.Profile;
+import com.facebook.login.widget.ProfilePictureView;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
-import org.w3c.dom.Text;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 
 /**
  * Created by Marilyn Florek, 3/23/2017
@@ -27,38 +45,32 @@ import org.w3c.dom.Text;
 public class UserProfileActivity extends AppCompatActivity {
 
     private GoogleApiClient client;
-    TextView myText;
-    String name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
 
+        Profile pro = Profile.getCurrentProfile();
+
         Button fridge = (Button) findViewById(R.id.myFridge);
         Button mine = (Button) findViewById(R.id.myRecipes);
         Button saved = (Button) findViewById(R.id.savedRecipes);
         Button settingsButton = (Button) findViewById(R.id.settings);
+        TextView userName = (TextView) findViewById(R.id.userTextView);
+        ProfilePictureView proPic = (ProfilePictureView)findViewById(R.id.profilePicture);
+        proPic.setProfileId(pro.getId());
+        userName.setText(pro.getFirstName() + " " + pro.getLastName());
 
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
-        MainActivity name = new MainActivity();
-        myText = (TextView) findViewById(R.id.userTextView);
-        myText.setText(name.name);
+
     }
 
     @Override
     public void onResume() {
         super.onResume();
-
     }
 
-//    public void editableUserName(View view) {
-//        ViewSwitcher switcher = (ViewSwitcher) findViewById(R.id.editableUserName);
-//        switcher.showNext();
-//        myText = (TextView) switcher.findViewById(R.id.userTextView);
-//        EditText myNewText = (EditText) switcher.findViewById(R.id.userEditText);
-//        myText.setText(myNewText.getText());
-//    }
 
     public void myFridge(View view) {
         startActivity(new Intent(UserProfileActivity.this, IngredientsList.class));
@@ -72,9 +84,8 @@ public class UserProfileActivity extends AppCompatActivity {
         startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
     }
 
-    public void LogOut(View view) {
-        MainActivity.LoggingOut();
-        startActivity(new Intent(UserProfileActivity.this, MainActivity.class));
+    public void settingScreen(View view) {
+        startActivity(new Intent(UserProfileActivity.this, Settings.class));
     }
 
     @Override

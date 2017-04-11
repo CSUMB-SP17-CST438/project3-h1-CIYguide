@@ -3,6 +3,7 @@ package com.example.ciyguide.ciyguide;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -31,6 +32,8 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ArrayList<String> searchphrases;
     ArrayAdapter<String> adapter;
 
+    private static final int ACTIVITY_START_CAMERA_APP = 23;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +52,9 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
         View resultingrecipesButton = findViewById(R.id.resulting_recipes_button);
         resultingrecipesButton.setOnClickListener(this);
+
+        View cameraButton = findViewById(R.id.camera_button);
+        cameraButton.setOnClickListener(this);
 
         searchterm.setOnKeyListener(this);
     }
@@ -72,6 +78,21 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             i.putStringArrayListExtra("searchphrases", searchphrases);
 //            Intent i = new Intent(SearchRecipeScreen.this, SpoonacularAPI.class);
             startActivity(i);
+        }
+
+        else if(v.getId() == R.id.camera_button)
+        {
+            Intent i = new Intent();
+            i.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivityForResult(i, ACTIVITY_START_CAMERA_APP);
+        }
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data)
+    {
+        if(requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK)
+        {
+            Toast.makeText(this, "Picture taken successfully", Toast.LENGTH_SHORT).show();
         }
     }
 
