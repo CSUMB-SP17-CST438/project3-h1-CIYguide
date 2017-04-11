@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\Change Me\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Joe Otter\\Desktop\\CIY\\Change Me\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\Change Me\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\Change Me\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Joe Otter\\Desktop\\CIY\\Change Me\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\Change Me\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
