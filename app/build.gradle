@@ -22,6 +22,11 @@ android {
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/LICENSE'
     }
+    lintOptions {
+
+        checkReleaseBuilds false
+
+    }
 }
 
 repositories {
