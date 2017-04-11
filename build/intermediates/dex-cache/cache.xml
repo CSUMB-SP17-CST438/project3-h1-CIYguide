@@ -2,22 +2,13 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Joe Otter\Desktop\CIY\Change Me\project3-h1-CIYguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="c75ad9b55d22b31addb9996acba2941711bc00ea">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\Change Me\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a2492ccb84928f786e2ec9c6a7464c89c4e80466\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Joe Otter\Desktop\CIY\Change Me\project3-h1-CIYguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\Change Me\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_090d5e55460ca51b84fe3df7fe02f41b17f2d9c4\classes.dex" />
+        sha1="a376272db349ba8063c5b8608833d8b4bf311b67">
+        <dex dex="C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_69b812df6e8f9abade2ac426f63aff0623a85924.jar" />
     </item>
 
 </items>
