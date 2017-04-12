@@ -157,5 +157,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 parent.findViewById(R.id.search_term);
         String term = String.valueOf(taskTextView.getText());
         searchphrases.remove(term);
+        adapter.notifyDataSetChanged();
+
     }
 }
