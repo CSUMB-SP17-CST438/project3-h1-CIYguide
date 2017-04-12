@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
-=======
-        "outputFile": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
->>>>>>> 7d256f0fba96ab2373752767309cc5866caf9a4c
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 117
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-h720dp-v13/values-h720dp-v13.xml",
-=======
-                    "file": "C:\\Users\\jsagi\\.android\\build-cache\\65604acfcb93394c443d6318cf2e6fd715dd562e\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
->>>>>>> 7d256f0fba96ab2373752767309cc5866caf9a4c
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

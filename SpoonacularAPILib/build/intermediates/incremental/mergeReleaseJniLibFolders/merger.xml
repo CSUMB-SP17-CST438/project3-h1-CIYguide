@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\SpoonacularAPILib\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\SpoonacularAPILib\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/src/release/jniLibs"/></dataSet></merger>

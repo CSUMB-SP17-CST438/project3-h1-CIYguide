@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\SpoonacularAPILib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 102
                 },
                 "from": {
-                    "file": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\SpoonacularAPILib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/bundles/debug/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 171
                 },
                 "from": {
-                    "file": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\SpoonacularAPILib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/bundles/debug/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
