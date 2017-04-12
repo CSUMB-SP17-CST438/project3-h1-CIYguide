@@ -1,5 +1,5 @@
 # CIYGuide
-### What does your app do?
+### What does your app do
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
 
 ### Who worked on it?
