@@ -86,6 +86,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             i.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivityForResult(i, ACTIVITY_START_CAMERA_APP);
         }
+
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
@@ -147,5 +148,14 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 return super.onOptionsItemSelected(item);
 
         }
+    }
+
+    public void deleteSearchTerm(View view)
+    {
+        View parent = (View) view.getParent();
+        TextView taskTextView = (TextView)
+                parent.findViewById(R.id.search_term);
+        String term = String.valueOf(taskTextView.getText());
+        searchphrases.remove(term);
     }
 }

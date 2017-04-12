@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 11 18:49:09 PDT 2017
+#Tue Apr 11 18:59:37 PDT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_alert_dialog_material.xml
 14.set=ANDROID_RESOURCE
