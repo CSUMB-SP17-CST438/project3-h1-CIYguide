@@ -3,12 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\classes.jar"
+        jar="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a376272db349ba8063c5b8608833d8b4bf311b67">
-        <dex dex="C:\Users\jsagi\Desktop\CST438\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_69b812df6e8f9abade2ac426f63aff0623a85924.jar" />
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_75e89bc76189f966b10338b158aacd9361e087b3.jar" />
     </item>
 
 </items>
