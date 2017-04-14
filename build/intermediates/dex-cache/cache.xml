@@ -57,11 +57,16 @@
     </item>
     <item
         is-multidex="false"
+<<<<<<< HEAD
         jar="/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/bundles/default/classes.jar"
+=======
+        jar="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\classes.jar"
+>>>>>>> 4ff248a50797c2777064e7988b1a7850c671a454
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a376272db349ba8063c5b8608833d8b4bf311b67">
+<<<<<<< HEAD
         <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/pre-dexed/debug/classes_1efcd05de0d05db894c2f3fdc8b686804600b3bd.jar" />
     </item>
     <item
@@ -81,6 +86,9 @@
         revision="25.0.0"
         sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
         <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.18_a63e9ce0a3575c1d5d0389fe94465aa603908a6a/classes.dex" />
+=======
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_75e89bc76189f966b10338b158aacd9361e087b3.jar" />
+>>>>>>> 4ff248a50797c2777064e7988b1a7850c671a454
     </item>
 
 </items>

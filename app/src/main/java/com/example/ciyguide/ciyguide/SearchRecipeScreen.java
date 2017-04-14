@@ -44,7 +44,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         searchlist = (ListView)findViewById(R.id.list_search_tags);
 
         searchphrases = new ArrayList<String>();
-        adapter = new ArrayAdapter<String>(SearchRecipeScreen.this, android.R.layout.simple_list_item_1,
+        adapter = new ArrayAdapter<>(SearchRecipeScreen.this, R.layout.layout_search_list, R.id.search_term,
                 searchphrases);
         searchlist.setAdapter(adapter);
         View addingredientButton = findViewById(R.id.add_button);
@@ -86,6 +86,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             i.setAction(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivityForResult(i, ACTIVITY_START_CAMERA_APP);
         }
+
     }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
@@ -147,5 +148,16 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 return super.onOptionsItemSelected(item);
 
         }
+    }
+
+    public void deleteSearchTerm(View view)
+    {
+        View parent = (View) view.getParent();
+        TextView taskTextView = (TextView)
+                parent.findViewById(R.id.search_term);
+        String term = String.valueOf(taskTextView.getText());
+        searchphrases.remove(term);
+        adapter.notifyDataSetChanged();
+
     }
 }

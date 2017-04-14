@@ -4,7 +4,20 @@
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-mdpi/ciyguide.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-mdpi/ciyguide.png"
+=======
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ciyguide.png",
+        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ciyguide.png"
+    },
+    {
+        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ciyguide.png",
+        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ciyguide.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+>>>>>>> 4ff248a50797c2777064e7988b1a7850c671a454
     }
 ]
