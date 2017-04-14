@@ -7,8 +7,16 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
+import com.fasterxml.jackson.databind.JsonNode;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
+
+import static android.R.attr.data;
+import static org.apache.http.util.CharsetUtils.get;
 
 /**
  * Created by jsagi on 3/27/2017.
@@ -26,9 +34,10 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         recipeSelector.setOnClickListener(this);
         Intent i = getIntent();
         searchphrases = i.getStringArrayListExtra("searchphrases"); //Added by MFlorek
-//        HttpResponse<JsonNode> response = Unirest.get("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=apples%2Cflour%2Csugar&limitLicense=false&number=5&ranking=1")
-//                .header("X-Mashape-Key", "1XokUiq5Brmshk5I599juByZoaUtp1L2zstjsnbNwMQ9v1F3FE")
-//                .header("Accept", "application/json").asJson();
+        HttpURLConnection response;
+//        String data = getJSON("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=apples%2Cflour%2Csugar&limitLicense=false&number=5&ranking=1");
+//        AuthMsg msg = new Gson().fromJson(data, AuthMsg.class);
+//        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 
     public void onResume(){
@@ -49,6 +58,27 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         {
 
         }
+    }
+
+    public void getJSON(String url)
+    {
+        HttpURLConnection c = null;
+        int timeout = 1000;
+        try {
+            URL u = new URL(url);
+            c = (HttpURLConnection) u.openConnection();
+            c.setRequestMethod("GET");
+            c.setRequestProperty("Content-length", "0");
+            c.setUseCaches(false);
+            c.setAllowUserInteraction(false);
+            c.setConnectTimeout(timeout);
+            c.setReadTimeout(timeout);
+            c.connect();
+            int status = c.getResponseCode();
+        } catch(Exception e){
+            Toast.makeText(this, "There was an error!!!", Toast.LENGTH_SHORT).show();
+        }
+
     }
 
     @Override
