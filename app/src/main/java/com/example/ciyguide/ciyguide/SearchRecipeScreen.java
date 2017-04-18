@@ -97,7 +97,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             Intent i = new Intent(SearchRecipeScreen.this, ShowPhoto.class);
             i.putExtras(extras);
             startActivity(i);
-            Toast.makeText(this, "Picture taken successfully", Toast.LENGTH_SHORT).show();
         }
     }
 
