@@ -10,7 +10,7 @@ import android.util.DisplayMetrics;
  * Created by jason on 4/18/2017.
  */
 
-public class ShowPhoto extends AppCompatActivity {
+public class ShowPhoto extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

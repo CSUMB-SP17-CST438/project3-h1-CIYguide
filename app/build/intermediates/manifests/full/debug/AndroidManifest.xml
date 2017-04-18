@@ -61,6 +61,9 @@
         <!-- <activity android:name=".SpoonacularAPI" /> -->
         <activity android:name="com.example.ciyguide.ciyguide.RecipeList" />
         <activity android:name="com.example.ciyguide.ciyguide.IngredientsList" />
+        <activity
+            android:name="com.example.ciyguide.ciyguide.ShowPhoto"
+            android:theme="@style/AppTheme.PhotoTheme" />
 
         <meta-data
             android:name="com.google.android.gms.version"
