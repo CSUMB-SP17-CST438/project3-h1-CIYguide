@@ -94,10 +94,9 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         if(requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK)
         {
             Bundle extras = data.getExtras();
-
             Intent i = new Intent(SearchRecipeScreen.this, ShowPhoto.class);
             i.putExtras(extras);
-            startActivity(new Intent(SearchRecipeScreen.this, ShowPhoto.class));
+            startActivity(i);
             Toast.makeText(this, "Picture taken successfully", Toast.LENGTH_SHORT).show();
         }
     }

@@ -606,6 +606,7 @@
     <string name="settings">Settings</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="surprise_me">Surprise Me!</string>
+    <string name="use_photo">Use this Photo?</string>
     <string name="userPlaceholder">Username</string>
     <string name="user_profile">User Profile</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -614,7 +615,7 @@
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/CustomActionBar</item>
-        <!-- Customize your theme here. -->
+        
         <item name="colorPrimary">@color/colorAccent</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
@@ -1700,7 +1701,7 @@
     <item name="android:drawableLeft">@drawable/messenger_bubble_small_blue</item>
   </style>
     <style name="OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
-        <!-- Required for pre-Lollipop. -->
+        
         <item name="overlapAnchor">false</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
