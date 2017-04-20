@@ -10,5 +10,14 @@
         sha1="a376272db349ba8063c5b8608833d8b4bf311b67">
         <dex dex="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_75e89bc76189f966b10338b158aacd9361e087b3.jar" />
     </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
+        <dex dex="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_11b825eacfc2df812146e183bc27a0fb9689becd.jar" />
+    </item>
 
 </items>

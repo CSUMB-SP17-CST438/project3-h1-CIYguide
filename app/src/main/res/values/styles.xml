@@ -23,4 +23,10 @@
         <item name="android:textColorPrimaryInverse">@color/black</item>
     </style>
 
+    <style name="AppTheme.PhotoTheme" >
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
 </resources>

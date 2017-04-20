@@ -606,6 +606,7 @@
     <string name="settings">Settings</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="surprise_me">Surprise Me!</string>
+    <string name="use_photo">Use this Photo?</string>
     <string name="userPlaceholder">Username</string>
     <string name="user_profile">User Profile</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -619,6 +620,11 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="android:textColorPrimaryInverse">@color/black</item>
+    </style>
+    <style name="AppTheme.PhotoTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

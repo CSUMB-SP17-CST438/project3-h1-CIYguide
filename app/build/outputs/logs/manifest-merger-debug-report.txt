@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-58:12
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
@@ -39,11 +39,11 @@ ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main
 	android:name
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:9-60
 application
-ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-56:19
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-59:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\jason\.android\build-cache\9aff33f3051d379d02103226ba8a18f049c00342\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\jason\.android\build-cache\e135765536547784748d679d95b2e676864ae291\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:28:5-48:19
 MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\jason\.android\build-cache\16f21118b894905f1fcad5ee8f708b66899d392c\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a183562b6cae581d1811f0cc9b1a42950604fc6b\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a3a4317fe6c7823552195514c56623a14e381409\output\AndroidManifest.xml:23:5-20
@@ -88,13 +88,13 @@ ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.facebook.FacebookActivity
 ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:32:9-35:32
-MERGED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:29:9-32:66
 	android:label
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:35:13-29
 	android:configChanges
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:34:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:32:13-63
 	android:name
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:33:13-57
 activity#com.facebook.CustomTabActivity
@@ -149,13 +149,19 @@ activity#com.example.ciyguide.ciyguide.IngredientsList
 ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:9-53
 	android:name
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:19-50
+activity#com.example.ciyguide.ciyguide.ShowPhoto
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:56:9-58:15
+	android:theme
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:57:13-55
+	android:name
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:56:19-44
 uses-sdk
 INJECTED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\jason\.android\build-cache\9aff33f3051d379d02103226ba8a18f049c00342\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\jason\.android\build-cache\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\jason\.android\build-cache\e135765536547784748d679d95b2e676864ae291\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\jason\.android\build-cache\16f21118b894905f1fcad5ee8f708b66899d392c\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a183562b6cae581d1811f0cc9b1a42950604fc6b\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a3a4317fe6c7823552195514c56623a14e381409\output\AndroidManifest.xml:21:5-43
@@ -184,14 +190,14 @@ ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\jason\
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\jason\.android\build-cache\e135765536547784748d679d95b2e676864ae291\output\AndroidManifest.xml:22:13-58
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:33:19-68
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:44:9-47:40
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:44:9-47:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:46:13-72
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:46:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:47:13-37
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.21.1] C:\Users\jason\.android\build-cache\ee5207a8c43bbed1a6bd777a2f3ae7bffd63c6fd\output\AndroidManifest.xml:45:13-70
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:45:13-70
