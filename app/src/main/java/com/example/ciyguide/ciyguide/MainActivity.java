@@ -79,12 +79,12 @@ public class MainActivity extends FragmentActivity {
 
             @Override
             public void onCancel() {
-
+                LoginManager.getInstance().logOut();
             }
 
             @Override
             public void onError(FacebookException error) {
-
+                LoginManager.getInstance().logOut();
             }
         });
         if(isLoggedIn()){
