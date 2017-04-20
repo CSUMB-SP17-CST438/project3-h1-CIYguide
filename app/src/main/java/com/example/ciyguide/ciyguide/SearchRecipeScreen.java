@@ -44,7 +44,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         searchlist = (ListView)findViewById(R.id.list_search_tags);
 
         searchphrases = new ArrayList<String>();
-        adapter = new ArrayAdapter<>(SearchRecipeScreen.this, R.layout.layout_search_list, R.id.search_term,
+        adapter = new ArrayAdapter<String>(SearchRecipeScreen.this, android.R.layout.simple_list_item_1,
                 searchphrases);
         searchlist.setAdapter(adapter);
         View addingredientButton = findViewById(R.id.add_button);
@@ -154,7 +154,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     {
         View parent = (View) view.getParent();
         TextView taskTextView = (TextView)
-                parent.findViewById(R.id.search_term);
+                parent.findViewById(R.id.search_text_box);
         String term = String.valueOf(taskTextView.getText());
         searchphrases.remove(term);
         adapter.notifyDataSetChanged();

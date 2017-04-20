@@ -2,93 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="984dd8be4ff12a4bd5c4727bd2b55d00e177306b">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d80645317e023385ba2e3111fcfdd0439d41eef7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_979157769b5cdf3f04911d7bed10e81ada883dce/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.3/527fece4f23a457070a36c371a26d6c0208e1c3/jackson-annotations-2.2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0527fece4f23a457070a36c371a26d6c0208e1c3">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.3_b022bb60eb8d870e7afd736640ed4e06a6219760/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.3/e876a79d561e5c6207b78d347e198c8c4531a5e5/httpcore-4.4.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e876a79d561e5c6207b78d347e198c8c4531a5e5">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpcore-4.4.3_e128d45602d5c64ed728b19d5a184c299dcf922e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.3_3ddd0066a99fa6ef62060e622c00b25a40739b56/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.3/3ae380888029daefb91d3ecdca3a37d8cb92bc9/jackson-databind-2.2.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="03ae380888029daefb91d3ecdca3a37d8cb92bc9">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.3_036be7911f89ffb32e33b96c1c4ee2157d1ec6ca/classes.dex" />
-    </item>
-    <item
         is-multidex="false"
-<<<<<<< HEAD
         jar="/Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/bundles/default/classes.jar"
-=======
-        jar="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\classes.jar"
->>>>>>> 4ff248a50797c2777064e7988b1a7850c671a454
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="a376272db349ba8063c5b8608833d8b4bf311b67">
-<<<<<<< HEAD
         <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/pre-dexed/debug/classes_1efcd05de0d05db894c2f3fdc8b686804600b3bd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.6/cf8bacbf0d476c7f2221f861269365b66447f7ec/httpmime-4.3.6.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="cf8bacbf0d476c7f2221f861269365b66447f7ec">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/httpmime-4.3.6_c18dcfd5c5dbd29cb7196f38d10911f8a63404ec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/MFlorek/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.18/38da306aafee11459cd935a01d2c92a98dc670a4/library-1.0.18.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="38da306aafee11459cd935a01d2c92a98dc670a4">
-        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.18_a63e9ce0a3575c1d5d0389fe94465aa603908a6a/classes.dex" />
-=======
-        <dex dex="C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_75e89bc76189f966b10338b158aacd9361e087b3.jar" />
->>>>>>> 4ff248a50797c2777064e7988b1a7850c671a454
+        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
+        <dex dex="/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/pre-dexed/debug/classes_ba3232cbb3104342d10bf1b7d639c651d6359ae5.jar" />
     </item>
 
 </items>

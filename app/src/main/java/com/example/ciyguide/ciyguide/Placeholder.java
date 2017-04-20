@@ -96,6 +96,10 @@ public class Placeholder extends AppCompatActivity {
         super.onActivityResult(reqCode, resultCode, data);
         String number = "none";
         Toast.makeText(this, "0", Toast.LENGTH_SHORT).show();
+        SmsManager smsManager = SmsManager.getDefault();
+        smsManager.sendTextMessage(phoneNo, null, message, null, null);
+        Toast.makeText(getApplicationContext(), "SMS sent.",
+                Toast.LENGTH_LONG).show();
 
         switch (reqCode) {
             case (PICK_CONTACT) :

@@ -1,4 +1,4 @@
-#Tue Apr 11 17:58:10 PDT 2017
+#Thu Apr 13 19:08:07 PDT 2017
 file.9=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_fb670d8b1664cc90877c8dc6c2f2855ff4972192/classes.dex
 base.10=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5e5108b847fd17b06ef8c4fe963cec9fa6521deb
 file.8=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_ac36213a1efb6fdc2659caf040858edd5ef73701/classes.dex

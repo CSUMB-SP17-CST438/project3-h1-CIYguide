@@ -18,6 +18,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ImageView;
+import android.widget.Toast;
 import android.widget.ViewSwitcher;
 
 import com.facebook.AccessToken;
@@ -45,13 +46,14 @@ import java.net.URL;
 public class UserProfileActivity extends AppCompatActivity {
 
     private GoogleApiClient client;
+    TextView userName;
+    ProfilePictureView proPic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
 
-        Profile pro = Profile.getCurrentProfile();
 
         Button fridge = (Button) findViewById(R.id.myFridge);
         Button mine = (Button) findViewById(R.id.myRecipes);
@@ -59,16 +61,26 @@ public class UserProfileActivity extends AppCompatActivity {
         Button settingsButton = (Button) findViewById(R.id.settings);
         TextView userName = (TextView) findViewById(R.id.userTextView);
         ProfilePictureView proPic = (ProfilePictureView)findViewById(R.id.profilePicture);
-        proPic.setProfileId(pro.getId());
-        userName.setText(pro.getFirstName() + " " + pro.getLastName());
 
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        Boolean gotProfile = getUserInfo();
 
     }
 
     @Override
     public void onResume() {
         super.onResume();
+    }
+
+    public boolean getUserInfo(){
+        Profile pro = Profile.getCurrentProfile();
+        try {
+            proPic.setProfileId(pro.getId());
+            userName.setText(pro.getFirstName() + " " + pro.getLastName());
+        }catch (Exception e) {
+            Toast.makeText(this, "User is not logged in!", Toast.LENGTH_SHORT).show();
+        }
+        return true;
     }
 
 

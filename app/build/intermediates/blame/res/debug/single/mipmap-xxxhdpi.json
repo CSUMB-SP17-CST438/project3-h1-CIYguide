@@ -4,32 +4,11 @@
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciyguide.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ciyguide.png"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciy.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ciy.png"
-=======
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciyguide.png",
-        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciyguide.png"
-    },
-    {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciy.png",
-        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciy.png"
-    },
-    {
-        "merged": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciyguide.png",
-        "source": "C:\\Users\\jsagi\\Desktop\\CST438\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciyguide.png"
->>>>>>> 4ff248a50797c2777064e7988b1a7850c671a454
     }
 ]

@@ -35,6 +35,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         Intent i = getIntent();
         searchphrases = i.getStringArrayListExtra("searchphrases"); //Added by MFlorek
         HttpURLConnection response;
+        getJSON();
 //        String data = getJSON("https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/recipes/findByIngredients?fillIngredients=false&ingredients=apples%2Cflour%2Csugar&limitLicense=false&number=5&ranking=1");
 //        AuthMsg msg = new Gson().fromJson(data, AuthMsg.class);
 //        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
@@ -60,8 +61,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         }
     }
 
-    public void getJSON(String url)
+    public void getJSON()
     {
+        String url = "https://api.edamam.com/search?q=chicken&app_id=$94f1de1c&app_key=$841d3225b56e2736216e571b7197ebf9";
         HttpURLConnection c = null;
         int timeout = 1000;
         try {

@@ -8,6 +8,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 
 public class MainScreen extends AppCompatActivity implements View.OnClickListener {
@@ -19,9 +20,6 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
 
         View searchrecipeButton = findViewById(R.id.search_recipes_button);
         searchrecipeButton.setOnClickListener(this);
-
-//        View userprofileButton = findViewById(R.id.user_profile_button);
-//        userprofileButton.setOnClickListener(this);
 
         View previoussearchesButton = findViewById(R.id.previous_searches_button);
         previoussearchesButton.setOnClickListener(this);
@@ -41,9 +39,9 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.Account:
-                Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
-                startActivity(i);
-                return true;
+                    Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
+                    startActivity(i);
+                    return true;
 
             case R.id.LogOutSub:
                 MainActivity.LoggingOut();
@@ -62,12 +60,6 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
             Intent i = new Intent(MainScreen.this, SearchRecipeScreen.class);
             startActivity(i);
         }
-
-//        else if(v.getId() == R.id.user_profile_button)
-//        {
-//            Intent i = new Intent(MainScreen.this, UserProfileActivity.class);
-//            startActivity(i);
-//        }
 
         else if(v.getId() == R.id.previous_searches_button)
         {
