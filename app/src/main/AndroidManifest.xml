@@ -53,6 +53,9 @@
         <!--<activity android:name=".SpoonacularAPI" />-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
+        <activity android:name=".ShowPhoto"
+            android:theme="@style/AppTheme.PhotoTheme"
+            />
     </application>
 
 </manifest>

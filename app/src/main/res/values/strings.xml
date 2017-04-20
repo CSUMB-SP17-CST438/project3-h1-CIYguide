@@ -12,6 +12,7 @@
     <string name="ingredients_list">Ingredients</string>
     <string name="find_recipes">Find Recipes</string>
     <string name="search_hint">Enter items</string>
+    <string name="use_photo">Use this Photo?</string>
 
     <string name="myFridge">My Fridge</string>
     <string name="myRecipes">My Recipes</string>

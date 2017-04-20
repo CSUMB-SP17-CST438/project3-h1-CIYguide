@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-58:12
+=======
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-61:12
+>>>>>>> 9b69a78c5e7ab3f05f08725f32afbe75efc4dab8
 	package
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
@@ -39,6 +43,7 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:11:9-60
 application
+<<<<<<< HEAD
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:5-56:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/AndroidManifest.xml:20:5-24:19
@@ -56,6 +61,25 @@ MERGED from [com.android.support:support-core-utils:25.0.0] /Users/MFlorek/.andr
 MERGED from [com.android.support:support-core-ui:25.0.0] /Users/MFlorek/.android/build-cache/b00999907b6e31d796927981769487ed8c5d0221/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] /Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/AndroidManifest.xml:25:5-20
 MERGED from [project3-h1-CIYguide:SpoonacularAPILib:unspecified] /Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/bundles/default/AndroidManifest.xml:18:5-21:19
+=======
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-59:19
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\jason\.android\build-cache\9aff33f3051d379d02103226ba8a18f049c00342\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\jason\.android\build-cache\e135765536547784748d679d95b2e676864ae291\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\jason\.android\build-cache\16f21118b894905f1fcad5ee8f708b66899d392c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a183562b6cae581d1811f0cc9b1a42950604fc6b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a3a4317fe6c7823552195514c56623a14e381409\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\jason\.android\build-cache\4ac105eb36a294f7768ff2381f5c8245d00eb83d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:customtabs:25.0.0] C:\Users\jason\.android\build-cache\00d43ba0ec6ab4dd0716e84315c1000b467ad13d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\jason\.android\build-cache\0fe50598cd1c49b453427d21a66113f620fb2800\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\jason\.android\build-cache\de46c064ab6f8fced3039a3f50f75d52acec3d39\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\jason\.android\build-cache\a8df8e790f60bedf5fe5386e6a2322e6cd026704\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\jason\.android\build-cache\b42585ef52de7118d1e9e1ed1443192973a7d089\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\jason\.android\build-cache\1190e5e79a53c24ec461ee402d121f23516e5034\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\jason\.android\build-cache\7b7450e4e0758d5567f8fcd9955bbf2dc4ce49bc\output\AndroidManifest.xml:25:5-20
+MERGED from [project3-h1-CIYguide:SpoonacularAPILib:unspecified] C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\AndroidManifest.xml:18:5-21:19
+>>>>>>> 9b69a78c5e7ab3f05f08725f32afbe75efc4dab8
 	android:label
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:19:9-41
 	android:supportsRtl
@@ -87,14 +111,23 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.facebook.FacebookActivity
+<<<<<<< HEAD
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:32:9-35:32
 MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/AndroidManifest.xml:29:9-32:66
+=======
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:32:9-35:32
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:29:9-32:66
+>>>>>>> 9b69a78c5e7ab3f05f08725f32afbe75efc4dab8
 	android:label
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:35:13-29
 	android:configChanges
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:34:13-96
 	android:theme
+<<<<<<< HEAD
 		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/AndroidManifest.xml:32:13-63
+=======
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:32:13-63
+>>>>>>> 9b69a78c5e7ab3f05f08725f32afbe75efc4dab8
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:33:13-57
 activity#com.facebook.CustomTabActivity
@@ -144,6 +177,7 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 activity#com.example.ciyguide.ciyguide.IngredientsList
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:9-53
 	android:name
+<<<<<<< HEAD
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:19-50
 uses-sdk
 INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
@@ -165,6 +199,35 @@ MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/MFlorek/.android
 MERGED from [com.android.support:support-core-ui:25.0.0] /Users/MFlorek/.android/build-cache/b00999907b6e31d796927981769487ed8c5d0221/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.0.0] /Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/AndroidManifest.xml:21:5-23:58
 MERGED from [project3-h1-CIYguide:SpoonacularAPILib:unspecified] /Users/MFlorek/project3-h1-CIYguide/SpoonacularAPILib/build/intermediates/bundles/default/AndroidManifest.xml:12:5-14:41
+=======
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:19-50
+activity#com.example.ciyguide.ciyguide.ShowPhoto
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:56:9-58:15
+	android:theme
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:57:13-55
+	android:name
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:56:19-44
+uses-sdk
+INJECTED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\jason\.android\build-cache\9aff33f3051d379d02103226ba8a18f049c00342\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\jason\.android\build-cache\432c4d28fc9e44fe7f7d62e7b4a686a725d702ec\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\jason\.android\build-cache\e135765536547784748d679d95b2e676864ae291\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\081e34bdc02683f61f92f6e8b5df83e4c335cb2a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\jason\.android\build-cache\16f21118b894905f1fcad5ee8f708b66899d392c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a183562b6cae581d1811f0cc9b1a42950604fc6b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\jason\.android\build-cache\a3a4317fe6c7823552195514c56623a14e381409\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\jason\.android\build-cache\4ac105eb36a294f7768ff2381f5c8245d00eb83d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.0.0] C:\Users\jason\.android\build-cache\00d43ba0ec6ab4dd0716e84315c1000b467ad13d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\jason\.android\build-cache\0fe50598cd1c49b453427d21a66113f620fb2800\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\jason\.android\build-cache\de46c064ab6f8fced3039a3f50f75d52acec3d39\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\jason\.android\build-cache\a8df8e790f60bedf5fe5386e6a2322e6cd026704\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\jason\.android\build-cache\b42585ef52de7118d1e9e1ed1443192973a7d089\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\jason\.android\build-cache\8f5e6b4903d512c2a007caa9326f978bc9b75336\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\jason\.android\build-cache\1190e5e79a53c24ec461ee402d121f23516e5034\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\jason\.android\build-cache\7b7450e4e0758d5567f8fcd9955bbf2dc4ce49bc\output\AndroidManifest.xml:21:5-23:58
+MERGED from [project3-h1-CIYguide:SpoonacularAPILib:unspecified] C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\SpoonacularAPILib\build\intermediates\bundles\default\AndroidManifest.xml:12:5-14:41
+>>>>>>> 9b69a78c5e7ab3f05f08725f32afbe75efc4dab8
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.0.0] /Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -180,6 +243,7 @@ ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/MFlorek/
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:8.4.0] /Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/AndroidManifest.xml:22:13-58
 activity#com.facebook.CustomTabMainActivity
+<<<<<<< HEAD
 ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/AndroidManifest.xml:33:9-71
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/AndroidManifest.xml:33:19-68
@@ -191,3 +255,16 @@ ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.an
 		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] /Users/MFlorek/.android/build-cache/362adb4cb9d89f8cfabcc4c5c89dd12fbcf0532e/output/AndroidManifest.xml:45:13-70
+=======
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.22.0] C:\Users\jason\.android\build-cache\eaa80ec6ef6c6414229a1036b43b68073ba20555\output\AndroidManifest.xml:45:13-70
+>>>>>>> 9b69a78c5e7ab3f05f08725f32afbe75efc4dab8
