@@ -2,4 +2,4 @@
 // abstract : query database
 
 
-$sql = 'insert into'
+$sql = 'insert into table'
