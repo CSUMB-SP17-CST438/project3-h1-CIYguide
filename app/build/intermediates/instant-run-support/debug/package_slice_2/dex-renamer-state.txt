@@ -1,4 +1,4 @@
-#Thu Apr 13 19:08:07 PDT 2017
+#Thu Apr 20 18:55:06 PDT 2017
 base.0=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
 file.0=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
