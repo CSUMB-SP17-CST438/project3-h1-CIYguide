@@ -1,7 +1,0 @@
-#Thu Apr 20 18:55:07 PDT 2017
-base.0=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d80645317e023385ba2e3111fcfdd0439d41eef7
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_979157769b5cdf3f04911d7bed10e81ada883dce/classes.dex
-base.1=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_979157769b5cdf3f04911d7bed10e81ada883dce
-file.0=/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d80645317e023385ba2e3111fcfdd0439d41eef7/classes.dex

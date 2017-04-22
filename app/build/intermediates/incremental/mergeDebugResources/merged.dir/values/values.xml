@@ -597,7 +597,6 @@
     <string name="messenger_send_button_text">Send</string>
     <string name="myFridge">My Fridge</string>
     <string name="myRecipes">My Recipes</string>
-    <string name="preference_file_key">spoonacularapi_prefs</string>
     <string name="previous_searches">Previous Searches</string>
     <string name="savedRecipes">Saved Recipes</string>
     <string name="search_hint">Enter items</string>

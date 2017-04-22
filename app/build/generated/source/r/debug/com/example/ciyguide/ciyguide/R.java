@@ -3120,18 +3120,17 @@ containing a value of this type.
         public static final int messenger_send_button_text=0x7f060046;
         public static final int myFridge=0x7f060063;
         public static final int myRecipes=0x7f060064;
-        public static final int preference_file_key=0x7f060065;
-        public static final int previous_searches=0x7f060066;
-        public static final int savedRecipes=0x7f060067;
-        public static final int search_hint=0x7f060068;
+        public static final int previous_searches=0x7f060065;
+        public static final int savedRecipes=0x7f060066;
+        public static final int search_hint=0x7f060067;
         public static final int search_menu_title=0x7f060047;
-        public static final int search_recipes=0x7f060069;
-        public static final int settings=0x7f06006a;
+        public static final int search_recipes=0x7f060068;
+        public static final int settings=0x7f060069;
         public static final int status_bar_notification_info_overflow=0x7f060048;
-        public static final int surprise_me=0x7f06006b;
-        public static final int use_photo=0x7f06006c;
-        public static final int userPlaceholder=0x7f06006d;
-        public static final int user_profile=0x7f06006e;
+        public static final int surprise_me=0x7f06006a;
+        public static final int use_photo=0x7f06006b;
+        public static final int userPlaceholder=0x7f06006c;
+        public static final int user_profile=0x7f06006d;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f080099;
