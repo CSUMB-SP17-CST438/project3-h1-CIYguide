@@ -18,3 +18,10 @@
 	
    mysqli_close($con);
 ?>
+
+URL url = new URL(link);
+String data  = URLEncoder.encode("username", "UTF-8") 
++ "=" + URLEncoder.encode(username, "UTF-8");
+data += "&" + URLEncoder.encode("password", "UTF-8") 
++ "=" + URLEncoder.encode(password, "UTF-8");
+URLConnection conn = url.openConnection(); 
