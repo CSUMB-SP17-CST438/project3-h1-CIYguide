@@ -4,6 +4,7 @@ package com.example.ciyguide.ciyguide;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -18,6 +19,9 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_screen);
 
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
+
         View searchrecipeButton = findViewById(R.id.search_recipes_button);
         searchrecipeButton.setOnClickListener(this);
 
@@ -31,8 +35,8 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main, menu);
-        return true;
+        inflater.inflate(R.menu.home, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override

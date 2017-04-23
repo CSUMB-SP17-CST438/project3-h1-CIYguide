@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -38,6 +39,9 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_recipe_screen);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
 
         searchterm = (EditText)findViewById(R.id.search_text_box);
         searchterm.setSingleLine(true); //Added by MFlorek
@@ -140,6 +144,10 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             case R.id.Account:
                 Intent i = new Intent(SearchRecipeScreen.this, UserProfileActivity.class);
                 startActivity(i);
+                return true;
+
+            case R.id.home:
+                startActivity(new Intent(SearchRecipeScreen.this, MainScreen.class));
                 return true;
 
             case R.id.LogOutSub:

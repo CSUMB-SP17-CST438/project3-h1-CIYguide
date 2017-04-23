@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -31,6 +32,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe_list);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
 
         View recipeSelector = findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
@@ -68,6 +72,10 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
             case R.id.Account:
                 Intent i = new Intent(RecipeList.this, UserProfileActivity.class);
                 startActivity(i);
+                return true;
+
+            case R.id.home:
+                startActivity(new Intent(RecipeList.this, MainScreen.class));
                 return true;
 
             case R.id.LogOutSub:

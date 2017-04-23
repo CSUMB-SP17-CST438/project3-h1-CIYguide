@@ -88,6 +88,10 @@
         "source": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/layout/messenger_button_send_blue_large.xml"
     },
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/veggies_and_logo.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/veggies_and_logo.xml"
+    },
+    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/notification_template_custom_big.xml"
     },
@@ -116,10 +120,6 @@
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/activity_recipe_list.xml"
     },
     {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/activity_settings.xml"
-    },
-    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_action_mode_bar.xml"
     },
@@ -138,6 +138,10 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/activity_placeholder.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/activity_placeholder.xml"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/halfcrop_veggies.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/halfcrop_veggies.xml"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
@@ -254,6 +258,10 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/toolbar.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/toolbar.xml"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
