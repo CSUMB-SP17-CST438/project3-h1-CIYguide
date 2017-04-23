@@ -22,7 +22,7 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,8 +48,7 @@
         <activity android:name=".SearchRecipeScreen" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".Placeholder" />
-        <activity android:name=".MainScreen"/>
-        <!--<activity android:name=".SpoonacularAPI" />-->
+        <!--<activity android:name=".MainScreen"/>-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
         <activity android:name=".ShowPhoto"
