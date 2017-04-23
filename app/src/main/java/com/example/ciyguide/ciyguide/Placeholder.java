@@ -10,6 +10,7 @@ import android.provider.ContactsContract;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.Toolbar;
 import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.telephony.SmsManager;
 import android.os.Bundle;
@@ -60,6 +61,10 @@ public class Placeholder extends AppCompatActivity {
         txtphoneNo = (EditText) findViewById(R.id.editText);
         txtphoneNo.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
         txtMessage = (EditText) findViewById(R.id.editText2);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
+
 
         Intent i = getIntent();
         try {
@@ -133,13 +138,11 @@ public class Placeholder extends AppCompatActivity {
         }
     }
 
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -148,6 +151,10 @@ public class Placeholder extends AppCompatActivity {
             case R.id.Account:
                 Intent i = new Intent(Placeholder.this, UserProfileActivity.class);
                 startActivity(i);
+                return true;
+
+            case R.id.home:
+                startActivity(new Intent(Placeholder.this, MainScreen.class));
                 return true;
 
             case R.id.LogOutSub:
