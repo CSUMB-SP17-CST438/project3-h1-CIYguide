@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
@@ -28,10 +29,13 @@ import java.util.Arrays;
 
 public class MainActivity extends FragmentActivity {
 
-    public static final String prefs = "MyPrefs";
     CallbackManager cbManager;
-    public SharedPreferences pref;
     String email;
+    private AccessToken fbAccessToken;
+    public static final String PREFS_NAME = "Preferences"; //Added by MF
+    public static String name = "username"; //Added by MF
+    public static String url = "url"; //Added by MF
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,23 +46,26 @@ public class MainActivity extends FragmentActivity {
         login.setReadPermissions(Arrays.asList("public_profile", "email", "user_birthday"));
         LoginManager.getInstance().registerCallback(cbManager, new FacebookCallback<LoginResult>() {
             @Override
-            public void onSuccess(LoginResult loginResult) {
+            public void onSuccess(final LoginResult loginResult) {
                 GraphRequest request = GraphRequest.newMeRequest(
                         loginResult.getAccessToken(),
                         new GraphRequest.GraphJSONObjectCallback(){
                             @Override
                             public void onCompleted(JSONObject object, GraphResponse response){
                                 Log.d("SHOW ME THE MONEY", response.toString());
-                                try{
-                                    pref = getSharedPreferences(prefs, Context.MODE_PRIVATE);
-                                    SharedPreferences.Editor edit = pref.edit();
-                                    Log.d("value", response.getJSONObject().get("id").toString());
-                                    edit.putString("userId", response.getJSONObject().get("id").toString());
-                                    edit.commit();
-                                }catch(Exception e)
-                                {
-                                    Log.d("Json object err", "can't access it this way");
-                                    Log.d("What you have", response.getJSONObject().toString());
+                                try {
+                                    fbAccessToken = loginResult.getAccessToken();
+
+                                    //Following code Added by Marilyn F
+                                    name = object.getString("name").toString();
+                                    url = object.getString("picture").toString();
+                                    Toast.makeText(MainActivity.this, "url = " + url, Toast.LENGTH_SHORT).show();
+                                    SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+                                    SharedPreferences.Editor editor = prefs.edit();
+                                    editor.putString("user_name", name);
+                                    editor.commit();
+                                }
+                                catch (Exception e){
                                 }
                             }
                         }
@@ -72,20 +79,17 @@ public class MainActivity extends FragmentActivity {
 
             @Override
             public void onCancel() {
-
+                LoginManager.getInstance().logOut();
             }
 
             @Override
             public void onError(FacebookException error) {
-
+                LoginManager.getInstance().logOut();
             }
         });
         if(isLoggedIn()){
             Intent i = new Intent(MainActivity.this, MainScreen.class);
             startActivity(i);
-        }
-        else {
-            LogOut();
         }
     }
 
@@ -97,27 +101,23 @@ public class MainActivity extends FragmentActivity {
 
     public void onResume(){
         super.onResume();
-        pref = getSharedPreferences(prefs, Context.MODE_PRIVATE);
-        String uID = pref.getString("userId","");
-        Toast.makeText(getApplicationContext(), "User ID: " + uID, Toast.LENGTH_LONG).show();
+
+        //Following code Added by Marilyn Florek
+        SharedPreferences prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        name = prefs.getString("user_name","No name defined");
+
         if(isLoggedIn()){
             Intent i = new Intent(MainActivity.this, MainScreen.class);
             startActivity(i);
         }
-        else{
-            LogOut();
-        }
     }
 
-    public boolean isLoggedIn() {
+    public boolean isLoggedIn(){
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
         return accessToken != null;
     }
 
-    public void LogOut(){
-        pref = getSharedPreferences(prefs, Context.MODE_PRIVATE);
-        SharedPreferences.Editor edit = pref.edit();
-        edit.putString("userId", "");
-        edit.commit();
+    public static void LoggingOut(){
+        LoginManager.getInstance().logOut();
     }
 }

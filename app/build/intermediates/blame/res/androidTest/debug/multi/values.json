@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\9db8592a53a45946548d06138d1ae8f3b2d05882\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\780d44b575b8dce6cea0daed0cac84eb5f896ad1\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

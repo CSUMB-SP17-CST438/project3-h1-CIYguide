@@ -1,7 +1,7 @@
-#Sun Apr 09 22:27:05 PDT 2017
-base.0=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c9828e61da6079b1e04019f340aba61958fc6a8
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_39c727629fe97c6689679c6bcc6af3e602d1ea47\\classes.dex
-base.1=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_39c727629fe97c6689679c6bcc6af3e602d1ea47
-file.0=C\:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_2c9828e61da6079b1e04019f340aba61958fc6a8\\classes.dex
+#Sun Apr 23 16:31:40 PDT 2017
+base.0=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73209668ad8d64d298a750bfde18df3f932d2639
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e4125d2ebf4ae1f18a15f9018348192303007d05\\classes.dex
+base.1=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e4125d2ebf4ae1f18a15f9018348192303007d05
+file.0=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73209668ad8d64d298a750bfde18df3f932d2639\\classes.dex

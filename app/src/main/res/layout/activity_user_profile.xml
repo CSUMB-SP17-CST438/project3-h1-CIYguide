@@ -61,15 +61,6 @@
                     android:id="@+id/userTextView"/>
 
             </ViewSwitcher>
-
-            <Button
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:background="@drawable/pencil"
-                android:clickable="true"
-                android:onClick="editableUserName"
-                android:adjustViewBounds="true"
-                android:scaleType="fitCenter"/>
         </LinearLayout>
 
         <Button

@@ -34,8 +34,10 @@ import java.util.Arrays;
 
 /**
  * Created by Marilyn Florek, 3/23/2017
+ *
+ * //edits also done by lorenzo hernandez 4-10-17
  */
- 
+
 public class Settings extends AppCompatActivity implements View.OnClickListener{
 
     @Override
@@ -64,7 +66,7 @@ public class Settings extends AppCompatActivity implements View.OnClickListener{
     }
 
     public void LogOut(){
-        SharedPreferences pref = getSharedPreferences(MainActivity.prefs, Context.MODE_PRIVATE);
+        SharedPreferences pref = getSharedPreferences(MainActivity.PREFS_NAME, Context.MODE_PRIVATE);
         SharedPreferences.Editor edit = pref.edit();
         edit.putString("userId", "");
         edit.commit();

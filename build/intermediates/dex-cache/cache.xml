@@ -2,247 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\28a7fe4a8554351936960ca798f078deadcda325\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Joe Otter\.android\build-cache\83d0e806a388af54b4dfc9ade4f15e313f676a31\output\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_8466374a37d4d8e5c04ca6d9c2a51d297684cffd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_1c6e493b34425ccb29ce9bc5c65520f9f40ab9c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\28a7fe4a8554351936960ca798f078deadcda325\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_8f43350592ffacd6ec738627afb5003939e90aa4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\b90c07618fd5b6b3d0f3e03efc148c7694a62caa\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ab353da3ab184f90c3339756417ca6d430915294.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_8cc11f1486bcfe66d71a552e99aadc9723ac2735.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\43d49a36bea8e5dbb509ae4ddf0167f3f1f19777\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_afaaf6158303ce1c30fe40727d9559e3a52e1f61.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_657469b887a014d603642b84c2e85c152eaf169b.jar" />
+        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
+        <dex dex="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66aedd70fc31fe9ca813133e33c8a142029926a2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c47f1724d04c76e39c649d067fffa149a58781">
+        <dex dex="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73209668ad8d64d298a750bfde18df3f932d2639\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_39c727629fe97c6689679c6bcc6af3e602d1ea47\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\4d13a38d94ee9cc3de60d6ccdabbc2a08ca3781b\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_c7669664a35c0fda3e80ccf89dacf982df34f301.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\bcfde245807cde5cb0fcaeedff9b255d3a7c2ead\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_8c261d852c3311e362e78b868b53ba6e8ef2ab21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\f913a77b60e485963ed02b0e2d4374cf4d963a47\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7a7aaa726b3b61bcfa412f9c8b58f283c75d8fe4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_ede76b9d9cf935758c6828c29af49716d3d0eec9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\b90c07618fd5b6b3d0f3e03efc148c7694a62caa\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_cae859e43d72ea32e91ee96da8f4bc5c2ecbe938.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\8c950772720fb401cdfd10f4b010107c60daa375\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_88a5a18def15b845aad32552343c097b92671c01.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\766d6c424ec8ccb66bd17061934a24795b21c549\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_28e187b3e7fd3b2dcaec9bcb9423f635812a5e12.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\033debd7b08a4069c7655feacbe6f29473b0f97f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_1c85baaaa0f7eb9f94f76ee559215ec33a40a559.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_545ceaec19f4649c320ce935e8e856573571a19b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\427e088d1ce60f0c1a5814be6710c35cbaac8f22\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_aac7711e39928ff6d678ad1e6cd0646220c50b75.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a70160a70685ce25bda1c6e094c73676a399039">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_7c2222836a74f8af5d85f4b79fc41af90a1ead06.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_ae72adc588d8d8798ad32d26413d7bf3b5bcf808.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="80597302068b8d566a2382421af567dc56e20396">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_2c9828e61da6079b1e04019f340aba61958fc6a8\classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\f913a77b60e485963ed02b0e2d4374cf4d963a47\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_a58569d29c988e3f0d324c35e942aa8d4707b202.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_f18767866f34938a6e3866e266eff463eecf4d59.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_0c8f9a2cb1202c639cc1d3f0b4d4996bbe8a3893.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\8d2453e7122caa72f2cfb6f8278e6b8d9b74e5bd\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_1601188f0b62a183df8660979c7a5d8634c485a7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\8c950772720fb401cdfd10f4b010107c60daa375\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\classes_bbfabd2f01968e315be1e58869e2380edf844791.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Joe Otter\.android\build-cache\4d13a38d94ee9cc3de60d6ccdabbc2a08ca3781b\output\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Joe Otter\Desktop\CIY\project3-h1-CIYguide\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_bb156b530908b3699afe8e7ee937edb15499001f.jar" />
+        <dex dex="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e4125d2ebf4ae1f18a15f9018348192303007d05\classes.dex" />
     </item>
 
 </items>

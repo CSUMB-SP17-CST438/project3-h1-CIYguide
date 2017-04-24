@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
+        "outputFile": "C:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 220
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 328
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 557
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 664
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 753
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 854
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 972
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1055
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1135
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1222
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1329
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1441
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1543
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1651
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1758
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1868
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1993
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2093
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2236
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 2344
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 2483
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 2580
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 2646
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 2716
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 2777
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 2851
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -524,7 +524,7 @@
                     "endOffset": 2923
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -543,7 +543,7 @@
                     "endOffset": 3022
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -562,7 +562,7 @@
                     "endOffset": 3114
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -581,7 +581,7 @@
                     "endOffset": 3185
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 3256
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -619,7 +619,7 @@
                     "endOffset": 3341
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -638,7 +638,7 @@
                     "endOffset": 3447
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 3511
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 3583
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 3760
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -714,7 +714,7 @@
                     "endOffset": 3837
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -733,7 +733,7 @@
                     "endOffset": 3922
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -752,7 +752,7 @@
                     "endOffset": 4011
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -771,7 +771,7 @@
                     "endOffset": 4160
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1341,7 +1341,7 @@
                     "endOffset": 8919
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\f6e182c09afbdc2dd382d7d5ac133fd4849b0784\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\83d0e806a388af54b4dfc9ade4f15e313f676a31\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1360,7 +1360,7 @@
                     "endOffset": 9004
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1379,7 +1379,7 @@
                     "endOffset": 9105
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\values-pt\\values-pt.xml",
+                    "file": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-pt\\values-pt.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

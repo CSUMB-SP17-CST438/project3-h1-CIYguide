@@ -1,18 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\CIY\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\5cc11a1cad086ce30ba065118ab79f9d0c4d5e8a\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]
