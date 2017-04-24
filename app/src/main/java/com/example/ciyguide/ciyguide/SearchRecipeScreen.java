@@ -1,11 +1,17 @@
 package com.example.ciyguide.ciyguide;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -15,11 +21,21 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnKeyListener;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -32,6 +48,10 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ListView searchlist;
     ArrayList<String> searchphrases;
     ArrayAdapter<String> adapter;
+    public static String ENTIRE_RECIPE_JSON = "rJSON";
+    public static final String RECIPE_PREF = "Recipe info";
+    public static String start = "start Index";
+    public static String end = "end index";
 
     private static final int ACTIVITY_START_CAMERA_APP = 23;
 
@@ -77,10 +97,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
         else if(v.getId() == R.id.resulting_recipes_button)
         {
-            Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
-            i.putStringArrayListExtra("searchphrases", searchphrases);
-//            Intent i = new Intent(SearchRecipeScreen.this, SpoonacularAPI.class);
-            startActivity(i);
+            new AsyncCaller().execute("");
         }
 
         else if(v.getId() == R.id.camera_button)
@@ -174,5 +191,80 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             Toast.makeText(this, "Error: " + e.toString(), Toast.LENGTH_SHORT).show();
         }
 
+    }
+
+    public class AsyncCaller extends AsyncTask<String, String, Void> {
+        private ProgressDialog progressDialog = new ProgressDialog(SearchRecipeScreen.this);
+        InputStream inputStream = null;
+        HttpURLConnection connection;
+        StringBuilder result = new StringBuilder();
+        String result2 = "";
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressDialog.setMessage("Gathering your recipes...");
+            progressDialog.show();
+        }
+
+        @Override
+        protected Void doInBackground(String... params) {
+            //source: https://developer.edamam.com/edamam-docs-recipe-api
+
+            //ingredients from previous activity
+            String ingredientList = "";
+            for(int j = 0; j < searchphrases.size(); j++){
+                if(j == searchphrases.size()-1)
+                    ingredientList += searchphrases.get(j);
+                else
+                    ingredientList += searchphrases.get(j) + ",";
+            }
+
+            try {
+                SharedPreferences Sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1));
+
+                connection = (HttpURLConnection) url.openConnection();
+                InputStream in = new BufferedInputStream(connection.getInputStream());
+
+                BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+
+                String line;
+
+                //lorenzo
+                //problem with getting links.  removing \ character
+                while ((line = reader.readLine()) != null) {
+                    line = line.replace("\\", "");
+                    result.append(line);
+                }
+                result2 = result.toString();
+                SharedPreferences.Editor SPedit = Sp.edit();
+
+                //contains entire json
+                SPedit.putString(ENTIRE_RECIPE_JSON, result2);
+
+                //store recipe to pass : lorenzo ^
+                SPedit.commit();
+            } catch (Exception e) {
+            } finally {
+                connection.disconnect();
+            }
+
+            try {
+
+            } catch (Exception e) {
+
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void none) {
+            super.onPostExecute(none);
+            Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
+            i.putStringArrayListExtra("searchphrases", searchphrases);
+            i.putExtra("ENTIRE_RECIPE_JSON",ENTIRE_RECIPE_JSON);
+            startActivity(i);
+        }
     }
 }

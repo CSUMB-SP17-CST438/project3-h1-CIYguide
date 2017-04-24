@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "outputFile": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -88,7 +88,7 @@
                     "endOffset": 1188
                 },
                 "from": {
-                    "file": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
