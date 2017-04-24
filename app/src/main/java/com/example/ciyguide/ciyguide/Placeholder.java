@@ -3,6 +3,7 @@ package com.example.ciyguide.ciyguide;
 //source: https://www.tutorialspoint.com/android/android_json_parser.htm
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
@@ -14,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.telephony.SmsManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -43,7 +45,6 @@ public class Placeholder extends AppCompatActivity {
     String item;
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 111 ;
     Button sendBtn;
-    EditText txtphoneNo;
     EditText txtMessage;
     String phoneNo;
     String message;
@@ -58,8 +59,6 @@ public class Placeholder extends AppCompatActivity {
         setContentView(R.layout.activity_placeholder);
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
-        txtphoneNo = (EditText) findViewById(R.id.editText);
-        txtphoneNo.addTextChangedListener(new PhoneNumberFormattingTextWatcher());
         txtMessage = (EditText) findViewById(R.id.editText2);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -87,54 +86,27 @@ public class Placeholder extends AppCompatActivity {
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-                Toast.makeText(Placeholder.this, "Picking a contact", Toast.LENGTH_SHORT).show();
-                startActivityForResult(intent, PICK_CONTACT);
-
-                sendSMSMessage();
+                try{
+                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+                    startActivityForResult(pickContact, 1);
+                }
+                catch(Exception e){
+                    Log.e("ContactError", "Error: " + e.toString());
+                }
             }
         });
     }
 
     @Override
-    public void onActivityResult(int reqCode, int resultCode, Intent data) {
-        super.onActivityResult(reqCode, resultCode, data);
-        String number = "none";
-        Toast.makeText(this, "0", Toast.LENGTH_SHORT).show();
-        SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(phoneNo, null, message, null, null);
-        Toast.makeText(getApplicationContext(), "SMS sent.",
-                Toast.LENGTH_LONG).show();
-
-        switch (reqCode) {
-            case (PICK_CONTACT) :
-                if (resultCode == Activity.RESULT_OK) {
-                    Uri contactData = data.getData();
-                    Cursor c =  getContentResolver().query(contactData, null, null, null, null);
-                    Toast.makeText(this, "1", Toast.LENGTH_SHORT).show();
-                    String id = c.getString(c.getColumnIndex(ContactsContract.Contacts._ID));
-                    if (c.moveToFirst()) {
-//                        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
-//
-//                        Cursor cur = this.getContentResolver().
-//                                query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,
-//                                        null,
-//                                        ContactsContract.CommonDataKinds.Phone.CONTACT_ID +" = ?",
-//                                        new String[]{}, null);
-//                        while(cur.moveToNext())
-//                        {
-////                            number = cur.getString(
-////                                    cur.getColumnIndex(
-////                                            ContactsContract.CommonDataKinds.Phone.NUMBER));
-//                            int type = cur.getInt(
-//                                    cur.getColumnIndex(
-//                                            ContactsContract.CommonDataKinds.Phone.TYPE));
-//                            Toast.makeText(this, number +" - "+ type, Toast.LENGTH_SHORT).show();
-//
-//                        }
-                    }
-                }
-                break;
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        Uri contactData = data.getData();
+        Cursor c = getContentResolver().query(contactData, null, null, null, null);
+        if (c.moveToFirst()) {
+            int phoneIndex = c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
+            String num = c.getString(phoneIndex);
+//            Toast.makeText(Placeholder.this, "Number=" + num, Toast.LENGTH_LONG).show();
+            sendSMSMessage(num);
         }
     }
 
@@ -192,9 +164,14 @@ public class Placeholder extends AppCompatActivity {
 
     }
 
-    protected void sendSMSMessage() {
-        phoneNo = txtphoneNo.getText().toString();
+    protected void sendSMSMessage(String number) {
+        phoneNo = number;
         message = txtMessage.getText().toString();
+
+        SmsManager smsManager = SmsManager.getDefault();
+        smsManager.sendTextMessage(phoneNo, null, message, null, null);
+        Toast.makeText(getApplicationContext(), "SMS sent.",
+                Toast.LENGTH_LONG).show();
 
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.SEND_SMS)
@@ -208,9 +185,7 @@ public class Placeholder extends AppCompatActivity {
                         MY_PERMISSIONS_REQUEST_SEND_SMS);
             }
         }
-
-        txtMessage.setText("");
-        txtphoneNo.setText("");
+//        txtMessage.setText("");
     }
 
     @Override

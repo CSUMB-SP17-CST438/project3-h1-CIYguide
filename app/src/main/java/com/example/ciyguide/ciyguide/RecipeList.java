@@ -143,7 +143,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 ////                    JSONObject jObject = jArray.getJSONObject(i);
 //
 //                }
-                Toast.makeText(RecipeList.this, result2 , Toast.LENGTH_SHORT).show();
+//                Toast.makeText(RecipeList.this, result2 , Toast.LENGTH_SHORT).show();
                 Log.e("JSONFile", result2);
                 this.progressDialog.dismiss();
             } catch (Exception e) {

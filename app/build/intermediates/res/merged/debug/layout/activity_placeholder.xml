@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--Created by Marilyn Florek for the Placeholder java file-->
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
 
     <include
         layout="@layout/toolbar"/>
 
-    <EditText
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/phonenumber"
+        android:text="@string/sendGrocery"
         android:inputType="phone"
-        android:textColor="@color/black"
-        android:digits="0123456789+"
-        android:id="@+id/editText"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/txtView"
         android:layout_above="@+id/editText2"/>
-
-    <EditText
+    <GridLayout
         android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:hint="@string/message"
         android:textColor="@color/black"
@@ -31,7 +46,7 @@
         android:layout_below="@+id/editText"/>
 
     <Button
-        android:layout_width="150dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
         android:text="Send Txt"
@@ -39,7 +54,20 @@
         android:background="@drawable/button"
         android:id="@+id/btnSendSMS"
         android:layout_below="@+id/editText2"/>
+    </GridLayout>
 
+    </LinearLayout>
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yourRecipe"
+        android:inputType="phone"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/txtView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_above="@+id/editText2"/>
 </LinearLayout>
+</ScrollView>
