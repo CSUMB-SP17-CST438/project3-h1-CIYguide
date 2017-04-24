@@ -48,8 +48,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         searchlist = (ListView)findViewById(R.id.list_search_tags);
 
         searchphrases = new ArrayList<String>();
-        adapter = new ArrayAdapter<String>(SearchRecipeScreen.this, android.R.layout.simple_list_item_1,
-                searchphrases);
+        adapter = new ArrayAdapter<String>(SearchRecipeScreen.this, R.layout.layout_search_list, R.id.search_term, searchphrases);
         searchlist.setAdapter(adapter);
         View addingredientButton = findViewById(R.id.add_button);
         addingredientButton.setOnClickListener(this);
@@ -130,7 +129,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     }
 
 
-
+    //The following code added by Marilyn Florek for the toolbar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -163,12 +162,17 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
     public void deleteSearchTerm(View view)
     {
-        View parent = (View) view.getParent();
-        TextView taskTextView = (TextView)
-                parent.findViewById(R.id.search_text_box);
-        String term = String.valueOf(taskTextView.getText());
-        searchphrases.remove(term);
-        adapter.notifyDataSetChanged();
+        try {
+            View parent = (View) view.getParent();
+            TextView taskTextView = (TextView)
+                    parent.findViewById(R.id.search_term);
+            String term = String.valueOf(taskTextView.getText());
+            searchphrases.remove(term);
+            adapter.notifyDataSetChanged();
+        }
+        catch(Exception e){
+            Toast.makeText(this, "Error: " + e.toString(), Toast.LENGTH_SHORT).show();
+        }
 
     }
 }
