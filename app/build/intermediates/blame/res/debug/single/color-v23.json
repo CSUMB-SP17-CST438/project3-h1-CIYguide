@@ -4,6 +4,10 @@
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/MFlorek/.android/build-cache/7be72cacc55c806a03c7168ed474b9fa42af1905/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/color-v23/abc_tint_seek_thumb.xml"
     },

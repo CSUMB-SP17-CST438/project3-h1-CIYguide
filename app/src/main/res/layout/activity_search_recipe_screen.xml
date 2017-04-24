@@ -45,8 +45,8 @@
 
         <ImageButton
             android:id="@+id/camera_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
             android:layout_alignBottom="@+id/placeholdertext"
             android:layout_toRightOf="@id/placeholdertext"
             android:text="Pic"
