@@ -59,7 +59,6 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
     public static String ENTIRE_RECIPE_JSON = "rJSON";
     public static String start = "start Index";
     public static String end = "end index";
-    public String ingredientList = "";
 
     Button NextButton;
     Button BackButton;
@@ -197,6 +196,8 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
         protected Void doInBackground(String... params) {
             //source: https://developer.edamam.com/edamam-docs-recipe-api
 
+            //ingredients from previous activity
+            String ingredientList = "";
             for(int j = 0; j < searchphrases.size(); j++){
                 if(j == searchphrases.size()-1)
                     ingredientList += searchphrases.get(j);
@@ -222,8 +223,9 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
                     result.append(line);
                 }
                 result2 = result.toString();
-                SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-                SharedPreferences.Editor SPedit = SP.edit();
+                SharedPreferences.Editor SPedit = Sp.edit();
+
+                //contains entire json
                 SPedit.putString(ENTIRE_RECIPE_JSON, result2);
 
                 //store recipe to pass : lorenzo ^
@@ -254,6 +256,8 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
 
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 SharedPreferences.Editor SPedit = SP.edit();
+
+                //image url and name of recipe
                 SPedit.putString(imgURL, jObj3.get("image").toString());
                 SPedit.putString(recipeName, jObj3.get("label").toString());
                 SPedit.commit();
@@ -264,6 +268,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
                 this.progressDialog.dismiss();
             } catch (Exception e) {
                 Log.e("JSONException", "Error: " + e.toString());
+                e.printStackTrace();
                 Toast.makeText(RecipeList.this, "There is an error", Toast.LENGTH_SHORT).show();
                 progressDialog.dismiss();
             }
