@@ -2745,13 +2745,13 @@ containing a value of this type.
     }
     public static final class id {
         public static final int Account=0x7f0b00c3;
-        public static final int Back_button=0x7f0b0081;
+        public static final int Back_button=0x7f0b007c;
         public static final int LogOut=0x7f0b00c4;
         public static final int LogOutSub=0x7f0b00c5;
-        public static final int Next_button=0x7f0b0082;
-        public static final int RecipeImage=0x7f0b0083;
-        public static final int RecipeName=0x7f0b0080;
-        public static final int RelativeLayout01=0x7f0b0085;
+        public static final int Next_button=0x7f0b007d;
+        public static final int RecipeImage=0x7f0b007e;
+        public static final int RecipeName=0x7f0b007b;
+        public static final int RelativeLayout01=0x7f0b0080;
         public static final int action0=0x7f0b00ad;
         public static final int action_bar=0x7f0b0064;
         public static final int action_bar_activity_content=0x7f0b0000;
@@ -2773,9 +2773,9 @@ containing a value of this type.
         public static final int actions=0x7f0b00ba;
         public static final int activity_chooser_view_content=0x7f0b0046;
         public static final int activity_log_in_screen=0x7f0b0075;
-        public static final int activity_search_recipe_screen=0x7f0b0084;
+        public static final int activity_search_recipe_screen=0x7f0b007f;
         public static final int add=0x7f0b001c;
-        public static final int add_button=0x7f0b0089;
+        public static final int add_button=0x7f0b0084;
         public static final int adjust_height=0x7f0b0026;
         public static final int adjust_width=0x7f0b0027;
         public static final int alertTitle=0x7f0b0052;
@@ -2787,10 +2787,10 @@ containing a value of this type.
         public static final int beginning=0x7f0b0023;
         public static final int bottom=0x7f0b0033;
         public static final int box_count=0x7f0b0038;
-        public static final int btnSendSMS=0x7f0b007b;
+        public static final int btnSendSMS=0x7f0b0089;
         public static final int button=0x7f0b0039;
         public static final int buttonPanel=0x7f0b004d;
-        public static final int camera_button=0x7f0b0087;
+        public static final int camera_button=0x7f0b0082;
         public static final int cancel_action=0x7f0b00ae;
         public static final int cancel_button=0x7f0b0098;
         public static final int center=0x7f0b003b;
@@ -2820,8 +2820,8 @@ containing a value of this type.
         public static final int disableHome=0x7f0b0016;
         public static final int display_always=0x7f0b003f;
         public static final int display_photo=0x7f0b00a6;
-        public static final int editText=0x7f0b007c;
-        public static final int editText2=0x7f0b007a;
+        public static final int editText=0x7f0b008a;
+        public static final int editText2=0x7f0b0088;
         public static final int edit_query=0x7f0b0066;
         public static final int editableUserName=0x7f0b008e;
         public static final int end=0x7f0b0024;
@@ -2847,7 +2847,7 @@ containing a value of this type.
         public static final int list=0x7f0b00a3;
         public static final int listMode=0x7f0b0013;
         public static final int list_item=0x7f0b004a;
-        public static final int list_search_tags=0x7f0b008a;
+        public static final int list_search_tags=0x7f0b0085;
         public static final int login_button=0x7f0b0074;
         public static final int logo=0x7f0b00c2;
         public static final int media_actions=0x7f0b00b0;
@@ -2868,7 +2868,7 @@ containing a value of this type.
         public static final int page=0x7f0b0036;
         public static final int parent=0x7f0b000a;
         public static final int parentPanel=0x7f0b004f;
-        public static final int placeholdertext=0x7f0b0086;
+        public static final int placeholdertext=0x7f0b0081;
         public static final int previous_searches_button=0x7f0b0077;
         public static final int profilePicFrame=0x7f0b008c;
         public static final int profilePicture=0x7f0b008d;
@@ -2876,8 +2876,8 @@ containing a value of this type.
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b005d;
-        public static final int recipe_list_button=0x7f0b007f;
-        public static final int resulting_recipes_button=0x7f0b008b;
+        public static final int recipe_list_button=0x7f0b007a;
+        public static final int resulting_recipes_button=0x7f0b0086;
         public static final int right=0x7f0b003d;
         public static final int right_icon=0x7f0b00b8;
         public static final int right_side=0x7f0b00b4;
@@ -2897,7 +2897,7 @@ containing a value of this type.
         public static final int search_recipes_button=0x7f0b0076;
         public static final int search_src_text=0x7f0b006d;
         public static final int search_term=0x7f0b00a7;
-        public static final int search_text_box=0x7f0b0088;
+        public static final int search_text_box=0x7f0b0083;
         public static final int search_voice_btn=0x7f0b0071;
         public static final int select_dialog_listview=0x7f0b0072;
         public static final int settings=0x7f0b0093;
@@ -2924,15 +2924,15 @@ containing a value of this type.
         public static final int text2=0x7f0b00bd;
         public static final int textSpacerNoButtons=0x7f0b0056;
         public static final int textView=0x7f0b0073;
-        public static final int textView2=0x7f0b007e;
+        public static final int textView2=0x7f0b0079;
         public static final int time=0x7f0b00b5;
         public static final int title=0x7f0b004c;
         public static final int title_template=0x7f0b0051;
         public static final int toolbar=0x7f0b00c1;
         public static final int top=0x7f0b0034;
         public static final int topPanel=0x7f0b0050;
-        public static final int txtView=0x7f0b0079;
-        public static final int txtView2=0x7f0b007d;
+        public static final int txtView=0x7f0b0087;
+        public static final int txtView2=0x7f0b008b;
         public static final int unknown=0x7f0b0037;
         public static final int up=0x7f0b0009;
         public static final int useLogo=0x7f0b001b;
@@ -2980,9 +2980,9 @@ containing a value of this type.
         public static final int activity_ingredients_list=0x7f04001a;
         public static final int activity_main=0x7f04001b;
         public static final int activity_main_screen=0x7f04001c;
-        public static final int activity_placeholder=0x7f04001d;
-        public static final int activity_recipe_list=0x7f04001e;
-        public static final int activity_search_recipe_screen=0x7f04001f;
+        public static final int activity_recipe_list=0x7f04001d;
+        public static final int activity_search_recipe_screen=0x7f04001e;
+        public static final int activity_singe_recipe=0x7f04001f;
         public static final int activity_user_profile=0x7f040020;
         public static final int com_facebook_activity_layout=0x7f040021;
         public static final int com_facebook_device_auth_dialog_fragment=0x7f040022;
