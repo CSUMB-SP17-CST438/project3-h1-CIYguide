@@ -59,6 +59,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
     public static String ENTIRE_RECIPE_JSON = "rJSON";
     public static String start = "start Index";
     public static String end = "end index";
+    public String ingredientList = "";
 
     Button NextButton;
     Button BackButton;
@@ -195,9 +196,17 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
         @Override
         protected Void doInBackground(String... params) {
             //source: https://developer.edamam.com/edamam-docs-recipe-api
+
+            for(int j = 0; j < searchphrases.size(); j++){
+                if(j == searchphrases.size()-1)
+                    ingredientList += searchphrases.get(j);
+                else
+                    ingredientList += searchphrases.get(j) + ",";
+            }
+
             try {
                 SharedPreferences Sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-                URL url = new URL("https://api.edamam.com/search?q=chicken,salt&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1));
+                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1));
 
                 connection = (HttpURLConnection) url.openConnection();
                 InputStream in = new BufferedInputStream(connection.getInputStream());
@@ -252,7 +261,6 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
                 new DownloadImage(jObj3.get("image").toString(), RecipeImage).execute();
                 RecipeName.setText(jObj3.get("label").toString());
 
-                Toast.makeText(RecipeList.this, jObj3.get("image").toString(), Toast.LENGTH_SHORT).show();
                 this.progressDialog.dismiss();
             } catch (Exception e) {
                 Log.e("JSONException", "Error: " + e.toString());
