@@ -54,6 +54,7 @@ MERGED from [com.android.support:support-media-compat:25.0.0] /Users/MFlorek/.an
 MERGED from [com.android.support:support-core-utils:25.0.0] /Users/MFlorek/.android/build-cache/64a618bb4f42f1b3f41b0ea48e35d09cc19cbadf/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:25.0.0] /Users/MFlorek/.android/build-cache/b00999907b6e31d796927981769487ed8c5d0221/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.0] /Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/AndroidManifest.xml:25:5-20
+MERGED from [com.jakewharton.timber:timber:4.3.0] /Users/MFlorek/.android/build-cache/602ab9d8eb9add393f6f1afae74c02afc062210e/output/AndroidManifest.xml:8:5-20
 	android:label
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:19:9-41
 	android:supportsRtl
@@ -164,6 +165,7 @@ MERGED from [com.android.support:support-core-utils:25.0.0] /Users/MFlorek/.andr
 MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/MFlorek/.android/build-cache/96ebf9e429b5784af6fd2db3daa481ef417d27cf/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.0.0] /Users/MFlorek/.android/build-cache/b00999907b6e31d796927981769487ed8c5d0221/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.0.0] /Users/MFlorek/.android/build-cache/67a9d741c9a2407f1037732780c09b283eb01ece/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton.timber:timber:4.3.0] /Users/MFlorek/.android/build-cache/602ab9d8eb9add393f6f1afae74c02afc062210e/output/AndroidManifest.xml:6:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.0.0] /Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

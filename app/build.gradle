@@ -50,5 +50,9 @@ dependencies {
     compile 'com.facebook.android:facebook-android-sdk:4.20.0'
     compile 'com.android.support:support-v4:24.0.0'
     compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile("com.clarifai.clarifai-api2:core:2.0.2",
+            // For logging our HTTP outbound + inbound data
+            "com.jakewharton.timber:timber:4.3.0",
+            "com.squareup.okhttp3:logging-interceptor:3.4.1")
     testCompile 'junit:junit:4.12'
 }
