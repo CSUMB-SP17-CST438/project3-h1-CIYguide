@@ -36,6 +36,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.lang.reflect.Array;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -64,6 +65,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
     Button BackButton;
     ImageView RecipeImage;
     TextView RecipeName;
+    Button recipeSelector;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,7 +76,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
 
         //lorenzo
 
-        View recipeSelector = findViewById(R.id.recipe_list_button);
+        recipeSelector = (Button) findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
         NextButton = (Button) findViewById(R.id.Next_button);
         NextButton.setOnClickListener(this);
@@ -99,8 +101,15 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
         if(SP.getInt(start, 0) == 0)
         {
             BackButton.setClickable(false);
-            BackButton.setTextColor(Color.parseColor("#D6D7D7"));
+            BackButton.setTextColor(Color.parseColor("#CC0000"));
         }
+        else
+            BackButton.setTextColor(Color.parseColor("#FFFFFF"));
+
+        //set button colors
+        recipeSelector.setBackgroundColor(Color.parseColor("#CC0000"));
+        NextButton.setBackgroundColor(Color.parseColor("#CC0000"));
+        BackButton.setBackgroundColor(Color.parseColor("#CC0000"));
     }
 
     public void onResume() {
@@ -128,7 +137,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
             //check and enable click for back button : lorenzo
             if(SP.contains(start) && SP.getInt(start, 0) >= 1){
                 BackButton.setClickable(true);
-                BackButton.setTextColor(Color.parseColor("#000000"));
+                BackButton.setTextColor(Color.parseColor("#FFFFFF"));
             }
             new AsyncCaller().execute("");
         } else if(v.getId() == R.id.Back_button){
@@ -147,7 +156,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
             //check and disable backbutton : lorenzo
             if(SP.contains(start) && SP.getInt(start, 0) < 1){
                 BackButton.setClickable(false);
-                BackButton.setTextColor(Color.parseColor("#D6D7D7"));
+                BackButton.setTextColor(Color.parseColor("#CC0000"));
             }
         }
     }
@@ -260,6 +269,13 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
                 //image url and name of recipe
                 SPedit.putString(imgURL, jObj3.get("image").toString());
                 SPedit.putString(recipeName, jObj3.get("label").toString());
+
+                JSONArray ingredientsNeeded;
+                if(jObj3.get("ingredientLines") instanceof JSONArray)
+                {
+                    ingredientsNeeded = (JSONArray)jObj3.get("ingredientLines");
+                }
+
                 SPedit.commit();
 
                 new DownloadImage(jObj3.get("image").toString(), RecipeImage).execute();
