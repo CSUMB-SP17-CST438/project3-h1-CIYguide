@@ -1,7 +1,0 @@
-#Mon Apr 24 04:28:20 PDT 2017
-base.0=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73209668ad8d64d298a750bfde18df3f932d2639
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e4125d2ebf4ae1f18a15f9018348192303007d05\\classes.dex
-base.1=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e4125d2ebf4ae1f18a15f9018348192303007d05
-file.0=C\:\\Users\\Joe Otter\\Desktop\\Testing\\project3-h1-CIYguide\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_73209668ad8d64d298a750bfde18df3f932d2639\\classes.dex
