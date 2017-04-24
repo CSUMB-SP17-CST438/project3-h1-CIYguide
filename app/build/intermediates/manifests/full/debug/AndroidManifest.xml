@@ -54,11 +54,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.ciyguide.ciyguide.SearchRecipeScreen" />
-        <activity android:name="com.example.ciyguide.ciyguide.Settings" />
         <activity android:name="com.example.ciyguide.ciyguide.UserProfileActivity" />
         <activity android:name="com.example.ciyguide.ciyguide.Placeholder" />
         <!-- <activity android:name=".MainScreen"/> -->
-        <!-- <activity android:name=".SpoonacularAPI" /> -->
         <activity android:name="com.example.ciyguide.ciyguide.RecipeList" />
         <activity android:name="com.example.ciyguide.ciyguide.IngredientsList" />
         <activity

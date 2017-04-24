@@ -17,7 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    packagingOptions {
+    packagingOptions{
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/NOTICE'
         exclude 'META-INF/LICENSE'
@@ -31,11 +31,10 @@ android {
 
 repositories {
     mavenCentral()
-    maven {
+    maven{
         url 'https://raw.github.com/zeeshanejaz/unirest-android/mvn-repo'
     }
 }
-
 
 
 dependencies {
@@ -44,12 +43,12 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     // Android SDK
-    compile project(path: ':SpoonacularAPILib')
-//    testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
     compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.facebook.android:facebook-android-sdk:4.20.0'
     compile 'com.android.support:support-v4:24.0.0'
     compile 'com.android.support:recyclerview-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
 }

@@ -1,42 +1,24 @@
 package com.example.ciyguide.ciyguide;
 
 
-import android.app.ActionBar;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.ImageView;
 import android.widget.Toast;
-import android.widget.ViewSwitcher;
 
-import com.facebook.AccessToken;
-import com.facebook.GraphRequest;
-import com.facebook.GraphResponse;
-import com.facebook.HttpMethod;
 import com.facebook.Profile;
 import com.facebook.login.widget.ProfilePictureView;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
-
-import org.json.JSONObject;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 
 /**
@@ -54,13 +36,15 @@ public class UserProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_profile);
 
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
 
         Button fridge = (Button) findViewById(R.id.myFridge);
         Button mine = (Button) findViewById(R.id.myRecipes);
         Button saved = (Button) findViewById(R.id.savedRecipes);
         Button settingsButton = (Button) findViewById(R.id.settings);
-        TextView userName = (TextView) findViewById(R.id.userTextView);
-        ProfilePictureView proPic = (ProfilePictureView)findViewById(R.id.profilePicture);
+        userName = (TextView) findViewById(R.id.userTextView);
+        proPic = (ProfilePictureView)findViewById(R.id.profilePicture);
 
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         Boolean gotProfile = getUserInfo();
@@ -83,6 +67,32 @@ public class UserProfileActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.user_profile, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+
+            case R.id.home:
+                startActivity(new Intent(UserProfileActivity.this, MainScreen.class));
+                return true;
+
+            case R.id.LogOutSub:
+                MainActivity.LoggingOut();
+                startActivity(new Intent(UserProfileActivity.this, MainActivity.class));
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+
+        }
+    }
+
 
     public void myFridge(View view) {
         startActivity(new Intent(UserProfileActivity.this, IngredientsList.class));
@@ -94,10 +104,6 @@ public class UserProfileActivity extends AppCompatActivity {
 
     public void savedRecipes(View view) {
         startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
-    }
-
-    public void settingScreen(View view) {
-        startActivity(new Intent(UserProfileActivity.this, Settings.class));
     }
 
     @Override

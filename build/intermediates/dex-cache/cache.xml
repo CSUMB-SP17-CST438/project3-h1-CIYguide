@@ -3,30 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Joe Otter\.android\build-cache\83d0e806a388af54b4dfc9ade4f15e313f676a31\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0d94c39080a309d1887f50ef68cc96dfe4bc9d01">
-        <dex dex="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66aedd70fc31fe9ca813133e33c8a142029926a2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c2c47f1724d04c76e39c649d067fffa149a58781">
-        <dex dex="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_73209668ad8d64d298a750bfde18df3f932d2639\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Joe Otter\Desktop\Testing\HOLD_ME_MASTER\project3-h1-CIYguide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="C:\Users\Joe Otter\Desktop\Testing\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e4125d2ebf4ae1f18a15f9018348192303007d05\classes.dex" />
+        <dex dex="C:\Users\Joe Otter\Desktop\Testing\HOLD_ME_MASTER\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fd94a54c9802ce33d899b920f7e7262d112bf88f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cb2ef781533c3f11c4e80341cbaebad275c66586">
+        <dex dex="C:\Users\Joe Otter\Desktop\Testing\HOLD_ME_MASTER\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ad50541c8f6fd712eff91d8664332eed8158ac35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Joe Otter\Desktop\Testing\HOLD_ME_MASTER\project3-h1-CIYguide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1cbf8fbbf26a155cb6f915ed81481e81cb793953">
+        <dex dex="C:\Users\Joe Otter\Desktop\Testing\HOLD_ME_MASTER\project3-h1-CIYguide\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1f67522fd39e4e648e07958bcfff281bed2f0a20\classes.dex" />
     </item>
 
 </items>

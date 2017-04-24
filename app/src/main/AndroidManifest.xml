@@ -46,11 +46,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SearchRecipeScreen" />
-        <activity android:name=".Settings" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".Placeholder" />
         <!--<activity android:name=".MainScreen"/>-->
-        <!--<activity android:name=".SpoonacularAPI" />-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
         <activity android:name=".ShowPhoto"

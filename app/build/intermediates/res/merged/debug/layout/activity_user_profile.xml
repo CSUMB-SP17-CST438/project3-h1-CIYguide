@@ -19,11 +19,15 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <include
+            layout="@layout/halfcrop_veggies"/>
+
         <!--THIS IS WHERE WE GET THE CIRCLE CROP FOR THE PROFILE PICTURE-->
         <FrameLayout
             android:id="@+id/profilePicFrame"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="-50dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20dp">
             <com.facebook.login.widget.ProfilePictureView
@@ -34,13 +38,6 @@
                 android:layout_marginBottom="10dp"
                 facebook:com_facebook_preset_size="normal"
                 android:layout_gravity="center_horizontal" />
-
-            <!--<ImageView-->
-            <!--android:layout_width="100dp"-->
-            <!--android:layout_height="100dp"-->
-            <!--android:src="@drawable/circle_crop"-->
-            <!--android:adjustViewBounds="true"-->
-            <!--android:scaleType="fitCenter" />-->
         </FrameLayout>
 
         <LinearLayout
@@ -56,6 +53,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"
                     android:hint="USER NAME"
                     android:textSize="30dp"
                     android:id="@+id/userTextView"/>
@@ -63,44 +62,49 @@
             </ViewSwitcher>
         </LinearLayout>
 
-        <Button
-            android:layout_width="200dp"
+        <GridLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
+            android:background="@drawable/button"
             android:text="@string/myFridge"
             android:id="@+id/myFridge"
             android:onClick="myFridge"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left|top"
             android:layout_above="@+id/myRecipes"
             android:layout_below="@+id/profilePicFrame"/>
 
         <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
             android:text="@string/myRecipes"
             android:id="@+id/myRecipes"
+            android:background="@drawable/button"
             android:onClick="myRecipes"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="right|top"
             android:layout_above="@+id/savedRecipes"
             android:layout_below="@+id/myFridge"/>
 
         <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:padding="20dp"
             android:text="@string/savedRecipes"
             android:id="@+id/savedRecipes"
+            android:background="@drawable/button"
             android:onClick="savedRecipes"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left|bottom"
             android:layout_above="@+id/settings"
             android:layout_below="@+id/myRecipes"/>
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="@string/settings"
-            android:id="@+id/settings"
-            android:onClick="settingScreen"
-            android:layout_gravity="center_horizontal"
-            android:layout_above="@+id/savedRecipes"
-            android:layout_below="@+id/myFridge"/>
+        </GridLayout>
     </LinearLayout>
 </ScrollView>
