@@ -14,6 +14,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.view.menu.ListMenuItemView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.util.StringBuilderPrinter;
 import android.view.Menu;
@@ -49,7 +50,7 @@ import static android.R.attr.data;
  * Edited by Lhernandez
  */
 
-public class RecipeList extends FragmentActivity implements View.OnClickListener {
+public class RecipeList extends AppCompatActivity implements View.OnClickListener {
 
     ArrayList<String> searchphrases; //Added by MFlorek
 
@@ -69,6 +70,9 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(myToolbar);
 
         //lorenzo
 
@@ -110,6 +114,8 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
         recipeSelector.setBackgroundColor(Color.parseColor("#CC0000"));
         NextButton.setBackgroundColor(Color.parseColor("#CC0000"));
         BackButton.setBackgroundColor(Color.parseColor("#CC0000"));
+
+        new AsyncCaller().execute("");
     }
 
     public void onResume() {
@@ -165,7 +171,7 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main, menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
@@ -174,6 +180,10 @@ public class RecipeList extends FragmentActivity implements View.OnClickListener
             case R.id.Account:
                 Intent i = new Intent(RecipeList.this, UserProfileActivity.class);
                 startActivity(i);
+                return true;
+
+            case R.id.home:
+                startActivity(new Intent(RecipeList.this, MainScreen.class));
                 return true;
 
             case R.id.LogOutSub:

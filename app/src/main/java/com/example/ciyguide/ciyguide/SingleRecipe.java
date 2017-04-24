@@ -2,8 +2,6 @@ package com.example.ciyguide.ciyguide;
 
 //source: https://www.tutorialspoint.com/android/android_json_parser.htm
 
-import android.app.Activity;
-import android.content.ContentResolver;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
@@ -12,7 +10,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.Toolbar;
-import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.telephony.SmsManager;
 import android.os.Bundle;
 import android.util.Log;
@@ -29,15 +26,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.Manifest;
-
-import static android.R.attr.id;
-import static com.example.ciyguide.ciyguide.MainActivity.name;
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
 */
 
-public class Placeholder extends AppCompatActivity {
+public class SingleRecipe extends AppCompatActivity {
 
     String walmart_api_key = "t4gs8z827b4kqzm8n4e5nfgk";
     Uri.Builder builder = new Uri.Builder();
@@ -56,7 +50,7 @@ public class Placeholder extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_placeholder);
+        setContentView(R.layout.activity_singe_recipe);
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
@@ -121,17 +115,17 @@ public class Placeholder extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.Account:
-                Intent i = new Intent(Placeholder.this, UserProfileActivity.class);
+                Intent i = new Intent(SingleRecipe.this, UserProfileActivity.class);
                 startActivity(i);
                 return true;
 
             case R.id.home:
-                startActivity(new Intent(Placeholder.this, MainScreen.class));
+                startActivity(new Intent(SingleRecipe.this, MainScreen.class));
                 return true;
 
             case R.id.LogOutSub:
                 MainActivity.LoggingOut();
-                startActivity(new Intent(Placeholder.this, MainActivity.class));
+                startActivity(new Intent(SingleRecipe.this, MainActivity.class));
                 return true;
 
             default:
