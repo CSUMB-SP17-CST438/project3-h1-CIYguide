@@ -18,12 +18,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
+
 import java.lang.String;
 import java.util.ArrayList;
 
 import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
 /*
@@ -42,8 +45,14 @@ public class SingleRecipe extends AppCompatActivity {
     EditText txtMessage;
     String phoneNo;
     String message;
+    TextView RecipeName;
     ArrayList<String> searchphrases;
-    String messageTest = "Grocery List: ";
+    ArrayList<String> whatYouHave;
+    ArrayList<String> whatYouNeed;
+    String messageTest = "Grocery List: \n";
+    String have = "";
+    String need = "";
+    String r_Name = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
 
@@ -54,6 +63,7 @@ public class SingleRecipe extends AppCompatActivity {
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
+        RecipeName = (TextView) findViewById(R.id.txtView2);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -62,20 +72,37 @@ public class SingleRecipe extends AppCompatActivity {
         Intent i = getIntent();
         try {
             searchphrases = i.getStringArrayListExtra("searchphrases");
+
+            //lorenzo
+            whatYouHave = i.getStringArrayListExtra("whatYouHave");
+            whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
+            Log.d("Have", whatYouHave.toString());
+            Log.d("Need", whatYouNeed.toString());
+            r_Name = i.getStringExtra("recipeName");
+            RecipeName.setText("Recipe: " + r_Name);
         } catch(Exception e){}
         int num =1;
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
-        for(String s : searchphrases) {
-            if(num++ == searchphrases.size())
-            {
-                messageTest += s + ". ";
-            }
-            else {
-                messageTest += s + ", ";
-            }
-        }
+//        for(String s : searchphrases) {
+//            if(num++ == searchphrases.size())
+//            {
+//                messageTest += s + ". ";
+//            }
+//            else {
+//                messageTest += s + ", ";
+//            }
+//        }
+
+        //creating grocery list based on have/need
+        messageTest += "What You Might Have:\n";
+        for(int x = 0; x < whatYouHave.size(); x++)
+            have += whatYouHave.get(x) + "\n";
+        messageTest += have + "\nWhat You Need:\n";
+        for(int x = 0; x < whatYouNeed.size(); x++)
+            need += whatYouNeed.get(x) + "\n";
+        messageTest += need;
         txtMessage.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
