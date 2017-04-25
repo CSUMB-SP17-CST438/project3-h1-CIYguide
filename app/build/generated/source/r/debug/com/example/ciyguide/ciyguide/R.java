@@ -2993,7 +2993,7 @@ containing a value of this type.
         public static final int fragment_contacts_list=0x7f040027;
         public static final int fragment_facebook=0x7f040028;
         public static final int halfcrop_veggies=0x7f040029;
-        public static final int layout_photo=0x7f04002a;
+        public static final int activity_clarifai =0x7f04002a;
         public static final int layout_search_list=0x7f04002b;
         public static final int messenger_button_send_blue_large=0x7f04002c;
         public static final int messenger_button_send_blue_round=0x7f04002d;
