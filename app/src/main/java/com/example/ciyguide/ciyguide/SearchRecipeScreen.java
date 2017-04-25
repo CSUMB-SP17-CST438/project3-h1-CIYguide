@@ -48,10 +48,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ListView searchlist;
     ArrayList<String> searchphrases;
     ArrayAdapter<String> adapter;
-    public static String ENTIRE_RECIPE_JSON = "rJSON";
-    public static final String RECIPE_PREF = "Recipe info";
-    public static String start = "start Index";
-    public static String end = "end index";
 
     private static final int ACTIVITY_START_CAMERA_APP = 23;
 
@@ -97,7 +93,9 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
         else if(v.getId() == R.id.resulting_recipes_button)
         {
-            new AsyncCaller().execute("");
+            Intent i = new Intent(SearchRecipeScreen.this, RecipeList.class);
+            i.putStringArrayListExtra("searchphrases", searchphrases);
+            startActivity(i);
         }
 
         else if(v.getId() == R.id.camera_button)
