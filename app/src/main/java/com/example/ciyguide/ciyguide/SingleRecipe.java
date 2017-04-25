@@ -76,6 +76,8 @@ public class SingleRecipe extends AppCompatActivity {
             //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
+            Log.d("Have", whatYouHave.toString());
+            Log.d("Need", whatYouNeed.toString());
             r_Name = i.getStringExtra("recipeName");
             RecipeName.setText("Recipe: " + r_Name);
         } catch(Exception e){}
@@ -97,11 +99,10 @@ public class SingleRecipe extends AppCompatActivity {
         messageTest += "What You Might Have:\n";
         for(int x = 0; x < whatYouHave.size(); x++)
             have += whatYouHave.get(x) + "\n";
-        messageTest += "What You Need:\n";
+        messageTest += have + "\nWhat You Need:\n";
         for(int x = 0; x < whatYouNeed.size(); x++)
             need += whatYouNeed.get(x) + "\n";
-
-        messageTest += have + need;
+        messageTest += need;
         txtMessage.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
