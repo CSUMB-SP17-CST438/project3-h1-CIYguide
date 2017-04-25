@@ -20,3 +20,5 @@ Known problems are:
   
 ### How would you improve it if you had more time?
 We would have definitely finished the camera recognition feature of the app.
+
+

@@ -31,6 +31,12 @@
     <string name="facebook_app_id">1865569750367993</string>
     <string name="fb_login_protocol_scheme">fb1865569750367993</string>
 
+    <!-- Clarifai strings -->
+    <string name="clarifai_id">lwdvqSIoEoTBDMHw0WOWGi9U8xz10bAvjAjDGlqE</string>
+    <string name="clarifai_secret">0tCk2sUvqeoGDocgAL1eNFVJbJcJAVUF5NScCleP</string>
+
+
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

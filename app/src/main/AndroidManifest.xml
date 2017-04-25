@@ -51,7 +51,7 @@
         <!--<activity android:name=".MainScreen"/>-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
-        <activity android:name=".ShowPhoto"
+        <activity android:name=".ClarifaiActivity"
             android:theme="@style/AppTheme.PhotoTheme"
             />
     </application>
