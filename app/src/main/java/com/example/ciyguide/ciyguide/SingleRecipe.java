@@ -45,7 +45,7 @@ public class SingleRecipe extends AppCompatActivity {
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
-    String messageTest = "Grocery List: ";
+    String messageTest = "Grocery List: \n";
     final int PICK_CONTACT=1;
     Cursor cursor1;
 
@@ -64,7 +64,8 @@ public class SingleRecipe extends AppCompatActivity {
         Intent i = getIntent();
         try {
             searchphrases = i.getStringArrayListExtra("searchphrases");
-            
+
+            //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
         } catch(Exception e){}
@@ -72,15 +73,24 @@ public class SingleRecipe extends AppCompatActivity {
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
-        for(String s : searchphrases) {
-            if(num++ == searchphrases.size())
-            {
-                messageTest += s + ". ";
-            }
-            else {
-                messageTest += s + ", ";
-            }
-        }
+//        for(String s : searchphrases) {
+//            if(num++ == searchphrases.size())
+//            {
+//                messageTest += s + ". ";
+//            }
+//            else {
+//                messageTest += s + ", ";
+//            }
+//        }
+
+        //creating grocery list based on have/need
+        messageTest += "What You Might Have:\n";
+        for(int x = 0; x < whatYouHave.size(); x++)
+            messageTest += whatYouHave.get(x) + "\n";
+        messageTest += "What You Need:\n";
+        for(int x = 0; x < whatYouNeed.size(); x++)
+            messageTest += whatYouNeed.get(x) + "\n";
+
         txtMessage.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
