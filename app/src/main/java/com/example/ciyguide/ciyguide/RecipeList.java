@@ -115,6 +115,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         NextButton.setBackgroundColor(Color.parseColor("#CC0000"));
         BackButton.setBackgroundColor(Color.parseColor("#CC0000"));
 
+        //only one call needed : mflorek
         new AsyncCaller().execute("");
     }
 
