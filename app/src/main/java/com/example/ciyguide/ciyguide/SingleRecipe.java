@@ -18,12 +18,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
+
 import java.lang.String;
 import java.util.ArrayList;
 
 import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
 /*
@@ -42,12 +45,14 @@ public class SingleRecipe extends AppCompatActivity {
     EditText txtMessage;
     String phoneNo;
     String message;
+    TextView RecipeName;
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
     String messageTest = "Grocery List: \n";
     String have = "";
     String need = "";
+    String r_Name = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
 
@@ -58,6 +63,7 @@ public class SingleRecipe extends AppCompatActivity {
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
+        RecipeName = (TextView) findViewById(R.id.txtView2);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -70,6 +76,8 @@ public class SingleRecipe extends AppCompatActivity {
             //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
+            r_Name = i.getStringExtra("recipeName");
+            RecipeName.setText("Recipe: " + r_Name);
         } catch(Exception e){}
         int num =1;
 
