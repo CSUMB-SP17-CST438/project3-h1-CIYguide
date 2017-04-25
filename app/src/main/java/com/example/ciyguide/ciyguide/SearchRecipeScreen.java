@@ -34,6 +34,8 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ArrayAdapter<String> adapter;
 
     private static final int ACTIVITY_START_CAMERA_APP = 23;
+    private static final int ACTIVITY_CLARIFAI_CLASS = 20;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,7 +102,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 Bundle extras = data.getExtras();
                 Intent i = new Intent(SearchRecipeScreen.this, ClarifaiActivity.class);
                 i.putExtras(extras);
-                startActivity(i);
+                startActivityForResult(i, ACTIVITY_CLARIFAI_CLASS);
             }
 
         }
