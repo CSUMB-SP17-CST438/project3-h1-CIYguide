@@ -8,13 +8,43 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.util.concurrent.TimeUnit;
+
+import clarifai2.api.ClarifaiBuilder;
+import clarifai2.api.ClarifaiClient;
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+import timber.log.Timber;
+
 /**
  * Created by jason on 4/18/2017.
  */
 
 public class ClarifaiActivity extends Activity implements View.OnClickListener{
+
+    private ClarifaiClient client;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        client = new ClarifaiBuilder(getString(R.string.clarifai_id), getString(R.string.clarifai_secret))
+                // Optionally customize HTTP client via a custom OkHttp instance
+                .client(new OkHttpClient.Builder()
+                        .readTimeout(30, TimeUnit.SECONDS) // Increase timeout for poor mobile networks
+
+                        // Log all incoming and outgoing data
+                        // NOTE: You will not want to use the BODY log-level in production, as it will leak your API request details
+                        // to the (publicly-viewable) Android log
+                        .addInterceptor(new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
+                            @Override public void log(String logString) {
+                                Timber.e(logString);
+                            }
+                        }).setLevel(HttpLoggingInterceptor.Level.BODY))
+                        .build()
+                )
+                .buildSync(); // use build() instead to get a Future<ClarifaiClient>, if you don't want to block this thread
+
+
         super.onCreate(savedInstanceState);
 
         ImageView mPhotoCapturedImageView;
@@ -44,7 +74,7 @@ public class ClarifaiActivity extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         if(v.getId() == R.id.choose_photo)
         {
-            
+
         }
     }
 }
