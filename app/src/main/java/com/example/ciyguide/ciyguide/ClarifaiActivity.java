@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,6 +24,7 @@ import timber.log.Timber;
 
 public class ClarifaiActivity extends Activity implements View.OnClickListener{
 
+    @Nullable
     private ClarifaiClient client;
 
     @Override
@@ -77,4 +80,14 @@ public class ClarifaiActivity extends Activity implements View.OnClickListener{
 
         }
     }
+
+    @NonNull
+    public ClarifaiClient clarifaiClient() {
+        final ClarifaiClient client = this.client;
+        if (client == null) {
+            throw new IllegalStateException("Cannot use Clarifai client before initialized");
+        }
+        return client;
+    }
+
 }
