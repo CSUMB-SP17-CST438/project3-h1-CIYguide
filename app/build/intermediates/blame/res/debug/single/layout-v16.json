@@ -1,6 +1,11 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+=======
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v16/notification_template_custom_big.xml"
+>>>>>>> 7d5f6ab67f7e2407b07e2fc8a89cd3fba236e797
     }
 ]
