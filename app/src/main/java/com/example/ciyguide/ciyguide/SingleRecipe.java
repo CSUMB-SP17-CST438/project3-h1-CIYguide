@@ -46,6 +46,8 @@ public class SingleRecipe extends AppCompatActivity {
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
     String messageTest = "Grocery List: \n";
+    String have = "";
+    String need = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
 
@@ -86,11 +88,12 @@ public class SingleRecipe extends AppCompatActivity {
         //creating grocery list based on have/need
         messageTest += "What You Might Have:\n";
         for(int x = 0; x < whatYouHave.size(); x++)
-            messageTest += whatYouHave.get(x) + "\n";
+            have += whatYouHave.get(x) + "\n";
         messageTest += "What You Need:\n";
         for(int x = 0; x < whatYouNeed.size(); x++)
-            messageTest += whatYouNeed.get(x) + "\n";
+            need += whatYouNeed.get(x) + "\n";
 
+        messageTest += have + need;
         txtMessage.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
