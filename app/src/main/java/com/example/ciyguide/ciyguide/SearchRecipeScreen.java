@@ -93,12 +93,16 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
-        if(requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK)
+        if(resultCode == RESULT_OK)
         {
-            Bundle extras = data.getExtras();
-            Intent i = new Intent(SearchRecipeScreen.this, ClarifaiActivity.class);
-            i.putExtras(extras);
-            startActivity(i);
+            if(requestCode == ACTIVITY_START_CAMERA_APP)
+            {
+                Bundle extras = data.getExtras();
+                Intent i = new Intent(SearchRecipeScreen.this, ClarifaiActivity.class);
+                i.putExtras(extras);
+                startActivity(i);
+            }
+
         }
     }
 
