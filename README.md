@@ -3,7 +3,8 @@
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
 
 ### Who worked on it?
-1. Honorio worked on connecting the database to our application.
+1. Honorio worked on connecting the database to our application and landing page.
+   Worked with teammates and offered help where it was necessary
 2. Marilyn worked on the integration of the SMS API as well as on the recipe API Spoonacular. She also is the one that created and applied the theme and overall look of our application.
 3. Lorenzo worked on the Facebook API as well as the Spoonacular API. He also helped with the Clarifai API.
 4. Jason Sagisi worked on integrating the Recipe API in order to choose the recipes for the app.
