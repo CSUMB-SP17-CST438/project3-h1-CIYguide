@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import clarifai2.api.ClarifaiBuilder;
@@ -83,6 +84,26 @@ public class ClarifaiActivity extends Activity implements View.OnClickListener{
     public void onClick(View v) {
         if(v.getId() == R.id.choose_photo)
         {
+            ArrayList<String> predictions = new ArrayList<String>();
+
+            //Enter code for Clarifai predict here//
+
+
+
+            //************************************//
+
+
+            //temporary output of class, delete when predictions code is done//
+            predictions.add("tomato");
+            predictions.add("pasta");
+            predictions.add("meatball");
+            ///////////////////////////////////////////////////////////////////
+
+
+            Intent intent = new Intent();
+            intent.putStringArrayListExtra("predictionResults", predictions);
+            setResult(RESULT_OK, intent);
+            finish();
 
         }
     }
