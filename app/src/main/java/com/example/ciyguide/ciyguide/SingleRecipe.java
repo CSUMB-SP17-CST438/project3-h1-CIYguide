@@ -43,6 +43,8 @@ public class SingleRecipe extends AppCompatActivity {
     String phoneNo;
     String message;
     ArrayList<String> searchphrases;
+    ArrayList<String> whatYouHave;
+    ArrayList<String> whatYouNeed;
     String messageTest = "Grocery List: ";
     final int PICK_CONTACT=1;
     Cursor cursor1;
@@ -62,6 +64,9 @@ public class SingleRecipe extends AppCompatActivity {
         Intent i = getIntent();
         try {
             searchphrases = i.getStringArrayListExtra("searchphrases");
+            
+            whatYouHave = i.getStringArrayListExtra("whatYouHave");
+            whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
         } catch(Exception e){}
         int num =1;
 

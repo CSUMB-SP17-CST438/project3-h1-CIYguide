@@ -129,11 +129,17 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
     public void onClick(View v) {
         if (v.getId() == R.id.recipe_list_button) {
-//            Intent i = new Intent(RecipeList.this, Placeholder.class);
-//            try {
-//                i.putStringArrayListExtra("searchphrases", searchphrases);
-//            } catch(Exception e){}
-//            startActivity(i);
+            Intent i = new Intent(RecipeList.this, SingleRecipe.class);
+            try {
+                i.putStringArrayListExtra("searchphrases", searchphrases);
+                i.putStringArrayListExtra("whatYouHave", whatYouHave);
+                i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
+                SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                SharedPreferences.Editor SPEDIT = SP.edit();
+                SPEDIT.clear();
+                SPEDIT.commit();
+            } catch(Exception e){}
+            startActivity(i);
         } else if(v.getId() == R.id.Next_button){
             //incrementing for proper call to edamam : lorenzo
             SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
@@ -310,6 +316,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 }
 
                 SPedit.commit();
+
+                whatYouHave = have;
+                whatYouNeed = need;
 
                 new DownloadImage(jObj3.get("image").toString(), RecipeImage).execute();
                 RecipeName.setText(jObj3.get("label").toString());
