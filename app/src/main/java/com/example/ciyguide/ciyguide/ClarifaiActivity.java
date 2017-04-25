@@ -10,6 +10,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
 
+import java.io.ByteArrayOutputStream;
 import java.util.concurrent.TimeUnit;
 
 import clarifai2.api.ClarifaiBuilder;
@@ -26,6 +27,7 @@ public class ClarifaiActivity extends Activity implements View.OnClickListener{
 
     @Nullable
     private ClarifaiClient client;
+    private byte[] jpegImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +60,10 @@ public class ClarifaiActivity extends Activity implements View.OnClickListener{
         Bundle extras = i.getExtras();
         Bitmap photoCaptureBitmap = (Bitmap) extras.get("data");
         mPhotoCapturedImageView.setImageBitmap(photoCaptureBitmap);
+
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        photoCaptureBitmap.compress(Bitmap.CompressFormat.JPEG, 100, os);
+        jpegImage = os.toByteArray();
 
         View clarifaiButton = findViewById(R.id.choose_photo);
         clarifaiButton.setOnClickListener(this);
