@@ -55,6 +55,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     ArrayList<String> searchphrases; //Added by MFlorek
 
     //lorenzo
+    ArrayList<String> whatYouHave;
+    ArrayList<String> whatYouNeed;
     public static final String RECIPE_PREF = "Recipe info";
     public static String imgURL = "image";
     public static String recipeName = "name";
@@ -79,6 +81,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         setContentView(R.layout.activity_recipe_list);
 
         //lorenzo
+        whatYouHave = new ArrayList<String>();
+        whatYouNeed = new ArrayList<String>();
 
         recipeSelector = (Button) findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
@@ -115,7 +119,6 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         NextButton.setBackgroundColor(Color.parseColor("#CC0000"));
         BackButton.setBackgroundColor(Color.parseColor("#CC0000"));
 
-        //only one call needed : mflorek
         new AsyncCaller().execute("");
     }
 
@@ -281,10 +284,29 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 SPedit.putString(imgURL, jObj3.get("image").toString());
                 SPedit.putString(recipeName, jObj3.get("label").toString());
 
-                JSONArray ingredientsNeeded;
+                JSONArray ingredientsNeeded = null;
                 if(jObj3.get("ingredientLines") instanceof JSONArray)
                 {
                     ingredientsNeeded = (JSONArray)jObj3.get("ingredientLines");
+                }
+
+                //determine what we have and don't have in ingredients list
+                //from what was given to call versus what we received
+                ArrayList<String> need = new ArrayList<String>();
+                ArrayList<String> have = new ArrayList<String>();
+
+                if(ingredientsNeeded != null) {
+                    for(int k = 0; k < searchphrases.size(); k++) {
+                        for (int j = 0; j < ingredientsNeeded.length(); j++) {
+                            if(ingredientsNeeded.get(j) instanceof String)
+                            {
+                                if(((String) ingredientsNeeded.get(j)).toLowerCase().contains(searchphrases.get(k).toLowerCase()))
+                                    have.add((String)ingredientsNeeded.get(j));
+                                else
+                                    need.add((String)ingredientsNeeded.get(j));
+                            }
+                        }
+                    }
                 }
 
                 SPedit.commit();
