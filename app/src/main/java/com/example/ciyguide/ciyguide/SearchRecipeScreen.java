@@ -104,6 +104,17 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 i.putExtras(extras);
                 startActivityForResult(i, ACTIVITY_CLARIFAI_CLASS);
             }
+            else if(requestCode == ACTIVITY_CLARIFAI_CLASS)
+            {
+                ArrayList<String> output = new ArrayList<String>();
+                output = data.getStringArrayListExtra("predictionResults");
+                for(int ii = 0; ii < output.size(); ii++)
+                {
+                    searchphrases.add(output.get(ii));
+                    adapter.notifyDataSetChanged();
+                }
+            }
+
 
         }
     }
