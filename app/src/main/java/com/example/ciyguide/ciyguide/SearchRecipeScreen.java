@@ -1,17 +1,11 @@
 package com.example.ciyguide.ciyguide;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -21,21 +15,11 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnKeyListener;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.BufferedInputStream;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -50,6 +34,8 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ArrayAdapter<String> adapter;
 
     private static final int ACTIVITY_START_CAMERA_APP = 23;
+    private static final int ACTIVITY_CLARIFAI_CLASS = 20;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,12 +95,27 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
-        if(requestCode == ACTIVITY_START_CAMERA_APP && resultCode == RESULT_OK)
+        if(resultCode == RESULT_OK)
         {
-            Bundle extras = data.getExtras();
-            Intent i = new Intent(SearchRecipeScreen.this, ShowPhoto.class);
-            i.putExtras(extras);
-            startActivity(i);
+            if(requestCode == ACTIVITY_START_CAMERA_APP)
+            {
+                Bundle extras = data.getExtras();
+                Intent i = new Intent(SearchRecipeScreen.this, ClarifaiActivity.class);
+                i.putExtras(extras);
+                startActivityForResult(i, ACTIVITY_CLARIFAI_CLASS);
+            }
+            else if(requestCode == ACTIVITY_CLARIFAI_CLASS)
+            {
+                ArrayList<String> output = new ArrayList<String>();
+                output = data.getStringArrayListExtra("predictionResults");
+                for(int ii = 0; ii < output.size(); ii++)
+                {
+                    searchphrases.add(output.get(ii));
+                    adapter.notifyDataSetChanged();
+                }
+            }
+
+
         }
     }
 

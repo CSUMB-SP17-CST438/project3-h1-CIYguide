@@ -536,6 +536,8 @@
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="bgDescription">Image of Vegetables</string>
+    <string name="clarifai_id">lwdvqSIoEoTBDMHw0WOWGi9U8xz10bAvjAjDGlqE</string>
+    <string name="clarifai_secret">0tCk2sUvqeoGDocgAL1eNFVJbJcJAVUF5NScCleP</string>
     <string name="com_facebook_device_auth_instructions">Visit &lt;b>facebook.com/device&lt;/b> and enter the code shown above.</string>
     <string name="com_facebook_image_download_unknown_error">Unexpected error while downloading an image.</string>
     <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
