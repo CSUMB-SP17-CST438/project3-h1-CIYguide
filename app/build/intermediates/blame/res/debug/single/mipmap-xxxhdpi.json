@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciyguide.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciyguide.png"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciy.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciy.png"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
@@ -24,12 +24,12 @@
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciyguide.png"
     },
     {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciy.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciy.png"
-    },
-    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciy.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciy.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciy.png",
