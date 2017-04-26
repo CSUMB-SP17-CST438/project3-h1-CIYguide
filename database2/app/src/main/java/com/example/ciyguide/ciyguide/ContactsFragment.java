@@ -10,8 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.ciyguide.ciyguide.dummy.DummyContent;
-import com.example.ciyguide.ciyguide.dummy.DummyContent.DummyItem;
+import com.ciy.dummy.DummyContent;
+import com.ciy.dummy.DummyContent.DummyItem;
 
 import java.util.List;
 

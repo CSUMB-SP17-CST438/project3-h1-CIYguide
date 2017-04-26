@@ -13,7 +13,7 @@
     android:orientation="vertical"
     android:paddingBottom="16dp"
     android:weightSum="1"
-    tools:context="com.example.ciyguide.ciyguide.MainScreen">
+    tools:context="com.ciy.MainScreen">
 
     <include
         layout="@layout/toolbar"/>
