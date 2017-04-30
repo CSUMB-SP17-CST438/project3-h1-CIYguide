@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import android.content.Intent;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
@@ -34,7 +35,7 @@ import android.Manifest;
     This is just a placeholder screen for the Single Recipe
 */
 
-public class SingleRecipe extends AppCompatActivity {
+public class SingleRecipe extends AppCompatActivity implements View.OnClickListener{
 
     String walmart_api_key = "t4gs8z827b4kqzm8n4e5nfgk";
     Uri.Builder builder = new Uri.Builder();
@@ -44,6 +45,7 @@ public class SingleRecipe extends AppCompatActivity {
     Button sendBtn;
     EditText txtMessage;
     String phoneNo;
+    TextView testing;
     String message;
     TextView RecipeName;
     ArrayList<String> searchphrases;
@@ -64,6 +66,8 @@ public class SingleRecipe extends AppCompatActivity {
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
         RecipeName = (TextView) findViewById(R.id.txtView2);
+        testing = (TextView) findViewById(R.id.first_section);
+        testing.setOnClickListener(this);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -85,15 +89,6 @@ public class SingleRecipe extends AppCompatActivity {
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
-//        for(String s : searchphrases) {
-//            if(num++ == searchphrases.size())
-//            {
-//                messageTest += s + ". ";
-//            }
-//            else {
-//                messageTest += s + ", ";
-//            }
-//        }
 
         //creating grocery list based on have/need
         messageTest += "What You Might Have:\n";
@@ -117,6 +112,13 @@ public class SingleRecipe extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    @Override
+    public void onClick(View v){
+        if(v.getId() == R.id.first_section){
+            Log.d("clicked me", "bam");
+        }
     }
 
     @Override
