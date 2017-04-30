@@ -48,6 +48,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     TextView testing;
     String message;
     TextView RecipeName;
+    LinearLayout shrinkMe;
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
@@ -68,6 +69,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         RecipeName = (TextView) findViewById(R.id.txtView2);
         testing = (TextView) findViewById(R.id.first_section);
         testing.setOnClickListener(this);
+        shrinkMe = (LinearLayout) findViewById(R.id.inside);
+        shrinkMe.setOnClickListener(this);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -117,7 +120,10 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v){
         if(v.getId() == R.id.first_section){
-            Log.d("clicked me", "bam");
+            if(shrinkMe.getVisibility() == View.GONE)
+                shrinkMe.setVisibility(View.VISIBLE);
+            else
+                shrinkMe.setVisibility(View.GONE);
         }
     }
 
