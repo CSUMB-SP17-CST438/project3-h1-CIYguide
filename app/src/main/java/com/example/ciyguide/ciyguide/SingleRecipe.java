@@ -44,11 +44,14 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 111 ;
     Button sendBtn;
     EditText txtMessage;
+    EditText txtMessageNEED;
     String phoneNo;
-    TextView testing;
+    TextView full_recipe_send_section;
+    TextView only_send_needed_section;
     String message;
     TextView RecipeName;
-    LinearLayout shrinkMe;
+    LinearLayout fullRecipe;
+    LinearLayout neededOnly;
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
@@ -66,11 +69,14 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
-        RecipeName = (TextView) findViewById(R.id.txtView2);
-        testing = (TextView) findViewById(R.id.first_section);
-        testing.setOnClickListener(this);
-        shrinkMe = (LinearLayout) findViewById(R.id.inside);
-        shrinkMe.setOnClickListener(this);
+        txtMessageNEED = (EditText) findViewById(R.id.editText2NEED);
+        RecipeName = (TextView) findViewById(R.id.textView3);
+        full_recipe_send_section = (TextView) findViewById(R.id.first_section);
+        full_recipe_send_section.setOnClickListener(this);
+        only_send_needed_section = (TextView) findViewById(R.id.second_section);
+        only_send_needed_section.setOnClickListener(this);
+        fullRecipe = (LinearLayout) findViewById(R.id.inside);
+        neededOnly = (LinearLayout) findViewById(R.id.insideNEED);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -86,7 +92,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             Log.d("Have", whatYouHave.toString());
             Log.d("Need", whatYouNeed.toString());
             r_Name = i.getStringExtra("recipeName");
-            RecipeName.setText("Recipe: " + r_Name);
+            RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
         int num =1;
 
@@ -103,6 +109,15 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         messageTest += need;
         txtMessage.setText(messageTest);
 
+        //creating grocery list based on need only
+        messageTest = "";
+        need = "";
+        messageTest = "What you Need:\n";
+        for(int x = 0; x < whatYouNeed.size(); x++)
+            need += whatYouNeed.get(x) + "\n";
+        messageTest += need;
+        txtMessageNEED.setText(messageTest);
+
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 try{
@@ -117,13 +132,19 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         });
     }
 
+    //expand and contract sections of recipe list
     @Override
     public void onClick(View v){
         if(v.getId() == R.id.first_section){
-            if(shrinkMe.getVisibility() == View.GONE)
-                shrinkMe.setVisibility(View.VISIBLE);
+            if(fullRecipe.getVisibility() == View.GONE)
+                fullRecipe.setVisibility(View.VISIBLE);
             else
-                shrinkMe.setVisibility(View.GONE);
+                fullRecipe.setVisibility(View.GONE);
+        } else if (v.getId() == R.id.second_section) {
+            if(neededOnly.getVisibility() == View.GONE)
+                neededOnly.setVisibility(View.VISIBLE);
+            else
+                neededOnly.setVisibility(View.GONE);
         }
     }
 

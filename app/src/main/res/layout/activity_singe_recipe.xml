@@ -17,69 +17,145 @@
         layout="@layout/toolbar"/>
 
     <TextView
+        android:id="@+id/txtView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:inputType="phone"
+        android:text="@string/yourRecipe"
+        android:textColor="@color/colorAccent"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
         android:id="@+id/first_section"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/pink"
         android:gravity="center_vertical"
-        android:minHeight="?android:attr/listPreferredItemHeight"
         android:padding="20dp"
-        android:text="Click Me"
+        android:text="Full Recipe (touch to expand)"
+        android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="33sp" />
+        android:textSize="30sp" />
     <LinearLayout
         android:id="@+id/inside"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
+        android:visibility="gone"
         android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sendGrocery"
-        android:inputType="phone"
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:id="@+id/txtView"
-        android:layout_above="@+id/editText2"/>
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <EditText
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/message"
-        android:textColor="@color/black"
-        android:id="@+id/editText2"
-        android:layout_above="@+id/btnSendSMS"
-        android:layout_below="@+id/editText"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sendGrocery"
+            android:inputType="phone"
+            android:textColor="@color/colorAccent"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/txtView"
+            android:layout_above="@+id/editText2"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:text="Send Txt"
-        android:textStyle="bold"
-        android:background="@drawable/button"
-        android:id="@+id/btnSendSMS"
-        android:layout_below="@+id/editText2"/>
-    </GridLayout>
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/btnSendSMS"
+                android:layout_below="@+id/editText"
+                android:hint="@string/message"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:textColor="@color/black" />
 
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Send Txt"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:id="@+id/btnSendSMS"
+                android:layout_below="@+id/editText2"/>
+        </GridLayout>
     </LinearLayout>
 
     <TextView
+        android:id="@+id/second_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="20dp"
+        android:text="What You Need"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:id="@+id/insideNEED"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/yourRecipe"
-        android:inputType="phone"
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:id="@+id/txtView2"
         android:layout_gravity="center_horizontal"
-        android:layout_above="@+id/editText2"/>
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sendGrocery"
+            android:inputType="phone"
+            android:textColor="@color/colorAccent"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/txtViewNEED"
+            android:layout_above="@+id/editText2NEED"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editText2NEED"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_above="@+id/btnSendSMSNEED"
+                android:layout_below="@+id/editTextNEED"
+                android:hint="@string/message"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:textColor="@color/black" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Send Txt"
+                android:minHeight="?android:attr/listPreferredItemHeight"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:id="@+id/btnSendSMSNEED"
+                android:layout_below="@+id/editText2NEED"/>
+        </GridLayout>
+    </LinearLayout>
+
 </LinearLayout>
 </ScrollView>
