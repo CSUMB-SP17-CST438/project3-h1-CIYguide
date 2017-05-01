@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.ContactsContract;
+import android.support.constraint.ConstraintLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v4.content.ContextCompat;
@@ -21,9 +22,12 @@ import org.json.JSONObject;
 import org.w3c.dom.Text;
 
 import java.lang.String;
+import java.net.URI;
+import java.net.URL;
 import java.util.ArrayList;
 
 import android.content.Intent;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -43,9 +47,11 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String item;
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 111 ;
     Button sendBtn;
+    Button redirect_to_recipe_site;
     EditText txtMessage;
     EditText txtMessageNEED;
     String phoneNo;
+    WebView recipePage;
     TextView full_recipe_send_section;
     TextView only_send_needed_section;
     String message;
@@ -68,6 +74,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singe_recipe);
 
+        recipePage = (WebView) findViewById(R.id.showMe);
+        redirect_to_recipe_site = (Button) findViewById(R.id.recipeURL);
+        redirect_to_recipe_site.setOnClickListener(this);
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
         txtMessageNEED = (EditText) findViewById(R.id.editText2NEED);
@@ -145,6 +154,20 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 neededOnly.setVisibility(View.VISIBLE);
             else
                 neededOnly.setVisibility(View.GONE);
+        }else if (v.getId() == R.id.recipeURL)
+        {
+            int h = recipePage.getHeight();
+            float d = getResources().getDisplayMetrics().density;
+            float dh = h/d;
+            if(dh < 3) {
+                ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) recipePage.getLayoutParams();
+                params.height = getResources().getDimensionPixelSize(R.dimen.webView_height_clicked);
+                recipePage.setLayoutParams(params);
+            }else{
+                ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) recipePage.getLayoutParams();
+                params.height = getResources().getDimensionPixelSize(R.dimen.webView_height_unclicked);
+                recipePage.setLayoutParams(params);
+            }
         }
     }
 
