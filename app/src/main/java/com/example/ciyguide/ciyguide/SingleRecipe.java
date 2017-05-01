@@ -27,7 +27,9 @@ import java.net.URL;
 import java.util.ArrayList;
 
 import android.content.Intent;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
@@ -74,7 +76,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singe_recipe);
 
+        //starting up webview
         recipePage = (WebView) findViewById(R.id.showMe);
+        WebSettings settings = recipePage.getSettings();
+        settings.setJavaScriptEnabled(true);
+        recipePage.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+
         redirect_to_recipe_site = (Button) findViewById(R.id.recipeURL);
         redirect_to_recipe_site.setOnClickListener(this);
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
@@ -103,7 +110,25 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             r_URL = i.getStringExtra("CookIt");
             RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
-        int num =1;
+
+
+        recipePage.setWebViewClient(new WebViewClient(){
+            public boolean shouldOverrideUrlLoading(WebView view, String url){
+                Log.i("Loading", "Processing webview url click...");
+                view.loadUrl(url);
+                return true;
+            }
+
+            public void onPageFinished(WebView view, String url){
+
+            }
+
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl){
+
+            }
+        });
+
+        recipePage.loadUrl(r_URL);
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
