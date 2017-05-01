@@ -2884,7 +2884,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0b0006;
         public static final int progress_horizontal=0x7f0b0007;
         public static final int radio=0x7f0b005d;
-        public static final int recipeURL=0x7f0b008b;
+        public static final int recipeURL=0x7f0b008c;
         public static final int recipe_list_button=0x7f0b007c;
         public static final int resulting_recipes_button=0x7f0b0088;
         public static final int right=0x7f0b003d;
@@ -2914,7 +2914,7 @@ containing a value of this type.
         public static final int shortcut=0x7f0b005c;
         public static final int showCustom=0x7f0b0018;
         public static final int showHome=0x7f0b0019;
-        public static final int showMe=0x7f0b008c;
+        public static final int showMe=0x7f0b008d;
         public static final int showTitle=0x7f0b001a;
         public static final int small=0x7f0b0042;
         public static final int spacer=0x7f0b004e;
@@ -2936,7 +2936,7 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0b0056;
         public static final int textView=0x7f0b0075;
         public static final int textView2=0x7f0b007b;
-        public static final int textView3=0x7f0b008d;
+        public static final int textView3=0x7f0b008b;
         public static final int textView5=0x7f0b0093;
         public static final int time=0x7f0b00c1;
         public static final int title=0x7f0b004c;

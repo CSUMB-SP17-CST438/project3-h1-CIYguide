@@ -17,6 +17,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import org.json.JSONObject;
 import org.w3c.dom.Text;
@@ -114,21 +115,28 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         recipePage.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view, String url){
-                Log.i("Loading", "Processing webview url click...");
                 view.loadUrl(url);
                 return true;
             }
 
             public void onPageFinished(WebView view, String url){
-
             }
 
+            //deprecated so unsure if needed
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl){
-
             }
         });
 
         recipePage.loadUrl(r_URL);
+        recipePage.setOnClickListener(this);
+        recipePage.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                int action = motionEvent.getAction();
+//                Log.d("action", Integer.toString())
+                return false;
+            }
+        });
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
@@ -169,6 +177,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     //expand and contract sections of recipe list
     @Override
     public void onClick(View v){
+        //creating accordion effect for texting options
         if(v.getId() == R.id.first_section){
             if(fullRecipe.getVisibility() == View.GONE)
                 fullRecipe.setVisibility(View.VISIBLE);
@@ -181,6 +190,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 neededOnly.setVisibility(View.GONE);
         }else if (v.getId() == R.id.recipeURL)
         {
+            //creating accordion effect for webview
             int h = recipePage.getHeight();
             float d = getResources().getDisplayMetrics().density;
             float dh = h/d;
@@ -303,6 +313,5 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }
-
     }
 }
