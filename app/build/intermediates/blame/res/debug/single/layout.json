@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_search_list.xml",
-        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\layout_search_list.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_search_list.xml",
+        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\layout_search_list.xml"
     },
     {
         "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",

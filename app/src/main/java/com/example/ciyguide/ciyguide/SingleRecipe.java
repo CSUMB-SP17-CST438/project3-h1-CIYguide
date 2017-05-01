@@ -59,6 +59,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String have = "";
     String need = "";
     String r_Name = "";
+    String r_URL = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
 
@@ -89,9 +90,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
-            Log.d("Have", whatYouHave.toString());
-            Log.d("Need", whatYouNeed.toString());
             r_Name = i.getStringExtra("recipeName");
+            r_URL = i.getStringExtra("CookIt");
             RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
         int num =1;

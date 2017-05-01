@@ -137,6 +137,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 i.putExtra("recipeName", SP.getString(recipeName, ""));
+                i.putExtra("CookIt", SP.getString(recipeURL, ""));
                 SharedPreferences.Editor SPEDIT = SP.edit();
                 SPEDIT.clear();
                 SPEDIT.commit();
