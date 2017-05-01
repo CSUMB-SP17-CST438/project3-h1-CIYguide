@@ -96,15 +96,22 @@ public class UserProfileActivity extends AppCompatActivity {
 
 
     public void myFridge(View view) {
-        startActivity(new Intent(UserProfileActivity.this, IngredientsList.class));
+        Intent i = new Intent(UserProfileActivity.this, UserData.class);
+        String str = "GetFridge";
+        i.putExtra("activityFrom", str);
+
+        startActivity(i);
     }
 
     public void myRecipes(View view) {
-        startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
+        Toast.makeText(this, "You have not created any recipes.", Toast.LENGTH_SHORT).show();
     }
 
     public void savedRecipes(View view) {
-        startActivity(new Intent(UserProfileActivity.this, RecipeList.class));
+        Intent i = new Intent(UserProfileActivity.this, UserData.class);
+        i.putExtra("activityFrom", "GetRecipes");
+
+        startActivity(i);
     }
 
     @Override

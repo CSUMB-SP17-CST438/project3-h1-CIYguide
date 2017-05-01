@@ -85,7 +85,8 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
 
         else if(v.getId() == R.id.previous_searches_button)
         {
-            Intent i = new Intent(MainScreen.this, RecipeList.class);
+            Intent i = new Intent(MainScreen.this, UserData.class);
+            i.putExtra("activityFrom", "GetPrevious");
             startActivity(i);
         }
 

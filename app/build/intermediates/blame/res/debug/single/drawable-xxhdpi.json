@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_normal.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_normal.9.png"
     },
@@ -12,40 +8,36 @@
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_black_24dp.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_pressed.9.png",
@@ -60,14 +52,6 @@
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_disabled.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_disabled.9.png"
     },
@@ -76,12 +60,20 @@
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_home_black_24dp.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_home_black_24dp.png"
+    },
+    {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_pressed.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/camera_image.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/camera_image.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_normal.9.png",
@@ -92,24 +84,172 @@
         "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_settings_black_24dp.png"
     },
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/camera_image.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/camera_image.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_settings_black_24dp.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_settings_black_24dp.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_black_24dp.png",
+        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/camera_image.png",
+        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/camera_image.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_account_circle_black_24dp.png",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_account_circle_black_24dp.png"
+    },
+    {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_home_black_24dp.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_home_black_24dp.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_home_black_24dp.png",
+        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxhdpi/ic_home_black_24dp.png"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_disabled.9.png",
@@ -120,20 +260,24 @@
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_focused.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_light_pressed.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_disabled.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png",
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_text_light_normal.9.png",
@@ -144,7 +288,11 @@
         "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_full_open_on_phone.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_full_open_on_phone.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png",
+        "source": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/drawable-xxhdpi/common_plus_signin_btn_text_light_normal.9.png"
     }
 ]
