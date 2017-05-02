@@ -37,6 +37,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
+
+import com.example.ciyguide.ciyguide.dummy.ScrollyScrolly;
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
@@ -54,7 +56,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     EditText txtMessage;
     EditText txtMessageNEED;
     String phoneNo;
-    WebView recipePage;
+    ScrollyScrolly recipePage;
     TextView full_recipe_send_section;
     TextView only_send_needed_section;
     String message;
@@ -78,7 +80,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_singe_recipe);
 
         //starting up webview
-        recipePage = (WebView) findViewById(R.id.showMe);
+        recipePage = (ScrollyScrolly) findViewById(R.id.showMe);
         WebSettings settings = recipePage.getSettings();
         settings.setJavaScriptEnabled(true);
         recipePage.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
