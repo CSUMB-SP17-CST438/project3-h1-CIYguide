@@ -140,12 +140,12 @@ activity#com.example.ciyguide.ciyguide.IngredientsList
 ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:9-53
 	android:name
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:19-50
-activity#com.example.ciyguide.ciyguide.ShowPhoto
+activity#com.example.ciyguide.ciyguide.ClarifaiActivity
 ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:9-56:15
 	android:theme
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:13-55
 	android:name
-		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-44
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-51
 uses-sdk
 INJECTED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\jason\.android\build-cache\9aff33f3051d379d02103226ba8a18f049c00342\output\AndroidManifest.xml:18:5-42
