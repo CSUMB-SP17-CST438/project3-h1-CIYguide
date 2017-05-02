@@ -6469,6 +6469,7 @@
                     "endOffset": 52701
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 34,
@@ -6476,6 +6477,15 @@
                         "startOffset": 1444,
                         "endColumn": 80,
                         "endOffset": 1520
+=======
+                    "file": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1478,
+                        "endColumn": 80,
+                        "endOffset": 1554
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
                     }
                 }
             },
@@ -6488,6 +6498,7 @@
                     "endOffset": 52786
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 35,
@@ -6495,6 +6506,15 @@
                         "startOffset": 1525,
                         "endColumn": 84,
                         "endOffset": 1605
+=======
+                    "file": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1560,
+                        "endColumn": 84,
+                        "endOffset": 1640
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
                     }
                 }
             },
@@ -7575,9 +7595,15 @@
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
+<<<<<<< HEAD
                         "startOffset": 1672,
                         "endColumn": 69,
                         "endOffset": 1737
+=======
+                        "startOffset": 1713,
+                        "endColumn": 69,
+                        "endOffset": 1778
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
                     }
                 }
             },

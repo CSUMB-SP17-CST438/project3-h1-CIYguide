@@ -139,6 +139,7 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 activity#com.ciy.IngredientsList
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:53:9-53
 	android:name
+<<<<<<< HEAD
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:53:19-50
 activity#com.ciy.UserData
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:54:9-46
@@ -146,10 +147,19 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:54:19-43
 activity#com.ciy.ClarifaiActivity
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:9-57:15
+=======
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:19-50
+activity#com.example.ciyguide.ciyguide.ClarifaiActivity
+ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:9-56:15
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
 	android:theme
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:56:13-55
 	android:name
+<<<<<<< HEAD
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:19-51
+=======
+		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-51
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
 uses-sdk
 INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:18:5-42

@@ -998,6 +998,7 @@ int layout activity_main_screen 0x7f04001d
 int layout activity_recipe_list 0x7f04001e
 int layout activity_search_recipe_screen 0x7f04001f
 int layout activity_singe_recipe 0x7f040020
+<<<<<<< HEAD
 int layout activity_user_data 0x7f040021
 int layout activity_user_profile 0x7f040022
 int layout com_facebook_activity_layout 0x7f040023
@@ -1037,6 +1038,46 @@ int layout select_dialog_singlechoice_material 0x7f040044
 int layout support_simple_spinner_dropdown_item 0x7f040045
 int layout toolbar 0x7f040046
 int layout veggies_and_logo 0x7f040047
+=======
+int layout activity_user_profile 0x7f040021
+int layout com_facebook_activity_layout 0x7f040022
+int layout com_facebook_device_auth_dialog_fragment 0x7f040023
+int layout com_facebook_login_fragment 0x7f040024
+int layout com_facebook_smart_device_dialog_fragment 0x7f040025
+int layout com_facebook_tooltip_bubble 0x7f040026
+int layout fragment_contacts 0x7f040027
+int layout fragment_contacts_list 0x7f040028
+int layout fragment_facebook 0x7f040029
+int layout halfcrop_veggies 0x7f04002a
+int layout layout_search_list 0x7f04002b
+int layout messenger_button_send_blue_large 0x7f04002c
+int layout messenger_button_send_blue_round 0x7f04002d
+int layout messenger_button_send_blue_small 0x7f04002e
+int layout messenger_button_send_white_large 0x7f04002f
+int layout messenger_button_send_white_round 0x7f040030
+int layout messenger_button_send_white_small 0x7f040031
+int layout notification_action 0x7f040032
+int layout notification_action_tombstone 0x7f040033
+int layout notification_media_action 0x7f040034
+int layout notification_media_cancel_action 0x7f040035
+int layout notification_template_big_media 0x7f040036
+int layout notification_template_big_media_custom 0x7f040037
+int layout notification_template_big_media_narrow 0x7f040038
+int layout notification_template_big_media_narrow_custom 0x7f040039
+int layout notification_template_custom_big 0x7f04003a
+int layout notification_template_icon_group 0x7f04003b
+int layout notification_template_lines_media 0x7f04003c
+int layout notification_template_media 0x7f04003d
+int layout notification_template_media_custom 0x7f04003e
+int layout notification_template_part_chronometer 0x7f04003f
+int layout notification_template_part_time 0x7f040040
+int layout select_dialog_item_material 0x7f040041
+int layout select_dialog_multichoice_material 0x7f040042
+int layout select_dialog_singlechoice_material 0x7f040043
+int layout support_simple_spinner_dropdown_item 0x7f040044
+int layout toolbar 0x7f040045
+int layout veggies_and_logo 0x7f040046
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
 int menu home 0x7f0d0000
 int menu main 0x7f0d0001
 int menu user_profile 0x7f0d0002

@@ -12,6 +12,7 @@
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/notification_template_part_chronometer.xml"
     },
@@ -22,6 +23,18 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/activity_main_screen.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/layout/activity_main_screen.xml"
+=======
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -32,6 +45,7 @@
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/notification_media_action.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_list_menu_item_icon.xml"
     },
@@ -42,6 +56,18 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_action_bar_up_container.xml"
+=======
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_search_list.xml",
+        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\layout_search_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\3f825ae24caa7bf97673306a75f7b4fae60fdb04\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -484,8 +510,13 @@
         "source": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/layout/com_facebook_activity_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_popup_menu_item_layout.xml"
+=======
+        "merged": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clarifai.xml",
+        "source": "C:\\Users\\jason\\Downloads\\SQLite-App\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_clarifai.xml"
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
     },
     {
         "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",

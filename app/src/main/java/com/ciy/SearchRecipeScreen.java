@@ -2,6 +2,7 @@ package com.ciy;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
@@ -20,9 +21,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnKeyListener;
 
+<<<<<<< HEAD:app/src/main/java/com/ciy/SearchRecipeScreen.java
 import com.ciy.R;
 
+=======
+import java.io.ByteArrayOutputStream;
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157:app/src/main/java/com/example/ciyguide/ciyguide/SearchRecipeScreen.java
 import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
+import clarifai2.api.ClarifaiBuilder;
+import clarifai2.api.ClarifaiClient;
+import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
+import timber.log.Timber;
 
 /**
  * Created by jason on 3/24/2017.
@@ -38,9 +50,32 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     private static final int ACTIVITY_START_CAMERA_APP = 23;
     private static final int ACTIVITY_CLARIFAI_CLASS = 20;
 
+    public String getClarifai_id(){return getString(R.string.clarifai_id);}
+    public String getClarifai_secret(){return getString(R.string.clarifai_secret);}
+    public ClarifaiClient client;
+    public byte[] jpegImage;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        client = new ClarifaiBuilder(getString(R.string.clarifai_id), getString(R.string.clarifai_secret))
+                // Optionally customize HTTP client via a custom OkHttp instance
+                .client(new OkHttpClient.Builder()
+                        .readTimeout(30, TimeUnit.SECONDS) // Increase timeout for poor mobile networks
+
+                        // Log all incoming and outgoing data
+                        // NOTE: You will not want to use the BODY log-level in production, as it will leak your API request details
+                        // to the (publicly-viewable) Android log
+                        .addInterceptor(new HttpLoggingInterceptor(new HttpLoggingInterceptor.Logger() {
+                            @Override public void log(String logString) {
+                                Timber.e(logString);
+                            }
+                        }).setLevel(HttpLoggingInterceptor.Level.BODY))
+                        .build()
+                )
+                .buildSync(); // use build() instead to get a Future<ClarifaiClient>, if you don't want to block this thread
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_recipe_screen);
 
@@ -102,9 +137,13 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             if(requestCode == ACTIVITY_START_CAMERA_APP)
             {
                 Bundle extras = data.getExtras();
-                Intent i = new Intent(SearchRecipeScreen.this, ClarifaiActivity.class);
-                i.putExtras(extras);
-                startActivityForResult(i, ACTIVITY_CLARIFAI_CLASS);
+                Bitmap photoCaptureBitmap = (Bitmap) extras.get("data");
+                ByteArrayOutputStream os = new ByteArrayOutputStream();
+                photoCaptureBitmap.compress(Bitmap.CompressFormat.JPEG, 100, os);
+                jpegImage = os.toByteArray();
+                if (jpegImage != null) {
+                    new ClarifaiPrediction(this).execute();
+                }
             }
             else if(requestCode == ACTIVITY_CLARIFAI_CLASS)
             {
@@ -192,5 +231,14 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             Toast.makeText(this, "Error: " + e.toString(), Toast.LENGTH_SHORT).show();
         }
 
+    }
+
+    public void setList(ArrayList<String> searchphrases)
+    {
+        for(int ii = 0; ii < searchphrases.size(); ii++)
+        {
+            this.searchphrases.add(searchphrases.get(ii));
+            adapter.notifyDataSetChanged();
+        }
     }
 }
