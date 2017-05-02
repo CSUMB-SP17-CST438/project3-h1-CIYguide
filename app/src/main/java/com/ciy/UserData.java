@@ -24,7 +24,7 @@ public class UserData extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
-        
+
         Bundle extras = getIntent().getExtras();
         if(extras == null){}
         else {
