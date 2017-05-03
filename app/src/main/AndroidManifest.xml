@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ciyguide.ciyguide">
+    package="com.ciy" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -51,9 +51,13 @@
         <!--<activity android:name=".MainScreen"/>-->
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
-        <activity android:name=".ShowPhoto"
+<<<<<<< HEAD
+        <activity android:name=".UserData" />
+        <activity android:name=".ClarifaiActivity"
             android:theme="@style/AppTheme.PhotoTheme"
             />
+=======
+>>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
     </application>
 
 </manifest>

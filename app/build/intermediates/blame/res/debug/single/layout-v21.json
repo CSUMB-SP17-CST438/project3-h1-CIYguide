@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_action.xml"
     },
@@ -10,12 +11,25 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+=======
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_action.xml"
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_template_custom_big.xml"
     },
@@ -26,6 +40,18 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+=======
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout-v21/notification_template_custom_big.xml"
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
