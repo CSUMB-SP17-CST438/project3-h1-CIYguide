@@ -37,11 +37,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
 
+<<<<<<< HEAD:app/src/main/java/com/ciy/SingleRecipe.java
 <<<<<<< HEAD:app/src/main/java/com/example/ciyguide/ciyguide/SingleRecipe.java
 import com.example.ciyguide.ciyguide.dummy.ScrollyScrolly;
 =======
 import com.ciy.R;
 >>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357:app/src/main/java/com/ciy/SingleRecipe.java
+=======
+import com.ciy.ScrollyScrolly;
+>>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53:app/src/main/java/com/ciy/SingleRecipe.java
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe

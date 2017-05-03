@@ -1,4 +1,4 @@
-package com.example.ciyguide.ciyguide.dummy;
+package com.ciy;
 
 import android.content.Context;
 import android.provider.CalendarContract;
