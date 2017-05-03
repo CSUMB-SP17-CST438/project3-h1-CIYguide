@@ -1,4 +1,8 @@
 # CIYGuide
+
+### Google Play Store:
+https://play.google.com/store/apps/details?id=com.ciy
+
 ### What does your app do?
 Our app allows users to search for recipes using their current ingredients. It would then allow them to text the information of the recipe as well as their missing ingredients to the person in charge of grocery shopping.
 

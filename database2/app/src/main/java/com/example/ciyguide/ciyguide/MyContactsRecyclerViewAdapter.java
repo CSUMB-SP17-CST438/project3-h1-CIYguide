@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.example.ciyguide.ciyguide.ContactsFragment.OnListFragmentInteractionListener;
-import com.example.ciyguide.ciyguide.dummy.DummyContent.DummyItem;
+import com.ciy.dummy.DummyContent.DummyItem;
 
 import java.util.List;
 

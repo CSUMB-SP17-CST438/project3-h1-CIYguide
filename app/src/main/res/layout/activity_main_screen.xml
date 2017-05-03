@@ -11,7 +11,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingBottom="16dp"
-    tools:context="com.example.ciyguide.ciyguide.MainScreen"
+    tools:context="com.ciy.MainScreen"
     android:weightSum="1"
     android:baselineAligned="false">
 

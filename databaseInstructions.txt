@@ -1,7 +1,0 @@
-Will connect to the database via http
-Will probably need to create different files to 
-perform the CRUD
-C - Create
-R - Read
-U - Update
-D - Delete
