@@ -61,11 +61,7 @@
         <activity android:name="com.ciy.IngredientsList" />
         <activity android:name="com.ciy.UserData" />
         <activity
-<<<<<<< HEAD
             android:name="com.ciy.ClarifaiActivity"
-=======
-            android:name="com.example.ciyguide.ciyguide.ClarifaiActivity"
->>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
             android:theme="@style/AppTheme.PhotoTheme" />
 
         <meta-data

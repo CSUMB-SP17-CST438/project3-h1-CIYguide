@@ -21,12 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnKeyListener;
 
-<<<<<<< HEAD:app/src/main/java/com/ciy/SearchRecipeScreen.java
-import com.ciy.R;
-
-=======
 import java.io.ByteArrayOutputStream;
->>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157:app/src/main/java/com/example/ciyguide/ciyguide/SearchRecipeScreen.java
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 

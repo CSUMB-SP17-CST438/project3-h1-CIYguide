@@ -29,18 +29,23 @@ public class UserData extends AppCompatActivity {
         if(extras == null){}
         else {
             activityFrom = extras.getString("activityFrom");
-            if(activityFrom == "GetRecipes"){
-                getStoredRecipes();
+
+            try{
+            if(activityFrom.equals("GetRecipes")){
+                this.getStoredRecipes();
             }
-            else if(activityFrom == "GetFridge"){
-                getFridgeItems();
+            else if(activityFrom.equals("GetFridge")){
+                this.getFridgeItems();
             }
-            else if(activityFrom == "GetPrevious"){
-                getPreviousSearches();
+            else if(activityFrom.equals("GetPrevious")){
+                this.getPreviousSearches();
+            }}
+            catch (Exception e){
+                Toast.makeText(this, "Error: " + e.toString(), Toast.LENGTH_SHORT).show();
             }
         }
 //        searchphrases = i.getStringArrayListExtra("searchphrases");
-//        username = i.getStringExtra("username");
+//        username = i.getStringExtra(";'l=username");
     }
 
     @Override
@@ -51,7 +56,7 @@ public class UserData extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.user_profile, menu);
+        inflater.inflate(R.menu.main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -61,6 +66,11 @@ public class UserData extends AppCompatActivity {
 
             case R.id.home:
                 startActivity(new Intent(UserData.this, MainScreen.class));
+                return true;
+
+            case R.id.Account:
+                Intent i = new Intent(UserData.this, UserProfileActivity.class);
+                startActivity(i);
                 return true;
 
             case R.id.LogOutSub:
@@ -75,43 +85,42 @@ public class UserData extends AppCompatActivity {
     }
 
     public void getStoredRecipes(){
-        Toast.makeText(this, "working", Toast.LENGTH_LONG).show();
-
+        Toast.makeText(this, "Stored working", Toast.LENGTH_LONG).show();
     }
 
     public void getFridgeItems(){
-        Toast.makeText(this, "working", Toast.LENGTH_LONG).show();
-
+        Toast.makeText(this, "Fridge working", Toast.LENGTH_LONG).show();
     }
 
     public void getPreviousSearches(){
-        DBHandler db = new DBHandler(this);
+        Toast.makeText(this, "Previous working", Toast.LENGTH_LONG).show();
 
+        DBHandler db = new DBHandler(this);
         ArrayList<String> items = db.getPreviousSearches(username);
 
-        if(!items.isEmpty() || items==null) {
-            Toast.makeText(this, "if working", Toast.LENGTH_LONG).show();
-
-//            ArrayAdapter<Hold> adapter = new ArrayAdapter<Hold>(this, android.R.layout.simple_list_item_1, items);
-//            holds.setAdapter(adapter);
+//        if(!items.isEmpty() || items==null) {
+//            Toast.makeText(this, "if working", Toast.LENGTH_LONG).show();
 //
-//            holds.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//                @Override
-//                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                    cancelItem();
-//                    cancelHold.this.id = id+1;
-//                }
-//            });
-        }
-        else
-        {
-            Toast.makeText(this, "else working", Toast.LENGTH_SHORT).show();
-
-//            String[] list = new String[] { "No Holds Listed" };
-//            ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
-//            holds.setAdapter(adapter2);
-//            Toast.makeText(cancelHold.this, "No items to show", Toast.LENGTH_SHORT).show();
-        }
+////            ArrayAdapter<Hold> adapter = new ArrayAdapter<Hold>(this, android.R.layout.simple_list_item_1, items);
+////            holds.setAdapter(adapter);
+////
+////            holds.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+////                @Override
+////                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+////                    cancelItem();
+////                    cancelHold.this.id = id+1;
+////                }
+////            });
+//        }
+//        else
+//        {
+//            Toast.makeText(this, "else working", Toast.LENGTH_SHORT).show();
+//
+////            String[] list = new String[] { "No Holds Listed" };
+////            ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
+////            holds.setAdapter(adapter2);
+////            Toast.makeText(cancelHold.this, "No items to show", Toast.LENGTH_SHORT).show();
+//        }
     }
 
 }

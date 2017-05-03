@@ -4,15 +4,7 @@
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-hdpi/ciyguide.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-hdpi/ciyguide.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-hdpi/ciyguide.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/mipmap-hdpi/ciyguide.png"
     }
 ]

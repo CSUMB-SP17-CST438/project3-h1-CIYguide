@@ -28,8 +28,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
-
-import com.ciy.R;
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
@@ -60,7 +58,7 @@ public class SingleRecipe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_singe_recipe);
+        setContentView(R.layout.activity_single_recipe);
 
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
@@ -86,16 +84,6 @@ public class SingleRecipe extends AppCompatActivity {
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
-//        for(String s : searchphrases) {
-//            if(num++ == searchphrases.size())
-//            {
-//                messageTest += s + ". ";
-//            }
-//            else {
-//                messageTest += s + ", ";
-//            }
-//        }
-
         //creating grocery list based on have/need
         messageTest += "What You Might Have:\n";
         for(int x = 0; x < whatYouHave.size(); x++)

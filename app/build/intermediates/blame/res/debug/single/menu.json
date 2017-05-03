@@ -1,15 +1,7 @@
 [
     {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/user_profile.xml",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/menu/user_profile.xml"
-    },
-    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/user_profile.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/user_profile.xml"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/menu/main.xml"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/main.xml",
@@ -18,9 +10,5 @@
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/home.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/home.xml"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/home.xml",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/menu/home.xml"
     }
 ]
