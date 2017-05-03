@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
+        "outputFile": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
         "outputFile": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
         "map": [
             {
                 "to": {
@@ -11,7 +15,11 @@
                     "endOffset": 121
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +38,11 @@
                     "endOffset": 192
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +61,11 @@
                     "endOffset": 262
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +84,11 @@
                     "endOffset": 332
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +107,11 @@
                     "endOffset": 400
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +130,11 @@
                     "endOffset": 468
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -119,7 +147,11 @@
         ]
     },
     {
+<<<<<<< HEAD
+        "outputFile": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+=======
         "outputFile": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
         "map": [
             {
                 "to": {

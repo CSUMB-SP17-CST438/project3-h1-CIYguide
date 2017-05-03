@@ -1392,7 +1392,11 @@
         ]
     },
     {
+<<<<<<< HEAD
+        "outputFile": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+=======
         "outputFile": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
         "map": [
             {
                 "to": {
@@ -1403,7 +1407,11 @@
                     "endOffset": 208
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1422,7 +1430,11 @@
                     "endOffset": 317
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1441,7 +1453,11 @@
                     "endOffset": 442
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1460,7 +1476,11 @@
                     "endOffset": 537
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1479,7 +1499,11 @@
                     "endOffset": 651
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1498,7 +1522,11 @@
                     "endOffset": 737
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1517,7 +1545,11 @@
                     "endOffset": 837
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1536,7 +1568,11 @@
                     "endOffset": 950
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1555,7 +1591,11 @@
                     "endOffset": 1026
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1574,7 +1614,11 @@
                     "endOffset": 1102
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1593,7 +1637,11 @@
                     "endOffset": 1182
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1612,7 +1660,11 @@
                     "endOffset": 1285
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1631,7 +1683,11 @@
                     "endOffset": 1384
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1650,7 +1706,11 @@
                     "endOffset": 1480
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1669,7 +1729,11 @@
                     "endOffset": 1584
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1688,7 +1752,11 @@
                     "endOffset": 1682
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1707,7 +1775,11 @@
                     "endOffset": 1783
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1726,7 +1798,11 @@
                     "endOffset": 1899
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1745,7 +1821,11 @@
                     "endOffset": 1996
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1764,7 +1844,11 @@
                     "endOffset": 2137
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1783,7 +1867,11 @@
                     "endOffset": 2263
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1802,7 +1890,11 @@
                     "endOffset": 2388
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1821,7 +1913,11 @@
                     "endOffset": 2482
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1840,7 +1936,11 @@
                     "endOffset": 2546
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1859,7 +1959,11 @@
                     "endOffset": 2615
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1878,7 +1982,11 @@
                     "endOffset": 2677
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1897,7 +2005,11 @@
                     "endOffset": 2749
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1916,7 +2028,11 @@
                     "endOffset": 2823
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1935,7 +2051,11 @@
                     "endOffset": 2919
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1954,7 +2074,11 @@
                     "endOffset": 3011
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1973,7 +2097,11 @@
                     "endOffset": 3085
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1992,7 +2120,11 @@
                     "endOffset": 3159
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2011,7 +2143,11 @@
                     "endOffset": 3244
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2030,7 +2166,11 @@
                     "endOffset": 3344
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2049,7 +2189,11 @@
                     "endOffset": 3407
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2068,7 +2212,11 @@
                     "endOffset": 3470
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2087,7 +2235,11 @@
                     "endOffset": 3626
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2106,7 +2258,11 @@
                     "endOffset": 3706
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2125,7 +2281,11 @@
                     "endOffset": 3789
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2144,7 +2304,11 @@
                     "endOffset": 3880
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2163,7 +2327,11 @@
                     "endOffset": 4001
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -2182,7 +2350,11 @@
                     "endOffset": 4270
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -2201,7 +2373,11 @@
                     "endOffset": 4399
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2220,7 +2396,11 @@
                     "endOffset": 4590
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2239,7 +2419,11 @@
                     "endOffset": 4718
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2258,7 +2442,11 @@
                     "endOffset": 4851
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2277,7 +2465,11 @@
                     "endOffset": 5074
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2296,7 +2488,11 @@
                     "endOffset": 5301
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2315,7 +2511,11 @@
                     "endOffset": 5433
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2334,7 +2534,11 @@
                     "endOffset": 5605
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2353,7 +2557,11 @@
                     "endOffset": 5724
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2372,7 +2580,11 @@
                     "endOffset": 5896
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2391,7 +2603,11 @@
                     "endOffset": 6016
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2410,7 +2626,11 @@
                     "endOffset": 6151
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2429,7 +2649,11 @@
                     "endOffset": 6321
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -2448,7 +2672,11 @@
                     "endOffset": 6449
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -2467,7 +2695,11 @@
                     "endOffset": 6632
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -2486,7 +2718,11 @@
                     "endOffset": 6759
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -2505,7 +2741,11 @@
                     "endOffset": 7008
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\\output\\res\\values-nb\\common_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/res/values-nb/common_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2524,7 +2764,11 @@
                     "endOffset": 7259
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2543,7 +2787,11 @@
                     "endOffset": 7384
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2562,7 +2810,11 @@
                     "endOffset": 7493
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2581,7 +2833,11 @@
                     "endOffset": 7685
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2600,7 +2856,11 @@
                     "endOffset": 7815
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2619,7 +2879,11 @@
                     "endOffset": 8016
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2638,7 +2902,11 @@
                     "endOffset": 8150
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2657,7 +2925,11 @@
                     "endOffset": 8356
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2676,7 +2948,11 @@
                     "endOffset": 8452
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -2695,7 +2971,11 @@
                     "endOffset": 8544
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -2714,7 +2994,11 @@
                     "endOffset": 8652
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\values-nb\\base_strings.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/56164a300178da741cd1c68951c29ec959a92f82/output/res/values-nb/base_strings.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -2733,7 +3017,11 @@
                     "endOffset": 8712
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -2752,7 +3040,11 @@
                     "endOffset": 8791
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2771,7 +3063,11 @@
                     "endOffset": 8892
                 },
                 "from": {
+<<<<<<< HEAD
+                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-nb\\values-nb.xml",
+=======
                     "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-nb/values-nb.xml",
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

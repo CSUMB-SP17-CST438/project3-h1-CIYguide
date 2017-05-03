@@ -1,6 +1,7 @@
 -- Merging decision tree log ---
 manifest
 <<<<<<< HEAD
+<<<<<<< HEAD
 ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
 		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-44
@@ -194,9 +195,15 @@ ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:45:13-70
 =======
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-44
+>>>>>>> 3a4b4160275a9c318dd66ef227fc282e7c2d0a5f
+=======
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-22
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 		INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -232,7 +239,11 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:11:9-60
 application
+<<<<<<< HEAD
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:5-57:19
+=======
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:5-58:19
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/MFlorek/.android/build-cache/3fc532e54ace8e1d372273662b3c163c353fdc0c/output/AndroidManifest.xml:9:5-20
@@ -265,7 +276,11 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:24:13-52
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:13-58
+<<<<<<< HEAD
+activity#com.example.ciyguide.ciyguide.MainScreen
+=======
 activity#com.ciy.MainScreen
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:19-45
@@ -314,6 +329,34 @@ data
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:17-75
 	android:scheme
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:23-72
+<<<<<<< HEAD
+activity#com.example.ciyguide.ciyguide.SearchRecipeScreen
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-56
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:19-53
+activity#com.example.ciyguide.ciyguide.UserProfileActivity
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:9-57
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:19-54
+activity#com.example.ciyguide.ciyguide.SingleRecipe
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:50:9-50
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:50:19-47
+activity#com.example.ciyguide.ciyguide.RecipeList
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:52:9-48
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:52:19-45
+activity#com.example.ciyguide.ciyguide.IngredientsList
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:53:9-53
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:53:19-50
+activity#com.example.ciyguide.ciyguide.ShowPhoto
+ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:54:9-56:15
+	android:theme
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:13-55
+	android:name
+		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:54:19-44
+=======
 activity#com.ciy.SearchRecipeScreen
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-56
 	android:name
@@ -354,6 +397,7 @@ ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main
 =======
 		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-51
 >>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 uses-sdk
 INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:18:5-42
