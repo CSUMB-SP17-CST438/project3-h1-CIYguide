@@ -49,6 +49,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     public static final String RECIPE_PREF = "Recipe info";
     public static String imgURL = "image";
     public static String recipeName = "name";
+    public static String recipeURL = "url";
     public static String ENTIRE_RECIPE_JSON = "rJSON";
     public static String start = "start Index";
     public static String end = "end index";
@@ -125,6 +126,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 i.putExtra("recipeName", SP.getString(recipeName, ""));
+                i.putExtra("CookIt", SP.getString(recipeURL, ""));
                 SharedPreferences.Editor SPEDIT = SP.edit();
                 SPEDIT.clear();
                 SPEDIT.commit();
@@ -283,7 +285,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 SharedPreferences.Editor SPedit = SP.edit();
 
-                //image url and name of recipe
+                //image url and name of recipe and also how it's cooked via
+                //the url where it's located
+                SPedit.putString(recipeURL, jObj3.get("url").toString());
                 SPedit.putString(imgURL, jObj3.get("image").toString());
                 SPedit.putString(recipeName, jObj3.get("label").toString());
 

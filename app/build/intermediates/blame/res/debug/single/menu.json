@@ -1,14 +1,54 @@
 [
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\user_profile.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\menu\\user_profile.xml"
+=======
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/user_profile.xml",
+        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/menu/user_profile.xml"
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
+    },
+    {
+>>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/user_profile.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/user_profile.xml"
     },
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/main.xml"
     },
     {
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\menu\\main.xml"
+=======
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/menu/main.xml"
+    },
+    {
+>>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/main.xml"
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
+    },
+    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/home.xml",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/menu/home.xml"
+<<<<<<< HEAD
+=======
+    },
+    {
+<<<<<<< HEAD
+        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home.xml",
+        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\menu\\home.xml"
+=======
+        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/menu/home.xml",
+        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/menu/home.xml"
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
+>>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
     }
 ]
