@@ -52,6 +52,9 @@
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53
         <activity android:name=".UserData" />
         <activity android:name=".ClarifaiActivity"
             android:theme="@style/AppTheme.PhotoTheme"

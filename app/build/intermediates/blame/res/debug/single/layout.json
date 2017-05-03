@@ -1164,6 +1164,14 @@
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
+<<<<<<< HEAD
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clarifai.xml",
+        "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_clarifai.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\layout\\abc_screen_content_include.xml"
+=======
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/layout/select_dialog_item_material.xml"
 >>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357

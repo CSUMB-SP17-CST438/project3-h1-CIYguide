@@ -82,9 +82,12 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
@@ -94,12 +97,15 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
 >>>>>>> 314d1f4afb04941778a8bda5c80491d0d2d9d6dd
 =======
 >>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
+>>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
@@ -148,6 +154,5 @@
     <orderEntry type="library" exported="" name="timber-4.3.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" name="play-services-basement-8.4.0" level="project" />
-    <orderEntry type="library" exported="" name="android-android-24" level="project" />
   </component>
 </module>
