@@ -36,19 +36,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD:app/src/main/java/com/ciy/SingleRecipe.java
-<<<<<<< HEAD:app/src/main/java/com/example/ciyguide/ciyguide/SingleRecipe.java
-import com.example.ciyguide.ciyguide.dummy.ScrollyScrolly;
-=======
+//import com.ciy.dummy.ScrollyScrolly;
 import com.ciy.R;
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357:app/src/main/java/com/ciy/SingleRecipe.java
-=======
 import com.ciy.ScrollyScrolly;
->>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53:app/src/main/java/com/ciy/SingleRecipe.java
->>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
@@ -152,10 +142,6 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         //This is where it will take the data from the items the user input and will place it
         //into a string to send via SMS
-<<<<<<< HEAD
-=======
-
->>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
         //creating grocery list based on have/need
         messageTest += "What You Might Have:\n";
         for(int x = 0; x < whatYouHave.size(); x++)

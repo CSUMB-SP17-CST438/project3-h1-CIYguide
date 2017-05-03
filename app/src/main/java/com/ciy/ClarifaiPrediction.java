@@ -3,16 +3,9 @@ package com.ciy;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
-<<<<<<< HEAD:app/src/main/java/com/ciy/ClarifaiPrediction.java
+import com.ciy.SearchRecipeScreen;
 import com.ciy.SearchRecipeScreen;
 
-=======
-<<<<<<< HEAD
-=======
-import com.ciy.SearchRecipeScreen;
-
->>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53
->>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb:app/src/main/java/com/example/ciyguide/ciyguide/ClarifaiPrediction.java
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;

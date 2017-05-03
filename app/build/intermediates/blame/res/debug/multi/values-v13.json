@@ -22,40 +22,5 @@
                 }
             }
         ]
-<<<<<<< HEAD
-=======
-    },
-    {
-<<<<<<< HEAD
-        "outputFile": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
-=======
-        "outputFile": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml",
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 58,
-                    "endOffset": 109
-                },
-                "from": {
-<<<<<<< HEAD
-                    "file": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\values-v13\\values-v13.xml",
-=======
-                    "file": "/Users/MFlorek/.android/build-cache/044bf81ce4a1e7a1ad1185897b36ce73433a0cb3/output/res/values-v13/values-v13.xml",
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 58,
-                        "endOffset": 109
-                    }
-                }
-            }
-        ]
->>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
     }
 ]

@@ -1,209 +1,8 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< HEAD
-<<<<<<< HEAD
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-59:12
-	package
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-	android:versionName
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:11-69
-	android:versionCode
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:5-67
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:22-64
-uses-permission#android.permission.SEND_SMS
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:5-67
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:22-64
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:5-74
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:22-72
-uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:5-72
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:22-69
-provider#com.facebook.FacebookContentProvider
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:10:5-13:35
-	android:authorities
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:12:9-87
-	android:exported
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:13:9-32
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:9-60
-application
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-57:19
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Otter\.android\build-cache\8d2453e7122caa72f2cfb6f8278e6b8d9b74e5bd\output\AndroidManifest.xml:9:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\139ed8438620cf0e99d53708a3ed50d72a3e5515\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\b8f949ea2262a8897295369462f5e1392f8846ad\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\340bc4fc6044d7f4c54565fa63d3887fefaf5c2a\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Joe Otter\.android\build-cache\69d04e44811b82e0a3d5e3c99cdc4ba19d5bfbe3\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Joe Otter\.android\build-cache\2cc72b046ad5536929e6e5889cd82a840a402db0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Joe Otter\.android\build-cache\343322cc6bec89a4b4cf29a009cbc856790b9543\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Joe Otter\.android\build-cache\9981652ee2819638b70f592a46b348983d089ee6\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Joe Otter\.android\build-cache\910a40a5dd2184933b1805671f5907c8d8723790\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Joe Otter\.android\build-cache\a732136b58da61bccae5fea8374dd1c188977ca0\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Joe Otter\.android\build-cache\ed8a919c7f6ca76d7950f6eca7669d2599c42960\output\AndroidManifest.xml:25:5-20
-MERGED from [com.jakewharton.timber:timber:4.3.0] C:\Users\Joe Otter\.android\build-cache\6505336422a1390550b3cecd996b3b243d2c2a52\output\AndroidManifest.xml:8:5-20
-	android:label
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:19:9-41
-	android:supportsRtl
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:20:9-35
-	android:allowBackup
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:17:9-35
-	android:icon
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:18:9-46
-	android:theme
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:9-40
-meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:22:9-24:55
-	android:value
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:24:13-52
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:23:13-58
-activity#com.example.ciyguide.ciyguide.MainScreen
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:9-31:20
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:19-45
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:26:13-30:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:27:17-69
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:27:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:17-77
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:27-74
-activity#com.facebook.FacebookActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:32:9-35:32
-MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:29:9-32:66
-	android:label
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:35:13-29
-	android:configChanges
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:34:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:32:13-63
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:33:13-57
-activity#com.facebook.CustomTabActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:36:9-47:20
-	android:exported
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:38:13-36
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:37:13-58
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:39:13-46:29
-action#android.intent.action.VIEW
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:40:17-69
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:40:25-66
-category#android.intent.category.DEFAULT
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:42:17-76
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:42:27-73
-category#android.intent.category.BROWSABLE
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:43:17-78
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:43:27-75
-data
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:17-75
-	android:scheme
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:23-72
-activity#com.example.ciyguide.ciyguide.SearchRecipeScreen
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:9-56
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:19-53
-activity#com.example.ciyguide.ciyguide.UserProfileActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:49:9-57
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:49:19-54
-activity#com.example.ciyguide.ciyguide.SingleRecipe
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:50:9-50
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:50:19-47
-activity#com.example.ciyguide.ciyguide.RecipeList
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:52:9-48
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:52:19-45
-activity#com.example.ciyguide.ciyguide.IngredientsList
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:9-53
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:19-50
-activity#com.example.ciyguide.ciyguide.ClarifaiActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:9-56:15
-	android:theme
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:13-55
-	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-51
-uses-sdk
-INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Joe Otter\.android\build-cache\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\output\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Otter\.android\build-cache\8d2453e7122caa72f2cfb6f8278e6b8d9b74e5bd\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\139ed8438620cf0e99d53708a3ed50d72a3e5515\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\b8f949ea2262a8897295369462f5e1392f8846ad\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\340bc4fc6044d7f4c54565fa63d3887fefaf5c2a\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Joe Otter\.android\build-cache\69d04e44811b82e0a3d5e3c99cdc4ba19d5bfbe3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Joe Otter\.android\build-cache\2cc72b046ad5536929e6e5889cd82a840a402db0\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Joe Otter\.android\build-cache\343322cc6bec89a4b4cf29a009cbc856790b9543\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Joe Otter\.android\build-cache\9981652ee2819638b70f592a46b348983d089ee6\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Joe Otter\.android\build-cache\910a40a5dd2184933b1805671f5907c8d8723790\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:recyclerview-v7:24.2.1] C:\Users\Joe Otter\.android\build-cache\09a2b419bc1a092c85c365fb326cbf53749d3a82\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Joe Otter\.android\build-cache\a732136b58da61bccae5fea8374dd1c188977ca0\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Joe Otter\.android\build-cache\ed8a919c7f6ca76d7950f6eca7669d2599c42960\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.jakewharton.timber:timber:4.3.0] C:\Users\Joe Otter\.android\build-cache\6505336422a1390550b3cecd996b3b243d2c2a52\output\AndroidManifest.xml:6:5-43
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\output\AndroidManifest.xml:23:9-75
-	android:targetSdkVersion
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\lhernandez\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:22:13-58
-activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:33:9-71
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:33:19-68
-provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:44:9-47:40
-	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:46:13-72
-	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:45:13-70
-=======
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-59:12
-	package
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-44
->>>>>>> 3a4b4160275a9c318dd66ef227fc282e7c2d0a5f
-=======
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:3:5-22
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 		INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -239,11 +38,7 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:11:9-60
 application
-<<<<<<< HEAD
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:5-57:19
-=======
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:16:5-58:19
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/MFlorek/.android/build-cache/a85cbbd4ca355de81b1be78186443d34f1a1f13e/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/MFlorek/.android/build-cache/3fc532e54ace8e1d372273662b3c163c353fdc0c/output/AndroidManifest.xml:9:5-20
@@ -276,11 +71,7 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:24:13-52
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:23:13-58
-<<<<<<< HEAD
-activity#com.example.ciyguide.ciyguide.MainScreen
-=======
 activity#com.ciy.MainScreen
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:9-31:20
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:25:19-45
@@ -329,34 +120,6 @@ data
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:17-75
 	android:scheme
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:45:23-72
-<<<<<<< HEAD
-activity#com.example.ciyguide.ciyguide.SearchRecipeScreen
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-56
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:19-53
-activity#com.example.ciyguide.ciyguide.UserProfileActivity
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:9-57
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:49:19-54
-activity#com.example.ciyguide.ciyguide.SingleRecipe
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:50:9-50
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:50:19-47
-activity#com.example.ciyguide.ciyguide.RecipeList
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:52:9-48
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:52:19-45
-activity#com.example.ciyguide.ciyguide.IngredientsList
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:53:9-53
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:53:19-50
-activity#com.example.ciyguide.ciyguide.ShowPhoto
-ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:54:9-56:15
-	android:theme
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:13-55
-	android:name
-		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:54:19-44
-=======
 activity#com.ciy.SearchRecipeScreen
 ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:48:9-56
 	android:name
@@ -387,13 +150,6 @@ ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:56:13-55
 	android:name
 		ADDED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml:55:19-51
-<<<<<<< HEAD
-=======
-=======
-		ADDED from C:\Users\jason\Downloads\SQLite-App\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-51
->>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
->>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
 uses-sdk
 INJECTED from /Users/MFlorek/project3-h1-CIYguide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/MFlorek/.android/build-cache/c4cb1e239abf846c1513548037906313a6c2d3d0/output/AndroidManifest.xml:18:5-42
@@ -440,4 +196,3 @@ ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /Users/MFlorek/.an
 		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] /Users/MFlorek/.android/build-cache/02d6c0a0af5354910dcd4c9f502a4b84319870b7/output/AndroidManifest.xml:45:13-70
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357

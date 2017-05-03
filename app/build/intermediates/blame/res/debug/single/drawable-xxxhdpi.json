@@ -1,47 +1,11 @@
 [
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_home_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_settings_black_24dp.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_settings_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_account_circle_black_24dp.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_home_black_24dp.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_home_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_settings_black_24dp.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_settings_black_24dp.png"
-=======
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_account_circle_black_24dp.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_account_circle_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_settings_black_24dp.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_settings_black_24dp.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_home_black_24dp.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_home_black_24dp.png"
-    },
-    {
->>>>>>> 4980d0008b4cf9330220c8cba53fb9dbf35cb2fb
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_settings_black_24dp.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_settings_black_24dp.png"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_home_black_24dp.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/drawable-xxxhdpi/ic_home_black_24dp.png"
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_account_circle_black_24dp.png",
