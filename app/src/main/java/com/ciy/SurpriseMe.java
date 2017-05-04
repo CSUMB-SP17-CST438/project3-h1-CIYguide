@@ -2,6 +2,7 @@ package com.ciy;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 /**
@@ -43,13 +44,14 @@ public class SurpriseMe {
         vegetables.add("broccoli");
         vegetables.add("brussels sprouts");
 
-        Random rand = new Random();
-        dishid = rand.nextInt(3);
     }
 
     public ArrayList<String> generateRandomList ()
     {
+        if(!searchphrases.isEmpty())
+            searchphrases.clear();
         Random rand = new Random();
+        dishid = rand.nextInt(3);
         int nbr = rand.nextInt(3) + 1;
         int picker;
         if(dishid == 0)
