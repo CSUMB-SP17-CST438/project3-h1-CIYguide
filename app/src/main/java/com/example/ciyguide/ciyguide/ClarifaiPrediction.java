@@ -5,23 +5,15 @@ import android.support.annotation.NonNull;
 
 import com.ciy.SearchRecipeScreen;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
-import java.util.concurrent.TimeUnit;
 
-import clarifai2.api.ClarifaiBuilder;
-import clarifai2.api.ClarifaiClient;
 import clarifai2.api.ClarifaiResponse;
 import clarifai2.dto.input.ClarifaiInput;
 import clarifai2.dto.input.image.ClarifaiImage;
 import clarifai2.dto.model.ConceptModel;
 import clarifai2.dto.model.output.ClarifaiOutput;
 import clarifai2.dto.prediction.Concept;
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
-import timber.log.Timber;
+
 
 /**
  * Created by jason on 5/2/2017.
@@ -61,8 +53,8 @@ public class ClarifaiPrediction extends AsyncTask<Void, Void, ClarifaiResponse<L
         predictionlist = listofPredictions.get(0).data();
         for(int ii = 0; ii < predictionlist.size(); ii++)
         {
-            list.add(predictionlist.get(ii).name());
-        }
+            if(predictionlist.get(ii).value() >= 0.9)
+                list.add(predictionlist.get(ii).name());        }
         activity.setList(list);
     }
 
