@@ -15,8 +15,13 @@ import android.widget.Toast;
 
 import com.ciy.R;
 
+import java.util.ArrayList;
+
 
 public class MainScreen extends AppCompatActivity implements View.OnClickListener {
+
+    ArrayList<String> searchphrases = new ArrayList<String>();
+    private SurpriseMe surpriseMe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +39,9 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
 
         View surprisemeButton = findViewById(R.id.surprise_me_button);
         surprisemeButton.setOnClickListener(this);
+
+        surpriseMe = new SurpriseMe();
+
     }
 
     @Override
@@ -92,7 +100,10 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
 
         else if(v.getId() == R.id.surprise_me_button)
         {
-
+            searchphrases = surpriseMe.generateRandomList();
+            Intent i = new Intent(MainScreen.this, RecipeList.class);
+            i.putStringArrayListExtra("searchphrases", searchphrases);
+            startActivity(i);
         }
     }
 
