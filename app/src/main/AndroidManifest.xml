@@ -52,9 +52,6 @@
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
         <activity android:name=".UserData" />
-        <activity android:name=".ClarifaiActivity"
-            android:theme="@style/AppTheme.PhotoTheme"
-            />
     </application>
 
 </manifest>
