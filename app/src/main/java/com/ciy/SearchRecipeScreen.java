@@ -20,6 +20,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnKeyListener;
+
+import com.ciy.R;
+
+import java.io.ByteArrayOutputStream;
+import com.ciy.R;
+import com.example.ciyguide.ciyguide.ClarifaiPrediction;
+
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;

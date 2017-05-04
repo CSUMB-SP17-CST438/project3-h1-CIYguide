@@ -99,7 +99,6 @@ public class UserProfileActivity extends AppCompatActivity {
         Intent i = new Intent(UserProfileActivity.this, UserData.class);
         String str = "GetFridge";
         i.putExtra("activityFrom", str);
-        i.putExtra("username", userName.getText().toString());
 
         startActivity(i);
     }
@@ -111,7 +110,6 @@ public class UserProfileActivity extends AppCompatActivity {
     public void savedRecipes(View view) {
         Intent i = new Intent(UserProfileActivity.this, UserData.class);
         i.putExtra("activityFrom", "GetRecipes");
-        i.putExtra("username", userName.getText().toString());
 
         startActivity(i);
     }

@@ -61,7 +61,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp" />
 
-            <com.example.ciyguide.ciyguide.dummy.ScrollyScrolly
+            <com.ciy.ScrollyScrolly
                 android:id="@+id/showMe"
                 android:layout_width="0dp"
                 android:layout_height="2dp"
