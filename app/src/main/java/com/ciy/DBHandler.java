@@ -142,10 +142,6 @@ public class DBHandler {
         String ingredientList = "";
 
         for(int j = 0; j < searchphrases.size(); j++){
-            //trim space at edges and replace spaces in middle with +
-            //to query better : lorenzo
-
-
             String adjusted = searchphrases.get(j).trim();
             adjusted = adjusted.replace("\\s+", "+");
             if(j == searchphrases.size()-1)

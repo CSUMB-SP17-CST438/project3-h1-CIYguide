@@ -1,37 +1,11 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciyguide.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciyguide.png"
-    },
-    {
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-=======
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciy.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ciy.png"
-    },
-    {
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
-    },
-    {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciyguide.png",
         "source": "/Users/MFlorek/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ciyguide.png"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ciy.png",
-        "source": "/Users/MFlorek/project3-h1-CIYguide/C:\\Users\\Joe Otter\\Desktop\\Testing\\lhernandez\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxxhdpi\\ciy.png"
-=======
-        "merged": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciyguide.png",
-        "source": "/Users/MFlorek/Desktop/project3-h1-CIYguide/app/src/main/res/mipmap-xxxhdpi/ciyguide.png"
->>>>>>> e830d46e878a28a3f42ec463373e17d7d5c80357
     },
     {
         "merged": "/Users/MFlorek/project3-h1-CIYguide/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ciy.png",

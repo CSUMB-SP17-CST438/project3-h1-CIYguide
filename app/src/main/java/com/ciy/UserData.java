@@ -7,7 +7,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -16,6 +18,10 @@ public class UserData extends AppCompatActivity {
 
     String username;
     String activityFrom;
+    TextView header;
+    ListView searchlist;
+    ArrayAdapter<String> adapter;
+    ArrayList<String> searchphrases;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,19 +31,33 @@ public class UserData extends AppCompatActivity {
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
 
+        header = (TextView) findViewById(R.id.myheader);
+        searchlist = (ListView) findViewById(R.id.list_info);
+        searchphrases = new ArrayList<String>();
+        adapter = new ArrayAdapter<String>(UserData.this, R.layout.layout_search_list, R.id.search_term, searchphrases);
+        searchlist.setAdapter(adapter);
+
         Bundle extras = getIntent().getExtras();
         if(extras == null){}
         else {
             activityFrom = extras.getString("activityFrom");
-            if(activityFrom == "GetRecipes"){
+            if(extras.getString("username")!=null)
+            {
+                username = extras.getString("username");
+            }
+            try{
+            if(activityFrom.equals("GetRecipes")){
+                header.setText("Stored Recipes");
                 getStoredRecipes();
             }
-            else if(activityFrom == "GetFridge"){
+            else if(activityFrom.equals("GetFridge")){
+                header.setText("Fridge Items");
                 getFridgeItems();
             }
-            else if(activityFrom == "GetPrevious"){
+            else if(activityFrom.equals("GetPrevious")){
+                header.setText("Previous Searches");
                 getPreviousSearches();
-            }
+            }}catch(Exception e){}
         }
 //        searchphrases = i.getStringArrayListExtra("searchphrases");
 //        username = i.getStringExtra("username");
@@ -81,37 +101,17 @@ public class UserData extends AppCompatActivity {
 
     public void getFridgeItems(){
         Toast.makeText(this, "working", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Username: " + username, Toast.LENGTH_SHORT).show();
 
     }
 
     public void getPreviousSearches(){
         DBHandler db = new DBHandler(this);
 
-        ArrayList<String> items = db.getPreviousSearches(username);
+        Toast.makeText(this, "Username: " + username, Toast.LENGTH_SHORT).show();
+//        searchphrases = db.getPreviousSearches(username);
 
-        if(!items.isEmpty() || items==null) {
-            Toast.makeText(this, "if working", Toast.LENGTH_LONG).show();
 
-//            ArrayAdapter<Hold> adapter = new ArrayAdapter<Hold>(this, android.R.layout.simple_list_item_1, items);
-//            holds.setAdapter(adapter);
-//
-//            holds.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//                @Override
-//                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-//                    cancelItem();
-//                    cancelHold.this.id = id+1;
-//                }
-//            });
-        }
-        else
-        {
-            Toast.makeText(this, "else working", Toast.LENGTH_SHORT).show();
-
-//            String[] list = new String[] { "No Holds Listed" };
-//            ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
-//            holds.setAdapter(adapter2);
-//            Toast.makeText(cancelHold.this, "No items to show", Toast.LENGTH_SHORT).show();
-        }
     }
 
 }

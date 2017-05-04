@@ -22,7 +22,7 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
-        <activity android:name=".MainScreen">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -48,19 +48,13 @@
         <activity android:name=".SearchRecipeScreen" />
         <activity android:name=".UserProfileActivity" />
         <activity android:name=".SingleRecipe" />
-        <!--<activity android:name=".MainScreen"/>-->
+        <activity android:name=".MainScreen"/>
         <activity android:name=".RecipeList" />
         <activity android:name=".IngredientsList" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53
         <activity android:name=".UserData" />
         <activity android:name=".ClarifaiActivity"
             android:theme="@style/AppTheme.PhotoTheme"
             />
-=======
->>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157
     </application>
 
 </manifest>

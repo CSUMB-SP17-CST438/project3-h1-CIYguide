@@ -1,20 +1,14 @@
-package com.example.ciyguide.ciyguide;
+package com.ciy;
 
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
-
-<<<<<<< HEAD
-=======
 import com.ciy.SearchRecipeScreen;
-
->>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import java.util.concurrent.TimeUnit;
-
 import clarifai2.api.ClarifaiBuilder;
 import clarifai2.api.ClarifaiClient;
 import clarifai2.api.ClarifaiResponse;

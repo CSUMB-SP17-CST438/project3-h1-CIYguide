@@ -20,20 +20,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View.OnKeyListener;
-
-<<<<<<< HEAD:app/src/main/java/com/ciy/SearchRecipeScreen.java
-<<<<<<< HEAD:app/src/main/java/com/ciy/SearchRecipeScreen.java
-import com.ciy.R;
-
-=======
 import java.io.ByteArrayOutputStream;
->>>>>>> 3948297a8db4b7e747ee5540f640b11c592c2157:app/src/main/java/com/example/ciyguide/ciyguide/SearchRecipeScreen.java
-=======
-import com.ciy.R;
-import com.example.ciyguide.ciyguide.ClarifaiPrediction;
-
-import java.io.ByteArrayOutputStream;
->>>>>>> 07e229fdf9f0cfa29465066f091f74361c000b53:app/src/main/java/com/ciy/SearchRecipeScreen.java
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
