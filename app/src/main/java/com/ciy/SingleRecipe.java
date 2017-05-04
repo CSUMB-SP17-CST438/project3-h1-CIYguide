@@ -57,12 +57,13 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String item;
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 111 ;
     Button sendBtn;
+    Button full;
+    Button neededBTN;
+    Button open_close;
     EditText txtMessage;
     EditText txtMessageNEED;
     String phoneNo;
     ScrollyScrolly recipePage;
-    TextView full_recipe_send_section;
-    TextView only_send_needed_section;
     String message;
     TextView RecipeName;
     LinearLayout fullRecipe;
@@ -94,7 +95,6 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         //setting recipePage height
         ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(width, height);
-        Log.d("BEFORE", Integer.toString(params.height));
         params.height = height;
 
         //starting up webview
@@ -105,17 +105,44 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         recipePage.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
 
         //initializing ui variables
+
+        //this button will change text message to full recipe
+        full = (Button) findViewById(R.id.FULL);
+        full.setOnClickListener(this);
+
+        //this button will change text message to only neeeded items
+        neededBTN = (Button) findViewById(R.id.NEEDED);
+        neededBTN.setOnClickListener(this);
+
+        //this button will toggle texting window
+        open_close = (Button) findViewById(R.id.CLOSE);
+        open_close.setOnClickListener(this);
+
+        //needed to scroll programmatically
         sv = (ScrollView) findViewById(R.id.scrollEVERYTHING);
+
+        //used to send text message
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
+
+        //contains text message contents
         txtMessage = (EditText) findViewById(R.id.editText2);
-//        txtMessageNEED = (EditText) findViewById(R.id.editText2NEED);
+
+        //display recipe name
         RecipeName = (TextView) findViewById(R.id.textView3);
-        full_recipe_send_section = (TextView) findViewById(R.id.first_section);
-        full_recipe_send_section.setOnClickListener(this);
-//        only_send_needed_section = (TextView) findViewById(R.id.second_section);
-//        only_send_needed_section.setOnClickListener(this);
         fullRecipe = (LinearLayout) findViewById(R.id.inside);
-//        neededOnly = (LinearLayout) findViewById(R.id.insideNEED);
+
+
+        //set height of buttons
+        params = (ConstraintLayout.LayoutParams) full.getLayoutParams();
+        params.height = height/6;
+        full.setLayoutParams(params);
+        params = (ConstraintLayout.LayoutParams) neededBTN.getLayoutParams();
+        params.height = height/6;
+        neededBTN.setLayoutParams(params);
+        params = (ConstraintLayout.LayoutParams) open_close.getLayoutParams();
+        params.height = height/4;
+        open_close.setLayoutParams(params);
+
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -154,7 +181,6 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int action = motionEvent.getAction();
-//                Log.d("action", Integer.toString())
                 return false;
             }
         });
@@ -170,6 +196,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         for(int x = 0; x < whatYouNeed.size(); x++)
             need += whatYouNeed.get(x) + "\n";
         messageTest += need;
+        have = messageTest;
         txtMessage.setText(messageTest);
 
         //creating grocery list based on need only
@@ -199,10 +226,11 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v){
         //creating accordion effect for texting options
-        if(v.getId() == R.id.first_section){
+        if(v.getId() == R.id.CLOSE){
             if(fullRecipe.getVisibility() == View.GONE) {
                 //make texting area visible and scroll to bottom
                 //only for full recipe
+                open_close.setText("Close");
                 fullRecipe.setVisibility(View.VISIBLE);
                 sv.post(new Runnable() {
                     @Override
@@ -212,15 +240,15 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 });
             }
             else {
+                open_close.setText("Send Text");
                 fullRecipe.setVisibility(View.GONE);
             }
+        } else if (v.getId() == R.id.FULL)
+        {
+            txtMessage.setText(have);
+        } else if (v.getId() == R.id.NEEDED){
+            txtMessage.setText(need);
         }
-//        else if (v.getId() == R.id.second_section) {
-//            if(neededOnly.getVisibility() == View.GONE)
-//                neededOnly.setVisibility(View.VISIBLE);
-//            else
-//                neededOnly.setVisibility(View.GONE);
-//        }
     }
 
     @Override

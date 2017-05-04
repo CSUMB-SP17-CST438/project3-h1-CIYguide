@@ -58,19 +58,33 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent" />
+
         </android.support.constraint.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/first_section"
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/button_holder"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/pink"
-            android:gravity="center_vertical"
-            android:padding="20dp"
-            android:text="Full Recipe (touch to expand)"
-            android:textAlignment="center"
-            android:textColor="@android:color/white"
-            android:textSize="30sp" />
+            android:layout_height="100dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/CLOSE"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button"
+                android:text="SEND TEXT"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_conversion_absoluteHeight="80dp"
+                tools:layout_conversion_absoluteWidth="98dp"
+                tools:layout_conversion_absoluteX="211dp"
+                tools:layout_conversion_absoluteY="312dp" />
+
+        </android.support.constraint.ConstraintLayout>
 
         <LinearLayout
             android:id="@+id/inside"
@@ -84,45 +98,88 @@
             <TextView
                 android:id="@+id/txtView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_above="@+id/editText2"
                 android:inputType="phone"
                 android:minHeight="?android:attr/listPreferredItemHeight"
                 android:text="@string/sendGrocery"
+                android:textAlignment="center"
                 android:textColor="@color/colorAccent"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
-            <GridLayout
+            <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/FULL"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/button"
+                    android:text="Full recipe"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/NEEDED"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/button"
+                    android:text="Needed Items"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_conversion_absoluteHeight="80dp"
+                    tools:layout_conversion_absoluteWidth="121dp"
+                    tools:layout_conversion_absoluteX="74dp"
+                    tools:layout_conversion_absoluteY="312dp" />
+            </android.support.constraint.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
                 <EditText
                     android:id="@+id/editText2"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_above="@+id/btnSendSMS"
-                    android:layout_below="@+id/editText"
-                    android:layout_column="1"
-                    android:layout_row="1"
+                    android:layout_width="263dp"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
                     android:hint="@string/message"
                     android:maxLines="1"
                     android:minHeight="?android:attr/listPreferredItemHeight"
-                    android:textColor="@color/black" />
+                    android:textColor="@color/black"
+                    tools:layout_conversion_absoluteHeight="50dp"
+                    tools:layout_conversion_absoluteWidth="251dp"
+                    tools:layout_conversion_absoluteX="203dp"
+                    tools:layout_conversion_absoluteY="392dp"
+                    tools:layout_editor_absoluteX="8dp"
+                    tools:layout_editor_absoluteY="392dp" />
 
                 <Button
                     android:id="@+id/btnSendSMS"
-                    android:layout_row="2"
-                    android:layout_column="1"
                     android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_below="@+id/editText2"
+                    android:layout_height="64dp"
+                    android:layout_weight="1"
                     android:background="@drawable/button"
                     android:minHeight="?android:attr/listPreferredItemHeight"
                     android:text="Send Txt"
-                    android:textStyle="bold" />
-            </GridLayout>
+                    android:textStyle="bold"
+                    tools:layout_conversion_absoluteHeight="50dp"
+                    tools:layout_conversion_absoluteWidth="100dp"
+                    tools:layout_conversion_absoluteX="279dp"
+                    tools:layout_conversion_absoluteY="442dp"
+                    tools:layout_editor_absoluteX="279dp"
+                    tools:layout_editor_absoluteY="442dp" />
+
+            </LinearLayout>
+
         </LinearLayout>
 
     </LinearLayout>
