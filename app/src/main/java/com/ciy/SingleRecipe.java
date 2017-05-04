@@ -4,6 +4,7 @@ package com.ciy;
 
 import android.content.pm.PackageManager;
 import android.database.Cursor;
+import android.graphics.Point;
 import android.net.Uri;
 import android.provider.ContactsContract;
 import android.support.constraint.ConstraintLayout;
@@ -14,6 +15,7 @@ import android.support.v7.widget.Toolbar;
 import android.telephony.SmsManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -33,6 +35,7 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
@@ -41,18 +44,19 @@ import com.ciy.R;
 import com.ciy.ScrollyScrolly;
 /*
     created by Marilyn Florek, 3/22/2017
-    This is just a placeholder screen for the Single Recipe
+
+    edited and finished by Lhernandez
 */
 
 public class SingleRecipe extends AppCompatActivity implements View.OnClickListener{
 
     String walmart_api_key = "t4gs8z827b4kqzm8n4e5nfgk";
+    ScrollView sv;
     Uri.Builder builder = new Uri.Builder();
     String walmartAPIuri;
     String item;
     private static final int MY_PERMISSIONS_REQUEST_SEND_SMS = 111 ;
     Button sendBtn;
-    Button redirect_to_recipe_site;
     EditText txtMessage;
     EditText txtMessageNEED;
     String phoneNo;
@@ -73,30 +77,45 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String r_URL = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
+    int height;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singe_recipe);
 
+        //getting screen size to fit webview dynamically to any screen
+        //height
+        Display disp = getWindowManager().getDefaultDisplay();
+        Point size = new Point();
+        disp.getSize(size);
+        int width = size.x;
+        height = (size.y * 1)/2;
+
+        //setting recipePage height
+        ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(width, height);
+        Log.d("BEFORE", Integer.toString(params.height));
+        params.height = height;
+
         //starting up webview
         recipePage = (ScrollyScrolly) findViewById(R.id.showMe);
+        recipePage.setLayoutParams(params);
         WebSettings settings = recipePage.getSettings();
         settings.setJavaScriptEnabled(true);
         recipePage.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
 
-        redirect_to_recipe_site = (Button) findViewById(R.id.recipeURL);
-        redirect_to_recipe_site.setOnClickListener(this);
+        //initializing ui variables
+        sv = (ScrollView) findViewById(R.id.scrollEVERYTHING);
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
         txtMessage = (EditText) findViewById(R.id.editText2);
-        txtMessageNEED = (EditText) findViewById(R.id.editText2NEED);
+//        txtMessageNEED = (EditText) findViewById(R.id.editText2NEED);
         RecipeName = (TextView) findViewById(R.id.textView3);
         full_recipe_send_section = (TextView) findViewById(R.id.first_section);
         full_recipe_send_section.setOnClickListener(this);
-        only_send_needed_section = (TextView) findViewById(R.id.second_section);
-        only_send_needed_section.setOnClickListener(this);
+//        only_send_needed_section = (TextView) findViewById(R.id.second_section);
+//        only_send_needed_section.setOnClickListener(this);
         fullRecipe = (LinearLayout) findViewById(R.id.inside);
-        neededOnly = (LinearLayout) findViewById(R.id.insideNEED);
+//        neededOnly = (LinearLayout) findViewById(R.id.insideNEED);
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
@@ -160,7 +179,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         for(int x = 0; x < whatYouNeed.size(); x++)
             need += whatYouNeed.get(x) + "\n";
         messageTest += need;
-        txtMessageNEED.setText(messageTest);
+//        txtMessageNEED.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -181,31 +200,27 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v){
         //creating accordion effect for texting options
         if(v.getId() == R.id.first_section){
-            if(fullRecipe.getVisibility() == View.GONE)
+            if(fullRecipe.getVisibility() == View.GONE) {
+                //make texting area visible and scroll to bottom
+                //only for full recipe
                 fullRecipe.setVisibility(View.VISIBLE);
-            else
+                sv.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        sv.scrollTo(sv.getScrollY(), sv.getBottom() + 40);
+                    }
+                });
+            }
+            else {
                 fullRecipe.setVisibility(View.GONE);
-        } else if (v.getId() == R.id.second_section) {
-            if(neededOnly.getVisibility() == View.GONE)
-                neededOnly.setVisibility(View.VISIBLE);
-            else
-                neededOnly.setVisibility(View.GONE);
-        }else if (v.getId() == R.id.recipeURL)
-        {
-            //creating accordion effect for webview
-            int h = recipePage.getHeight();
-            float d = getResources().getDisplayMetrics().density;
-            float dh = h/d;
-            if(dh < 3) {
-                ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) recipePage.getLayoutParams();
-                params.height = getResources().getDimensionPixelSize(R.dimen.webView_height_clicked);
-                recipePage.setLayoutParams(params);
-            }else{
-                ConstraintLayout.LayoutParams params = (ConstraintLayout.LayoutParams) recipePage.getLayoutParams();
-                params.height = getResources().getDimensionPixelSize(R.dimen.webView_height_unclicked);
-                recipePage.setLayoutParams(params);
             }
         }
+//        else if (v.getId() == R.id.second_section) {
+//            if(neededOnly.getVisibility() == View.GONE)
+//                neededOnly.setVisibility(View.VISIBLE);
+//            else
+//                neededOnly.setVisibility(View.GONE);
+//        }
     }
 
     @Override
