@@ -36,10 +36,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.Manifest;
-import com.ciy.ScrollyScrolly;
+
 import com.ciy.R;
 import com.ciy.ScrollyScrolly;
-import com.facebook.Profile;
 /*
     created by Marilyn Florek, 3/22/2017
     This is just a placeholder screen for the Single Recipe
@@ -74,7 +73,6 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String r_URL = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
-    String username;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,12 +101,6 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
 
-        try {
-            getUserInfo();
-        }
-        catch (Exception e){
-            Toast.makeText(this, "Error:" + e.toString(), Toast.LENGTH_SHORT).show();
-        }
 
         Intent i = getIntent();
         try {
@@ -323,16 +315,5 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 }
             }
         }
-    }
-
-    public boolean getUserInfo(){
-        Profile pro = Profile.getCurrentProfile();
-        try {
-            username = pro.getFirstName() + " " + pro.getLastName();
-            Toast.makeText(this, "Username=" + username, Toast.LENGTH_SHORT).show();
-        }catch (Exception e) {
-            Toast.makeText(this, "User is not logged in!", Toast.LENGTH_SHORT).show();
-        }
-        return true;
     }
 }
