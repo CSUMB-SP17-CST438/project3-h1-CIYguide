@@ -49,10 +49,7 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ArrayAdapter<String> adapter;
 
     private static final int ACTIVITY_START_CAMERA_APP = 23;
-    private static final int ACTIVITY_CLARIFAI_CLASS = 20;
 
-    public String getClarifai_id(){return getString(R.string.clarifai_id);}
-    public String getClarifai_secret(){return getString(R.string.clarifai_secret);}
     public ClarifaiClient client;
     public byte[] jpegImage;
 
@@ -144,16 +141,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 jpegImage = os.toByteArray();
                 if (jpegImage != null) {
                     new ClarifaiPrediction(this).execute();
-                }
-            }
-            else if(requestCode == ACTIVITY_CLARIFAI_CLASS)
-            {
-                ArrayList<String> output = new ArrayList<String>();
-                output = data.getStringArrayListExtra("predictionResults");
-                for(int ii = 0; ii < output.size(); ii++)
-                {
-                    searchphrases.add(output.get(ii));
-                    adapter.notifyDataSetChanged();
                 }
             }
 
