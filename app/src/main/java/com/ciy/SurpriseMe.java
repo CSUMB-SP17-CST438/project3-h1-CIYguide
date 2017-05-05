@@ -1,6 +1,8 @@
 package com.ciy;
 
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -25,14 +27,22 @@ public class SurpriseMe {
         meat.add("chicken");
         meat.add("fish");
         meat.add("tofu");
+        meat.add("tuna");
+        meat.add("salmon");
+        meat.add("duck");
+        meat.add("egg");
+        meat.add("lobster");
+        meat.add("shrimp");
+        meat.add("prawn");
 
         fruits.add("apple");
         fruits.add("lemon");
         fruits.add("banana");
         fruits.add("cherry");
         fruits.add("watermelon");
-        fruits.add("jackfruit");
         fruits.add("kiwi");
+        fruits.add("orange");
+        fruits.add("grapes");
 
         vegetables.add("cabbage");
         vegetables.add("tomato");
@@ -40,9 +50,9 @@ public class SurpriseMe {
         vegetables.add("lettuce");
         vegetables.add("onion");
         vegetables.add("eggplant");
-        vegetables.add("leek");
         vegetables.add("broccoli");
         vegetables.add("brussels sprouts");
+        vegetables.add("garlic");
 
     }
 
@@ -50,33 +60,26 @@ public class SurpriseMe {
     {
         if(!searchphrases.isEmpty())
             searchphrases.clear();
+
         Random rand = new Random();
+
         dishid = rand.nextInt(3);
-        int nbr = rand.nextInt(3) + 1;
+
         int picker;
         if(dishid == 0)
         {
-            for(int ii = 0; ii < nbr; ii++)
-            {
-                picker = rand.nextInt(5);
-                searchphrases.add(meat.get(picker));
-            }
+            picker = rand.nextInt(meat.size());
+            searchphrases.add(meat.get(picker));
         }
         else if(dishid == 1)
         {
-            for(int ii = 0; ii < nbr; ii++)
-            {
-                picker = rand.nextInt(9);
-                searchphrases.add(vegetables.get(picker));
-            }
+            picker = rand.nextInt(vegetables.size());
+            searchphrases.add(vegetables.get(picker));
         }
-        else
+        else if(dishid == 2)
         {
-            for(int ii = 0; ii < nbr; ii++)
-            {
-                picker = rand.nextInt(7);
-                searchphrases.add(fruits.get(picker));
-            }
+            picker = rand.nextInt(fruits.size());
+            searchphrases.add(fruits.get(picker));
         }
         return searchphrases;
     }
