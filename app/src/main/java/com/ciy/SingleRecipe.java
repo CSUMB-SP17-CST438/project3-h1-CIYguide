@@ -321,24 +321,31 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         phoneNo = number;
         message = txtMessage.getText().toString();
 
-        SmsManager smsManager = SmsManager.getDefault();
-        smsManager.sendTextMessage(phoneNo, null, message, null, null);
-        Toast.makeText(getApplicationContext(), "SMS sent.",
-                Toast.LENGTH_LONG).show();
+//        SmsManager smsManager = SmsManager.getDefault();
+//        smsManager.sendTextMessage(phoneNo, null, message, null, null);
+//        Toast.makeText(getApplicationContext(), "SMS sent.",
+//                Toast.LENGTH_LONG).show();
 
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.SEND_SMS)
                 != PackageManager.PERMISSION_GRANTED) {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.SEND_SMS)) {
+                SmsManager smsManager = SmsManager.getDefault();
+                smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                Toast.makeText(getApplicationContext(), "SMS sent.",
+                        Toast.LENGTH_LONG).show();
 
             } else {
                 ActivityCompat.requestPermissions(this,
                         new String[]{Manifest.permission.SEND_SMS},
                         MY_PERMISSIONS_REQUEST_SEND_SMS);
+                SmsManager smsManager = SmsManager.getDefault();
+                smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                Toast.makeText(getApplicationContext(), "SMS sent.",
+                        Toast.LENGTH_LONG).show();
             }
         }
-//        txtMessage.setText("");
     }
 
     @Override

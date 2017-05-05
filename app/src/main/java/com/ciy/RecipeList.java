@@ -54,8 +54,6 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     public static String start = "start Index";
     public static String end = "end index";
 
-    Button NextButton;
-    Button BackButton;
     ImageView RecipeImage;
     TextView RecipeName;
     Button recipeSelector;
@@ -76,16 +74,15 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
         recipeSelector = (Button) findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
-        NextButton = (Button) findViewById(R.id.Next_button);
-        NextButton.setOnClickListener(this);
-        BackButton = (Button) findViewById(R.id.Back_button);
-        BackButton.setOnClickListener(this);
+//        NextButton = (Button) findViewById(R.id.Next_button);
+//        NextButton.setOnClickListener(this);
+//        BackButton = (Button) findViewById(R.id.Back_button);
+//        BackButton.setOnClickListener(this);
         RecipeImage = (ImageView) findViewById(R.id.RecipeImage);
 
         //attempting to get swipe left right effect instead of buttons
         RecipeImage.setOnTouchListener(new onSwipeListener(RecipeList.this){
             public void onSwipeRight(){
-                Toast.makeText(RecipeList.this, "right", Toast.LENGTH_SHORT).show();
                 //decrementing for proper call to edamam : lorenzo
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 int x = SP.getInt(start, 0);
@@ -100,12 +97,11 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 }
                 //check and disable backbutton : lorenzo
                 if(SP.contains(start) && SP.getInt(start, 0) < 1){
-                    BackButton.setClickable(false);
-                    BackButton.setTextColor(Color.parseColor("#CC0000"));
+//                    BackButton.setClickable(false);
+//                    BackButton.setTextColor(Color.parseColor("#CC0000"));
                 }
             }
             public void onSwipeLeft(){
-                Toast.makeText(RecipeList.this, "left", Toast.LENGTH_SHORT).show();
                 //incrementing for proper call to edamam : lorenzo
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 int x = SP.getInt(start, 0);
@@ -117,8 +113,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
                 //check and enable click for back button : lorenzo
                 if(SP.contains(start) && SP.getInt(start, 0) >= 1){
-                    BackButton.setClickable(true);
-                    BackButton.setTextColor(Color.parseColor("#FFFFFF"));
+//                    BackButton.setClickable(true);
+//                    BackButton.setTextColor(Color.parseColor("#FFFFFF"));
                 }
                 new AsyncCaller().execute("");
             }
@@ -141,16 +137,15 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         //disable back button if at 0
         if(SP.getInt(start, 0) == 0)
         {
-            BackButton.setClickable(false);
-            BackButton.setTextColor(Color.parseColor("#CC0000"));
+//            BackButton.setClickable(false);
+//            BackButton.setTextColor(Color.parseColor("#CC0000"));
         }
         else
-            BackButton.setTextColor(Color.parseColor("#FFFFFF"));
+//            BackButton.setTextColor(Color.parseColor("#FFFFFF"));
 
         //set button colors
         recipeSelector.setBackgroundColor(Color.parseColor("#CC0000"));
-        NextButton.setBackgroundColor(Color.parseColor("#CC0000"));
-        BackButton.setBackgroundColor(Color.parseColor("#CC0000"));
+//       Button.setBackgroundColor(Color.parseColor("#CC0000"));
 
         new AsyncCaller().execute("");
     }
@@ -173,44 +168,47 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 SharedPreferences.Editor SPEDIT = SP.edit();
                 SPEDIT.clear();
                 SPEDIT.commit();
-            } catch(Exception e){}
+            } catch (Exception e) {
+            }
             startActivity(i);
-        } else if(v.getId() == R.id.Next_button){
-            //incrementing for proper call to edamam : lorenzo
-            SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-            int x = SP.getInt(start, 0);
-            int y = SP.getInt(end, 1);
-            SharedPreferences.Editor SPedit = SP.edit();
-            SPedit.putInt(start, x+1);
-            SPedit.putInt(end, y+1);
-            SPedit.commit();
-
-            //check and enable click for back button : lorenzo
-            if(SP.contains(start) && SP.getInt(start, 0) >= 1){
-                BackButton.setClickable(true);
-                BackButton.setTextColor(Color.parseColor("#FFFFFF"));
-            }
-            new AsyncCaller().execute("");
-        } else if(v.getId() == R.id.Back_button){
-            //decrementing for proper call to edamam : lorenzo
-            SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-            int x = SP.getInt(start, 0);
-            //no need to decrement if x is less then 1 : lorenzo
-            if(x >= 1) {
-                int y = SP.getInt(end, 1);
-                SharedPreferences.Editor SPedit = SP.edit();
-                SPedit.putInt(start, x - 1);
-                SPedit.putInt(end, y - 1);
-                SPedit.commit();
-                new AsyncCaller().execute("");
-            }
-            //check and disable backbutton : lorenzo
-            if(SP.contains(start) && SP.getInt(start, 0) < 1){
-                BackButton.setClickable(false);
-                BackButton.setTextColor(Color.parseColor("#CC0000"));
-            }
         }
     }
+//        else if(v.getId() == R.id.Next_button){
+//            //incrementing for proper call to edamam : lorenzo
+//            SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+//            int x = SP.getInt(start, 0);
+//            int y = SP.getInt(end, 1);
+//            SharedPreferences.Editor SPedit = SP.edit();
+//            SPedit.putInt(start, x+1);
+//            SPedit.putInt(end, y+1);
+//            SPedit.commit();
+//
+//            //check and enable click for back button : lorenzo
+//            if(SP.contains(start) && SP.getInt(start, 0) >= 1){
+//                BackButton.setClickable(true);
+//                BackButton.setTextColor(Color.parseColor("#FFFFFF"));
+//            }
+//            new AsyncCaller().execute("");
+//        } else if(v.getId() == R.id.Back_button){
+//            //decrementing for proper call to edamam : lorenzo
+//            SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+//            int x = SP.getInt(start, 0);
+//            //no need to decrement if x is less then 1 : lorenzo
+//            if(x >= 1) {
+//                int y = SP.getInt(end, 1);
+//                SharedPreferences.Editor SPedit = SP.edit();
+//                SPedit.putInt(start, x - 1);
+//                SPedit.putInt(end, y - 1);
+//                SPedit.commit();
+//                new AsyncCaller().execute("");
+//            }
+//            //check and disable backbutton : lorenzo
+//            if(SP.contains(start) && SP.getInt(start, 0) < 1){
+//                BackButton.setClickable(false);
+//                BackButton.setTextColor(Color.parseColor("#CC0000"));
+//            }
+//        }
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

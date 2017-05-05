@@ -156,6 +156,7 @@ public class DBHandler {
 
         values.put(PREVIOUS_USER_NAME, username);
         values.put(PREVIOUS_SEARCHES, ingredientList);
+
         db.insert(PREVIOUS_SEARCH_TABLE, null, values);
         closeDB();
     }

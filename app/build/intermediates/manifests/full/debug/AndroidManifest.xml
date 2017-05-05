@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ciy"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="3"
+    android:versionName="1.3" >
 
     <uses-sdk
         android:minSdkVersion="15"
@@ -29,7 +29,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name="com.ciy.MainScreen" >
+        <activity android:name="com.ciy.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -56,7 +56,7 @@
         <activity android:name="com.ciy.SearchRecipeScreen" />
         <activity android:name="com.ciy.UserProfileActivity" />
         <activity android:name="com.ciy.SingleRecipe" />
-        <!-- <activity android:name=".MainScreen"/> -->
+        <activity android:name="com.ciy.MainScreen" />
         <activity android:name="com.ciy.RecipeList" />
         <activity android:name="com.ciy.IngredientsList" />
         <activity android:name="com.ciy.UserData" />
