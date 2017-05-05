@@ -31,8 +31,8 @@ public class SurpriseMe {
         fruits.add("banana");
         fruits.add("cherry");
         fruits.add("watermelon");
-        fruits.add("jackfruit");
         fruits.add("kiwi");
+        fruits.add("jackfruit");
 
         vegetables.add("cabbage");
         vegetables.add("tomato");
@@ -50,15 +50,18 @@ public class SurpriseMe {
     {
         if(!searchphrases.isEmpty())
             searchphrases.clear();
+
         Random rand = new Random();
+
         dishid = rand.nextInt(3);
-        int nbr = rand.nextInt(3) + 1;
+
+        int nbr = rand.nextInt(2) + 1;
         int picker;
         if(dishid == 0)
         {
             for(int ii = 0; ii < nbr; ii++)
             {
-                picker = rand.nextInt(5);
+                picker = rand.nextInt(meat.size());
                 searchphrases.add(meat.get(picker));
             }
         }
@@ -66,15 +69,15 @@ public class SurpriseMe {
         {
             for(int ii = 0; ii < nbr; ii++)
             {
-                picker = rand.nextInt(9);
+                picker = rand.nextInt(vegetables.size());
                 searchphrases.add(vegetables.get(picker));
             }
         }
-        else
+        else if(dishid == 2)
         {
             for(int ii = 0; ii < nbr; ii++)
             {
-                picker = rand.nextInt(7);
+                picker = rand.nextInt(fruits.size());
                 searchphrases.add(fruits.get(picker));
             }
         }
