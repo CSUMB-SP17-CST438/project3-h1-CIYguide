@@ -41,8 +41,6 @@ public class SurpriseMe {
         fruits.add("cherry");
         fruits.add("watermelon");
         fruits.add("kiwi");
-        fruits.add("jackfruit");
-        fruits.add("durian");
         fruits.add("orange");
         fruits.add("grapes");
 
@@ -52,11 +50,8 @@ public class SurpriseMe {
         vegetables.add("lettuce");
         vegetables.add("onion");
         vegetables.add("eggplant");
-        vegetables.add("leek");
         vegetables.add("broccoli");
         vegetables.add("brussels sprouts");
-        vegetables.add("beat");
-        vegetables.add("green pepper");
         vegetables.add("garlic");
 
     }
