@@ -139,20 +139,31 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     //send it all to the single recipe.  it'll know what to do!
     public void onClick(View v) {
         if (v.getId() == R.id.recipe_list_button) {
-            Intent i = new Intent(RecipeList.this, SingleRecipe.class);
-            try {
-                i.putStringArrayListExtra("searchphrases", searchphrases);
-                i.putStringArrayListExtra("whatYouHave", whatYouHave);
-                i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
+            if(RecipeName.getText().equals("No recipes available!")){
+                Intent i = new Intent(RecipeList.this, MainScreen.class);
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-                i.putExtra("recipeName", SP.getString(recipeName, ""));
-                i.putExtra("CookIt", SP.getString(recipeURL, ""));
                 SharedPreferences.Editor SPEDIT = SP.edit();
                 SPEDIT.clear();
                 SPEDIT.commit();
-            } catch (Exception e) {
+                startActivity(i);
             }
-            startActivity(i);
+            else {
+                Intent i = new Intent(RecipeList.this, SingleRecipe.class);
+                try {
+                    i.putStringArrayListExtra("searchphrases", searchphrases);
+                    i.putStringArrayListExtra("whatYouHave", whatYouHave);
+                    i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
+                    SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                    i.putExtra("recipeName", SP.getString(recipeName, ""));
+                    i.putExtra("CookIt", SP.getString(recipeURL, ""));
+                    i.putExtra("wholeJSON", SP.getString(ENTIRE_RECIPE_JSON, ""));
+                    SharedPreferences.Editor SPEDIT = SP.edit();
+                    SPEDIT.clear();
+                    SPEDIT.commit();
+                } catch (Exception e) {
+                }
+                startActivity(i);
+            }
         }
     }
 
@@ -324,6 +335,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     Bitmap b = ((BitmapDrawable)d).getBitmap();
                     RecipeImage.setImageBitmap(b);
                 }
+                recipeSelector.setText("Go Back!");
+                RecipeName.setText("No recipes available!");
                 progressDialog.dismiss();
             }
         }
