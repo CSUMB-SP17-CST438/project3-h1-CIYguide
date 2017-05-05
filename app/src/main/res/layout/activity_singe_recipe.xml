@@ -69,7 +69,7 @@
 
             <Button
                 android:id="@+id/CLOSE"
-                android:layout_width="60dp"
+                android:layout_width="98dp"
                 android:layout_height="80dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
@@ -79,16 +79,14 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:layout_conversion_absoluteHeight="80dp"
-                tools:layout_conversion_absoluteWidth="98dp"
-                tools:layout_conversion_absoluteX="211dp"
-                tools:layout_conversion_absoluteY="312dp" />
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp" />
 
         </android.support.constraint.ConstraintLayout>
 
         <LinearLayout
             android:id="@+id/inside"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
@@ -116,69 +114,68 @@
                     android:id="@+id/FULL"
                     android:layout_width="120dp"
                     android:layout_height="80dp"
-                    android:layout_marginEnd="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/button"
-                    android:text="Full recipe"
+                    android:text="All Itemss"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/NEEDED"
-                    android:layout_width="120dp"
+                    android:layout_width="121dp"
                     android:layout_height="80dp"
+                    android:layout_marginEnd="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="16dp"
                     android:background="@drawable/button"
                     android:text="Needed Items"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:layout_conversion_absoluteHeight="80dp"
-                    tools:layout_conversion_absoluteWidth="121dp"
-                    tools:layout_conversion_absoluteX="74dp"
-                    tools:layout_conversion_absoluteY="312dp" />
+                    app:layout_constraintTop_toTopOf="parent" />
             </android.support.constraint.ConstraintLayout>
 
-            <LinearLayout
+            <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="200dp"
                 android:orientation="horizontal">
 
                 <EditText
                     android:id="@+id/editText2"
-                    android:layout_width="263dp"
-                    android:layout_height="64dp"
-                    android:layout_weight="1"
+                    android:layout_width="250dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="16dp"
                     android:hint="@string/message"
-                    android:maxLines="1"
                     android:minHeight="?android:attr/listPreferredItemHeight"
                     android:textColor="@color/black"
-                    tools:layout_conversion_absoluteHeight="50dp"
-                    tools:layout_conversion_absoluteWidth="251dp"
-                    tools:layout_conversion_absoluteX="203dp"
-                    tools:layout_conversion_absoluteY="392dp"
-                    tools:layout_editor_absoluteX="8dp"
-                    tools:layout_editor_absoluteY="392dp" />
+                    app:layout_constraintHorizontal_bias="0.456"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/btnSendSMS"
                     android:layout_width="100dp"
-                    android:layout_height="64dp"
-                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="100dp"
+                    android:layout_marginTop="8dp"
                     android:background="@drawable/button"
+                    android:gravity="center"
                     android:minHeight="?android:attr/listPreferredItemHeight"
                     android:text="Send Txt"
                     android:textStyle="bold"
-                    tools:layout_conversion_absoluteHeight="50dp"
-                    tools:layout_conversion_absoluteWidth="100dp"
-                    tools:layout_conversion_absoluteX="279dp"
-                    tools:layout_conversion_absoluteY="442dp"
-                    tools:layout_editor_absoluteX="279dp"
-                    tools:layout_editor_absoluteY="442dp" />
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/editText2"
+                    app:layout_constraintVertical_bias="0.761" />
 
-            </LinearLayout>
+            </android.support.constraint.ConstraintLayout>
 
         </LinearLayout>
 

@@ -206,7 +206,6 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         for(int x = 0; x < whatYouNeed.size(); x++)
             need += whatYouNeed.get(x) + "\n";
         messageTest += need;
-//        txtMessageNEED.setText(messageTest);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

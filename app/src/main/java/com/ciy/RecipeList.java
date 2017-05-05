@@ -141,6 +141,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         if (v.getId() == R.id.recipe_list_button) {
             if(RecipeName.getText().equals("No recipes available!")){
                 Intent i = new Intent(RecipeList.this, MainScreen.class);
+
+                //clear sharedpreferences just in case
                 SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                 SharedPreferences.Editor SPEDIT = SP.edit();
                 SPEDIT.clear();
