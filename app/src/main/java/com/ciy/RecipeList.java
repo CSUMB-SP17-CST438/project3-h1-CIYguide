@@ -81,6 +81,49 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         BackButton = (Button) findViewById(R.id.Back_button);
         BackButton.setOnClickListener(this);
         RecipeImage = (ImageView) findViewById(R.id.RecipeImage);
+
+        //attempting to get swipe left right effect instead of buttons
+        RecipeImage.setOnTouchListener(new onSwipeListener(RecipeList.this){
+            public void onSwipeRight(){
+                Toast.makeText(RecipeList.this, "right", Toast.LENGTH_SHORT).show();
+                //decrementing for proper call to edamam : lorenzo
+                SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                int x = SP.getInt(start, 0);
+                //no need to decrement if x is less then 1 : lorenzo
+                if(x >= 1) {
+                    int y = SP.getInt(end, 1);
+                    SharedPreferences.Editor SPedit = SP.edit();
+                    SPedit.putInt(start, x - 1);
+                    SPedit.putInt(end, y - 1);
+                    SPedit.commit();
+                    new AsyncCaller().execute("");
+                }
+                //check and disable backbutton : lorenzo
+                if(SP.contains(start) && SP.getInt(start, 0) < 1){
+                    BackButton.setClickable(false);
+                    BackButton.setTextColor(Color.parseColor("#CC0000"));
+                }
+            }
+            public void onSwipeLeft(){
+                Toast.makeText(RecipeList.this, "left", Toast.LENGTH_SHORT).show();
+                //incrementing for proper call to edamam : lorenzo
+                SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                int x = SP.getInt(start, 0);
+                int y = SP.getInt(end, 1);
+                SharedPreferences.Editor SPedit = SP.edit();
+                SPedit.putInt(start, x+1);
+                SPedit.putInt(end, y+1);
+                SPedit.commit();
+
+                //check and enable click for back button : lorenzo
+                if(SP.contains(start) && SP.getInt(start, 0) >= 1){
+                    BackButton.setClickable(true);
+                    BackButton.setTextColor(Color.parseColor("#FFFFFF"));
+                }
+                new AsyncCaller().execute("");
+            }
+        });
+
         RecipeName = (TextView) findViewById(R.id.RecipeName);
         Intent i = getIntent();
         searchphrases = i.getStringArrayListExtra("searchphrases"); //Added by MFlorek
