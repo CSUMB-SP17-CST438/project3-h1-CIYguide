@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -52,8 +53,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
     public ClarifaiClient client;
     public byte[] jpegImage;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

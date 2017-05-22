@@ -133,4 +133,23 @@ public class DBHandler {
         closeDB();
         return checked;
     }
+
+    //get checked preferences and return for search query
+    public ArrayList<PrefEntry> getChecked(){
+        ArrayList<PrefEntry> pe = new ArrayList<PrefEntry>();
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Preferences.NAME +
+                " WHERE " + Preferences.Cols.CHECKED + "='y';", null);
+        if(c.moveToFirst()){
+            do {
+                PrefEntry p = new PrefEntry();
+                p.setChecked(c.getString(1));
+                p.setLabel(c.getString(0));
+                pe.add(p);
+            }while(c.moveToNext());
+        }
+        c.close();
+        closeDB();
+        return pe;
+    }
 }

@@ -61,6 +61,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     TextView RecipeName;
     Button recipeSelector;
 
+    DBHandler db;
+    ArrayList<PrefEntry> prefs;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -128,6 +131,10 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         //set button colors
         recipeSelector.setBackgroundColor(Color.parseColor("#CC0000"));
 
+        db = new DBHandler(this);
+        prefs = db.getChecked();
+
+        //keep this line last in onCreate!
         new AsyncCaller().execute("");
     }
 
@@ -235,6 +242,21 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
             try {
                 SharedPreferences Sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+
+                //append to the end of url
+                String dietString = "";
+                String healthString = "";
+                if(prefs.size() > 1)
+                {
+                    Log.d("RECIPE", prefs.toString());
+                    for(int i = 0; i < prefs.size(); i++){
+                        if(PrefEntry.DIET_LABELS.contains(prefs.get(i).getLabel()))
+                            Log.d("RECIPE", "diet");
+                        else
+                            Log.d("RECIPE", "health");
+                    }
+                }
+
                 URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1));
 
                 connection = (HttpURLConnection) url.openConnection();
