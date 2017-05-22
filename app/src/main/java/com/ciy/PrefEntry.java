@@ -7,12 +7,7 @@ import java.util.Arrays;
 public class PrefEntry {
 
     public static ArrayList<String> DIET_LABELS = new ArrayList<String>(Arrays.asList(
-       "balance", "high-protein", "high-fiber", "low-fat", "low-carb", "low-sodium"
-    ));
-    public static ArrayList<String> HEALTH_LABELS = new ArrayList<String>(Arrays.asList(
-            "vegan", "vegetarian", "paleo", "dairy-free", "gluten-free", "wheat-free",
-            "fat-free", "low-sugar", "egg-free", "peanut-free", "tree-nut-free", "soy-free",
-            "fish-free", "shellfish-free"
+       "balanced", "high-protein", "high-fiber", "low-fat", "low-carb", "low-sodium"
     ));
 
     private String label;
