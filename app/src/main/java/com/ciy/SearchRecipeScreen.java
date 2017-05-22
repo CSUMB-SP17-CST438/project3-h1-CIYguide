@@ -54,10 +54,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     public ClarifaiClient client;
     public byte[] jpegImage;
 
-    DBHandler db;
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         client = new ClarifaiBuilder(getString(R.string.clarifai_id), getString(R.string.clarifai_secret))
@@ -100,9 +96,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         cameraButton.setOnClickListener(this);
 
         searchterm.setOnKeyListener(this);
-
-        db = new DBHandler(this);
-        Log.d("SEARCH", db.getChecked().toString());
     }
 
     public void onClick(View v)
