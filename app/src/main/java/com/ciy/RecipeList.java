@@ -246,18 +246,24 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 //append to the end of url
                 String dietString = "";
                 String healthString = "";
-                if(prefs.size() > 1)
+                if(prefs.size() > 0)
                 {
-                    Log.d("RECIPE", prefs.toString());
                     for(int i = 0; i < prefs.size(); i++){
-                        if(PrefEntry.DIET_LABELS.contains(prefs.get(i).getLabel()))
-                            Log.d("RECIPE", "diet");
+                        if(i+1 < prefs.size() && !PrefEntry.DIET_LABELS.contains(prefs.get(i+1).getLabel()))
+                            dietString += prefs.get(i).getLabel() + "&health=";
+                        else if(PrefEntry.DIET_LABELS.contains(prefs.get(0).getLabel()))
+                            dietString = "&diet=" + prefs.get(i).getLabel();
+                        else if (i == prefs.size() -1)
+                            dietString += prefs.get(i).getLabel();
                         else
-                            Log.d("RECIPE", "health");
+                            dietString += prefs.get(i).getLabel() + ",";
                     }
                 }
 
-                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1));
+//                String appendMe = dietString + healthString;
+                Log.d("RECIPE", "Result: " + dietString);
+
+                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1) + dietString);
 
                 connection = (HttpURLConnection) url.openConnection();
                 InputStream in = new BufferedInputStream(connection.getInputStream());
