@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ciyguide.png",
-        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxhdpi\\ciyguide.png"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ciyguide.png",
@@ -14,5 +14,13 @@
     {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ciyguide.png",
+        "source": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxhdpi\\ciyguide.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ciyguide.png",
+        "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\src\\main\\res\\mipmap-xxhdpi\\ciyguide.png"
     }
 ]

@@ -1,44 +1,44 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-22
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-22
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.SEND_SMS
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:5-74
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:5-74
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:22-72
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:7:22-72
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:5-72
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:22-69
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:8:22-69
 provider#com.facebook.FacebookContentProvider
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:10:5-13:35
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:10:5-13:35
 	android:authorities
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:12:9-87
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:12:9-87
 	android:exported
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:13:9-32
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:13:9-32
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:9-60
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:9-60
 application
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-55:19
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-55:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Otter\.android\build-cache\8d2453e7122caa72f2cfb6f8278e6b8d9b74e5bd\output\AndroidManifest.xml:9:5-20
@@ -56,100 +56,100 @@ MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Joe Otter\.and
 MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Joe Otter\.android\build-cache\ed8a919c7f6ca76d7950f6eca7669d2599c42960\output\AndroidManifest.xml:25:5-20
 MERGED from [com.jakewharton.timber:timber:4.3.0] C:\Users\Joe Otter\.android\build-cache\6505336422a1390550b3cecd996b3b243d2c2a52\output\AndroidManifest.xml:8:5-20
 	android:label
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:20:9-35
 	android:allowBackup
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:18:9-46
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:18:9-46
 	android:theme
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:21:9-40
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:22:9-24:55
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:22:9-24:55
 	android:value
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:24:13-52
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:24:13-52
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:23:13-58
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:23:13-58
 activity#com.ciy.MainActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:9-31:20
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:19-47
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:32:9-35:32
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:32:9-35:32
 MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:35:13-29
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:35:13-29
 	android:configChanges
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:34:13-96
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:34:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:33:13-57
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:33:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:36:9-47:20
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:36:9-47:20
 	android:exported
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:37:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:39:13-46:29
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:39:13-46:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:42:17-76
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:42:17-76
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:42:27-73
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:42:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:43:17-78
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:43:17-78
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:43:27-75
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:43:27-75
 data
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:17-75
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:17-75
 	android:scheme
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:23-72
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:45:23-72
 activity#com.ciy.SearchRecipeScreen
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:9-56
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:9-56
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:19-53
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:48:19-53
 activity#com.ciy.UserProfileActivity
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:49:9-57
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:49:9-57
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:49:19-54
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:49:19-54
 activity#com.ciy.SingleRecipe
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:50:9-50
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:50:9-50
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:50:19-47
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:50:19-47
 activity#com.ciy.MainScreen
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:51:9-47
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:51:9-47
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:51:19-45
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:51:19-45
 activity#com.ciy.RecipeList
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:52:9-48
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:52:9-48
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:52:19-45
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:52:19-45
 activity#com.ciy.IngredientsList
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:9-53
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:9-53
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:19-50
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:53:19-50
 activity#com.ciy.UserData
-ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:9-46
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:9-46
 	android:name
-		ADDED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-43
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-43
 uses-sdk
-INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Joe Otter\.android\build-cache\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:18:5-42
@@ -171,11 +171,11 @@ MERGED from [com.jakewharton.timber:timber:4.3.0] C:\Users\Joe Otter\.android\bu
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joe Otter\Desktop\Testing\master\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:21:9-23:69
 	android:value
