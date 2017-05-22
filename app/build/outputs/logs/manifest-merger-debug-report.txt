@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:3:5-22
 		INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml
@@ -38,7 +38,7 @@ ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguid
 	android:name
 		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:11:9-60
 application
-ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-55:19
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:16:5-56:19
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Joe Otter\.android\build-cache\8d2453e7122caa72f2cfb6f8278e6b8d9b74e5bd\output\AndroidManifest.xml:9:5-20
@@ -148,6 +148,10 @@ activity#com.ciy.UserData
 ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:9-46
 	android:name
 		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:54:19-43
+activity#com.ciy.Preferences
+ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:9-48
+	android:name
+		ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml:55:19-46
 uses-sdk
 INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:18:5-42

@@ -26,6 +26,39 @@
     <string name="sendGrocery">Send your Grocery List:</string>
     <string name="message">Message</string>
     <string name="yourRecipe">Recipe:</string>
+    <string name="preferences">Preferences</string>
+    <string name="my_preferences">My Preferences</string>
+
+    <!-- preferences strings -->
+    <!-- checkbox labels -->
+    <string name="hp">High-Protein</string>
+    <string name="lc">Low-Carb</string>
+    <string name="lf">Low-Fat</string>
+    <string name="lf2">Less than 3g of fat</string>
+    <string name="bal">Balanced</string>
+    <string name="hf">High-Fiber</string>
+    <string name="ls">Low-Sodium</string>
+    <string name="ns">No-Sugar</string>
+    <string name="sc">Sugar-Conscious</string>
+    <string name="vg">Vegetarian</string>
+    <string name="vegan">Vegan</string>
+    <string name="pa">Paleo</string>
+    <string name="glf">Gluten-Free</string>
+    <string name="whf">Wheat-Free</string>
+    <string name="dai">No Dairy</string>
+    <string name="egg">No Eggs</string>
+    <string name="soy">No Soy</string>
+    <string name="fish">No Fish</string>
+    <string name="s_fish">No Shellfish</string>
+    <string name="tree">No Tree Nuts</string>
+    <string name="lp">Low Potassium</string>
+    <string name="af">Alcohol-Free</string>
+    <string name="noa">No Oil Added</string>
+    <string name="pea">No Peanuts</string>
+
+    <!-- button save preferences -->
+    <string name="save">Save</string>
+
 
     <!-- Facebook strings -->
     <string name="facebook_app_id">1865569750367993</string>
@@ -34,8 +67,6 @@
     <!-- Clarifai strings -->
     <string name="clarifai_id">lwdvqSIoEoTBDMHw0WOWGi9U8xz10bAvjAjDGlqE</string>
     <string name="clarifai_secret">0tCk2sUvqeoGDocgAL1eNFVJbJcJAVUF5NScCleP</string>
-
-
 
 
     <!-- TODO: Remove or change this placeholder text -->

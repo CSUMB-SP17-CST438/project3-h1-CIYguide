@@ -784,6 +784,10 @@
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_user_data.xml"
     },
     {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preferences.xml",
+        "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_preferences.xml"
+    },
+    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recipe_list.xml",
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\src\\main\\res\\layout\\activity_recipe_list.xml"
     },
