@@ -245,7 +245,6 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
                 //append to the end of url
                 String dietString = "";
-                String healthString = "";
                 if(prefs.size() > 0)
                 {
                     for(int i = 0; i < prefs.size(); i++){
@@ -259,9 +258,6 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                             dietString += prefs.get(i).getLabel() + ",";
                     }
                 }
-
-//                String appendMe = dietString + healthString;
-                Log.d("RECIPE", "Result: " + dietString);
 
                 URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1) + dietString);
 
