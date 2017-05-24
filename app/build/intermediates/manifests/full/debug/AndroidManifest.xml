@@ -61,6 +61,7 @@
         <activity android:name="com.ciy.IngredientsList" />
         <activity android:name="com.ciy.UserData" />
         <activity android:name="com.ciy.Preferences" />
+        <activity android:name="com.ciy.ShowPreviousOrSaved" />
 
         <meta-data
             android:name="com.google.android.gms.version"

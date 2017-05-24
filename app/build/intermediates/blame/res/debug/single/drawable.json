@@ -128,12 +128,12 @@
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable\\front_page.jpg"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
@@ -172,20 +172,20 @@
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable\\search_button.png"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.png",
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable\\button.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
@@ -200,12 +200,12 @@
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
@@ -228,12 +228,12 @@
         "source": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\src\\main\\res\\drawable\\ciyguide.png"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
@@ -248,12 +248,12 @@
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
@@ -276,12 +276,12 @@
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\02d6c0a0af5354910dcd4c9f502a4b84319870b7\\output\\res\\drawable\\com_facebook_button_like_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\02d6c0a0af5354910dcd4c9f502a4b84319870b7\\output\\res\\drawable\\com_facebook_button_like_background.xml"
     },
     {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",

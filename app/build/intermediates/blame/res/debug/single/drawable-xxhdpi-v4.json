@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\02d6c0a0af5354910dcd4c9f502a4b84319870b7\\output\\res\\drawable-xxhdpi-v4\\messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\master\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\MFlorek\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\MFlorek\\.android\\build-cache\\044bf81ce4a1e7a1ad1185897b36ce73433a0cb3\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon_white.png",
