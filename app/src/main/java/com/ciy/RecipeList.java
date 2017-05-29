@@ -49,6 +49,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     //lorenzo
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
+    ArrayList<String> fullList;
     public static final String RECIPE_PREF = "Recipe info";
     public static String imgURL = "image";
     public static String recipeName = "name";
@@ -77,6 +78,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         //lorenzo
         whatYouHave = new ArrayList<String>();
         whatYouNeed = new ArrayList<String>();
+        fullList = new ArrayList<String>();
 
         recipeSelector = (Button) findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
@@ -162,6 +164,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     i.putStringArrayListExtra("searchphrases", searchphrases);
                     i.putStringArrayListExtra("whatYouHave", whatYouHave);
                     i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
+                    fullList = whatYouHave;
+                    fullList.addAll(whatYouNeed);
+                    i.putStringArrayListExtra("everything", fullList);
                     SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                     i.putExtra("recipeName", SP.getString(recipeName, ""));
                     i.putExtra("CookIt", SP.getString(recipeURL, ""));
@@ -259,7 +264,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     }
                 }
 
-                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1) + dietString);
+                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList +
+                        "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) +
+                        "&to=" + Sp.getInt(end, 1) + dietString);
 
                 connection = (HttpURLConnection) url.openConnection();
                 InputStream in = new BufferedInputStream(connection.getInputStream());

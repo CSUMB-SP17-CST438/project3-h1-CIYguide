@@ -71,6 +71,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
+    ArrayList<String> fullList;
     String messageTest = "Grocery List: \n";
     String have = "";
     String need = "";
@@ -155,11 +156,13 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
+            fullList = i.getStringArrayListExtra("everything");
             r_Name = i.getStringExtra("recipeName");
             r_URL = i.getStringExtra("CookIt");
             RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
 
+        Log.d("SINGLE", fullList.toString());
 
         recipePage.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view, String url){
@@ -210,9 +213,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 try{
-                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
-                    startActivityForResult(pickContact, 1);
+                    /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
+//                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+//                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+//                    startActivityForResult(pickContact, 1);
+                    /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
+
                 }
                 catch(Exception e){
                     Log.e("ContactError", "Error: " + e.toString());
