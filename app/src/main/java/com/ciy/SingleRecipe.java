@@ -71,6 +71,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
+    ArrayList<String> fullList;
+    ArrayList<String> msg_parts;
     String messageTest = "Grocery List: \n";
     String have = "";
     String need = "";
@@ -84,6 +86,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singe_recipe);
+
+        //working on sending multiple sms messages
+        msg_parts = new ArrayList<String>();
 
         //getting screen size to fit webview dynamically to any screen
         //height
@@ -102,6 +107,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         recipePage.setLayoutParams(params);
         WebSettings settings = recipePage.getSettings();
         settings.setJavaScriptEnabled(true);
+        settings.setDomStorageEnabled(true);
         recipePage.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
 
         //initializing ui variables
@@ -155,11 +161,13 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
+            fullList = i.getStringArrayListExtra("everything");
             r_Name = i.getStringExtra("recipeName");
             r_URL = i.getStringExtra("CookIt");
             RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
 
+        Log.d("SINGLE", fullList.toString());
 
         recipePage.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view, String url){
@@ -210,9 +218,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 try{
+                    /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
                     Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
                     pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
                     startActivityForResult(pickContact, 1);
+                    /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
+
                 }
                 catch(Exception e){
                     Log.e("ContactError", "Error: " + e.toString());
@@ -320,6 +331,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         phoneNo = number;
         message = txtMessage.getText().toString();
 
+        Log.d("SEND", "first check");
+
 //        SmsManager smsManager = SmsManager.getDefault();
 //        smsManager.sendTextMessage(phoneNo, null, message, null, null);
 //        Toast.makeText(getApplicationContext(), "SMS sent.",
@@ -327,28 +340,45 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.SEND_SMS)
-                != PackageManager.PERMISSION_GRANTED) {
+                == PackageManager.PERMISSION_GRANTED) {
+            Log.d("SEND", "second check");
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.SEND_SMS)) {
+                Log.d("SEND", "third check");
                 SmsManager smsManager = SmsManager.getDefault();
-                smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                if(message.length() > 160) {
+                    msg_parts = smsManager.divideMessage(message);
+                    smsManager.sendMultipartTextMessage(phoneNo, null, msg_parts, null, null);
+                    Log.d("BIG", msg_parts.toString());
+                }else{
+                    smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                }
                 Toast.makeText(getApplicationContext(), "SMS sent.",
                         Toast.LENGTH_LONG).show();
 
             } else {
+                Log.d("SEND", "fourth check");
                 ActivityCompat.requestPermissions(this,
                         new String[]{Manifest.permission.SEND_SMS},
                         MY_PERMISSIONS_REQUEST_SEND_SMS);
                 SmsManager smsManager = SmsManager.getDefault();
-                smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                if(message.length() > 160) {
+                    msg_parts = smsManager.divideMessage(message);
+                    smsManager.sendMultipartTextMessage(phoneNo, null, msg_parts, null, null);
+                    Log.d("BIG", msg_parts.toString());
+                }else{
+                    smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                }
                 Toast.makeText(getApplicationContext(), "SMS sent.",
                         Toast.LENGTH_LONG).show();
             }
         }
+        Log.d("SEND", "fifth check");
     }
 
     @Override
     public void onRequestPermissionsResult(int requestCode,String permissions[], int[] grantResults) {
+        Log.d("REQPERM", "HOLA");
         switch (requestCode) {
             case MY_PERMISSIONS_REQUEST_SEND_SMS: {
                 if (grantResults.length > 0
