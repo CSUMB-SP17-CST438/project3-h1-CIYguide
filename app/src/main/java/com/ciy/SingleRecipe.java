@@ -80,6 +80,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String need = "";
     String r_Name = "";
     String r_URL = "";
+    String imageURL = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
     int height;
@@ -167,6 +168,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             fullList = i.getStringArrayListExtra("everything");
             r_Name = i.getStringExtra("recipeName");
             r_URL = i.getStringExtra("CookIt");
+            imageURL = i.getStringExtra("imageURL");
             RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
 
@@ -228,8 +230,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 //                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
 //                    startActivityForResult(pickContact, 1);
                     /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
-                    SharedPreferences sp = getSharedPreferences(RecipeList.RECIPE_PREF, Context.MODE_PRIVATE);
-                    PreviousSaved ps = new PreviousSaved(sp.getString("image", ""), r_Name, r_URL, fullList);
+                    Log.d("SR", imageURL);
+                    PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
                     db.addToPrev(ps);
                 }
                 catch(Exception e){

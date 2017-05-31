@@ -1,6 +1,12 @@
 package com.ciy;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+
+import java.io.InputStream;
 import java.lang.reflect.Array;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -47,8 +53,20 @@ public class PreviousSaved {
     }
 
     //setters
-    public String getImage(){
-        return this.imageURL;
+    public Bitmap getImage(){
+        try{
+            URL url = new URL(this.imageURL);
+            HttpURLConnection connect = (HttpURLConnection)url.openConnection();
+            connect.setDoInput(true);
+            connect.connect();
+            InputStream input = connect.getInputStream();
+            Bitmap bmp = BitmapFactory.decodeStream(input);
+            return bmp;
+        }catch(Exception e){
+            e.printStackTrace();
+            return null;
+        }
+
     }
     public String getName(){
         return this.name;

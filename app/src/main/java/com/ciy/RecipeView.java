@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -35,6 +37,14 @@ public class RecipeView extends RelativeLayout{
         return rv;
     }
 
+    public RecipeView(Context c){
+        this(c, null);
+    }
+
+    public RecipeView(Context c, AttributeSet a){
+        this(c, a, 0);
+    }
+
     public RecipeView(Context context, AttributeSet attrs, int defStyle){
         super(context, attrs, defStyle);
         LayoutInflater.from(context).inflate(R.layout.item_recipe, this, true);
@@ -49,7 +59,7 @@ public class RecipeView extends RelativeLayout{
 
     public void setPrevSav(final PreviousSaved PS){
         tv.setText(PS.getName());
-        new DownloadImage(PS.getImage(), iv).execute();
+        iv.setImageBitmap(PS.getImage());
         b.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,43 +71,5 @@ public class RecipeView extends RelativeLayout{
                 view.getContext().startActivity(i);
             }
         });
-    }
-
-    //class to get and set recipe image bmp to imageview : lorenzo
-    public class DownloadImage extends AsyncTask<Void, Void, Bitmap> {
-
-        private String url;
-        private ImageView rIMG;
-
-        public DownloadImage(String url, ImageView rIMG){
-            this.url = url;
-            this.rIMG = rIMG;
-        }
-
-        //get bitmap from url
-        @Override
-        protected Bitmap doInBackground(Void... params){
-            try{
-                URL urlConnect = new URL(this.url);
-                HttpURLConnection connectMe = (HttpURLConnection) urlConnect.openConnection();
-                connectMe.setDoInput(true);
-                connectMe.connect();
-                InputStream in = connectMe.getInputStream();
-                Bitmap bmp = BitmapFactory.decodeStream(in);
-                return bmp;
-            }catch(Exception e){
-                Log.e("Error", "" + e.getMessage());
-                e.printStackTrace();
-            }
-
-            return null;
-        }
-
-        //set bitmap from url
-        @Override
-        protected void onPostExecute(Bitmap result){
-            super.onPostExecute(result);
-            iv.setImageBitmap(result);
-        }
     }
 }

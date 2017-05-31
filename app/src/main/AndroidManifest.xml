@@ -54,7 +54,8 @@
         <activity android:name=".IngredientsList" />
         <activity android:name=".UserData" />
         <activity android:name=".Preferences" />
-        <activity android:name=".ShowPreviousOrSaved"></activity>
+        <activity android:name=".ShowPreviousOrSaved" />
+        <activity android:name=".ListPrevSaved"></activity>
     </application>
 
 </manifest>

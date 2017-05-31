@@ -196,7 +196,7 @@ public class DBHandler {
     }
 
     //display all entries from previous recipes database table
-    public ArrayList<PreviousSaved> showPrevEntries(){
+    public ArrayList<PreviousSaved> getPrevEntries(){
         initSavePrev();
         ArrayList<PreviousSaved> all = new ArrayList<PreviousSaved>();
 
