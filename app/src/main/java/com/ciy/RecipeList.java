@@ -171,6 +171,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     i.putExtra("recipeName", SP.getString(recipeName, ""));
                     i.putExtra("CookIt", SP.getString(recipeURL, ""));
                     i.putExtra("wholeJSON", SP.getString(ENTIRE_RECIPE_JSON, ""));
+                    i.putExtra("imageURL", SP.getString(imgURL, ""));
                     SharedPreferences.Editor SPEDIT = SP.edit();
                     SPEDIT.clear();
                     SPEDIT.commit();

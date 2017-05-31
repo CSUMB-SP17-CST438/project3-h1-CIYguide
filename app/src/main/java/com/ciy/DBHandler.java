@@ -8,7 +8,9 @@ import android.util.Log;
 import android.widget.CheckBox;
 
 import com.ciy.PreferencesDBSchema.Preferences;
+import com.ciy.PrevDBSchema.Prev;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -29,6 +31,13 @@ public class DBHandler {
             sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + Preferences.NAME + "("
                     + Preferences.Cols.PREFNAME + " TEXT NOT NULL, " +
                     Preferences.Cols.CHECKED + " TEXT NOT NULL);"
+            );
+            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + Prev.NAME + "(" +
+                    "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                    Prev.Cols.R_NAME + " TEXT NOT NULL, " +
+                    Prev.Cols.R_IMG + " TEXT NOT NULL, " +
+                    Prev.Cols.R_URL + " TEXT NOT NULL, " +
+                    Prev.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
             );
         }
 
@@ -54,6 +63,10 @@ public class DBHandler {
             db.close();
     }
 
+
+    //////////////////////////////////////////////////////////////////////////////
+    //              PREFERENCES DATABASE AND ITS FUNCTIONS
+    //////////////////////////////////////////////////////////////////////////////
     //if table is not created, create table
     private void initPREFS(){
         writeDB();
@@ -152,4 +165,65 @@ public class DBHandler {
         closeDB();
         return pe;
     }
+
+
+    //////////////////////////////////////////////////////////////////////////////
+    //              Saved and Previous Recipes DATABASE AND ITS FUNCTIONS
+    //////////////////////////////////////////////////////////////////////////////
+    private void initSavePrev(){
+        writeDB();
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + Prev.NAME + "(" +
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                Prev.Cols.R_NAME + " TEXT NOT NULL, " +
+                Prev.Cols.R_IMG + " TEXT NOT NULL, " +
+                Prev.Cols.R_URL + " TEXT NOT NULL, " +
+                Prev.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+        );
+        closeDB();
+    }
+
+    //add entry to previous
+    public void addToPrev(PreviousSaved PS){
+        initSavePrev();
+        writeDB();
+        db.execSQL("INSERT INTO " + Prev.NAME + "(" +
+                Prev.Cols.R_NAME + "," + Prev.Cols.R_IMG + "," +
+                Prev.Cols.R_URL + "," + Prev.Cols.R_INGREDIENTS + ")" +
+                "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
+                PS.getUrl() + "','" + PS.getStringIngredients() + "');"
+        );
+        closeDB();
+    }
+
+    //display all entries from previous recipes database table
+    public ArrayList<PreviousSaved> getPrevEntries(){
+        initSavePrev();
+        ArrayList<PreviousSaved> all = new ArrayList<PreviousSaved>();
+
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Prev.NAME + ";", null);
+        if(c.moveToFirst()){
+            do{
+                PreviousSaved temp = new PreviousSaved();
+                temp.setName(c.getString(1));
+                temp.setUrl(c.getString(2));
+                temp.setImage(c.getString(3));
+                temp.setIngredients(c.getString(4));
+                all.add(temp);
+            }while(c.moveToNext());
+        }
+        closeDB();
+
+        return all;
+    }
+
+    //function used for testing to clear out previous database
+    public void clearPrev(){
+        writeDB();
+        db.execSQL("DROP TABLE IF EXISTS " + Prev.NAME + ";");
+        closeDB();
+        initSavePrev();
+    }
+
+
 }

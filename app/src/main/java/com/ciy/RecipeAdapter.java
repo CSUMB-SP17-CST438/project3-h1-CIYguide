@@ -23,6 +23,10 @@ public class RecipeAdapter extends ArrayAdapter<PreviousSaved>{
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
-        return convertView;
+        RecipeView rv = (RecipeView)convertView;
+        if(rv == null)
+            rv = RecipeView.inflate(parent);
+        rv.setPrevSav(getItem(position));
+        return rv;
     }
 }

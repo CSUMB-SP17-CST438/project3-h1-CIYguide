@@ -2,6 +2,8 @@ package com.ciy;
 
 //source: https://www.tutorialspoint.com/android/android_json_parser.htm
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Point;
@@ -78,9 +80,11 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     String need = "";
     String r_Name = "";
     String r_URL = "";
+    String imageURL = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
     int height;
+    DBHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -164,10 +168,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             fullList = i.getStringArrayListExtra("everything");
             r_Name = i.getStringExtra("recipeName");
             r_URL = i.getStringExtra("CookIt");
+            imageURL = i.getStringExtra("imageURL");
             RecipeName.setText(r_Name.toString());
         } catch(Exception e){}
-
-        Log.d("SINGLE", fullList.toString());
 
         recipePage.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view, String url){
@@ -215,15 +218,21 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             need += whatYouNeed.get(x) + "\n";
         messageTest += need;
 
+        //init database connection
+        db = new DBHandler(this);
+        db.clearPrev();
+
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 try{
                     /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
-                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
-                    startActivityForResult(pickContact, 1);
+//                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+//                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+//                    startActivityForResult(pickContact, 1);
                     /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
-
+                    Log.d("SR", imageURL);
+                    PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
+                    db.addToPrev(ps);
                 }
                 catch(Exception e){
                     Log.e("ContactError", "Error: " + e.toString());
@@ -266,9 +275,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         Uri contactData = data.getData();
         Cursor c = getContentResolver().query(contactData, null, null, null, null);
         if (c.moveToFirst()) {
+            //retrieve phone number
             int phoneIndex = c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
             String num = c.getString(phoneIndex);
-//            Toast.makeText(Placeholder.this, "Number=" + num, Toast.LENGTH_LONG).show();
             sendSMSMessage(num);
         }
     }
@@ -331,33 +340,22 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         phoneNo = number;
         message = txtMessage.getText().toString();
 
-        Log.d("SEND", "first check");
-
-//        SmsManager smsManager = SmsManager.getDefault();
-//        smsManager.sendTextMessage(phoneNo, null, message, null, null);
-//        Toast.makeText(getApplicationContext(), "SMS sent.",
-//                Toast.LENGTH_LONG).show();
-
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.SEND_SMS)
                 == PackageManager.PERMISSION_GRANTED) {
-            Log.d("SEND", "second check");
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.SEND_SMS)) {
-                Log.d("SEND", "third check");
                 SmsManager smsManager = SmsManager.getDefault();
                 if(message.length() > 160) {
                     msg_parts = smsManager.divideMessage(message);
                     smsManager.sendMultipartTextMessage(phoneNo, null, msg_parts, null, null);
-                    Log.d("BIG", msg_parts.toString());
                 }else{
                     smsManager.sendTextMessage(phoneNo, null, message, null, null);
                 }
-                Toast.makeText(getApplicationContext(), "SMS sent.",
-                        Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), "SMS sent.",
+//                        Toast.LENGTH_LONG).show();
 
             } else {
-                Log.d("SEND", "fourth check");
                 ActivityCompat.requestPermissions(this,
                         new String[]{Manifest.permission.SEND_SMS},
                         MY_PERMISSIONS_REQUEST_SEND_SMS);
@@ -365,20 +363,16 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 if(message.length() > 160) {
                     msg_parts = smsManager.divideMessage(message);
                     smsManager.sendMultipartTextMessage(phoneNo, null, msg_parts, null, null);
-                    Log.d("BIG", msg_parts.toString());
                 }else{
                     smsManager.sendTextMessage(phoneNo, null, message, null, null);
                 }
-                Toast.makeText(getApplicationContext(), "SMS sent.",
-                        Toast.LENGTH_LONG).show();
+                //something here
             }
         }
-        Log.d("SEND", "fifth check");
     }
 
     @Override
     public void onRequestPermissionsResult(int requestCode,String permissions[], int[] grantResults) {
-        Log.d("REQPERM", "HOLA");
         switch (requestCode) {
             case MY_PERMISSIONS_REQUEST_SEND_SMS: {
                 if (grantResults.length > 0
