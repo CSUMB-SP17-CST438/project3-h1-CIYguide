@@ -234,9 +234,7 @@ public class DBHandler {
     //check if a saved entry exists in the saved table
     public boolean checkSavedEntry(PreviousSaved PS){
         ArrayList<PreviousSaved> all = getPrevOrSaveEntries(2);
-        if(all.contains(PS))
-            return true;
-        return false;
+        return all.contains(PS);
     }
 
     //display all entries from previous/saved recipes database table
