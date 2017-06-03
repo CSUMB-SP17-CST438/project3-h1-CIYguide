@@ -230,10 +230,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 //                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
 //                    startActivityForResult(pickContact, 1);
                     /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
-                    Log.d("SR", imageURL);
-                    Log.d("SR", r_URL);
                     PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
-                    db.addToPrev(ps);
+                    db.addToTable(ps, 1);
                 }
                 catch(Exception e){
                     Log.e("ContactError", "Error: " + e.toString());

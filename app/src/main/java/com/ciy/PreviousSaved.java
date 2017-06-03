@@ -1,12 +1,5 @@
 package com.ciy;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-
-import java.io.InputStream;
-import java.lang.reflect.Array;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -79,5 +72,15 @@ public class PreviousSaved {
     @Override
     public String toString(){
         return this.name + " " + this.imageURL + " " + this.url + " " + this.ingredients.toString();
+    }
+
+    @Override
+    public boolean equals(Object o){
+        if(o instanceof PreviousSaved){
+            PreviousSaved p = (PreviousSaved)o;
+            if(p.toString().equals(this.toString()))
+                return true;
+        }
+        return false;
     }
 }

@@ -8,7 +8,7 @@ import android.util.Log;
 import android.widget.CheckBox;
 
 import com.ciy.PreferencesDBSchema.Preferences;
-import com.ciy.PrevDBSchema.Prev;
+import com.ciy.PrevDBSchema.PrevSave;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -32,12 +32,19 @@ public class DBHandler {
                     + Preferences.Cols.PREFNAME + " TEXT NOT NULL, " +
                     Preferences.Cols.CHECKED + " TEXT NOT NULL);"
             );
-            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + Prev.NAME + "(" +
+            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.PREV_NAME + "(" +
                     "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                    Prev.Cols.R_NAME + " TEXT NOT NULL, " +
-                    Prev.Cols.R_IMG + " TEXT NOT NULL, " +
-                    Prev.Cols.R_URL + " TEXT NOT NULL, " +
-                    Prev.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+                    PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+            );
+            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.SAVE_NAME + "(" +
+                    "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                    PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
             );
         }
 
@@ -168,40 +175,81 @@ public class DBHandler {
 
 
     //////////////////////////////////////////////////////////////////////////////
-    //              Saved and Previous Recipes DATABASE AND ITS FUNCTIONS
+    //              Saved and Previous Recipes DATABASE AND ITS FUNCTIONS       //
+    //////////////////////////////////////////////////////////////////////////////
+    //              will be adding integer to the following functions in        //
+    //              order to use the functions for both previous and saved      //
+    //              tables.                                                     //
+    //              Previous = 1; Saved = 2;                                    //
     //////////////////////////////////////////////////////////////////////////////
     private void initSavePrev(){
         writeDB();
-        db.execSQL("CREATE TABLE IF NOT EXISTS " + Prev.NAME + "(" +
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.PREV_NAME + "(" +
                 "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                Prev.Cols.R_NAME + " TEXT NOT NULL, " +
-                Prev.Cols.R_IMG + " TEXT NOT NULL, " +
-                Prev.Cols.R_URL + " TEXT NOT NULL, " +
-                Prev.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+                PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+        );
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.SAVE_NAME + "(" +
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
         );
         closeDB();
     }
 
-    //add entry to previous
-    public void addToPrev(PreviousSaved PS){
+    //add entry to previous/saved
+    public void addToTable(PreviousSaved PS, int save_or_prev){
         initSavePrev();
         writeDB();
-        db.execSQL("INSERT INTO " + Prev.NAME + "(" +
-                Prev.Cols.R_NAME + "," + Prev.Cols.R_IMG + "," +
-                Prev.Cols.R_URL + "," + Prev.Cols.R_INGREDIENTS + ")" +
-                "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
-                PS.getUrl() + "','" + PS.getStringIngredients() + "');"
-        );
+        if(save_or_prev == 1) {
+            db.execSQL("INSERT INTO " + PrevSave.PREV_NAME + "(" +
+                    PrevSave.Cols.R_NAME + "," + PrevSave.Cols.R_IMG + "," +
+                    PrevSave.Cols.R_URL + "," + PrevSave.Cols.R_INGREDIENTS + ")" +
+                    "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
+                    PS.getUrl() + "','" + PS.getStringIngredients() + "');"
+            );
+        }
+        else{
+            closeDB();
+            if(!checkSavedEntry(PS)) {
+                writeDB();
+                db.execSQL("INSERT INTO " + PrevSave.SAVE_NAME + "(" +
+                        PrevSave.Cols.R_NAME + "," + PrevSave.Cols.R_IMG + "," +
+                        PrevSave.Cols.R_URL + "," + PrevSave.Cols.R_INGREDIENTS + ")" +
+                        "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
+                        PS.getUrl() + "','" + PS.getStringIngredients() + "');"
+                );
+            }else{
+                Log.d("DB", "It's in here already.");
+            }
+        }
         closeDB();
     }
 
-    //display all entries from previous recipes database table
-    public ArrayList<PreviousSaved> getPrevEntries(){
+    ///SPECIFICALLY FOR SAVE TABLE
+    //check if a saved entry exists in the saved table
+    public boolean checkSavedEntry(PreviousSaved PS){
+        ArrayList<PreviousSaved> all = getPrevOrSaveEntries(2);
+        if(all.contains(PS))
+            return true;
+        return false;
+    }
+
+    //display all entries from previous/saved recipes database table
+    public ArrayList<PreviousSaved> getPrevOrSaveEntries(int save_or_prev){
         initSavePrev();
         ArrayList<PreviousSaved> all = new ArrayList<PreviousSaved>();
 
         readDB();
-        Cursor c = db.rawQuery("SELECT * FROM " + Prev.NAME + ";", null);
+        Cursor c = null;
+        if(save_or_prev == 1)
+            c = db.rawQuery("SELECT * FROM " + PrevSave.PREV_NAME + ";", null);
+        else
+            c = db.rawQuery("SELECT * FROM " + PrevSave.SAVE_NAME + ";", null);
         if(c.moveToFirst()){
             do{
                 PreviousSaved temp = new PreviousSaved();
@@ -217,10 +265,13 @@ public class DBHandler {
         return all;
     }
 
-    //function used for testing to clear out previous database
-    public void clearPrev(){
+    //function used for testing to clear out previous/saved database
+    public void clearRecipeTable(int save_or_prev){
         writeDB();
-        db.execSQL("DROP TABLE IF EXISTS " + Prev.NAME + ";");
+        if(save_or_prev == 1)
+            db.execSQL("DROP TABLE IF EXISTS " + PrevSave.PREV_NAME + ";");
+        else
+            db.execSQL("DROP TABLE IF EXISTS " + PrevSave.SAVE_NAME + ";");
         closeDB();
         initSavePrev();
     }
