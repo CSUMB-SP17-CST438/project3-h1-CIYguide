@@ -120,9 +120,8 @@ public class UserProfileActivity extends AppCompatActivity implements View.OnCli
     }
 
     public void savedRecipes(View view) {
-        Intent i = new Intent(UserProfileActivity.this, UserData.class);
+        Intent i = new Intent(UserProfileActivity.this, ListPrevSaved.class);
         i.putExtra("activityFrom", "GetRecipes");
-
         startActivity(i);
     }
 

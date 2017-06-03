@@ -3,9 +3,6 @@ package com.ciy;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.Image;
-import android.os.AsyncTask;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,12 +12,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
-
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 /**
  * Created by Joe Otter on 5/24/2017.
@@ -51,12 +42,14 @@ public class RecipeView extends RelativeLayout implements ListPrevSaved.AsyncRes
         setupChildren();
     }
 
+    //initializes elements in the activity
     private void setupChildren(){
         tv = (TextView)findViewById(R.id.recipe_name);
         iv = (ImageView)findViewById(R.id.recipe_image);
         b = (Button)findViewById(R.id.select_recipe);
     }
 
+    //sets up elements in the activity
     public void setPrevSav(final PreviousSaved PS){
         ListPrevSaved.DownloadImage DL = new ListPrevSaved.DownloadImage(PS.getImage());
         DL.delegate = this;
@@ -70,11 +63,13 @@ public class RecipeView extends RelativeLayout implements ListPrevSaved.AsyncRes
                 i.putExtra("CookIt", PS.getUrl());
                 i.putExtra("recipeName", PS.getName());
                 i.putStringArrayListExtra("everything", PS.getIngredients());
+                i.putExtra("FROM", "previous");
                 view.getContext().startActivity(i);
             }
         });
     }
 
+    //will display image in imageview from asynctask
     @Override
     public void processFinish(Bitmap output){
         iv.setImageBitmap(output);

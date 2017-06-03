@@ -61,6 +61,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     ImageView RecipeImage;
     TextView RecipeName;
     Button recipeSelector;
+    Button saveThis;
 
     DBHandler db;
     ArrayList<PrefEntry> prefs;
@@ -82,6 +83,8 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
         recipeSelector = (Button) findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
+        saveThis = (Button) findViewById(R.id.saveThis);
+        saveThis.setOnClickListener(this);
         RecipeImage = (ImageView) findViewById(R.id.RecipeImage);
 
         //attempting to get swipe left right effect instead of buttons
@@ -135,6 +138,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
         db = new DBHandler(this);
         prefs = db.getChecked();
+        db.clearRecipeTable(2);
 
         //keep this line last in onCreate!
         new AsyncCaller().execute("");
@@ -179,6 +183,15 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 }
                 startActivity(i);
             }
+        }else if(v.getId() == R.id.saveThis){
+            fullList = whatYouHave;
+            fullList.addAll(whatYouNeed);
+            SharedPreferences sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+            PreviousSaved ps = new PreviousSaved(sp.getString(imgURL, ""),
+                    sp.getString(recipeName, ""),
+                    sp.getString(recipeURL, ""),
+                    fullList);
+            db.addToTable(ps, 2);
         }
     }
 
