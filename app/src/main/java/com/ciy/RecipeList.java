@@ -62,6 +62,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     TextView RecipeName;
     Button recipeSelector;
     Button saveThis;
+    Button saveThisDEFAULT;
 
     DBHandler db;
     ArrayList<PrefEntry> prefs;
@@ -88,6 +89,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         recipeSelector.setOnClickListener(this);
         saveThis = (Button) findViewById(R.id.saveThis);
         saveThis.setOnClickListener(this);
+        saveThisDEFAULT = saveThis;
         RecipeImage = (ImageView) findViewById(R.id.RecipeImage);
 
         //attempting to get swipe left right effect instead of buttons
@@ -188,12 +190,10 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 startActivity(i);
             }
         }else if(v.getId() == R.id.saveThis){
-            Log.d("RL", db.getPrevOrSaveEntries(2).toString());
-            Log.d("RL", "" + db.getPrevOrSaveEntries(2).size());
             if(db.checkSavedEntry(checkMe) && saveThis.getText().toString().equals("Saved!")){
                 db.removeEntry(checkMe);
-                saveThis.setBackgroundColor(Color.parseColor("#FFFFFF"));
-                saveThis.setTextColor(Color.parseColor("#000000"));
+                saveThis.setBackgroundResource(R.drawable.button);
+                saveThis.setTextColor(Color.parseColor("#FFFFFF"));
                 saveThis.setText("Save");
             }else {
                 SharedPreferences sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
@@ -360,6 +360,10 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     saveThis.setBackgroundColor(Color.parseColor("#FFDF00"));
                     saveThis.setTextColor(Color.parseColor("#FFFFFF"));
                     saveThis.setText("Saved!");
+                }else{
+                    saveThis.setBackgroundResource(R.drawable.button);
+                    saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                    saveThis.setText("Save");
                 }
 
                 JSONArray ingredientsNeeded = null;
@@ -397,7 +401,15 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     fullList.addAll(whatYouNeed);
 
                 new DownloadImage(jObj3.get("image").toString(), RecipeImage).execute();
-                RecipeName.setText(jObj3.get("label").toString());
+                char[] checkMe = jObj3.get("label").toString().toCharArray();
+                if(checkMe.length > 30){
+                    for(int i = 27; i < checkMe.length; i++) {
+                        checkMe[i] = '.';
+                        if(i > 31)
+                            break;
+                    }
+                }
+                RecipeName.setText(new String(checkMe));
 
                 this.progressDialog.dismiss();
             } catch (Exception e) {
