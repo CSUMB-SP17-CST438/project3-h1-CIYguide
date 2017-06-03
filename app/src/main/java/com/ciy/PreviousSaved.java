@@ -53,20 +53,8 @@ public class PreviousSaved {
     }
 
     //setters
-    public Bitmap getImage(){
-        try{
-            URL url = new URL(this.imageURL);
-            HttpURLConnection connect = (HttpURLConnection)url.openConnection();
-            connect.setDoInput(true);
-            connect.connect();
-            InputStream input = connect.getInputStream();
-            Bitmap bmp = BitmapFactory.decodeStream(input);
-            return bmp;
-        }catch(Exception e){
-            e.printStackTrace();
-            return null;
-        }
-
+    public String getImage(){
+        return this.imageURL;
     }
     public String getName(){
         return this.name;
