@@ -220,7 +220,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         //init database connection
         db = new DBHandler(this);
-        db.clearPrev();
+//        db.clearPrev();
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
@@ -231,6 +231,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 //                    startActivityForResult(pickContact, 1);
                     /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
                     Log.d("SR", imageURL);
+                    Log.d("SR", r_URL);
                     PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
                     db.addToPrev(ps);
                 }

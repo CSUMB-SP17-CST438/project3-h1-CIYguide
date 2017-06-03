@@ -26,7 +26,7 @@ import java.net.URL;
  * Created by Joe Otter on 5/24/2017.
  */
 
-public class RecipeView extends RelativeLayout{
+public class RecipeView extends RelativeLayout implements ListPrevSaved.AsyncResponse{
     private TextView tv;
     private ImageView iv;
     private Button b;
@@ -58,8 +58,10 @@ public class RecipeView extends RelativeLayout{
     }
 
     public void setPrevSav(final PreviousSaved PS){
+        ListPrevSaved.DownloadImage DL = new ListPrevSaved.DownloadImage(PS.getImage());
+        DL.delegate = this;
+        DL.execute();
         tv.setText(PS.getName());
-        iv.setImageBitmap(PS.getImage());
         b.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -72,4 +74,10 @@ public class RecipeView extends RelativeLayout{
             }
         });
     }
+
+    @Override
+    public void processFinish(Bitmap output){
+        iv.setImageBitmap(output);
+    }
+
 }

@@ -206,8 +206,8 @@ public class DBHandler {
             do{
                 PreviousSaved temp = new PreviousSaved();
                 temp.setName(c.getString(1));
-                temp.setUrl(c.getString(2));
-                temp.setImage(c.getString(3));
+                temp.setUrl(c.getString(3));
+                temp.setImage(c.getString(2));
                 temp.setIngredients(c.getString(4));
                 all.add(temp);
             }while(c.moveToNext());

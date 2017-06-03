@@ -5,10 +5,9 @@
 
     <ImageView
         android:id="@+id/recipe_image"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:maxWidth="50dp"
-        android:maxHeight="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
