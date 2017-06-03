@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="sans-serif"
         android:text="Recipe List"
         android:textSize="20dp"
@@ -56,26 +56,28 @@
     <Button
         android:id="@+id/recipe_list_button"
         android:layout_width="0dp"
-        android:layout_height="70dp"
-        android:background="@drawable/button"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="@drawable/button"
         android:fontFamily="sans-serif"
+        android:padding="10dp"
         android:text="Select Recipe"
+        android:textColor="@android:color/white"
         android:textSize="12dp"
         android:textStyle="bold"
-        android:padding="10dp"
-        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/RecipeName"
+        app:layout_constraintTop_toBottomOf="@+id/saveThis"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/RecipeName"
@@ -85,6 +87,7 @@
         android:layout_marginTop="17dp"
         android:fontFamily="sans-serif"
         android:text="Recipe Name"
+        android:maxLength="30"
         android:textSize="20dp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -93,9 +96,8 @@
         app:layout_constraintTop_toBottomOf="@+id/RecipeImage"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintRight_toLeftOf="@+id/button2"
         android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.861" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <ImageView
         android:id="@+id/RecipeImage"
@@ -115,12 +117,16 @@
 
     <Button
         android:id="@+id/saveThis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/button"
         android:text="Save"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/RecipeImage"
-        android:layout_marginRight="16dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/RecipeName" />
 
 </android.support.constraint.ConstraintLayout>

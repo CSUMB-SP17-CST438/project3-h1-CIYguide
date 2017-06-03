@@ -223,8 +223,6 @@ public class DBHandler {
                         "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
                         PS.getUrl() + "','" + PS.getStringIngredients() + "');"
                 );
-            }else{
-                Log.d("DB", "It's in here already.");
             }
         }
         closeDB();
@@ -234,9 +232,7 @@ public class DBHandler {
     //check if a saved entry exists in the saved table
     public boolean checkSavedEntry(PreviousSaved PS){
         ArrayList<PreviousSaved> all = getPrevOrSaveEntries(2);
-        if(all.contains(PS))
-            return true;
-        return false;
+        return all.contains(PS);
     }
 
     //display all entries from previous/saved recipes database table
@@ -274,6 +270,15 @@ public class DBHandler {
             db.execSQL("DROP TABLE IF EXISTS " + PrevSave.SAVE_NAME + ";");
         closeDB();
         initSavePrev();
+    }
+
+    //remove entry from saved tables
+    public void removeEntry(PreviousSaved PS){
+        writeDB();
+        db.execSQL("DELETE FROM " + PrevSave.SAVE_NAME + " WHERE " +
+                PrevSave.Cols.R_URL + "='" + PS.getUrl() + "';"
+        );
+        closeDB();
     }
 
 

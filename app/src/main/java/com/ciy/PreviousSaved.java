@@ -1,5 +1,7 @@
 package com.ciy;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -78,7 +80,10 @@ public class PreviousSaved {
     public boolean equals(Object o){
         if(o instanceof PreviousSaved){
             PreviousSaved p = (PreviousSaved)o;
-            if(p.toString().equals(this.toString()))
+
+            if(p.name.equals(this.name) &&
+                    p.url.equals(this.url) &&
+                    p.imageURL.equals(this.imageURL))
                 return true;
         }
         return false;
