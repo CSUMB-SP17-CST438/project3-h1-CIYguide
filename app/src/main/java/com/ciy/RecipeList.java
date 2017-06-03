@@ -66,6 +66,9 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     DBHandler db;
     ArrayList<PrefEntry> prefs;
 
+    //use to check whether the current recipe being looked at is saved in the saved table
+    PreviousSaved checkMe;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
@@ -139,6 +142,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         db = new DBHandler(this);
         prefs = db.getChecked();
         db.clearRecipeTable(2);
+        checkMe = new PreviousSaved();
 
         //keep this line last in onCreate!
         new AsyncCaller().execute("");
@@ -184,14 +188,26 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 startActivity(i);
             }
         }else if(v.getId() == R.id.saveThis){
-            fullList = whatYouHave;
-            fullList.addAll(whatYouNeed);
-            SharedPreferences sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-            PreviousSaved ps = new PreviousSaved(sp.getString(imgURL, ""),
-                    sp.getString(recipeName, ""),
-                    sp.getString(recipeURL, ""),
-                    fullList);
-            db.addToTable(ps, 2);
+            Log.d("RL", db.getPrevOrSaveEntries(2).toString());
+            Log.d("RL", "" + db.getPrevOrSaveEntries(2).size());
+            if(db.checkSavedEntry(checkMe) && saveThis.getText().toString().equals("Saved!")){
+                db.removeEntry(checkMe);
+                saveThis.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                saveThis.setTextColor(Color.parseColor("#000000"));
+                saveThis.setText("Save");
+            }else {
+                SharedPreferences sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                PreviousSaved ps = new PreviousSaved(sp.getString(imgURL, ""),
+                        sp.getString(recipeName, ""),
+                        sp.getString(recipeURL, ""),
+                        fullList);
+                db.addToTable(ps, 2);
+                if (db.checkSavedEntry(checkMe)) {
+                    saveThis.setBackgroundColor(Color.parseColor("#FFDF00"));
+                    saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                    saveThis.setText("Saved!");
+                }
+            }
         }
     }
 
@@ -336,6 +352,16 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 SPedit.putString(imgURL, jObj3.get("image").toString());
                 SPedit.putString(recipeName, jObj3.get("label").toString());
 
+                //set up checkme so that it can be checked and change save button appearance.
+                checkMe.setUrl(jObj3.get("url").toString());
+                checkMe.setImage(jObj3.get("image").toString());
+                checkMe.setName(jObj3.get("label").toString());
+                if(db.checkSavedEntry(checkMe)){
+                    saveThis.setBackgroundColor(Color.parseColor("#FFDF00"));
+                    saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                    saveThis.setText("Saved!");
+                }
+
                 JSONArray ingredientsNeeded = null;
                 if(jObj3.get("ingredientLines") instanceof JSONArray)
                 {
@@ -365,6 +391,10 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
                 whatYouHave = have;
                 whatYouNeed = need;
+                if(!fullList.contains(whatYouHave))
+                    fullList = whatYouHave;
+                if(!fullList.contains(whatYouNeed))
+                    fullList.addAll(whatYouNeed);
 
                 new DownloadImage(jObj3.get("image").toString(), RecipeImage).execute();
                 RecipeName.setText(jObj3.get("label").toString());
