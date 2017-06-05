@@ -2,6 +2,8 @@ package com.ciy;
 
 //source: https://www.tutorialspoint.com/android/android_json_parser.htm
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Point;
@@ -16,6 +18,7 @@ import android.telephony.SmsManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
+import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -71,19 +74,31 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> searchphrases;
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
+    ArrayList<String> fullList;
+    ArrayList<String> msg_parts;
     String messageTest = "Grocery List: \n";
     String have = "";
     String need = "";
     String r_Name = "";
     String r_URL = "";
+    String imageURL = "";
     final int PICK_CONTACT=1;
     Cursor cursor1;
     int height;
+    DBHandler db;
 
+    //is used to determine if the user is coming from previous/saved
+    String from_where = null;
+
+    //issue with redirecting and losing the webpage! back button follows
+    Button back;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singe_recipe);
+
+        //working on sending multiple sms messages
+        msg_parts = new ArrayList<String>();
 
         //getting screen size to fit webview dynamically to any screen
         //height
@@ -102,6 +117,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         recipePage.setLayoutParams(params);
         WebSettings settings = recipePage.getSettings();
         settings.setJavaScriptEnabled(true);
+        settings.setDomStorageEnabled(true);
         recipePage.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
 
         //initializing ui variables
@@ -124,6 +140,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         //used to send text message
         sendBtn = (Button) findViewById(R.id.btnSendSMS);
 
+        //used to go back in the webview
+        back = (Button) findViewById(R.id.go_back);
+        back.setOnClickListener(this);
+        back.setEnabled(false);
+        back.setText("");
+
         //contains text message contents
         txtMessage = (EditText) findViewById(R.id.editText2);
 
@@ -142,6 +164,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         params = (ConstraintLayout.LayoutParams) open_close.getLayoutParams();
         params.height = height/4;
         open_close.setLayoutParams(params);
+        params = (ConstraintLayout.LayoutParams) back.getLayoutParams();
+        params.height = height/4;
+        back.setLayoutParams(params);
 
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -155,15 +180,18 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             //lorenzo
             whatYouHave = i.getStringArrayListExtra("whatYouHave");
             whatYouNeed = i.getStringArrayListExtra("whatYouNeed");
+            fullList = i.getStringArrayListExtra("everything");
             r_Name = i.getStringExtra("recipeName");
             r_URL = i.getStringExtra("CookIt");
+            imageURL = i.getStringExtra("imageURL");
             RecipeName.setText(r_Name.toString());
+            from_where = i.getStringExtra("FROM");
         } catch(Exception e){}
-
 
         recipePage.setWebViewClient(new WebViewClient(){
             public boolean shouldOverrideUrlLoading(WebView view, String url){
                 view.loadUrl(url);
+                enableGoBack(url);
                 return true;
             }
 
@@ -174,10 +202,10 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             public void onReceivedError(WebView view, int errorCode, String description, String failingUrl){
             }
         });
-
         recipePage.loadUrl(r_URL);
         recipePage.setOnClickListener(this);
         recipePage.setOnTouchListener(new View.OnTouchListener() {
+
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 int action = motionEvent.getAction();
@@ -189,27 +217,48 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         //into a string to send via SMS
 
         //creating grocery list based on have/need
-        messageTest += "What You Might Have:\n";
-        for(int x = 0; x < whatYouHave.size(); x++)
-            have += whatYouHave.get(x) + "\n";
-        messageTest += have + "\nWhat You Need:\n";
-        for(int x = 0; x < whatYouNeed.size(); x++)
-            need += whatYouNeed.get(x) + "\n";
-        messageTest += need;
-        have = messageTest;
-        txtMessage.setText(messageTest);
+        if(from_where == null) {
+            messageTest += "What You Might Have:\n";
+            for (int x = 0; x < whatYouHave.size(); x++)
+                have += whatYouHave.get(x) + "\n";
+            messageTest += have + "\nWhat You Need:\n";
+            for (int x = 0; x < whatYouNeed.size(); x++)
+                need += whatYouNeed.get(x) + "\n";
+            messageTest += need;
+            have = messageTest;
+            txtMessage.setText(messageTest);
 
-        //creating grocery list based on need only
-        messageTest = "";
-        need = "";
-        messageTest = "What you Need:\n";
-        for(int x = 0; x < whatYouNeed.size(); x++)
-            need += whatYouNeed.get(x) + "\n";
-        messageTest += need;
+            //creating grocery list based on need only
+            messageTest = "";
+            need = "";
+            messageTest = "What you Need:\n";
+            for (int x = 0; x < whatYouNeed.size(); x++)
+                need += whatYouNeed.get(x) + "\n";
+            messageTest += need;
+            neededBTN.setEnabled(true);
+            neededBTN.setText("Needed Items");
+            full.setEnabled(true);
+            full.setText("All Items");
+        }else if(from_where.equals("GetPrevious")){
+            messageTest += "What you Need:\n";
+            for(int x = 0; x < fullList.size(); x++){
+                messageTest += fullList.get(x) + "\n";
+            }
+            txtMessage.setText(messageTest);
+            full.setEnabled(false);
+            full.setText("");
+            neededBTN.setEnabled(false);
+            neededBTN.setText("");
+        }
+
+        //init database connection
+        db = new DBHandler(this);
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 try{
+                    PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
+                    db.addToTable(ps, 1);
                     Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
                     pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
                     startActivityForResult(pickContact, 1);
@@ -242,11 +291,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 open_close.setText("Send Text");
                 fullRecipe.setVisibility(View.GONE);
             }
-        } else if (v.getId() == R.id.FULL)
-        {
+        } else if (v.getId() == R.id.FULL){
             txtMessage.setText(have);
-        } else if (v.getId() == R.id.NEEDED){
+        } else if (v.getId() == R.id.NEEDED && from_where == null){
             txtMessage.setText(need);
+        }else if(v.getId() == R.id.go_back){
+            recipePage.goBack();
         }
     }
 
@@ -255,9 +305,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         Uri contactData = data.getData();
         Cursor c = getContentResolver().query(contactData, null, null, null, null);
         if (c.moveToFirst()) {
+            //retrieve phone number
             int phoneIndex = c.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER);
             String num = c.getString(phoneIndex);
-//            Toast.makeText(Placeholder.this, "Number=" + num, Toast.LENGTH_LONG).show();
             sendSMSMessage(num);
         }
     }
@@ -320,29 +370,33 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         phoneNo = number;
         message = txtMessage.getText().toString();
 
-//        SmsManager smsManager = SmsManager.getDefault();
-//        smsManager.sendTextMessage(phoneNo, null, message, null, null);
-//        Toast.makeText(getApplicationContext(), "SMS sent.",
-//                Toast.LENGTH_LONG).show();
-
         if (ContextCompat.checkSelfPermission(this,
                 Manifest.permission.SEND_SMS)
-                != PackageManager.PERMISSION_GRANTED) {
+                == PackageManager.PERMISSION_GRANTED) {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this,
                     Manifest.permission.SEND_SMS)) {
                 SmsManager smsManager = SmsManager.getDefault();
-                smsManager.sendTextMessage(phoneNo, null, message, null, null);
-                Toast.makeText(getApplicationContext(), "SMS sent.",
-                        Toast.LENGTH_LONG).show();
+                if(message.length() > 160) {
+                    msg_parts = smsManager.divideMessage(message);
+                    smsManager.sendMultipartTextMessage(phoneNo, null, msg_parts, null, null);
+                }else{
+                    smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                }
+//                Toast.makeText(getApplicationContext(), "SMS sent.",
+//                        Toast.LENGTH_LONG).show();
 
             } else {
                 ActivityCompat.requestPermissions(this,
                         new String[]{Manifest.permission.SEND_SMS},
                         MY_PERMISSIONS_REQUEST_SEND_SMS);
                 SmsManager smsManager = SmsManager.getDefault();
-                smsManager.sendTextMessage(phoneNo, null, message, null, null);
-                Toast.makeText(getApplicationContext(), "SMS sent.",
-                        Toast.LENGTH_LONG).show();
+                if(message.length() > 160) {
+                    msg_parts = smsManager.divideMessage(message);
+                    smsManager.sendMultipartTextMessage(phoneNo, null, msg_parts, null, null);
+                }else{
+                    smsManager.sendTextMessage(phoneNo, null, message, null, null);
+                }
+                //something here
             }
         }
     }
@@ -363,6 +417,18 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                     return;
                 }
             }
+        }
+    }
+
+    //webview has problems.  you can't go back if it redirects oh no!
+    //came up with this temporary function solution until I can get swiping working
+    private void enableGoBack(String checkMe){
+        if(checkMe.equals(r_URL)) {
+            back.setEnabled(false);
+            back.setText("");
+        }else{
+            back.setEnabled(true);
+            back.setText("Go Back");
         }
     }
 }

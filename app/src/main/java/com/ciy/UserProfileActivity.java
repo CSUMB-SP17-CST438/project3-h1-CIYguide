@@ -26,11 +26,13 @@ import com.google.android.gms.common.api.GoogleApiClient;
  * Created by Marilyn Florek, 3/23/2017
  */
 
-public class UserProfileActivity extends AppCompatActivity {
+public class UserProfileActivity extends AppCompatActivity implements View.OnClickListener{
 
     private GoogleApiClient client;
     TextView userName;
     ProfilePictureView proPic;
+
+    Button preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +46,8 @@ public class UserProfileActivity extends AppCompatActivity {
         Button mine = (Button) findViewById(R.id.myRecipes);
         Button saved = (Button) findViewById(R.id.savedRecipes);
         Button settingsButton = (Button) findViewById(R.id.settings);
+        Button preferences = (Button) findViewById(R.id.preferences);
+        preferences.setOnClickListener(this);
         userName = (TextView) findViewById(R.id.userTextView);
         proPic = (ProfilePictureView)findViewById(R.id.profilePicture);
 
@@ -55,6 +59,14 @@ public class UserProfileActivity extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
+    }
+
+    @Override
+    public void onClick(View v){
+        if(v.getId() == R.id.preferences){
+            Intent i = new Intent(this, Preferences.class);
+            startActivity(i);
+        }
     }
 
     public boolean getUserInfo(){
@@ -108,9 +120,8 @@ public class UserProfileActivity extends AppCompatActivity {
     }
 
     public void savedRecipes(View view) {
-        Intent i = new Intent(UserProfileActivity.this, UserData.class);
+        Intent i = new Intent(UserProfileActivity.this, ListPrevSaved.class);
         i.putExtra("activityFrom", "GetRecipes");
-
         startActivity(i);
     }
 

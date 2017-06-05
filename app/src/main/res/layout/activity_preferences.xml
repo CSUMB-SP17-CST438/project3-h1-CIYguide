@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ciy.Preferences">
+
+    <CheckBox
+        android:id="@+id/high_protein"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onCheckBoxClicked"
+        android:text="@string/hp"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/high_fiber" />
+
+    <CheckBox
+        android:id="@+id/gluten_free"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:onClick="onCheckBoxClicked"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/glf"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/low_sodium" />
+
+    <CheckBox
+        android:id="@+id/vegetarian"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:onClick="onCheckBoxClicked"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/vg"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gluten_free" />
+
+    <CheckBox
+        android:id="@+id/wheat_free"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/whf"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vegetarian" />
+
+    <CheckBox
+        android:id="@+id/no_dairy"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/dai"
+        android:textSize="12sp"
+        android:onClick="onCheckBoxClicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wheat_free" />
+
+    <CheckBox
+        android:id="@+id/no_fish"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onCheckBoxClicked"
+        android:text="@string/fish"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no_dairy" />
+
+    <CheckBox
+        android:id="@+id/no_tree_nuts"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:onClick="onCheckBoxClicked"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/tree"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no_fish" />
+
+    <CheckBox
+        android:id="@+id/low_sodium"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/ls"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/high_protein" />
+
+    <CheckBox
+        android:id="@+id/high_fiber"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/hf"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/low_carb" />
+
+    <CheckBox
+        android:id="@+id/low_fat"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onCheckBoxClicked"
+        android:text="@string/lf"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balanced" />
+
+    <CheckBox
+        android:id="@+id/sugar_conscious"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:text="@string/sc"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/low_fat" />
+
+    <CheckBox
+        android:id="@+id/vegan"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onCheckBoxClicked"
+        android:text="@string/vegan"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sugar_conscious" />
+
+    <CheckBox
+        android:id="@+id/paleo"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:onClick="onCheckBoxClicked"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/pa"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vegan" />
+
+    <CheckBox
+        android:id="@+id/no_eggs"
+        android:layout_width="wrap_content"
+        android:onClick="onCheckBoxClicked"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/egg"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paleo" />
+
+    <CheckBox
+        android:id="@+id/no_soy"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/soy"
+        android:textSize="12sp"
+        android:onClick="onCheckBoxClicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/no_eggs" />
+
+    <CheckBox
+        android:id="@+id/no_shellfish"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:text="@string/s_fish"
+        android:onClick="onCheckBoxClicked"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/no_soy" />
+
+    <CheckBox
+        android:id="@+id/no_peanuts"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:text="@string/pea"
+        android:textSize="12sp"
+        android:onClick="onCheckBoxClicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/no_shellfish" />
+
+    <CheckBox
+        android:id="@+id/balanced"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="150dp"
+        android:text="@string/bal"
+        android:textSize="12sp"
+        android:onClick="onCheckBoxClicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@+id/title_preferences" />
+
+    <CheckBox
+        android:id="@+id/low_carb"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/lc"
+        android:textSize="12sp"
+        android:onClick="onCheckBoxClicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_preferences" />
+
+    <TextView
+        android:id="@+id/title_preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/my_preferences"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveThis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

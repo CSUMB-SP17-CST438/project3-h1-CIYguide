@@ -36,7 +36,6 @@ public class UserData extends AppCompatActivity {
                 getFridgeItems();
             }
             else if(activityFrom == "GetPrevious"){
-                getPreviousSearches();
             }
         }
 //        searchphrases = i.getStringArrayListExtra("searchphrases");
@@ -83,21 +82,4 @@ public class UserData extends AppCompatActivity {
         Toast.makeText(this, "working", Toast.LENGTH_LONG).show();
 
     }
-
-    public void getPreviousSearches(){
-        DBHandler db = new DBHandler(this);
-
-        ArrayList<String> items = db.getPreviousSearches(username);
-
-        if(!items.isEmpty() || items==null) {
-            Toast.makeText(this, "if working", Toast.LENGTH_LONG).show();
-
-        }
-        else
-        {
-            Toast.makeText(this, "else working", Toast.LENGTH_SHORT).show();
-
-        }
-    }
-
 }

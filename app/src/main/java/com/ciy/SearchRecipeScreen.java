@@ -2,11 +2,13 @@ package com.ciy;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -37,6 +39,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import timber.log.Timber;
 
+import static com.ciy.RecipeList.RECIPE_PREF;
+
 /**
  * Created by jason on 3/24/2017.
  */
@@ -52,8 +56,6 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
 
     public ClarifaiClient client;
     public byte[] jpegImage;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,15 +99,26 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         cameraButton.setOnClickListener(this);
 
         searchterm.setOnKeyListener(this);
+
+        //just in case
+        clearPreferences(this);
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        clearPreferences(this);
     }
 
     public void onClick(View v)
     {
         if(v.getId() == R.id.add_button)
         {
-           String result = searchterm.getText().toString();
-            searchphrases.add(result);
-            adapter.notifyDataSetChanged();
+            String result = searchterm.getText().toString();
+            if(result.trim().length() > 0) {
+                searchphrases.add(result);
+                adapter.notifyDataSetChanged();
+            }
             searchterm.setText("");
             //Added by MFlorek - hides Keyboard when "Add" is clicked
             InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
@@ -159,11 +172,11 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
                 switch (view.getId()) {
                     case R.id.search_text_box:
                         String result = searchterm.getText().toString();
-                        if(result!=null){
+                        if(result.trim().length() > 0) {
                             searchphrases.add(result);
                             adapter.notifyDataSetChanged();
-                            searchterm.setText("");
                         }
+                        searchterm.setText("");
                         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                         imm.hideSoftInputFromWindow(searchterm.getWindowToken(), 0);
                         break;
@@ -228,5 +241,12 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
             this.searchphrases.add(searchphrases.get(ii));
             adapter.notifyDataSetChanged();
         }
+    }
+
+    public static void clearPreferences(Context c){
+        SharedPreferences SP = c.getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+        SharedPreferences.Editor SPEDIT = SP.edit();
+        SPEDIT.clear();
+        SPEDIT.commit();
     }
 }

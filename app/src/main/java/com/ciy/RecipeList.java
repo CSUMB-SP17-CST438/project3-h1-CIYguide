@@ -49,6 +49,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     //lorenzo
     ArrayList<String> whatYouHave;
     ArrayList<String> whatYouNeed;
+    ArrayList<String> fullList;
     public static final String RECIPE_PREF = "Recipe info";
     public static String imgURL = "image";
     public static String recipeName = "name";
@@ -60,6 +61,14 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
     ImageView RecipeImage;
     TextView RecipeName;
     Button recipeSelector;
+    Button saveThis;
+    Button saveThisDEFAULT;
+
+    DBHandler db;
+    ArrayList<PrefEntry> prefs;
+
+    //use to check whether the current recipe being looked at is saved in the saved table
+    PreviousSaved checkMe;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,9 +83,13 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         //lorenzo
         whatYouHave = new ArrayList<String>();
         whatYouNeed = new ArrayList<String>();
+        fullList = new ArrayList<String>();
 
         recipeSelector = (Button) findViewById(R.id.recipe_list_button);
         recipeSelector.setOnClickListener(this);
+        saveThis = (Button) findViewById(R.id.saveThis);
+        saveThis.setOnClickListener(this);
+        saveThisDEFAULT = saveThis;
         RecipeImage = (ImageView) findViewById(R.id.RecipeImage);
 
         //attempting to get swipe left right effect instead of buttons
@@ -128,6 +141,12 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
         //set button colors
         recipeSelector.setBackgroundColor(Color.parseColor("#CC0000"));
 
+        db = new DBHandler(this);
+        prefs = db.getChecked();
+        db.clearRecipeTable(2);
+        checkMe = new PreviousSaved();
+
+        //keep this line last in onCreate!
         new AsyncCaller().execute("");
     }
 
@@ -143,10 +162,7 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 Intent i = new Intent(RecipeList.this, MainScreen.class);
 
                 //clear sharedpreferences just in case
-                SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-                SharedPreferences.Editor SPEDIT = SP.edit();
-                SPEDIT.clear();
-                SPEDIT.commit();
+                SearchRecipeScreen.clearPreferences(this);
                 startActivity(i);
             }
             else {
@@ -155,16 +171,39 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                     i.putStringArrayListExtra("searchphrases", searchphrases);
                     i.putStringArrayListExtra("whatYouHave", whatYouHave);
                     i.putStringArrayListExtra("whatYouNeed", whatYouNeed);
+                    fullList = whatYouHave;
+                    fullList.addAll(whatYouNeed);
+                    i.putStringArrayListExtra("everything", fullList);
                     SharedPreferences SP = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
                     i.putExtra("recipeName", SP.getString(recipeName, ""));
                     i.putExtra("CookIt", SP.getString(recipeURL, ""));
                     i.putExtra("wholeJSON", SP.getString(ENTIRE_RECIPE_JSON, ""));
+                    i.putExtra("imageURL", SP.getString(imgURL, ""));
                     SharedPreferences.Editor SPEDIT = SP.edit();
                     SPEDIT.clear();
                     SPEDIT.commit();
                 } catch (Exception e) {
                 }
                 startActivity(i);
+            }
+        }else if(v.getId() == R.id.saveThis){
+            if(db.checkSavedEntry(checkMe) && saveThis.getText().toString().equals("Saved!")){
+                db.removeEntry(checkMe);
+                saveThis.setBackgroundResource(R.drawable.button);
+                saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                saveThis.setText("Save");
+            }else {
+                SharedPreferences sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
+                PreviousSaved ps = new PreviousSaved(sp.getString(imgURL, ""),
+                        sp.getString(recipeName, ""),
+                        sp.getString(recipeURL, ""),
+                        fullList);
+                db.addToTable(ps, 2);
+                if (db.checkSavedEntry(checkMe)) {
+                    saveThis.setBackgroundColor(Color.parseColor("#FFDF00"));
+                    saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                    saveThis.setText("Saved!");
+                }
             }
         }
     }
@@ -235,7 +274,26 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
             try {
                 SharedPreferences Sp = getSharedPreferences(RECIPE_PREF, Context.MODE_PRIVATE);
-                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList + "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) + "&to=" + Sp.getInt(end, 1));
+
+                //append to the end of url
+                String dietString = "";
+                if(prefs.size() > 0)
+                {
+                    for(int i = 0; i < prefs.size(); i++){
+                        if(i+1 < prefs.size() && !PrefEntry.DIET_LABELS.contains(prefs.get(i+1).getLabel()))
+                            dietString += prefs.get(i).getLabel() + "&health=";
+                        else if(PrefEntry.DIET_LABELS.contains(prefs.get(0).getLabel()))
+                            dietString = "&diet=" + prefs.get(i).getLabel();
+                        else if (i == prefs.size() -1)
+                            dietString += prefs.get(i).getLabel();
+                        else
+                            dietString += prefs.get(i).getLabel() + ",";
+                    }
+                }
+
+                URL url = new URL("https://api.edamam.com/search?q=" + ingredientList +
+                        "&app_id=94f1de1c&app_key=841d3225b56e2736216e571b7197ebf9&from=" + Sp.getInt(start, 0) +
+                        "&to=" + Sp.getInt(end, 1) + dietString);
 
                 connection = (HttpURLConnection) url.openConnection();
                 InputStream in = new BufferedInputStream(connection.getInputStream());
@@ -291,6 +349,20 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
                 SPedit.putString(imgURL, jObj3.get("image").toString());
                 SPedit.putString(recipeName, jObj3.get("label").toString());
 
+                //set up checkme so that it can be checked and change save button appearance.
+                checkMe.setUrl(jObj3.get("url").toString());
+                checkMe.setImage(jObj3.get("image").toString());
+                checkMe.setName(jObj3.get("label").toString());
+                if(db.checkSavedEntry(checkMe)){
+                    saveThis.setBackgroundColor(Color.parseColor("#FFDF00"));
+                    saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                    saveThis.setText("Saved!");
+                }else{
+                    saveThis.setBackgroundResource(R.drawable.button);
+                    saveThis.setTextColor(Color.parseColor("#FFFFFF"));
+                    saveThis.setText("Save");
+                }
+
                 JSONArray ingredientsNeeded = null;
                 if(jObj3.get("ingredientLines") instanceof JSONArray)
                 {
@@ -320,9 +392,21 @@ public class RecipeList extends AppCompatActivity implements View.OnClickListene
 
                 whatYouHave = have;
                 whatYouNeed = need;
+                if(!fullList.contains(whatYouHave))
+                    fullList = whatYouHave;
+                if(!fullList.contains(whatYouNeed))
+                    fullList.addAll(whatYouNeed);
 
                 new DownloadImage(jObj3.get("image").toString(), RecipeImage).execute();
-                RecipeName.setText(jObj3.get("label").toString());
+                char[] checkMe = jObj3.get("label").toString().toCharArray();
+                if(checkMe.length > 30){
+                    for(int i = 27; i < checkMe.length; i++) {
+                        checkMe[i] = '.';
+                        if(i > 31)
+                            break;
+                    }
+                }
+                RecipeName.setText(new String(checkMe));
 
                 this.progressDialog.dismiss();
             } catch (Exception e) {

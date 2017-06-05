@@ -1,249 +1,285 @@
 package com.ciy;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.widget.CheckBox;
 
+import com.ciy.PreferencesDBSchema.Preferences;
+import com.ciy.PrevDBSchema.PrevSave;
+
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-/*
- * Author: Marilyn Florek
- * Date: 04/27/17
+/**
+ * Created by Joe Otter on 5/19/2017.
  */
-/*
-    This is where my SQLite Database is implemented.
- */
+
 public class DBHandler {
-
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "UserDatabase.db";
+    private static final String DATABASE_NAME = "recipes.db";
 
-    //Previous Searches Table
-    private static final String PREVIOUS_SEARCH_TABLE = "Previous";
-    private static final String PREVIOUS_SEARCH_ID = "_id";
-    public static final int USERS_ID_COL = 0;
-    private static final String PREVIOUS_USER_NAME = "UserName";
-    public static final int PREVIOUS_USER_NAME_COL = 1;
-    private static final String PREVIOUS_SEARCHES = "FirstSearch";
-    public static final int PREVIOUS_SEARCHES_COL = 2;
-
-
-    //My Fridge Table
-    private static final String FRIDGE_TABLE = "Fridge";
-    private static final String FRIDGE_ID = "_id";
-    public static final int FRIDGE_ID_COL = 0;
-    private static final String FRIDGE_USER_NAME = "UserName";
-    public static final int FRIDGE_USER_NAME_COL = 1;
-    private static final String FRIDGE_ITEM = "Ingredients";
-    public static final int FRIDGE_ITEM_COL = 2;
-
-    //Saved Recipes
-    private static final String SAVED_TABLE = "Saved";
-    private static final String SAVED_ID = "_id";
-    public static final int SAVED_ID_COL = 0;
-    private static final String SAVED_USER_NAME = "UserName";
-    public static final int SAVED_USER_NAME_COL = 1;
-    private static final String RECIPE_DATA = "Recipe";
-    public static final int RECIPE_DATA_COL = 2;
-
-    // TO BE ADDED LATER
-//    //Recipes the User Created Table
-//    private static final String CREATED_TABLE = "Created";
-//    private static final String CREATED_ID = "_id";
-//    public static final int CREATED_ID_COL = 0;
-
-
-    public static final String CREATE_PREVIOUS_TABLE = "CREATE TABLE " + PREVIOUS_SEARCH_TABLE + "(" +
-            PREVIOUS_SEARCH_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-            PREVIOUS_USER_NAME + " TEXT," +
-            PREVIOUS_SEARCHES + " TEXT)";
-
-    public static final String CREATE_FRIDGE_TABLE = "CREATE TABLE " + FRIDGE_TABLE + "(" +
-            FRIDGE_USER_NAME + " TEXT," +
-            FRIDGE_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-            FRIDGE_ITEM + " TEXT)";
-
-    public static final String CREATE_SAVED_TABLE = "CREATE TABLE " + SAVED_TABLE + "(" +
-            SAVED_USER_NAME + " TEXT," +
-            SAVED_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-            RECIPE_DATA + " TEXT)";
-
-    public static final String DROP_PREVIOUS_TABLE = "DROP TABLE IF EXISTS " + PREVIOUS_SEARCH_TABLE;
-    public static final String DROP_FRIDGE_TABLE = "DROP TABLE IF EXISTS " + FRIDGE_TABLE;
-    public static final String DROP_SAVED_TABLE = "DROP TABLE IF EXISTS " + SAVED_TABLE;
-
-
-    /*
-        All of the very important methods for the Database creation begin here
-     */
-
-    private static class DBHelper extends SQLiteOpenHelper {
-
-        public DBHelper(Context context, String name, CursorFactory factory, int version) {
+    private static class DBHelper extends SQLiteOpenHelper{
+        public DBHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version){
             super(context, name, factory, version);
         }
 
         @Override
-        public void onCreate(SQLiteDatabase db) {
-            db.execSQL(CREATE_PREVIOUS_TABLE);
-            db.execSQL(CREATE_FRIDGE_TABLE);
-            db.execSQL(CREATE_SAVED_TABLE);
-
-//            db.execSQL("INSERT INTO Users VALUES (1, '!admin2', '!admin2')");
+        public void onCreate(SQLiteDatabase sqldb){
+            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + Preferences.NAME + "("
+                    + Preferences.Cols.PREFNAME + " TEXT NOT NULL, " +
+                    Preferences.Cols.CHECKED + " TEXT NOT NULL);"
+            );
+            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.PREV_NAME + "(" +
+                    "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                    PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+            );
+            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.SAVE_NAME + "(" +
+                    "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                    PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                    PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+            );
         }
 
         @Override
-        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
-            Log.d("Upgrade", "Upgrading db from version " + oldVersion + "to " + newVersion);
-            db.execSQL(DBHandler.DROP_FRIDGE_TABLE);
-            db.execSQL(DBHandler.DROP_PREVIOUS_TABLE);
-            db.execSQL(DBHandler.DROP_SAVED_TABLE);
-
-            onCreate(db);
+        public void onUpgrade(SQLiteDatabase sqldb, int i, int i1){
+            sqldb.execSQL("DROP TABLE IF EXISTS " + Preferences.NAME + ";");
+            onCreate(sqldb);
         }
     }
 
     private SQLiteDatabase db;
     private DBHelper dbHelper;
 
-    /*
-        These 4 methods will make it possible to access the database in the rest of the app
-     */
-    public DBHandler(Context context) {
+    //access database in rest of app
+    public DBHandler(Context context){
         dbHelper = new DBHelper(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    private void openReadableDB() {
-        db = dbHelper.getReadableDatabase();
-    }
-
-    private void openWritableDB() {
-        db = dbHelper.getWritableDatabase();
-    }
-
-    private void closeDB() {
-        if (db != null)
+    private void readDB(){db = dbHelper.getReadableDatabase();}
+    private void writeDB(){db = dbHelper.getWritableDatabase();}
+    private void closeDB(){
+        if(db != null)
             db.close();
     }
 
-    /*
-       This is where the Database Data creating begins
-     */
 
-    //Insert Data
-    public void storeSearch(String username, ArrayList<String> searchphrases){
-        openWritableDB();
-        ContentValues values = new ContentValues();
-        String ingredientList = "";
+    //////////////////////////////////////////////////////////////////////////////
+    //              PREFERENCES DATABASE AND ITS FUNCTIONS
+    //////////////////////////////////////////////////////////////////////////////
+    //if table is not created, create table
+    private void initPREFS(){
+        writeDB();
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + Preferences.NAME + "("
+                + Preferences.Cols.PREFNAME + " TEXT NOT NULL, " +
+                Preferences.Cols.CHECKED + " TEXT NOT NULL);"
+        );
+        closeDB();
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Preferences.NAME + ";", null);
+        if(c.getCount() < 1){
+            closeDB();
+            writeDB();
+            db.execSQL("INSERT INTO " + Preferences.NAME + "(" +
+                    Preferences.Cols.PREFNAME + "," + Preferences.Cols.CHECKED +
+                    ") VALUES ('balanced','n'),('high-protein','n'),('high-fiber','n')," +
+                    "('low-fat','n'),('low-carb','n'),('low-sodium','n'),('vegan','n')," +
+                    "('vegetarian','n'),('paleo','n'),('dairy-free','n'),('gluten-free','n')," +
+                    "('wheat-free','n'),('fat-free','n'),('low-sugar','n'),('egg-free','n')," +
+                    "('peanut-free','n'),('tree-nut-free','n'),('soy-free','n'),('fish-free','n')," +
+                    "('shellfish-free','n');"
+            );
+            closeDB();
+        }
+        c.close();
+        closeDB();
+    }
 
-        for(int j = 0; j < searchphrases.size(); j++){
-            //trim space at edges and replace spaces in middle with +
-            //to query better : lorenzo
+    //update prefs
+    public void updatePrefs(String rowVal, String checked){
+        initPREFS();
+        writeDB();
+        db.execSQL("UPDATE " + Preferences.NAME + " SET " +
+                Preferences.Cols.CHECKED + "='" + checked + "' WHERE " +
+                Preferences.Cols.PREFNAME + "='" + rowVal + "';"
+        );
+        closeDB();
+    }
 
+    //get update prefs table
+    public ArrayList<PrefEntry> getPrefs(){
+        ArrayList<PrefEntry> entries = new ArrayList<PrefEntry>();
 
-            String adjusted = searchphrases.get(j).trim();
-            adjusted = adjusted.replace("\\s+", "+");
-            if(j == searchphrases.size()-1)
-                ingredientList += searchphrases.get(j);
+        initPREFS();
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Preferences.NAME + ";", null);
+        if(c.moveToFirst()){
+            do{
+                PrefEntry p = new PrefEntry();
+                p.setLabel(c.getString(0));
+                p.setChecked(c.getString(1));
+                entries.add(p);
+            }while(c.moveToNext());
+        }
+        c.close();
+        closeDB();
+
+        return entries;
+    }
+
+    //get checkbox status from preferences database
+    public boolean setChecked(String label, Context c){
+        boolean checked = false;
+        readDB();
+        Cursor cu = db.rawQuery("SELECT * FROM " + Preferences.NAME +
+                " WHERE " + Preferences.Cols.PREFNAME + "='" + label + "';", null
+        );
+        if(cu.getCount() > 0)
+        {
+            cu.moveToFirst();
+            if(cu.getString(1).equals("y"))
+                checked = true;
             else
-                ingredientList += searchphrases.get(j) + ",";
+                checked = false;
         }
+        cu.close();
+        closeDB();
+        return checked;
+    }
 
-        values.put(PREVIOUS_USER_NAME, username);
-        values.put(PREVIOUS_SEARCHES, ingredientList);
+    //get checked preferences and return for search query
+    public ArrayList<PrefEntry> getChecked(){
+        ArrayList<PrefEntry> pe = new ArrayList<PrefEntry>();
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Preferences.NAME +
+                " WHERE " + Preferences.Cols.CHECKED + "='y';", null);
+        if(c.moveToFirst()){
+            do {
+                PrefEntry p = new PrefEntry();
+                p.setChecked(c.getString(1));
+                p.setLabel(c.getString(0));
+                pe.add(p);
+            }while(c.moveToNext());
+        }
+        c.close();
+        closeDB();
+        return pe;
+    }
 
-        db.insert(PREVIOUS_SEARCH_TABLE, null, values);
+
+    //////////////////////////////////////////////////////////////////////////////
+    //              Saved and Previous Recipes DATABASE AND ITS FUNCTIONS       //
+    //////////////////////////////////////////////////////////////////////////////
+    //              will be adding integer to the following functions in        //
+    //              order to use the functions for both previous and saved      //
+    //              tables.                                                     //
+    //              Previous = 1; Saved = 2;                                    //
+    //////////////////////////////////////////////////////////////////////////////
+    private void initSavePrev(){
+        writeDB();
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.PREV_NAME + "(" +
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+        );
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + PrevSave.SAVE_NAME + "(" +
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                PrevSave.Cols.R_NAME + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_IMG + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
+                PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
+        );
         closeDB();
     }
 
-    public void storeFridge(String username, String ingredientList){
-        openWritableDB();
-        ContentValues values = new ContentValues();
-        values.put(FRIDGE_USER_NAME, username);
-        values.put(FRIDGE_ITEM, ingredientList);
-        db.insert(FRIDGE_TABLE, null, values);
+    //add entry to previous/saved
+    public void addToTable(PreviousSaved PS, int save_or_prev){
+        initSavePrev();
+        writeDB();
+        if(save_or_prev == 1) {
+            db.execSQL("INSERT INTO " + PrevSave.PREV_NAME + "(" +
+                    PrevSave.Cols.R_NAME + "," + PrevSave.Cols.R_IMG + "," +
+                    PrevSave.Cols.R_URL + "," + PrevSave.Cols.R_INGREDIENTS + ")" +
+                    "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
+                    PS.getUrl() + "','" + PS.getStringIngredients() + "');"
+            );
+        }
+        else{
+            closeDB();
+            if(!checkSavedEntry(PS)) {
+                writeDB();
+                db.execSQL("INSERT INTO " + PrevSave.SAVE_NAME + "(" +
+                        PrevSave.Cols.R_NAME + "," + PrevSave.Cols.R_IMG + "," +
+                        PrevSave.Cols.R_URL + "," + PrevSave.Cols.R_INGREDIENTS + ")" +
+                        "VALUES('" + PS.getName() + "','" + PS.getImage() + "','" +
+                        PS.getUrl() + "','" + PS.getStringIngredients() + "');"
+                );
+            }
+        }
         closeDB();
     }
 
-    public void saveNewRecipe(String username, String recipeJson){
-        openWritableDB();
-        ContentValues values = new ContentValues();
-        values.put(SAVED_USER_NAME, username);
-        values.put(RECIPE_DATA, recipeJson);
-        db.insert(SAVED_TABLE, null, values);
+    ///SPECIFICALLY FOR SAVE TABLE
+    //check if a saved entry exists in the saved table
+    public boolean checkSavedEntry(PreviousSaved PS){
+        ArrayList<PreviousSaved> all = getPrevOrSaveEntries(2);
+        return all.contains(PS);
+    }
+
+    //display all entries from previous/saved recipes database table
+    public ArrayList<PreviousSaved> getPrevOrSaveEntries(int save_or_prev){
+        initSavePrev();
+        ArrayList<PreviousSaved> all = new ArrayList<PreviousSaved>();
+
+        readDB();
+        Cursor c = null;
+        if(save_or_prev == 1)
+            c = db.rawQuery("SELECT * FROM " + PrevSave.PREV_NAME + ";", null);
+        else
+            c = db.rawQuery("SELECT * FROM " + PrevSave.SAVE_NAME + ";", null);
+        if(c.moveToFirst()){
+            do{
+                PreviousSaved temp = new PreviousSaved();
+                temp.setName(c.getString(1));
+                temp.setUrl(c.getString(3));
+                temp.setImage(c.getString(2));
+                temp.setIngredients(c.getString(4));
+                all.add(temp);
+            }while(c.moveToNext());
+        }
+        closeDB();
+
+        return all;
+    }
+
+    //function used for testing to clear out previous/saved database
+    public void clearRecipeTable(int save_or_prev){
+        writeDB();
+        if(save_or_prev == 1)
+            db.execSQL("DROP TABLE IF EXISTS " + PrevSave.PREV_NAME + ";");
+        else
+            db.execSQL("DROP TABLE IF EXISTS " + PrevSave.SAVE_NAME + ";");
+        closeDB();
+        initSavePrev();
+    }
+
+    //remove entry from saved tables
+    public void removeEntry(PreviousSaved PS){
+        writeDB();
+        db.execSQL("DELETE FROM " + PrevSave.SAVE_NAME + " WHERE " +
+                PrevSave.Cols.R_URL + "='" + PS.getUrl() + "';"
+        );
         closeDB();
     }
 
-    //Get Data
-    public ArrayList<String> getPreviousSearches(String userName){
-        ArrayList<String> searchphrases = new ArrayList<String>();
-
-        String where = PREVIOUS_SEARCH_ID + "= ?";
-        String[] whereArgs = {userName};
-        this.openReadableDB();
-
-        Cursor cursor = db.query(PREVIOUS_SEARCH_TABLE, null, where, whereArgs, null, null, null);
-        cursor.moveToFirst();
-
-        while (cursor.moveToNext()) {
-            String getData = cursor.getString(PREVIOUS_SEARCHES_COL);
-            searchphrases.add(getData);
-        }
-
-        if (cursor != null)
-            cursor.close();
-        this.closeDB();
-
-        return searchphrases;
-    }
-
-    public ArrayList<String> getStoredRecipes(String userName){
-        ArrayList<String> searchphrases = new ArrayList<String>();
-
-        String where = SAVED_ID + "= ?";
-        String[] whereArgs = {userName};
-        this.openReadableDB();
-
-        Cursor cursor = db.query(SAVED_TABLE, null, where, whereArgs, null, null, null);
-        cursor.moveToFirst();
-
-        while (cursor.moveToNext()) {
-            String getData = cursor.getString(RECIPE_DATA_COL);
-            searchphrases.add(getData);
-        }
-
-        if (cursor != null)
-            cursor.close();
-        this.closeDB();
-
-        return searchphrases;
-    }
-
-    public ArrayList<String> getFridgeItems(String userName){
-        ArrayList<String> searchphrases = new ArrayList<String>();
-
-        String where = FRIDGE_ID + "= ?";
-        String[] whereArgs = {userName};
-        this.openReadableDB();
-
-        Cursor cursor = db.query(FRIDGE_TABLE, null, where, whereArgs, null, null, null);
-        cursor.moveToFirst();
-
-        while (cursor.moveToNext()) {
-            String getData = cursor.getString(FRIDGE_ITEM_COL);
-            searchphrases.add(getData);
-        }
-
-        if (cursor != null)
-            cursor.close();
-        this.closeDB();
-
-        return searchphrases;
-    }
 
 }

@@ -60,46 +60,64 @@
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:columnCount="3"
-            android:rowCount="1"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp">
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="20dp"
-            android:background="@drawable/button"
-            android:text="@string/myFridge"
-            android:id="@+id/myFridge"
-            android:onClick="myFridge"
-            android:layout_gravity="left|top"
-            android:layout_above="@+id/myRecipes"
-            android:layout_below="@+id/profilePicFrame"/>
+            android:layout_marginTop="20dp"
+            android:columnCount="2"
+            android:rowCount="2">
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="20dp"
-            android:text="@string/myRecipes"
-            android:id="@+id/myRecipes"
-            android:background="@drawable/button"
-            android:onClick="myRecipes"
-            android:layout_gravity="right|top"
-            android:layout_above="@+id/savedRecipes"
-            android:layout_below="@+id/myFridge"/>
+            <Button
+                android:id="@+id/myFridge"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_above="@+id/myRecipes"
+                android:layout_below="@+id/profilePicFrame"
+                android:background="@drawable/button"
+                android:onClick="myFridge"
+                android:padding="20dp"
+                android:text="@string/myFridge"
+                android:textAlignment="center"
+                android:textSize="10dp" />
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:padding="20dp"
-            android:text="@string/savedRecipes"
-            android:id="@+id/savedRecipes"
-            android:background="@drawable/button"
-            android:onClick="savedRecipes"
-            android:layout_gravity="left|bottom"
-            android:layout_above="@+id/settings"
-            android:layout_below="@+id/myRecipes"/>
+            <Button
+                android:id="@+id/myRecipes"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_above="@+id/savedRecipes"
+                android:layout_below="@+id/myFridge"
+                android:background="@drawable/button"
+                android:onClick="myRecipes"
+                android:padding="20dp"
+                android:text="@string/myRecipes"
+                android:textAlignment="center"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/savedRecipes"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_above="@+id/settings"
+                android:layout_below="@+id/myRecipes"
+                android:background="@drawable/button"
+                android:onClick="savedRecipes"
+                android:padding="20dp"
+                android:text="@string/savedRecipes"
+                android:textAlignment="center"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/preferences"
+                android:layout_width="125dp"
+                android:layout_height="75dp"
+                android:layout_above="@+id/settings"
+                android:layout_below="@+id/myRecipes"
+                android:background="@drawable/button"
+                android:onClick="savedRecipes"
+                android:padding="0dp"
+                android:text="@string/preferences"
+                android:textAlignment="center"
+                android:textSize="10dp" />
 
         </GridLayout>
+
     </LinearLayout>
 </ScrollView>
