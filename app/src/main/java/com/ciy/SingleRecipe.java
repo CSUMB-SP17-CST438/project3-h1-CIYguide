@@ -164,6 +164,9 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
         params = (ConstraintLayout.LayoutParams) open_close.getLayoutParams();
         params.height = height/4;
         open_close.setLayoutParams(params);
+        params = (ConstraintLayout.LayoutParams) back.getLayoutParams();
+        params.height = height/4;
+        back.setLayoutParams(params);
 
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -250,18 +253,15 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
         //init database connection
         db = new DBHandler(this);
-//        db.clearPrev();
 
         sendBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 try{
-                    /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
-//                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-//                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
-//                    startActivityForResult(pickContact, 1);
-                    /////////////////////////////////TEMPORARILY COMMENTING THIS OUT TO WORK ON DB
                     PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
                     db.addToTable(ps, 1);
+                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+                    startActivityForResult(pickContact, 1);
                 }
                 catch(Exception e){
                     Log.e("ContactError", "Error: " + e.toString());
