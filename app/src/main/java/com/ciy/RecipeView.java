@@ -2,6 +2,7 @@ package com.ciy;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -63,7 +64,10 @@ public class RecipeView extends RelativeLayout implements ListPrevSaved.AsyncRes
                 i.putExtra("CookIt", PS.getUrl());
                 i.putExtra("recipeName", PS.getName());
                 i.putStringArrayListExtra("everything", PS.getIngredients());
-                i.putExtra("FROM", "previous");
+                SharedPreferences sp = view.getContext().getSharedPreferences(ListPrevSaved.WHERE_TO, Context.MODE_PRIVATE);
+                i.putExtra("FROM", sp.getString("from_where", ""));
+                SharedPreferences.Editor spedit = sp.edit();
+                spedit.clear();
                 view.getContext().startActivity(i);
             }
         });

@@ -71,16 +71,25 @@
                 android:id="@+id/CLOSE"
                 android:layout_width="98dp"
                 android:layout_height="80dp"
-                android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/button"
                 android:text="SEND TEXT"
-                app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/go_back"
+                android:layout_width="98dp"
+                android:layout_height="80dp"
+                android:text="Go Back"
+                android:background="@drawable/button"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="10dp" />
 
         </android.support.constraint.ConstraintLayout>
 
