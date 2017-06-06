@@ -76,6 +76,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
     ArrayList<String> whatYouNeed;
     ArrayList<String> fullList;
     ArrayList<String> msg_parts;
+    ArrayList<String> toDB;
     String messageTest = "Grocery List: \n";
     String have = "";
     String need = "";
@@ -92,10 +93,14 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
 
     //issue with redirecting and losing the webpage! back button follows
     Button back;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singe_recipe);
+
+        //will hold ingredients that will be commit to sqlite db
+        toDB = new ArrayList<String>();
 
         //working on sending multiple sms messages
         msg_parts = new ArrayList<String>();
@@ -239,7 +244,7 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             neededBTN.setText("Needed Items");
             full.setEnabled(true);
             full.setText("All Items");
-        }else if(from_where.equals("GetPrevious")){
+        }else if(from_where.equals("GetPrevious") || from_where.equals("GetRecipes")){
             messageTest += "What you Need:\n";
             for(int x = 0; x < fullList.size(); x++){
                 messageTest += fullList.get(x) + "\n";
@@ -251,6 +256,8 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             neededBTN.setText("");
         }
 
+        toDB.addAll(fullList);
+
         //init database connection
         db = new DBHandler(this);
 
@@ -259,9 +266,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
                 try{
                     PreviousSaved ps = new PreviousSaved(imageURL, r_Name, r_URL, fullList);
                     db.addToTable(ps, 1);
-                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
-                    startActivityForResult(pickContact, 1);
+                    for(int i = 0; i < toDB.size(); i++){
+                        db.addToFridge(toDB.get(i));
+                    }
+//                    Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+//                    pickContact.setType(ContactsContract.CommonDataKinds.Phone.CONTENT_TYPE);
+//                    startActivityForResult(pickContact, 1);
                 }
                 catch(Exception e){
                     Log.e("ContactError", "Error: " + e.toString());
@@ -293,8 +303,12 @@ public class SingleRecipe extends AppCompatActivity implements View.OnClickListe
             }
         } else if (v.getId() == R.id.FULL){
             txtMessage.setText(have);
+            toDB.clear();
+            toDB.addAll(fullList);
         } else if (v.getId() == R.id.NEEDED && from_where == null){
             txtMessage.setText(need);
+            toDB.clear();
+            toDB.addAll(whatYouNeed);
         }else if(v.getId() == R.id.go_back){
             recipePage.goBack();
         }

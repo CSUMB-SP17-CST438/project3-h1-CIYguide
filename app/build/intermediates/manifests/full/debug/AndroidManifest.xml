@@ -58,6 +58,7 @@
         <activity android:name="com.ciy.SingleRecipe" />
         <activity android:name="com.ciy.MainScreen" />
         <activity android:name="com.ciy.RecipeList" />
+        <activity android:name="com.ciy.Refridgerator" />
         <activity android:name="com.ciy.IngredientsList" />
         <activity android:name="com.ciy.UserData" />
         <activity android:name="com.ciy.Preferences" />

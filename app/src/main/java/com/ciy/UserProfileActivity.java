@@ -108,7 +108,7 @@ public class UserProfileActivity extends AppCompatActivity implements View.OnCli
 
 
     public void myFridge(View view) {
-        Intent i = new Intent(UserProfileActivity.this, UserData.class);
+        Intent i = new Intent(UserProfileActivity.this, Refridgerator.class);
         String str = "GetFridge";
         i.putExtra("activityFrom", str);
 
