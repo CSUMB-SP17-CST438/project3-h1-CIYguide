@@ -51,6 +51,7 @@
         <activity android:name=".SingleRecipe" />
         <activity android:name=".MainScreen" />
         <activity android:name=".RecipeList" />
+        <activity android:name=".Refridgerator"/>
         <activity android:name=".IngredientsList" />
         <activity android:name=".UserData" />
         <activity android:name=".Preferences" />

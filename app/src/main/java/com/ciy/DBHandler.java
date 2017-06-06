@@ -5,12 +5,11 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import android.widget.CheckBox;
 
 import com.ciy.PreferencesDBSchema.Preferences;
 import com.ciy.PrevDBSchema.PrevSave;
+import com.ciy.FridgeDBSchema.Fridge;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -46,6 +45,10 @@ public class DBHandler {
                     PrevSave.Cols.R_URL + " TEXT NOT NULL, " +
                     PrevSave.Cols.R_INGREDIENTS + " TEXT NOT NULL);"
             );
+//            sqldb.execSQL("CREATE TABLE IF NOT EXISTS " + Fridge.NAME + "(" +
+//                    "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+//                    Fridge.Cols.ING_NAME + " TEXT NOT NULL);"
+//            );
         }
 
         @Override
@@ -281,5 +284,96 @@ public class DBHandler {
         closeDB();
     }
 
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    //                      The following are functions for to be used                          //
+    //                      when interacting with the Fridge table.                             //
+    //////////////////////////////////////////////////////////////////////////////////////////////
 
+    private void initFridge(){
+        writeDB();
+        db.execSQL("CREATE TABLE IF NOT EXISTS " + Fridge.NAME + "(" +
+                "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                Fridge.Cols.ING_AMT + " INTEGER NOT NULL, " +
+                Fridge.Cols.ING_NAME + " TEXT NOT NULL);"
+        );
+        closeDB();
+    }
+
+    //add one ingredient to the fridge table
+    //if there is a duplicate
+    //
+    //NOTES:  THIS WON'T WORK!
+    //WHY!?!?
+    // because what I'm doing right now is trying to insert and update based on whether or not
+    // there is a repeat.  here is the process i thought out as of right now
+    /*
+    step 1: query db to find if the given ingredient exists
+    step 2: if it does exists, then get the key and the amount that it has
+    step 3: check if it did or did not exist
+    step 4: if it exists, then increment the amount that it has
+    step 5: if it does not exists, then add it to the fridgetable.
+     */
+
+    //first step.  let's just get it to add. okay?
+    public void addToFridge(String ing){
+        boolean checkFound = false;
+        int key = -1;
+        int amt = 1;
+        //step 1a: query db
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Fridge.NAME + ";", null);
+        if(c.moveToFirst()){
+            do{
+                if(ing.equals(c.getString(2))){
+                    Log.d("DB", "FOUND IT");
+                    checkFound = true;
+                    key = c.getInt(0);
+                    amt = c.getInt(1);
+                }
+            }while(c.moveToNext());
+        }
+        c.close();
+        closeDB();
+        writeDB();
+        if(checkFound){
+            amt++;
+            //update sql statement goes here
+            db.execSQL("UPDATE " + Fridge.NAME +
+                    " SET " + Fridge.Cols.ING_AMT + "=" + amt +
+                    " WHERE _id=" + key + ";"
+            );
+        }else{
+            db.execSQL("INSERT INTO " + Fridge.NAME + "(" +
+                    Fridge.Cols.ING_AMT + "," + Fridge.Cols.ING_NAME + ") VALUES(" +
+                    "1,'" + ing + "');"
+            );
+        }
+        closeDB();
+    }
+
+
+    //return all items in the fridge
+    public ArrayList<FridgeItem> getFridgeItems(){
+        ArrayList<FridgeItem> items = new ArrayList<FridgeItem>();
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Fridge.NAME + ";", null);
+        if(c.moveToFirst()){
+            do{
+                FridgeItem f = new FridgeItem();
+                f.setAmount(c.getInt(1));
+                f.setIngredient(c.getString(2));
+                items.add(f);
+            }while(c.moveToNext());
+        }
+        c.close();
+        closeDB();
+        return items;
+    }
+
+    public void emptyFridge(){
+        writeDB();
+        db.execSQL("DROP TABLE IF EXISTS " + Fridge.NAME + ";");
+        closeDB();
+        initFridge();
+    }
 }
