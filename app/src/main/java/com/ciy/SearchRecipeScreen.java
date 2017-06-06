@@ -52,6 +52,9 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
     ArrayList<String> searchphrases;
     ArrayAdapter<String> adapter;
 
+    //will hold string retrieved from fridge activity
+    String fridge_item = null;
+
     private static final int ACTIVITY_START_CAMERA_APP = 23;
 
     public ClarifaiClient client;
@@ -79,11 +82,21 @@ public class SearchRecipeScreen extends AppCompatActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_recipe_screen);
 
+        //get fridge item if it exists
+        Intent i = getIntent();
+        try{
+            fridge_item = i.getStringExtra("SEARCH");
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
         Toolbar myToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(myToolbar);
 
         searchterm = (EditText)findViewById(R.id.search_text_box);
         searchterm.setSingleLine(true); //Added by MFlorek
+        if(fridge_item != null)
+            searchterm.setText(fridge_item);
         searchlist = (ListView)findViewById(R.id.list_search_tags);
 
         searchphrases = new ArrayList<String>();

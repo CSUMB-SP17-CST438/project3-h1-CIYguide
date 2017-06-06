@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/fridge_item_picture"
-        android:maxWidth="20dp"
+        android:maxWidth="30dp"
         android:layout_alignBaseline="@+id/find_recipe"
         android:text="yo"
         android:layout_margin="2dp"
@@ -39,7 +39,7 @@
         android:layout_width="40dp"
         android:layout_margin="2dp"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/item_name"
+        android:layout_toLeftOf="@+id/find_recipe"
         android:layout_alignBaseline="@+id/find_recipe"
         android:text="X"
         />
@@ -49,7 +49,7 @@
         android:layout_width="40dp"
         android:layout_margin="2dp"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/remove_from_fridge"
+        android:layout_alignParentRight="true"
         android:text="O"
         />
 

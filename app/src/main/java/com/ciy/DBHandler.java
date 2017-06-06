@@ -370,10 +370,29 @@ public class DBHandler {
         return items;
     }
 
+    //empties fridge and re-initializes it
     public void emptyFridge(){
         writeDB();
         db.execSQL("DROP TABLE IF EXISTS " + Fridge.NAME + ";");
         closeDB();
         initFridge();
+    }
+
+    //remove single item from fridge
+    public void removeFridgeItem(String name){
+        int key = 0;
+        readDB();
+        Cursor c = db.rawQuery("SELECT * FROM " + Fridge.NAME + ";", null);
+        if(c.moveToFirst()){
+            do{
+                if(name.equals(c.getString(2)))
+                    key = c.getInt(0);
+            }while(c.moveToNext());
+        }
+        closeDB();
+        c.close();
+        writeDB();
+        db.execSQL("DELETE FROM " + Fridge.NAME + " WHERE _id=" + key + ";");
+        closeDB();
     }
 }
