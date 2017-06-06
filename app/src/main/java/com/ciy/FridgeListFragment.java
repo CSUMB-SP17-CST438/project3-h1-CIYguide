@@ -5,6 +5,7 @@ import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 
 import java.util.ArrayList;
 
@@ -15,6 +16,7 @@ import java.util.ArrayList;
 public class FridgeListFragment extends ListFragment {
 
     DBHandler db;
+    public static ArrayAdapter<FridgeItem> f;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -24,7 +26,14 @@ public class FridgeListFragment extends ListFragment {
 
         ArrayList<FridgeItem> items = db.getFridgeItems();
         setListAdapter(new FridgeItemAdapter(getActivity(), items));
+        f = (FridgeItemAdapter)getListAdapter();
 
         return v;
+    }
+
+    public static class Update{
+        public void update(){
+            f.notifyDataSetChanged();;
+        }
     }
 }

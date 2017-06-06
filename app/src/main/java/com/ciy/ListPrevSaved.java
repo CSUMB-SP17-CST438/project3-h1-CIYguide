@@ -48,11 +48,12 @@ public class ListPrevSaved extends FragmentActivity {
 
         private String url;
 
+        public AsyncResponse delegate = null;
+
         public DownloadImage(String url){
             this.url = url;
         }
 
-        public AsyncResponse delegate = null;
 
         //get bitmap from url
         @Override
