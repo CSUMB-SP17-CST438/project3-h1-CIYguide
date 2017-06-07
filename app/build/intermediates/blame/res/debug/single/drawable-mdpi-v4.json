@@ -1,23 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_small_white.png",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\f4a20621f8c3062973f09e510f7bb4c2c75405af\\output\\res\\drawable-mdpi-v4\\messenger_bubble_small_white.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\Joe Otter\\.android\\build-cache\\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Joe Otter\\Desktop\\Testing\\CookItYourSelf\\project3-h1-CIYguide\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",

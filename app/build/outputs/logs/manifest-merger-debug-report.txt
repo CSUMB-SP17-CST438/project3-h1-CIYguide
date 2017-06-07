@@ -47,7 +47,7 @@ MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otte
 MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\139ed8438620cf0e99d53708a3ed50d72a3e5515\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\b8f949ea2262a8897295369462f5e1392f8846ad\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\340bc4fc6044d7f4c54565fa63d3887fefaf5c2a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Joe Otter\.android\build-cache\e843240491f5dead1b387cd5db6ccb3d210f8ec1\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Joe Otter\.android\build-cache\69d04e44811b82e0a3d5e3c99cdc4ba19d5bfbe3\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Joe Otter\.android\build-cache\2cc72b046ad5536929e6e5889cd82a840a402db0\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Joe Otter\.android\build-cache\343322cc6bec89a4b4cf29a009cbc856790b9543\output\AndroidManifest.xml:25:5-20
@@ -167,6 +167,7 @@ ADDED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguid
 uses-sdk
 INJECTED from C:\Users\Joe Otter\Desktop\Testing\CookItYourSelf\project3-h1-CIYguide\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.jakewharton.timber:timber:4.3.0] C:\Users\Joe Otter\.android\build-cache\6505336422a1390550b3cecd996b3b243d2c2a52\output\AndroidManifest.xml:6:5-43
+MERGED from [com.mindorks:placeholderview:0.2.7] C:\Users\Joe Otter\.android\build-cache\136b36b81a335cf33433160beae0883df10e87bf\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Joe Otter\.android\build-cache\230684ed7ffe1b39d293a8293b2f79a7a9fa4f5f\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Joe Otter\.android\build-cache\16ac9561f58b76bc5f8fb50e92eb2561fa8cdb71\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Joe Otter\.android\build-cache\b18ddd7ff5b3b9970064616f6d6aa3231e90e876\output\AndroidManifest.xml:18:5-42
@@ -175,7 +176,7 @@ MERGED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otte
 MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\382cbfa5384efd5490aa9d1de7aadd2f9c383c51\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\139ed8438620cf0e99d53708a3ed50d72a3e5515\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Joe Otter\.android\build-cache\b8f949ea2262a8897295369462f5e1392f8846ad\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:cardview-v7:25.0.0] C:\Users\Joe Otter\.android\build-cache\340bc4fc6044d7f4c54565fa63d3887fefaf5c2a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Joe Otter\.android\build-cache\e843240491f5dead1b387cd5db6ccb3d210f8ec1\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:customtabs:25.0.0] C:\Users\Joe Otter\.android\build-cache\69d04e44811b82e0a3d5e3c99cdc4ba19d5bfbe3\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Joe Otter\.android\build-cache\2cc72b046ad5536929e6e5889cd82a840a402db0\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Joe Otter\.android\build-cache\343322cc6bec89a4b4cf29a009cbc856790b9543\output\AndroidManifest.xml:21:5-23:60
@@ -210,3 +211,9 @@ ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter
 		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.20.0] C:\Users\Joe Otter\.android\build-cache\f4a20621f8c3062973f09e510f7bb4c2c75405af\output\AndroidManifest.xml:45:13-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Joe Otter\.android\build-cache\e843240491f5dead1b387cd5db6ccb3d210f8ec1\output\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Joe Otter\.android\build-cache\e843240491f5dead1b387cd5db6ccb3d210f8ec1\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Joe Otter\.android\build-cache\e843240491f5dead1b387cd5db6ccb3d210f8ec1\output\AndroidManifest.xml:23:9-47

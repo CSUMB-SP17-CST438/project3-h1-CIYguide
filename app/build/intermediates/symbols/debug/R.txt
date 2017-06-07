@@ -901,7 +901,7 @@ int id no_soy 0x7f0b008a
 int id no_tree_nuts 0x7f0b0082
 int id none 0x7f0b0012
 int id normal 0x7f0b0014
-int id notification_background 0x7f0b00de
+int id notification_background 0x7f0b00dd
 int id notification_main_column 0x7f0b00d8
 int id notification_main_column_container 0x7f0b00d7
 int id open_graph 0x7f0b0035
@@ -927,7 +927,7 @@ int id recipe_name 0x7f0b00ca
 int id remove_from_fridge 0x7f0b00c7
 int id resulting_recipes_button 0x7f0b009c
 int id right 0x7f0b003d
-int id right_icon 0x7f0b00dd
+int id right_icon 0x7f0b00de
 int id right_side 0x7f0b00d9
 int id saveThis 0x7f0b008e
 int id savedRecipes 0x7f0b00b0
